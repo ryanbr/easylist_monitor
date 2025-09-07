@@ -49,7 +49,18 @@ class EasyListMonitor {
       if (!response.ok) {
         throw new Error(`HTTP ${response.status}: ${response.statusText}`);
       }
-      return await response.text();
+      
+      // Extract server headers for age detection
+      const headers = {
+        lastModified: response.headers.get('last-modified'),
+        etag: response.headers.get('etag'),
+        contentLength: response.headers.get('content-length'),
+        cacheControl: response.headers.get('cache-control')
+      };
+      
+      const content = await response.text();
+      
+      return { content, headers };
     } catch (error) {
       console.error(`Failed to fetch ${url}:`, error.message);
       throw error;
@@ -60,11 +71,43 @@ class EasyListMonitor {
     // Extract version from EasyList header comments
     const versionMatch = content.match(/^! Version: (.+)$/m);
     const lastModifiedMatch = content.match(/^! Last modified: (.+)$/m);
+    const expiresMatch = content.match(/^! Expires: (.+)$/m);
     
     return {
       version: versionMatch ? versionMatch[1] : null,
-      lastModified: lastModifiedMatch ? lastModifiedMatch[1] : null
+      lastModified: lastModifiedMatch ? lastModifiedMatch[1] : null,
+      expires: expiresMatch ? expiresMatch[1] : null
     };
+  }
+
+  parseLastModified(lastModifiedHeader, listContent) {
+    let serverTime = null;
+    let contentTime = null;
+    
+    // Parse HTTP Last-Modified header
+    if (lastModifiedHeader) {
+      serverTime = new Date(lastModifiedHeader);
+    }
+    
+    // Parse EasyList "Last modified" from content
+    const contentMatch = listContent.match(/^! Last modified: (.+)$/m);
+    if (contentMatch) {
+      contentTime = new Date(contentMatch[1]);
+    }
+    
+    // Use the more recent time, or fall back to available one
+    if (serverTime && contentTime) {
+      return serverTime > contentTime ? serverTime : contentTime;
+    }
+    
+    return serverTime || contentTime || new Date();
+  }
+
+  isFileStale(lastModified, checkInterval = 1) {
+    // Check if file is older than specified hours
+    const now = new Date();
+    const ageInHours = (now - lastModified) / (1000 * 60 * 60);
+    return ageInHours > checkInterval;
   }
 
   calculateHash(content) {
