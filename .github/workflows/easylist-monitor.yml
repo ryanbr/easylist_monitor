@@ -15,6 +15,7 @@ jobs:
     runs-on: ubuntu-latest
     permissions:
       contents: write
+      issues: write
 
     steps:
       - name: Checkout repository
@@ -157,15 +158,6 @@ jobs:
             }
 
       - name: Summary
-        run: |
-          echo "## EasyList Monitor Results" >> $GITHUB_STEP_SUMMARY
-          echo "- **Has updates:** ${{ steps.monitor.outputs.has_updates }}" >> $GITHUB_STEP_SUMMARY
-          echo "- **Updated lists:** ${{ steps.monitor.outputs.updated_count }}" >> $GITHUB_STEP_SUMMARY
-          if [ "${{ steps.monitor.outputs.has_updates }}" == "true" ]; then
-            echo "- **Commit message:** ${{ steps.monitor.outputs.commit_message }}" >> $GITHUB_STEP_SUMMARY
-            echo "- **Is stale commit:** ${{ steps.monitor.outputs.is_stale_commit }}" >> $GITHUB_STEP_SUMMARY
-          fi
-          echo "- **Timestamp:** $(date -u)" >> $GITHUB_STEP_SUMMARY
         run: |
           echo "## EasyList Monitor Results" >> $GITHUB_STEP_SUMMARY
           echo "- **Has updates:** ${{ steps.monitor.outputs.has_updates }}" >> $GITHUB_STEP_SUMMARY
