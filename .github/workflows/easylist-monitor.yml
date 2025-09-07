@@ -15,9 +15,6 @@ jobs:
     runs-on: ubuntu-latest
     permissions:
       contents: write
-      pull-requests: write
-      actions: write
-      issues: write
 
     steps:
       - name: Checkout repository
@@ -42,6 +39,14 @@ jobs:
           node easylist-monitor.js
         continue-on-error: false
 
+      - name: Debug monitor outputs
+        run: |
+          echo "=== DEBUG: Monitor Outputs ==="
+          echo "has_updates: ${{ steps.monitor.outputs.has_updates }}"
+          echo "is_stale_commit: ${{ steps.monitor.outputs.is_stale_commit }}"
+          echo "updated_count: ${{ steps.monitor.outputs.updated_count }}"
+          echo "commit_message: ${{ steps.monitor.outputs.commit_message }}"
+
       - name: Configure Git
         if: steps.monitor.outputs.has_updates == 'true'
         run: |
@@ -52,162 +57,17 @@ jobs:
         if: steps.monitor.outputs.has_updates == 'true'
         run: |
           if [ "${{ steps.monitor.outputs.is_stale_commit }}" == "true" ]; then
-            # For stale commits, only add the stale report file and metadata
+            echo "Committing stale file report..."
             git add scripts/stale-files-report.json
             if [ -f scripts/metadata.json ]; then
               git add scripts/metadata.json
             fi
           else
-            # For regular updates, add all the usual files
+            echo "Committing regular updates..."
             git add scripts/lists/ scripts/hashes.json scripts/metadata.json scripts/update-summary.json
           fi
           git commit -m "${{ steps.monitor.outputs.commit_message }}"
           git push
-
-      - name: Create notification issue
-        if: steps.monitor.outputs.has_updates == 'true'
-        uses: actions/github-script@v7
-        with:
-          script: |
-            const fs = require('fs');
-            
-            let summary = {};
-            let isStaleCommit = false;
-            
-            try {
-              if (fs.existsSync('scripts/update-summary.json')) {
-                summary = JSON.parse(fs.readFileSync('scripts/update-summary.json', 'utf8'));
-                isStaleCommit = false;
-              } else if (fs.existsSync('scripts/stale-files-report.json')) {
-                // Handle stale file commits
-                const staleReport = JSON.parse(fs.readFileSync('scripts/stale-files-report.json', 'utf8'));
-                summary = {
-                  updated: 0,
-                  timestamp: staleReport.reportTime,
-                  lists: [],
-                  staleFiles: staleReport.staleFiles,
-                  isStaleCommit: true
-                };
-                isStaleCommit = true;
-              }
-            } catch (error) {
-              console.log('Could not read update summary');
-              return;
-            }
-
-            const issueTitle = isStaleCommit 
-              ? `EasyList Stale Files Alert: ${summary.staleFiles?.length || 0} file(s) outdated`
-              : `EasyList Update: ${summary.updated} list(s) updated`;
-
-            const issueBody = isStaleCommit ? `
-            ## EasyList Stale Files Alert
-            
-            **Report Time:** ${summary.timestamp}
-            **Stale Files:** ${summary.staleFiles?.length || 0}
-            
-            ### Files Detected as Stale:
-            ${summary.staleFiles?.map(file => `
-            - **${file.filename}**
-              - Content Last Modified: ${file.contentLastModified}
-              - Status: ${file.ageAnalysis}
-              - This indicates EasyList.to may not be updating properly
-            `).join('') || 'No stale files data available'}
-            
-            ### What This Means:
-            - EasyList files are showing old modification dates in their content headers
-            - Expected update frequency: Every 1-2 days
-            - This may indicate server issues or update pipeline problems at EasyList.to
-            - Consider checking alternative EasyList mirrors if issue persists
-            
-            ### Details:
-            - Stale file report committed to repository
-            - Threshold: Files older than 48 hours are flagged
-            - Check performed: ${summary.timestamp}
-            
-            ---
-            *This alert was created automatically by the EasyList Monitor workflow.*
-            ` : `
-            ## EasyList Update Notification
-            
-            **Updated:** ${summary.timestamp}
-            **Lists updated:** ${summary.updated}
-            ${summary.staleFiles && summary.staleFiles.length > 0 ? `\nSTALE FILES DETECTED: ${summary.staleFiles.length} file(s) appear outdated` : ''}
-            
-            ### Changed Lists:
-            ${summary.lists?.map(list => `
-            - **${list.filename}** ${list.isStale ? 'STALE' : 'FRESH'}
-              - Version: ${list.version || 'N/A'}
-              - Content Last Modified: ${list.contentLastModified || 'N/A'}
-              - Server Last Modified: ${list.serverLastModified || 'N/A'}  
-              - Size: ${(list.size / 1024).toFixed(1)} KB
-              - Age Analysis: ${list.ageAnalysis || 'N/A'}
-              - Hash: \`${list.hash.substring(0, 12)}...\`
-            `).join('') || 'No update data available'}
-            
-            ${summary.staleFiles && summary.staleFiles.length > 0 ? `
-            ### Stale File Alert
-            ${summary.staleFiles.map(file => `
-            - **${file.filename}**: ${file.ageAnalysis}
-              - Content shows: ${file.contentLastModified}
-              - This may indicate EasyList server issues or update delays
-            `).join('')}
-            ` : ''}
-            
-            ### Details:
-            - Repository updated automatically
-            - Changes committed to main branch
-            - Lists stored in \`scripts/lists/\` directory
-            - Age threshold: Files older than 48 hours are flagged as stale
-            
-            ---
-            *This issue was created automatically by the EasyList Monitor workflow.*
-            `;
-
-            // Check if there's already an open issue about updates
-            const { data: issues } = await github.rest.issues.listForRepo({
-              owner: context.repo.owner,
-              repo: context.repo.repo,
-              state: 'open',
-              labels: 'easylist-update'
-            });
-
-            if (issues.length === 0) {
-              // Create new issue
-              await github.rest.issues.create({
-                owner: context.repo.owner,
-                repo: context.repo.repo,
-                title: issueTitle,
-                body: issueBody,
-                labels: ['easylist-update', 'automated']
-              });
-            } else {
-              // Update existing issue
-              await github.rest.issues.update({
-                owner: context.repo.owner,
-                repo: context.repo.repo,
-                issue_number: issues[0].number,
-                title: issueTitle,
-                body: issueBody
-              });
-              
-              // Add a comment about the new update
-              await github.rest.issues.createComment({
-                owner: context.repo.owner,
-                repo: context.repo.repo,
-                issue_number: issues[0].number,
-                body: isStaleCommit 
-                  ? `Stale files detected at ${summary.timestamp}: ${summary.staleFiles?.length || 0} file(s) outdated`
-                  : `New update detected: ${summary.updated} list(s) updated at ${summary.timestamp}`
-              });
-            }
-
-      - name: Send Discord/Slack notification (optional)
-        if: steps.monitor.outputs.has_updates == 'true'
-        run: |
-          # Uncomment and configure if you want Discord/Slack notifications
-          # curl -H "Content-Type: application/json" \
-          #   -d '{"content":"EasyList Update: ${{ steps.monitor.outputs.updated_count }} list(s) updated"}' \
-          #   ${{ secrets.DISCORD_WEBHOOK_URL }}
 
       - name: Send email notification for stale files
         if: steps.monitor.outputs.has_updates == 'true' && steps.monitor.outputs.is_stale_commit == 'true'
