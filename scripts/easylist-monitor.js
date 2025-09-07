@@ -5,9 +5,7 @@ const crypto = require('crypto');
 // EasyList URLs to monitor
 const EASYLIST_URLS = {
   'easylist.txt': 'https://easylist.to/easylist/easylist.txt',
-  'easyprivacy.txt': 'https://easylist.to/easylist/easyprivacy.txt',
-  'easylist-adservers.txt': 'https://easylist.to/easylist/easylist-adservers.txt',
-  'easylist-cookie.txt': 'https://easylist.to/easylist/easylist-cookie.txt'
+  'easyprivacy.txt': 'https://easylist.to/easylist/easyprivacy.txt'
 };
 
 class EasyListMonitor {
