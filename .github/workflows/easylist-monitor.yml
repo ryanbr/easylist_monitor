@@ -1,0 +1,202 @@
+name: EasyList Monitor
+
+on:
+  schedule:
+    # Run every hour at minute 0
+    - cron: '0 * * * *'
+  workflow_dispatch: # Allow manual triggering
+  push:
+    paths:
+      - '.github/workflows/easylist-monitor.yml'
+      - 'scripts/easylist-monitor.js'
+
+jobs:
+  check-updates:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write
+      pull-requests: write
+      actions: write
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+          token: ${{ secrets.GITHUB_TOKEN }}
+
+      - name: Setup Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: '18'
+          cache: 'npm'
+
+      - name: Install dependencies
+        run: |
+          npm init -y
+          npm install @actions/core
+
+      - name: Create scripts directory
+        run: mkdir -p scripts
+
+      - name: Copy monitor script
+        run: |
+          cat > scripts/easylist-monitor.js << 'EOF'
+          # The monitor script content would go here
+          # (This is a placeholder - in practice you'd have the script in your repo)
+          EOF
+
+      - name: Run EasyList monitor
+        id: monitor
+        run: |
+          cd scripts
+          node easylist-monitor.js
+        continue-on-error: false
+
+      - name: Configure Git
+        if: steps.monitor.outputs.has_updates == 'true'
+        run: |
+          git config --local user.email "action@github.com"
+          git config --local user.name "GitHub Action"
+
+      - name: Commit and push changes
+        if: steps.monitor.outputs.has_updates == 'true'
+        run: |
+          git add scripts/lists/ scripts/hashes.json scripts/update-summary.json
+          git commit -m "${{ steps.monitor.outputs.commit_message }}"
+          git push
+
+      - name: Create notification issue
+        if: steps.monitor.outputs.has_updates == 'true'
+        uses: actions/github-script@v7
+        with:
+          script: |
+            const fs = require('fs');
+            
+            let summary = {};
+            try {
+              summary = JSON.parse(fs.readFileSync('scripts/update-summary.json', 'utf8'));
+            } catch (error) {
+              console.log('Could not read update summary');
+              return;
+            }
+
+            const issueTitle = `EasyList Update: ${summary.updated} list(s) updated`;
+            const issueBody = `
+            ## 🔄 EasyList Update Notification
+            
+            **Updated:** ${summary.timestamp}
+            **Lists updated:** ${summary.updated}
+            
+            ### Changed Lists:
+            ${summary.lists.map(list => `
+            - **${list.filename}**
+              - Version: ${list.version || 'N/A'}
+              - Last Modified: ${list.lastModified || 'N/A'}
+              - Size: ${(list.size / 1024).toFixed(1)} KB
+              - Hash: \`${list.hash.substring(0, 12)}...\`
+            `).join('')}
+            
+            ### Details:
+            - Repository updated automatically
+            - Changes committed to main branch
+            - Lists stored in \`scripts/lists/\` directory
+            
+            ---
+            *This issue was created automatically by the EasyList Monitor workflow.*
+            `;
+
+            // Check if there's already an open issue about updates
+            const { data: issues } = await github.rest.issues.listForRepo({
+              owner: context.repo.owner,
+              repo: context.repo.repo,
+              state: 'open',
+              labels: 'easylist-update'
+            });
+
+            if (issues.length === 0) {
+              // Create new issue
+              await github.rest.issues.create({
+                owner: context.repo.owner,
+                repo: context.repo.repo,
+                title: issueTitle,
+                body: issueBody,
+                labels: ['easylist-update', 'automated']
+              });
+            } else {
+              // Update existing issue
+              await github.rest.issues.update({
+                owner: context.repo.owner,
+                repo: context.repo.repo,
+                issue_number: issues[0].number,
+                title: issueTitle,
+                body: issueBody
+              });
+              
+              // Add a comment about the new update
+              await github.rest.issues.createComment({
+                owner: context.repo.owner,
+                repo: context.repo.repo,
+                issue_number: issues[0].number,
+                body: `🔄 **New update detected:** ${summary.updated} list(s) updated at ${summary.timestamp}`
+              });
+            }
+
+      - name: Send Discord/Slack notification (optional)
+        if: steps.monitor.outputs.has_updates == 'true'
+        run: |
+          # Uncomment and configure if you want Discord/Slack notifications
+          # curl -H "Content-Type: application/json" \
+          #   -d '{"content":"🔄 EasyList Update: ${{ steps.monitor.outputs.updated_count }} list(s) updated"}' \
+          #   ${{ secrets.DISCORD_WEBHOOK_URL }}
+
+      - name: Summary
+        run: |
+          echo "## EasyList Monitor Results" >> $GITHUB_STEP_SUMMARY
+          echo "- **Has updates:** ${{ steps.monitor.outputs.has_updates }}" >> $GITHUB_STEP_SUMMARY
+          echo "- **Updated lists:** ${{ steps.monitor.outputs.updated_count }}" >> $GITHUB_STEP_SUMMARY
+          if [ "${{ steps.monitor.outputs.has_updates }}" == "true" ]; then
+            echo "- **Commit message:** ${{ steps.monitor.outputs.commit_message }}" >> $GITHUB_STEP_SUMMARY
+          fi
+          echo "- **Timestamp:** $(date -u)" >> $GITHUB_STEP_SUMMARY
+
+  # Optional: Weekly cleanup job to close old notification issues
+  cleanup:
+    runs-on: ubuntu-latest
+    if: github.event.schedule == '0 0 * * 0' # Run weekly on Sunday
+    permissions:
+      issues: write
+    
+    steps:
+      - name: Close old EasyList update issues
+        uses: actions/github-script@v7
+        with:
+          script: |
+            const { data: issues } = await github.rest.issues.listForRepo({
+              owner: context.repo.owner,
+              repo: context.repo.repo,
+              state: 'open',
+              labels: 'easylist-update'
+            });
+
+            const oneWeekAgo = new Date();
+            oneWeekAgo.setDate(oneWeekAgo.getDate() - 7);
+
+            for (const issue of issues) {
+              const issueDate = new Date(issue.created_at);
+              if (issueDate < oneWeekAgo) {
+                await github.rest.issues.update({
+                  owner: context.repo.owner,
+                  repo: context.repo.repo,
+                  issue_number: issue.number,
+                  state: 'closed'
+                });
+                
+                await github.rest.issues.createComment({
+                  owner: context.repo.owner,
+                  repo: context.repo.repo,
+                  issue_number: issue.number,
+                  body: '🧹 Auto-closing old EasyList update notification.'
+                });
+              }
+            }

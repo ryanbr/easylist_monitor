@@ -1,0 +1,16 @@
+{
+  "name": "easylist-monitor",
+  "version": "1.0.0",
+  "description": "Monitor EasyList updates automatically",
+  "main": "scripts/easylist-monitor.js",
+  "scripts": {
+    "monitor": "node scripts/easylist-monitor.js",
+    "test": "npm run monitor"
+  },
+  "dependencies": {
+    "@actions/core": "^1.10.1"
+  },
+  "keywords": ["easylist", "adblock", "monitoring"],
+  "author": "FanboyNZ",
+  "license": "MIT"
+}

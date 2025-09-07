@@ -1,0 +1,271 @@
+const fs = require('fs').promises;
+const path = require('path');
+const crypto = require('crypto');
+
+// EasyList URLs to monitor
+const EASYLIST_URLS = {
+  'easylist.txt': 'https://easylist.to/easylist/easylist.txt',
+  'easyprivacy.txt': 'https://easylist.to/easylist/easyprivacy.txt',
+  'easylist-adservers.txt': 'https://easylist.to/easylist/easylist-adservers.txt',
+  'easylist-cookie.txt': 'https://easylist.to/easylist/easylist-cookie.txt'
+};
+
+class EasyListMonitor {
+  constructor() {
+    this.listsDir = path.join(__dirname, 'lists');
+    this.hashesFile = path.join(__dirname, 'hashes.json');
+  }
+
+  async init() {
+    // Ensure lists directory exists
+    try {
+      await fs.mkdir(this.listsDir, { recursive: true });
+    } catch (error) {
+      console.log('Lists directory already exists');
+    }
+  }
+
+  async loadHashes() {
+    try {
+      const hashData = await fs.readFile(this.hashesFile, 'utf8');
+      return JSON.parse(hashData);
+    } catch (error) {
+      console.log('No existing hashes file found, will create new one');
+      return {};
+    }
+  }
+
+  async saveHashes(hashes) {
+    await fs.writeFile(this.hashesFile, JSON.stringify(hashes, null, 2));
+  }
+
+  calculateHash(content) {
+    return crypto.createHash('sha256').update(content).digest('hex');
+  }
+
+  async fetchList(url) {
+    try {
+      const response = await fetch(url);
+      if (!response.ok) {
+        throw new Error(`HTTP ${response.status}: ${response.statusText}`);
+      }
+      return await response.text();
+    } catch (error) {
+      console.error(`Failed to fetch ${url}:`, error.message);
+      throw error;
+    }
+  }
+
+  extractVersion(content) {
+    // Extract version from EasyList header comments
+    const versionMatch = content.match(/^! Version: (.+)$/m);
+    const lastModifiedMatch = content.match(/^! Last modified: (.+)$/m);
+    
+    return {
+      version: versionMatch ? versionMatch[1] : null,
+      lastModified: lastModifiedMatch ? lastModifiedMatch[1] : null
+    };
+  }
+
+  calculateHash(content) {
+    return crypto.createHash('sha256').update(content).digest('hex');
+  }
+
+  async checkForUpdates() {
+    await this.init();
+    
+    const currentHashes = await this.loadHashes();
+    const currentMetadata = await this.loadMetadata();
+    const updatedLists = [];
+    const newHashes = { ...currentHashes };
+    const newMetadata = { ...currentMetadata };
+    
+    console.log(`🔍 Checking ${Object.keys(EASYLIST_URLS).length} EasyList files for updates...`);
+    
+    for (const [filename, url] of Object.entries(EASYLIST_URLS)) {
+      try {
+        console.log(`📥 Fetching ${filename}...`);
+        
+        // Check if we should even fetch based on age
+        const oldMetadata = currentMetadata[filename];
+        if (oldMetadata && oldMetadata.lastChecked) {
+          const lastChecked = new Date(oldMetadata.lastChecked);
+          const minutesSinceCheck = (new Date() - lastChecked) / (1000 * 60);
+          
+          if (minutesSinceCheck < 90) { // Less than 90 minutes since last check
+            console.log(`⏰ ${filename} was checked ${minutesSinceCheck.toFixed(0)} minutes ago (waiting for 90-minute interval)`);
+            continue;
+          }
+        }
+        
+        const { content, headers } = await this.fetchList(url);
+        const newHash = this.calculateHash(content);
+        const versionInfo = this.extractVersion(content);
+        const lastModified = this.parseLastModified(headers.lastModified, content);
+        
+        const oldHash = currentHashes[filename];
+        
+        // Multiple change detection methods
+        let hasChanged = false;
+        let changeReason = '';
+        
+        // Method 1: Hash comparison (most reliable)
+        if (oldHash !== newHash) {
+          hasChanged = true;
+          changeReason = 'content hash changed';
+        }
+        
+        // Method 2: Last modified time comparison
+        if (oldMetadata && oldMetadata.lastModified) {
+          const oldTime = new Date(oldMetadata.lastModified);
+          if (lastModified > oldTime) {
+            hasChanged = true;
+            changeReason += (changeReason ? ' and ' : '') + 'timestamp newer';
+          }
+        }
+        
+        // Method 3: ETag comparison (if available)
+        if (headers.etag && oldMetadata && oldMetadata.etag) {
+          if (headers.etag !== oldMetadata.etag) {
+            hasChanged = true;
+            changeReason += (changeReason ? ' and ' : '') + 'ETag changed';
+          }
+        }
+        
+        if (hasChanged || !oldHash) {
+          console.log(`✅ ${filename} has been updated! (${changeReason || 'first time'})`);
+          console.log(`   Version: ${versionInfo.version || 'N/A'}`);
+          console.log(`   Last Modified: ${lastModified.toISOString()}`);
+          console.log(`   Server Last-Modified: ${headers.lastModified || 'N/A'}`);
+          console.log(`   ETag: ${headers.etag || 'N/A'}`);
+          console.log(`   File Age: ${((new Date() - lastModified) / (1000 * 60 * 60)).toFixed(1)} hours`);
+          
+          // Save the updated list
+          const filepath = path.join(this.listsDir, filename);
+          await fs.writeFile(filepath, content);
+          
+          updatedLists.push({
+            filename,
+            url,
+            hash: newHash,
+            version: versionInfo.version,
+            lastModified: lastModified.toISOString(),
+            serverLastModified: headers.lastModified,
+            etag: headers.etag,
+            size: content.length,
+            changeReason,
+            expires: versionInfo.expires,
+            ageHours: ((new Date() - lastModified) / (1000 * 60 * 60)).toFixed(1)
+          });
+          
+          newHashes[filename] = newHash;
+          newMetadata[filename] = {
+            lastModified: lastModified.toISOString(),
+            etag: headers.etag,
+            version: versionInfo.version,
+            lastChecked: new Date().toISOString(),
+            size: content.length
+          };
+        } else {
+          const ageHours = oldMetadata && oldMetadata.lastModified 
+            ? ((new Date() - new Date(oldMetadata.lastModified)) / (1000 * 60 * 60)).toFixed(1)
+            : 'unknown';
+          console.log(`📄 ${filename} is up to date (age: ${ageHours} hours)`);
+          
+          // Update last checked time even if no changes
+          if (oldMetadata) {
+            newMetadata[filename] = {
+              ...oldMetadata,
+              lastChecked: new Date().toISOString()
+            };
+          }
+        }
+        
+        // Small delay between requests to be respectful
+        await new Promise(resolve => setTimeout(resolve, 1000));
+        
+      } catch (error) {
+        console.error(`❌ Error processing ${filename}:`, error.message);
+      }
+    }
+    
+    if (updatedLists.length > 0) {
+      await this.saveHashes(newHashes);
+      await this.saveMetadata(newMetadata);
+      console.log(`\n🎉 ${updatedLists.length} list(s) updated successfully!`);
+      
+      // Create summary for GitHub Actions
+      const summary = {
+        updated: updatedLists.length,
+        timestamp: new Date().toISOString(),
+        lists: updatedLists
+      };
+      
+      await fs.writeFile(
+        path.join(__dirname, 'update-summary.json'),
+        JSON.stringify(summary, null, 2)
+      );
+      
+      return { hasUpdates: true, updatedLists, summary };
+    } else {
+      console.log('\n📋 All lists are up to date');
+      await this.saveMetadata(newMetadata); // Save updated check times
+      return { hasUpdates: false, updatedLists: [], summary: null };
+    }
+  }
+
+  async generateCommitMessage(updatedLists) {
+    if (updatedLists.length === 1) {
+      const list = updatedLists[0];
+      return `Update ${list.filename}${list.version ? ` to v${list.version}` : ''}`;
+    } else {
+      return `Update ${updatedLists.length} EasyList files\n\n${updatedLists.map(list => 
+        `- ${list.filename}${list.version ? ` (v${list.version})` : ''}`
+      ).join('\n')}`;
+    }
+  }
+}
+
+// Main execution
+async function main() {
+  const monitor = new EasyListMonitor();
+  
+  try {
+    const result = await monitor.checkForUpdates();
+    
+    if (result.hasUpdates) {
+      const commitMessage = await monitor.generateCommitMessage(result.updatedLists);
+      
+      // Set GitHub Actions outputs
+      if (process.env.GITHUB_ACTIONS) {
+        const core = require('@actions/core');
+        core.setOutput('has_updates', 'true');
+        core.setOutput('commit_message', commitMessage);
+        core.setOutput('updated_count', result.updatedLists.length.toString());
+      }
+      
+      console.log('\n📝 Suggested commit message:');
+      console.log(commitMessage);
+      
+      process.exit(0); // Success with updates
+    } else {
+      if (process.env.GITHUB_ACTIONS) {
+        const core = require('@actions/core');
+        core.setOutput('has_updates', 'false');
+        core.setOutput('commit_message', '');
+        core.setOutput('updated_count', '0');
+      }
+      
+      process.exit(0); // Success, no updates
+    }
+  } catch (error) {
+    console.error('❌ Script failed:', error);
+    process.exit(1);
+  }
+}
+
+if (require.main === module) {
+  main();
+}
+
+module.exports = { EasyListMonitor };
