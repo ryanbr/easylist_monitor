@@ -2,7 +2,7 @@ name: EasyList Monitor
 
 on:
   schedule:
-    # Run every hour at minute 0
+    # Run every hour, but script will enforce 90-minute intervals
     - cron: '0 * * * *'
   workflow_dispatch: # Allow manual triggering
   push:
@@ -29,22 +29,10 @@ jobs:
         uses: actions/setup-node@v4
         with:
           node-version: '18'
-          cache: 'npm'
 
       - name: Install dependencies
         run: |
-          npm init -y
           npm install @actions/core
-
-      - name: Create scripts directory
-        run: mkdir -p scripts
-
-      - name: Copy monitor script
-        run: |
-          cat > scripts/easylist-monitor.js << 'EOF'
-          # The monitor script content would go here
-          # (This is a placeholder - in practice you'd have the script in your repo)
-          EOF
 
       - name: Run EasyList monitor
         id: monitor
@@ -62,7 +50,7 @@ jobs:
       - name: Commit and push changes
         if: steps.monitor.outputs.has_updates == 'true'
         run: |
-          git add scripts/lists/ scripts/hashes.json scripts/update-summary.json
+          git add scripts/lists/ scripts/hashes.json scripts/metadata.json scripts/update-summary.json
           git commit -m "${{ steps.monitor.outputs.commit_message }}"
           git push
 
