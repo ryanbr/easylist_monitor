@@ -56,6 +56,9 @@ jobs:
       - name: Commit and push changes
         if: steps.monitor.outputs.has_updates == 'true'
         run: |
+          # Pull latest changes first to avoid conflicts
+          git pull origin main
+          
           if [ "${{ steps.monitor.outputs.is_stale_commit }}" == "true" ]; then
             echo "Committing stale file report..."
             git add scripts/stale-files-report.json
