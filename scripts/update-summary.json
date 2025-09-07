@@ -1,0 +1,32 @@
+{
+  "updated": 2,
+  "timestamp": "2025-09-07T02:17:08.947Z",
+  "lists": [
+    {
+      "filename": "easylist.txt",
+      "url": "https://easylist.to/easylist/easylist.txt",
+      "hash": "2888c230ef758e3c5c73a867376ed379d12cd2e9d9b94551634fc60dc1a05f34",
+      "version": "202509011209",
+      "lastModified": "2025-09-01T12:09:40.000Z",
+      "serverLastModified": "Mon, 01 Sep 2025 12:09:40 GMT",
+      "etag": "W/\"68b58d04-1c0ac6\"",
+      "size": 1837258,
+      "changeReason": "content hash changed",
+      "expires": "4 days (update frequency)",
+      "ageHours": "134.1"
+    },
+    {
+      "filename": "easyprivacy.txt",
+      "url": "https://easylist.to/easylist/easyprivacy.txt",
+      "hash": "bf1e2759fa4953d35001fbde0879aa955fdd187db4ae4387eb0657c33b2d34b5",
+      "version": "202509011209",
+      "lastModified": "2025-09-01T12:09:40.000Z",
+      "serverLastModified": "Mon, 01 Sep 2025 12:09:40 GMT",
+      "etag": "W/\"68b58d04-1600be\"",
+      "size": 1441982,
+      "changeReason": "content hash changed",
+      "expires": "4 days (update frequency)",
+      "ageHours": "134.1"
+    }
+  ]
+}
