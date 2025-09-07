@@ -410,18 +410,42 @@ async function main() {
   const monitor = new EasyListMonitor();
   
   try {
-    const result = await monitor.checkForUpdates();
+   console.log('=== DEBUG: Starting EasyList Monitor ===');
+   console.log(`Environment: ${process.env.GITHUB_ACTIONS ? 'GitHub Actions' : 'Local'}`);
+   console.log(`Timestamp: ${new Date().toISOString()}`);
+   const result = await monitor.checkForUpdates();
+
+   console.log('\n=== DEBUG: Check Results ===');
+   console.log(`Has updates: ${result.hasUpdates}`);
+   console.log(`Updated lists count: ${result.updatedLists.length}`);
+   console.log(`Summary exists: ${!!result.summary}`);
+   console.log(`Is stale commit: ${result.summary?.isStaleCommit || false}`);
+
     
     if (result.hasUpdates) {
       const commitMessage = await monitor.generateCommitMessage(result.updatedLists, result.summary);
       
+     console.log('\n=== DEBUG: Commit Information ===');
+     console.log(`Commit message: "${commitMessage}"`);
+     console.log(`Is stale commit: ${result.summary?.isStaleCommit ? 'true' : 'false'}`);
+
       // Set GitHub Actions outputs
       if (process.env.GITHUB_ACTIONS) {
+       console.log('\n=== DEBUG: Setting GitHub Actions Outputs ===');
         const core = require('@actions/core');
-        core.setOutput('has_updates', 'true');
-        core.setOutput('commit_message', commitMessage);
-        core.setOutput('updated_count', result.updatedLists.length.toString());
-        core.setOutput('is_stale_commit', result.summary?.isStaleCommit ? 'true' : 'false');
+       
+       const outputs = {
+         has_updates: 'true',
+         commit_message: commitMessage,
+         updated_count: result.updatedLists.length.toString(),
+         is_stale_commit: result.summary?.isStaleCommit ? 'true' : 'false'
+       };
+       
+       console.log('Outputs being set:');
+       Object.entries(outputs).forEach(([key, value]) => {
+         console.log(`  ${key}: ${value}`);
+         core.setOutput(key, value);
+       });
       }
       
       console.log('\nSuggested commit message:');
@@ -429,17 +453,23 @@ async function main() {
       
       process.exit(0); // Success with updates
     } else {
+     console.log('\n=== DEBUG: No Updates ===');
+     console.log('No files were updated or detected as stale');
       if (process.env.GITHUB_ACTIONS) {
+       console.log('\n=== DEBUG: Setting No-Update Outputs ===');
         const core = require('@actions/core');
         core.setOutput('has_updates', 'false');
         core.setOutput('commit_message', '');
         core.setOutput('updated_count', '0');
+       core.setOutput('is_stale_commit', 'false');
       }
       
       process.exit(0); // Success, no updates
     }
   } catch (error) {
+   console.error('\n=== DEBUG: Error Occurred ===');
     console.error('Script failed:', error);
+   console.error('Stack trace:', error.stack);
     process.exit(1);
   }
 }
