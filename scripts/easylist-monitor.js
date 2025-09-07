@@ -14,6 +14,7 @@ class EasyListMonitor {
   constructor() {
     this.listsDir = path.join(__dirname, 'lists');
     this.hashesFile = path.join(__dirname, 'hashes.json');
+    this.metadataFile = path.join(__dirname, 'metadata.json');
   }
 
   async init() {
@@ -37,6 +38,19 @@ class EasyListMonitor {
 
   async saveHashes(hashes) {
     await fs.writeFile(this.hashesFile, JSON.stringify(hashes, null, 2));
+  }
+
+  async loadMetadata() {
+    try {
+      const data = await fs.readFile(this.metadataFile, 'utf8');
+      return JSON.parse(data);
+    } catch (error) {
+      return {};
+    }
+  }
+
+  async saveMetadata(metadata) {
+    await fs.writeFile(this.metadataFile, JSON.stringify(metadata, null, 2));
   }
 
   calculateHash(content) {
@@ -108,10 +122,6 @@ class EasyListMonitor {
     const now = new Date();
     const ageInHours = (now - lastModified) / (1000 * 60 * 60);
     return ageInHours > checkInterval;
-  }
-
-  calculateHash(content) {
-    return crypto.createHash('sha256').update(content).digest('hex');
   }
 
   async checkForUpdates() {
