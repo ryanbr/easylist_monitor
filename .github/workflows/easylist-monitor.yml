@@ -78,38 +78,33 @@ jobs:
         with:
           server_address: smtp.gmail.com
           server_port: 587
-          username: ${{ secrets.EMAIL_USERNAME }}
-          password: ${{ secrets.EMAIL_PASSWORD }}
+          username: "${{ secrets.EMAIL_USERNAME }}"
+          password: "${{ secrets.EMAIL_PASSWORD }}"
           subject: "EasyList Stale Files Alert - Monitoring Report"
-          to: mp3geek@gmail.com
-          from: ${{ secrets.EMAIL_USERNAME }}
+          to: "easylist@protonmail.com"
+          from: "${{ secrets.EMAIL_USERNAME }}"
           body: |
             Hello EasyList Team,
-
+            
             Our automated monitoring system has detected that EasyList files appear to be stale and have not been updated recently.
-
+            
             DETECTED ISSUES:
             - Files have not been updated for more than 24 hours
             - Last modification detected: September 1, 2025
-            - Current monitoring time: ${{ github.event.repository.updated_at }}
-
+            
             FILES AFFECTED:
             - easylist.txt
             - easyprivacy.txt
-
+            
             EXPECTED BEHAVIOR:
             - EasyList files should update within 24 hours
             - Current age exceeds expected update frequency
-
-            This could indicate:
-            - Server infrastructure issues
-            - Update pipeline problems
-            - Publishing system failures
-
+            
+            This could indicate server infrastructure issues, update pipeline problems, or publishing system failures.
+            
             Please investigate your update systems and publishing pipeline.
-
-            ---
-            This notification was sent automatically by: ${{ github.repository }}
+            
+            This notification was sent automatically by ${{ github.repository }}
             Monitoring workflow: https://github.com/${{ github.repository }}/actions/runs/${{ github.run_id }}
 
       - name: Summary
