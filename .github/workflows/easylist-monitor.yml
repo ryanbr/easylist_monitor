@@ -71,7 +71,34 @@ jobs:
             }
 
             const issueTitle = `EasyList Update: ${summary.updated} list(s) updated`;
-            const issueBody = `
+            const issueBody = isStaleCommit ? `
+            ## ⚠️ EasyList Stale Files Alert
+            
+            **Report Time:** ${summary.timestamp}
+            **Stale Files:** ${summary.staleFiles?.length || 0}
+            
+            ### 🚨 Files Detected as Stale:
+            ${summary.staleFiles?.map(file => `
+            - **${file.filename}**
+              - Content Last Modified: ${file.contentLastModified}
+              - Status: ${file.ageAnalysis}
+              - This indicates EasyList.to may not be updating properly
+            `).join('') || 'No stale files data available'}
+            
+            ### What This Means:
+            - EasyList files are showing old modification dates in their content headers
+            - Expected update frequency: Every 1-2 days
+            - This may indicate server issues or update pipeline problems at EasyList.to
+            - Consider checking alternative EasyList mirrors if issue persists
+            
+            ### Details:
+            - Stale file report committed to repository
+            - Threshold: Files older than 48 hours are flagged
+            - Check performed: ${summary.timestamp}
+            
+            ---
+            *This alert was created automatically by the EasyList Monitor workflow.*
+            ` : `
             ## 🔄 EasyList Update Notification
             
             **Updated:** ${summary.timestamp}
@@ -79,7 +106,7 @@ jobs:
             ${summary.staleFiles && summary.staleFiles.length > 0 ? `\n⚠️ **STALE FILES DETECTED:** ${summary.staleFiles.length} file(s) appear outdated` : ''}
             
             ### Changed Lists:
-            ${summary.lists.map(list => `
+            ${summary.lists?.map(list => `
             - **${list.filename}** ${list.isStale ? '⚠️ STALE' : '✅'}
               - Version: ${list.version || 'N/A'}
               - Content Last Modified: ${list.contentLastModified || 'N/A'}
@@ -87,7 +114,7 @@ jobs:
               - Size: ${(list.size / 1024).toFixed(1)} KB
               - Age Analysis: ${list.ageAnalysis || 'N/A'}
               - Hash: \`${list.hash.substring(0, 12)}...\`
-            `).join('')}
+            `).join('') || 'No update data available'}
             
             ${summary.staleFiles && summary.staleFiles.length > 0 ? `
             ### ⚠️ Stale File Alert

@@ -286,7 +286,7 @@ async function main() {
     const result = await monitor.checkForUpdates();
     
     if (result.hasUpdates) {
-      const commitMessage = await monitor.generateCommitMessage(result.updatedLists);
+      const commitMessage = await monitor.generateCommitMessage(result.updatedLists, result.summary);
       
       // Set GitHub Actions outputs
       if (process.env.GITHUB_ACTIONS) {
@@ -294,6 +294,7 @@ async function main() {
         core.setOutput('has_updates', 'true');
         core.setOutput('commit_message', commitMessage);
         core.setOutput('updated_count', result.updatedLists.length.toString());
+        core.setOutput('is_stale_commit', result.summary?.isStaleCommit ? 'true' : 'false');
       }
       
       console.log('\n📝 Suggested commit message:');
