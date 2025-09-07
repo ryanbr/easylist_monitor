@@ -92,6 +92,38 @@ class EasyListMonitor {
     };
   }
 
+  checkFileAge(versionInfo, filename) {
+    if (!versionInfo.lastModified) {
+      return { isStale: false, message: 'No timestamp found' };
+    }
+
+    try {
+      const lastModified = new Date(versionInfo.lastModified);
+      const now = new Date();
+      const ageInHours = (now - lastModified) / (1000 * 60 * 60);
+      const ageInDays = ageInHours / 24;
+
+      // EasyList typically updates multiple times per day
+      // Alert if older than 2 days (48 hours)
+      const staleThreshold = 48;
+      const isStale = ageInHours > staleThreshold;
+
+      return {
+        isStale,
+        ageInHours: ageInHours.toFixed(1),
+        ageInDays: ageInDays.toFixed(1),
+        message: isStale 
+          ? `WARNING: ${ageInDays} days old (expected updates every 1-2 days)`
+          : `Fresh: ${ageInHours.toFixed(1)} hours old`
+      };
+    } catch (error) {
+      return { 
+        isStale: false, 
+        message: `Invalid timestamp format: ${versionInfo.lastModified}` 
+      };
+    }
+  }
+
   parseLastModified(lastModifiedHeader, listContent) {
     let serverTime = null;
     let contentTime = null;
@@ -131,11 +163,11 @@ class EasyListMonitor {
     const newHashes = { ...currentHashes };
     const newMetadata = { ...currentMetadata };
     
-    console.log(`🔍 Checking ${Object.keys(EASYLIST_URLS).length} EasyList files for updates...`);
+    console.log(`Checking ${Object.keys(EASYLIST_URLS).length} EasyList files for updates...`);
     
     for (const [filename, url] of Object.entries(EASYLIST_URLS)) {
       try {
-        console.log(`📥 Fetching ${filename}...`);
+        console.log(`Fetching ${filename}...`);
         
         // Check if we should even fetch based on age
         const oldMetadata = currentMetadata[filename];
@@ -144,7 +176,7 @@ class EasyListMonitor {
           const minutesSinceCheck = (new Date() - lastChecked) / (1000 * 60);
           
           if (minutesSinceCheck < 90) { // Less than 90 minutes since last check
-            console.log(`⏰ ${filename} was checked ${minutesSinceCheck.toFixed(0)} minutes ago (waiting for 90-minute interval)`);
+            console.log(`${filename} was checked ${minutesSinceCheck.toFixed(0)} minutes ago (waiting for 90-minute interval)`);
             continue;
           }
         }
@@ -153,6 +185,23 @@ class EasyListMonitor {
         const newHash = this.calculateHash(content);
         const versionInfo = this.extractVersion(content);
         const lastModified = this.parseLastModified(headers.lastModified, content);
+        
+        // Check if the file content is stale based on ! Last modified: header
+        const ageCheck = this.checkFileAge(versionInfo, filename);
+        
+        console.log(`File Analysis:`);
+        console.log(`   ${ageCheck.message}`);
+        console.log(`   Version: ${versionInfo.version || 'N/A'}`);
+        console.log(`   Content Last Modified: ${versionInfo.lastModified || 'N/A'}`);
+        console.log(`   Server Last-Modified: ${headers.lastModified || 'N/A'}`);
+        
+        // Generate stale file alert if needed
+        if (ageCheck.isStale) {
+          console.log(`\nALERT: ${filename} appears to be STALE!`);
+          console.log(`   Age: ${ageCheck.ageInDays} days (${ageCheck.ageInHours} hours)`);
+          console.log(`   Expected: Updates every 1-2 days`);
+          console.log(`   This may indicate EasyList server issues`);
+        }
         
         const oldHash = currentHashes[filename];
         
@@ -184,7 +233,7 @@ class EasyListMonitor {
         }
         
         if (hasChanged || !oldHash) {
-          console.log(`✅ ${filename} has been updated! (${changeReason || 'first time'})`);
+          console.log(`${filename} has been updated! (${changeReason || 'first time'})`);
           console.log(`   Version: ${versionInfo.version || 'N/A'}`);
           console.log(`   Last Modified: ${lastModified.toISOString()}`);
           console.log(`   Server Last-Modified: ${headers.lastModified || 'N/A'}`);
@@ -201,12 +250,15 @@ class EasyListMonitor {
             hash: newHash,
             version: versionInfo.version,
             lastModified: lastModified.toISOString(),
+            contentLastModified: versionInfo.lastModified,
             serverLastModified: headers.lastModified,
             etag: headers.etag,
             size: content.length,
             changeReason,
             expires: versionInfo.expires,
-            ageHours: ((new Date() - lastModified) / (1000 * 60 * 60)).toFixed(1)
+            ageHours: ((new Date() - lastModified) / (1000 * 60 * 60)).toFixed(1),
+            isStale: ageCheck.isStale,
+            ageAnalysis: ageCheck.message
           });
           
           newHashes[filename] = newHash;
@@ -221,7 +273,7 @@ class EasyListMonitor {
           const ageHours = oldMetadata && oldMetadata.lastModified 
             ? ((new Date() - new Date(oldMetadata.lastModified)) / (1000 * 60 * 60)).toFixed(1)
             : 'unknown';
-          console.log(`📄 ${filename} is up to date (age: ${ageHours} hours)`);
+          console.log(`${filename} is up to date (age: ${ageHours} hours)`);
           
           // Update last checked time even if no changes
           if (oldMetadata) {
@@ -236,14 +288,14 @@ class EasyListMonitor {
         await new Promise(resolve => setTimeout(resolve, 1000));
         
       } catch (error) {
-        console.error(`❌ Error processing ${filename}:`, error.message);
+        console.error(`Error processing ${filename}:`, error.message);
       }
     }
     
     if (updatedLists.length > 0) {
       await this.saveHashes(newHashes);
       await this.saveMetadata(newMetadata);
-      console.log(`\n🎉 ${updatedLists.length} list(s) updated successfully!`);
+      console.log(`\n${updatedLists.length} list(s) updated successfully!`);
       
       // Create summary for GitHub Actions
       const summary = {
@@ -260,13 +312,88 @@ class EasyListMonitor {
       
       return { hasUpdates: true, updatedLists, summary };
     } else {
-      console.log('\n📋 All lists are up to date');
+      // Check if any files are stale (even without content changes)
+      const staleFiles = [];
+      for (const [filename, url] of Object.entries(EASYLIST_URLS)) {
+        try {
+          const { content } = await this.fetchList(url);
+          const versionInfo = this.extractVersion(content);
+          const ageCheck = this.checkFileAge(versionInfo, filename);
+          
+          if (ageCheck.isStale) {
+            staleFiles.push({
+              filename,
+              contentLastModified: versionInfo.lastModified,
+              ageAnalysis: ageCheck.message,
+              ageInDays: ageCheck.ageInDays,
+              isStale: true
+            });
+          }
+        } catch (error) {
+          console.error(`Error checking staleness for ${filename}:`, error.message);
+        }
+      }
+      
+      if (staleFiles.length > 0) {
+        console.log(`\n${staleFiles.length} stale file(s) detected - creating commit`);
+        
+        // Create stale file summary
+        const staleCommitData = staleFiles.map(file => ({
+          filename: file.filename,
+          contentLastModified: file.contentLastModified,
+          ageAnalysis: file.ageAnalysis,
+          timestamp: new Date().toISOString()
+        }));
+        
+        // Save stale file report
+        await fs.writeFile(
+          path.join(__dirname, 'stale-files-report.json'),
+          JSON.stringify({
+            reportTime: new Date().toISOString(),
+            staleFiles: staleCommitData,
+            message: 'Files detected as stale based on content timestamps'
+          }, null, 2)
+        );
+        
+        return { 
+          hasUpdates: true, 
+          updatedLists: staleFiles,
+          summary: {
+            updated: 0,
+            staleFiles: staleFiles,
+            timestamp: new Date().toISOString(),
+            isStaleCommit: true
+          }
+        };
+      }
+      
+      console.log('\nAll lists are up to date and fresh');
       await this.saveMetadata(newMetadata); // Save updated check times
       return { hasUpdates: false, updatedLists: [], summary: null };
     }
   }
 
-  async generateCommitMessage(updatedLists) {
+  async generateCommitMessage(updatedLists, summary = null) {
+    // Check if this is a stale file commit
+    if (summary && summary.isStaleCommit) {
+      const staleFileNames = updatedLists.map(file => file.filename).join(', ');
+      const oldestDate = updatedLists.reduce((oldest, file) => {
+        const fileDate = new Date(file.contentLastModified);
+        return (!oldest || fileDate < oldest) ? fileDate : oldest;
+      }, null);
+      
+      const formattedDate = oldestDate ? oldestDate.toLocaleDateString('en-US', { 
+        year: 'numeric', 
+        month: 'short', 
+        day: 'numeric' 
+      }) : 'unknown date';
+      
+      return updatedLists.length === 1 
+        ? `File is Stale, was last modified on ${formattedDate}`
+        : `Files are Stale, oldest was last modified on ${formattedDate}`;
+    }
+    
+    // Regular update commit message
     if (updatedLists.length === 1) {
       const list = updatedLists[0];
       return `Update ${list.filename}${list.version ? ` to v${list.version}` : ''}`;
@@ -297,7 +424,7 @@ async function main() {
         core.setOutput('is_stale_commit', result.summary?.isStaleCommit ? 'true' : 'false');
       }
       
-      console.log('\n📝 Suggested commit message:');
+      console.log('\nSuggested commit message:');
       console.log(commitMessage);
       
       process.exit(0); // Success with updates
@@ -312,7 +439,7 @@ async function main() {
       process.exit(0); // Success, no updates
     }
   } catch (error) {
-    console.error('❌ Script failed:', error);
+    console.error('Script failed:', error);
     process.exit(1);
   }
 }
