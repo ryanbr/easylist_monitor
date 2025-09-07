@@ -51,7 +51,16 @@ jobs:
       - name: Commit and push changes
         if: steps.monitor.outputs.has_updates == 'true'
         run: |
-          git add scripts/lists/ scripts/hashes.json scripts/metadata.json scripts/update-summary.json
+          if [ "${{ steps.monitor.outputs.is_stale_commit }}" == "true" ]; then
+            # For stale commits, only add the stale report file and metadata
+            git add scripts/stale-files-report.json
+            if [ -f scripts/metadata.json ]; then
+              git add scripts/metadata.json
+            fi
+          else
+            # For regular updates, add all the usual files
+            git add scripts/lists/ scripts/hashes.json scripts/metadata.json scripts/update-summary.json
+          fi
           git commit -m "${{ steps.monitor.outputs.commit_message }}"
           git push
 
@@ -63,21 +72,40 @@ jobs:
             const fs = require('fs');
             
             let summary = {};
+            let isStaleCommit = false;
+            
             try {
-              summary = JSON.parse(fs.readFileSync('scripts/update-summary.json', 'utf8'));
+              if (fs.existsSync('scripts/update-summary.json')) {
+                summary = JSON.parse(fs.readFileSync('scripts/update-summary.json', 'utf8'));
+                isStaleCommit = false;
+              } else if (fs.existsSync('scripts/stale-files-report.json')) {
+                // Handle stale file commits
+                const staleReport = JSON.parse(fs.readFileSync('scripts/stale-files-report.json', 'utf8'));
+                summary = {
+                  updated: 0,
+                  timestamp: staleReport.reportTime,
+                  lists: [],
+                  staleFiles: staleReport.staleFiles,
+                  isStaleCommit: true
+                };
+                isStaleCommit = true;
+              }
             } catch (error) {
               console.log('Could not read update summary');
               return;
             }
 
-            const issueTitle = `EasyList Update: ${summary.updated} list(s) updated`;
+            const issueTitle = isStaleCommit 
+              ? `EasyList Stale Files Alert: ${summary.staleFiles?.length || 0} file(s) outdated`
+              : `EasyList Update: ${summary.updated} list(s) updated`;
+
             const issueBody = isStaleCommit ? `
-            ## ⚠️ EasyList Stale Files Alert
+            ## EasyList Stale Files Alert
             
             **Report Time:** ${summary.timestamp}
             **Stale Files:** ${summary.staleFiles?.length || 0}
             
-            ### 🚨 Files Detected as Stale:
+            ### Files Detected as Stale:
             ${summary.staleFiles?.map(file => `
             - **${file.filename}**
               - Content Last Modified: ${file.contentLastModified}
@@ -99,15 +127,15 @@ jobs:
             ---
             *This alert was created automatically by the EasyList Monitor workflow.*
             ` : `
-            ## 🔄 EasyList Update Notification
+            ## EasyList Update Notification
             
             **Updated:** ${summary.timestamp}
             **Lists updated:** ${summary.updated}
-            ${summary.staleFiles && summary.staleFiles.length > 0 ? `\n⚠️ **STALE FILES DETECTED:** ${summary.staleFiles.length} file(s) appear outdated` : ''}
+            ${summary.staleFiles && summary.staleFiles.length > 0 ? `\nSTALE FILES DETECTED: ${summary.staleFiles.length} file(s) appear outdated` : ''}
             
             ### Changed Lists:
             ${summary.lists?.map(list => `
-            - **${list.filename}** ${list.isStale ? '⚠️ STALE' : '✅'}
+            - **${list.filename}** ${list.isStale ? 'STALE' : 'FRESH'}
               - Version: ${list.version || 'N/A'}
               - Content Last Modified: ${list.contentLastModified || 'N/A'}
               - Server Last Modified: ${list.serverLastModified || 'N/A'}  
@@ -117,7 +145,7 @@ jobs:
             `).join('') || 'No update data available'}
             
             ${summary.staleFiles && summary.staleFiles.length > 0 ? `
-            ### ⚠️ Stale File Alert
+            ### Stale File Alert
             ${summary.staleFiles.map(file => `
             - **${file.filename}**: ${file.ageAnalysis}
               - Content shows: ${file.contentLastModified}
@@ -167,7 +195,9 @@ jobs:
                 owner: context.repo.owner,
                 repo: context.repo.repo,
                 issue_number: issues[0].number,
-                body: `🔄 **New update detected:** ${summary.updated} list(s) updated at ${summary.timestamp}`
+                body: isStaleCommit 
+                  ? `Stale files detected at ${summary.timestamp}: ${summary.staleFiles?.length || 0} file(s) outdated`
+                  : `New update detected: ${summary.updated} list(s) updated at ${summary.timestamp}`
               });
             }
 
@@ -176,7 +206,7 @@ jobs:
         run: |
           # Uncomment and configure if you want Discord/Slack notifications
           # curl -H "Content-Type: application/json" \
-          #   -d '{"content":"🔄 EasyList Update: ${{ steps.monitor.outputs.updated_count }} list(s) updated"}' \
+          #   -d '{"content":"EasyList Update: ${{ steps.monitor.outputs.updated_count }} list(s) updated"}' \
           #   ${{ secrets.DISCORD_WEBHOOK_URL }}
 
       - name: Summary
@@ -186,6 +216,7 @@ jobs:
           echo "- **Updated lists:** ${{ steps.monitor.outputs.updated_count }}" >> $GITHUB_STEP_SUMMARY
           if [ "${{ steps.monitor.outputs.has_updates }}" == "true" ]; then
             echo "- **Commit message:** ${{ steps.monitor.outputs.commit_message }}" >> $GITHUB_STEP_SUMMARY
+            echo "- **Is stale commit:** ${{ steps.monitor.outputs.is_stale_commit }}" >> $GITHUB_STEP_SUMMARY
           fi
           echo "- **Timestamp:** $(date -u)" >> $GITHUB_STEP_SUMMARY
 
@@ -225,7 +256,7 @@ jobs:
                   owner: context.repo.owner,
                   repo: context.repo.repo,
                   issue_number: issue.number,
-                  body: '🧹 Auto-closing old EasyList update notification.'
+                  body: 'Auto-closing old EasyList update notification.'
                 });
               }
             }
