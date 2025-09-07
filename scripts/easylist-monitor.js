@@ -113,7 +113,7 @@ class EasyListMonitor {
         ageInHours: ageInHours.toFixed(1),
         ageInDays: ageInDays.toFixed(1),
         message: isStale 
-          ? `WARNING: ${ageInDays} days old (expected updates every 1-2 days)`
+          ? `WARNING: ${ageInDays} days old (expected updates within 24 hours)`
           : `Fresh: ${ageInHours.toFixed(1)} hours old`
       };
     } catch (error) {

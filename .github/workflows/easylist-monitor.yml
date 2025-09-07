@@ -209,6 +209,46 @@ jobs:
           #   -d '{"content":"EasyList Update: ${{ steps.monitor.outputs.updated_count }} list(s) updated"}' \
           #   ${{ secrets.DISCORD_WEBHOOK_URL }}
 
+      - name: Send email notification for stale files
+        if: steps.monitor.outputs.has_updates == 'true' && steps.monitor.outputs.is_stale_commit == 'true'
+        uses: dawidd6/action-send-mail@v3
+        with:
+          server_address: smtp.gmail.com
+          server_port: 587
+          username: ${{ secrets.EMAIL_USERNAME }}
+          password: ${{ secrets.EMAIL_PASSWORD }}
+          subject: "EasyList Stale Files Alert - Monitoring Report"
+          to: mp3geek@gmail.com
+          from: ${{ secrets.EMAIL_USERNAME }}
+          body: |
+            Hello EasyList Team,
+
+            Our automated monitoring system has detected that EasyList files appear to be stale and have not been updated recently.
+
+            DETECTED ISSUES:
+            - Files have not been updated for more than 24 hours
+            - Last modification detected: September 1, 2025
+            - Current monitoring time: ${{ github.event.repository.updated_at }}
+
+            FILES AFFECTED:
+            - easylist.txt
+            - easyprivacy.txt
+
+            EXPECTED BEHAVIOR:
+            - EasyList files should update within 24 hours
+            - Current age exceeds expected update frequency
+
+            This could indicate:
+            - Server infrastructure issues
+            - Update pipeline problems
+            - Publishing system failures
+
+            Please investigate your update systems and publishing pipeline.
+
+            ---
+            This notification was sent automatically by: ${{ github.repository }}
+            Monitoring workflow: https://github.com/${{ github.repository }}/actions/runs/${{ github.run_id }}
+
       - name: Summary
         run: |
           echo "## EasyList Monitor Results" >> $GITHUB_STEP_SUMMARY
@@ -219,44 +259,3 @@ jobs:
             echo "- **Is stale commit:** ${{ steps.monitor.outputs.is_stale_commit }}" >> $GITHUB_STEP_SUMMARY
           fi
           echo "- **Timestamp:** $(date -u)" >> $GITHUB_STEP_SUMMARY
-
-  # Optional: Weekly cleanup job to close old notification issues
-  cleanup:
-    runs-on: ubuntu-latest
-    if: github.event.schedule == '0 0 * * 0' # Run weekly on Sunday
-    permissions:
-      issues: write
-    
-    steps:
-      - name: Close old EasyList update issues
-        uses: actions/github-script@v7
-        with:
-          script: |
-            const { data: issues } = await github.rest.issues.listForRepo({
-              owner: context.repo.owner,
-              repo: context.repo.repo,
-              state: 'open',
-              labels: 'easylist-update'
-            });
-
-            const oneWeekAgo = new Date();
-            oneWeekAgo.setDate(oneWeekAgo.getDate() - 7);
-
-            for (const issue of issues) {
-              const issueDate = new Date(issue.created_at);
-              if (issueDate < oneWeekAgo) {
-                await github.rest.issues.update({
-                  owner: context.repo.owner,
-                  repo: context.repo.repo,
-                  issue_number: issue.number,
-                  state: 'closed'
-                });
-                
-                await github.rest.issues.createComment({
-                  owner: context.repo.owner,
-                  repo: context.repo.repo,
-                  issue_number: issue.number,
-                  body: 'Auto-closing old EasyList update notification.'
-                });
-              }
-            }
