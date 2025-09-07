@@ -76,20 +76,33 @@ jobs:
             
             **Updated:** ${summary.timestamp}
             **Lists updated:** ${summary.updated}
+            ${summary.staleFiles && summary.staleFiles.length > 0 ? `\n⚠️ **STALE FILES DETECTED:** ${summary.staleFiles.length} file(s) appear outdated` : ''}
             
             ### Changed Lists:
             ${summary.lists.map(list => `
-            - **${list.filename}**
+            - **${list.filename}** ${list.isStale ? '⚠️ STALE' : '✅'}
               - Version: ${list.version || 'N/A'}
-              - Last Modified: ${list.lastModified || 'N/A'}
+              - Content Last Modified: ${list.contentLastModified || 'N/A'}
+              - Server Last Modified: ${list.serverLastModified || 'N/A'}  
               - Size: ${(list.size / 1024).toFixed(1)} KB
+              - Age Analysis: ${list.ageAnalysis || 'N/A'}
               - Hash: \`${list.hash.substring(0, 12)}...\`
             `).join('')}
+            
+            ${summary.staleFiles && summary.staleFiles.length > 0 ? `
+            ### ⚠️ Stale File Alert
+            ${summary.staleFiles.map(file => `
+            - **${file.filename}**: ${file.ageAnalysis}
+              - Content shows: ${file.contentLastModified}
+              - This may indicate EasyList server issues or update delays
+            `).join('')}
+            ` : ''}
             
             ### Details:
             - Repository updated automatically
             - Changes committed to main branch
             - Lists stored in \`scripts/lists/\` directory
+            - Age threshold: Files older than 48 hours are flagged as stale
             
             ---
             *This issue was created automatically by the EasyList Monitor workflow.*
