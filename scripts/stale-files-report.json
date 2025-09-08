@@ -1,17 +1,17 @@
 {
-  "reportTime": "2025-09-07T23:01:29.113Z",
+  "reportTime": "2025-09-08T00:04:14.313Z",
   "staleFiles": [
     {
       "filename": "easylist.txt",
       "contentLastModified": "01 Sep 2025 12:09 UTC",
-      "ageAnalysis": "WARNING: 6.453114282407408 days old (expected updates within 24 hours)",
-      "timestamp": "2025-09-07T23:01:29.113Z"
+      "ageAnalysis": "WARNING: 6.496692777777778 days old (expected updates within 24 hours)",
+      "timestamp": "2025-09-08T00:04:14.313Z"
     },
     {
       "filename": "easyprivacy.txt",
       "contentLastModified": "01 Sep 2025 12:09 UTC",
-      "ageAnalysis": "WARNING: 6.453114733796297 days old (expected updates within 24 hours)",
-      "timestamp": "2025-09-07T23:01:29.113Z"
+      "ageAnalysis": "WARNING: 6.4966934375 days old (expected updates within 24 hours)",
+      "timestamp": "2025-09-08T00:04:14.313Z"
     }
   ],
   "message": "Files detected as stale based on content timestamps"
