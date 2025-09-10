@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Version: 202509100649
+! Version: 202509100831
 ! Title: EasyList
-! Last modified: 10 Sep 2025 06:49 UTC
+! Last modified: 10 Sep 2025 08:31 UTC
 ! Expires: 4 days (update frequency)
-! Commit: 0d14d695d95385854fce221c75de8c0d14a12a91
+! Commit: a346d11f3c391ce1335e2d3142cf805daf17cf98
 ! *** easylist:template_header.txt ***
 ! 
 ! Please report any unblocked adverts or problems
@@ -21529,6 +21529,7 @@ browsershots.org#@#.advert_area
 ||carcflma.de^
 ||cardiganpalmreconcile.com^
 ||cardiumdaftly.com^
+||careerunderstatement.com^
 ||careewituhi.org^
 ||careewituhin.org^
 ||carefulbleatdish.com^
@@ -22417,6 +22418,7 @@ browsershots.org#@#.advert_area
 ||cleckvenin.com^
 ||clemencyexceptionpolar.com^
 ||clenchedfavouritemailman.com^
+||clenchedquarterbackluxuriant.com^
 ||cleopatraadulatefrench.com^
 ||cleretebathes.cfd^
 ||clergystickingprecedent.com^
@@ -25906,6 +25908,7 @@ browsershots.org#@#.advert_area
 ||embeddedoxide.com^
 ||embitterlorrycar.com^
 ||emblemexceptionscorer.com^
+||emblicsabaism.qpon^
 ||embogsoarers.com^
 ||embogtangier.shop^
 ||emboguepistler.world^
@@ -26560,6 +26563,7 @@ browsershots.org#@#.advert_area
 ||excludegusteight.com^
 ||excuditorchids.shop^
 ||excuditsoulx.click^
+||excuseduchess.com^
 ||exdynsrv.com^
 ||execpukka.com^
 ||exedeparsers.shop^
@@ -29363,6 +29367,7 @@ browsershots.org#@#.advert_area
 ||gulsyangtao.guru^
 ||gumboiteming.cyou^
 ||gumihanturbine.click^
+||gumlikecliv.shop^
 ||gummatagash.shop^
 ||gummeddunster.click^
 ||gummierhedera.life^
@@ -32435,6 +32440,7 @@ browsershots.org#@#.advert_area
 ||judgefraud.com^
 ||judgementcorruptattack.com^
 ||judicialclinging.com^
+||judicialreaphealth.com^
 ||judosllyn.com^
 ||judsaiftool.net^
 ||judvl.org^
@@ -34555,6 +34561,7 @@ browsershots.org#@#.advert_area
 ||lpyyzoetztnmv.one^
 ||lpzttnoezjdir.xyz^
 ||lqayovuxhlfxv.space^
+||lqbkshojlhmyj.com^
 ||lqbvjmkoozmry.top^
 ||lqbvjmkoozzjm.top^
 ||lqbzvmmojqov.top^
@@ -35544,6 +35551,7 @@ browsershots.org#@#.advert_area
 ||mghsczfeerte.com^
 ||mgid.com^
 ||mgisrlyu.xyz^
+||mgixkyviq.net^
 ||mgixkyviq.xyz^
 ||mgladthereisso.com^
 ||mglhbqvqmjqcq.space^
@@ -43110,6 +43118,7 @@ browsershots.org#@#.advert_area
 ||rtunitytostaracaree.com^
 ||rtvnuemzpscuq.com^
 ||rtxfeed.com^
+||rtxgywxcqhbm.com^
 ||rtxrtb.com^
 ||rtyufo.com^
 ||rtyvaluationia.org^
@@ -45756,6 +45765,7 @@ browsershots.org#@#.advert_area
 ||subseptmaint.shop^
 ||subsilltrolley.cyou^
 ||substantial-presence.pro^
+||substantialbabjuxtapose.com^
 ||substantialequilibrium.com^
 ||subsultlay.click^
 ||subtillabsinth.world^
@@ -50706,6 +50716,7 @@ browsershots.org#@#.advert_area
 ||woawkpkhc.com^
 ||wobbly-birth.com^
 ||wobblymoneron.shop^
+||wobblypin.pro^
 ||wodfxn.com^
 ||woefifty.com^
 ||woevr.com^
@@ -53712,7 +53723,6 @@ browsershots.org#@#.advert_area
 ||assoc-amazon.it^$third-party
 ||asterpix.com^$third-party
 ||auctionnudge.com^$third-party
-||audience.io^$third-party
 ||audience2media.com^$third-party
 ||audiencerun.com^$third-party
 ||audiensi.com^$third-party
@@ -72670,7 +72680,6 @@ gamcore.com##li.d-md-block > a[rel]
 @@||at.adtech.redventures.io/lib/api/$xmlhttprequest,domain=gamespot.com|giantbomb.com|metacritic.com
 @@||at.adtech.redventures.io/lib/dist/$script,domain=gamespot.com|giantbomb.com|metacritic.com
 @@||atlas.playpilot.com/api/v1/ads/browse/$xmlhttprequest,domain=playpilot.com
-@@||audience.io/api/v3/app/fetchPromo/$domain=campaign.aptivada.com
 @@||autotrader.co.uk^*/advert$~third-party
 @@||avclub.com^*/adManager.$script,~third-party
 @@||bankofamerica.com^*?adx=$~third-party,xmlhttprequest
