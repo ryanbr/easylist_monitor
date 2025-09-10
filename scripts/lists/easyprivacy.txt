@@ -1,9 +1,9 @@
 [Adblock Plus 1.1]
-! Version: 202509100113
+! Version: 202509100252
 ! Title: EasyPrivacy
-! Last modified: 10 Sep 2025 01:13 UTC
+! Last modified: 10 Sep 2025 02:52 UTC
 ! Expires: 4 days (update frequency)
-! Commit: d4bde3e458b58104e4e34ef85026ee4c67efec06
+! Commit: 9bfd06a5d23a8681b22a208a6e0d451b5778d082
 ! *** easylist:template_header.txt ***
 ! 
 ! Please report any unblocked adverts or problems
@@ -4116,6 +4116,7 @@ omni.soundestlink.com$image
 ||brandlock.io^$third-party
 ||brat-online.ro^$third-party
 ||brcdn.com^$third-party
+||bridged.media^$third-party
 ||bridgevine.com^$third-party
 ||brightfunnel.com^$third-party
 ||brilig.com^$third-party

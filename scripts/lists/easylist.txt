@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Version: 202509100113
+! Version: 202509100307
 ! Title: EasyList
-! Last modified: 10 Sep 2025 01:13 UTC
+! Last modified: 10 Sep 2025 03:07 UTC
 ! Expires: 4 days (update frequency)
-! Commit: d4bde3e458b58104e4e34ef85026ee4c67efec06
+! Commit: c84852317ee99a5103a9331126720fad5253c5e6
 ! *** easylist:template_header.txt ***
 ! 
 ! Please report any unblocked adverts or problems
@@ -15913,6 +15913,7 @@ browsershots.org#@#.advert_area
 ||3ad2ae645c.com^
 ||3b15e41dab.com^
 ||3b374de2ee.com^
+||3b3e638ac2.com^
 ||3b687a4e49.com^
 ||3c241b2b3e.com^
 ||3ca9dc59cc.com^
@@ -17761,6 +17762,7 @@ browsershots.org#@#.advert_area
 ||akvvltgfzmxvj.website^
 ||akximhhcunr.com^
 ||akzawlyyllbwj.top^
+||akzawlyyllzmm.top^
 ||akzkcfkabl.com^
 ||al-adtech.com^
 ||al5sm.com^
@@ -22123,6 +22125,7 @@ browsershots.org#@#.advert_area
 ||chiveraccede.com^
 ||chiviesmildest.rest^
 ||chivnrrupntrz.online^
+||chizzorlage.click^
 ||chjesusdgbfgl.website^
 ||chl7rysobc3ol6xla.com^
 ||chlziaue.xyz^
@@ -25496,6 +25499,7 @@ browsershots.org#@#.advert_area
 ||ecaiapclxayu.com^
 ||ecarteslimbers.com^
 ||ecchkens.shop^
+||ecchqokl.com^
 ||eccvwnwjayrqyeo.xyz^
 ||eceefutchee.net^
 ||eceepsoograirtu.net^
@@ -28596,6 +28600,7 @@ browsershots.org#@#.advert_area
 ||glacierwaist.com^
 ||glackoaneels.net^
 ||gladlyconceitcucumbers.com^
+||gladredooch.net^
 ||glaftedroag.net^
 ||glaghuckudou.net^
 ||glaicmolry.net^
@@ -33690,6 +33695,7 @@ browsershots.org#@#.advert_area
 ||lbmznmoboxffo.online^
 ||lbobcqsbvmmjko.com^
 ||lbozwmllmmjwg.top^
+||lbozwmllmmovv.top^
 ||lbpodurp.cam^
 ||lbszsbzuupnoe.online^
 ||lbumpethohbsp.online^
@@ -34173,6 +34179,7 @@ browsershots.org#@#.advert_area
 ||ljoblgmqkkgoa.top^
 ||ljoblgmqkkngz.top^
 ||ljqefskxsiek.com^
+||ljseecmh.com^
 ||ljsr-ijbcxvq.online^
 ||ljun8zm9.com^
 ||ljvmokwyrovjy.top^
@@ -35173,6 +35180,7 @@ browsershots.org#@#.advert_area
 ||maxidownload.com^
 ||maxigamma.com^
 ||maxim.pub^
+||maximsclown.life^
 ||maximtoaster.com^
 ||maximumductpictorial.com^
 ||maxonclick.com^
@@ -36549,6 +36557,7 @@ browsershots.org#@#.advert_area
 ||naoofdiujjiec.space^
 ||naos.ink^
 ||nappedbrashly.help^
+||nappersboorga.digital^
 ||nappertroughy.cfd^
 ||nappieoxbows.com^
 ||nappyonsetstiffness.com^
@@ -42276,6 +42285,7 @@ browsershots.org#@#.advert_area
 ||representhostilemedia.com^
 ||reprtqemdf.com^
 ||republicandegrademeasles.com^
+||repulsiveformerlydevaluation.com^
 ||repulsivepair.com^
 ||reputerepublic.com^
 ||reqnmwfkoy.com^
@@ -48159,6 +48169,7 @@ browsershots.org#@#.advert_area
 ||uncotorture.com^
 ||uncramcappagh.life^
 ||uncunyblari.com^
+||uncutblamer.shop^
 ||undandinterp.org^
 ||undaymidydle.com^
 ||undecylupsends.com^
@@ -49805,6 +49816,7 @@ browsershots.org#@#.advert_area
 ||wampishbelly.world^
 ||wanderingbloke.com^
 ||wandlbbeuwauj.store^
+||wangerstabile.com^
 ||wangfenxi.com^
 ||wangledreactor.world^
 ||waningsyrians.click^
@@ -66548,6 +66560,7 @@ coinpedia.org##.homepage_sidebanner_ad
 hometheaterreview.com##.homet-sidebars
 mensxp.com##.hometop-ads
 radiocity.in##.horiozontal-add
+stuff.co.nz##.horizontal-ad-slot
 2conv.com,flv2mp3.by,flvto.biz,flvto.com.mx##.horizontal-area
 getmyuni.com##.horizontalRectangle
 nofilmschool.com##.horizontal_ad
