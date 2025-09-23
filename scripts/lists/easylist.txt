@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Version: 202509231440
+! Version: 202509231642
 ! Title: EasyList
-! Last modified: 23 Sep 2025 14:40 UTC
+! Last modified: 23 Sep 2025 16:42 UTC
 ! Expires: 4 days (update frequency)
-! Commit: 08b69398cf3bf8863581a24914d6572bb9fbe8e7
+! Commit: ab036716807662a774b339f962bead274006356c
 ! *** easylist:template_header.txt ***
 ! 
 ! Please report any unblocked adverts or problems
@@ -18190,6 +18190,7 @@ browsershots.org#@#.advert_area
 ||aramb.site^
 ||araneidboruca.com^
 ||aravynlbydwiq.site^
+||arbalosspitz.qpon^
 ||arbithitemise.top^
 ||arborsestus.rest^
 ||arbourrenewal.com^
@@ -24384,6 +24385,7 @@ browsershots.org#@#.advert_area
 ||disappearheedless.com^
 ||disappearsurgery.com^
 ||disappointally.com^
+||disapprovalavouchfriendly.com^
 ||disastrous-protection.com^
 ||disastrous-special.pro^
 ||discernadornmentmaster.com^
@@ -33478,6 +33480,7 @@ browsershots.org#@#.advert_area
 ||kfpxthgobigqk.site^
 ||kftgzmjqxjooc.store^
 ||kfwolwopegike.love^
+||kfxbsejkjbbpcrg.com^
 ||kfzfkkxcpiz.com^
 ||kgakynwqllqwj.top^
 ||kgakynwqllvbg.top^
@@ -34913,6 +34916,7 @@ browsershots.org#@#.advert_area
 ||ljnqievhkrsia.online^
 ||ljoaqeqwbkyqy.top^
 ||ljoaqeqwboamm.top^
+||ljoaqeqwboawv.top^
 ||ljoblgmqkkgoa.top^
 ||ljoblgmqkkngz.top^
 ||ljozdimpjpbzy.space^
@@ -36692,6 +36696,7 @@ browsershots.org#@#.advert_area
 ||mndvjhg.com^
 ||mndx1.com^
 ||mnetads.com^
+||mneuxhjeuvrk.com^
 ||mnevjhg.com^
 ||mng-ads.com^
 ||mnhjk.com^
@@ -39068,6 +39073,7 @@ browsershots.org#@#.advert_area
 ||ollnlqyvkvgw.top^
 ||olmiweb.com^
 ||olmsyrqup.com^
+||olocpxdwehcef.space^
 ||ologistfoals.shop^
 ||ologysabot.help^
 ||olopruy.com^
@@ -39932,6 +39938,7 @@ browsershots.org#@#.advert_area
 ||oxlffequrkka.com^
 ||oxlzetncjmuq.com^
 ||oxmnhsoiuiap.com^
+||oxnwqbcbpob.com^
 ||oxozonesubnude.help^
 ||oxtailtussors.rest^
 ||oxtracking.com^
@@ -40649,6 +40656,7 @@ browsershots.org#@#.advert_area
 ||pgwwumwejaops.website^
 ||pgykusmy.com^
 ||pgzwlwlowmqvr.com^
+||pgzxnpyuitkmz.site^
 ||phabaustoost.net^
 ||phadsophoogh.net^
 ||phaikroo.net^
@@ -42144,6 +42152,7 @@ browsershots.org#@#.advert_area
 ||pulserviral.com^
 ||pultosteduardo.com^
 ||pulverizefighting.com^
+||pumhebrnzfk.com^
 ||pumovimfxrfsy.net^
 ||pumpbead.com^
 ||punchertears.click^
@@ -48821,6 +48830,7 @@ browsershots.org#@#.advert_area
 ||ulmqfhgfjrxbj.site^
 ||ulnhz.site^
 ||ulokbfgrpym.com^
+||ulowirgaiy.com^
 ||ulpanimarcos.com^
 ||ultaxvuxpgryi.site^
 ||ultimatelydiscourse.com^
@@ -51484,6 +51494,7 @@ browsershots.org#@#.advert_area
 ||xqwrdegbmdfrv.top^
 ||xqxgcdhfkccgg.site^
 ||xqyvdjuhophgfm.com^
+||xrbeajuc.com^
 ||xrfashvbmstojf.com^
 ||xrfltqzxwupzh.store^
 ||xrlbpwupwj.com^
@@ -51495,6 +51506,7 @@ browsershots.org#@#.advert_area
 ||xsnolrwghvrhe.online^
 ||xsrs.com^
 ||xssqagquifueb.space^
+||xsvirldugvltc.net^
 ||xsyqbdylnfpo.world^
 ||xszcdn.com^
 ||xszjh.tech^
@@ -53243,7 +53255,7 @@ browsershots.org#@#.advert_area
 ||zarosnap.com^$document
 ||zavirand.com^$document
 ||zrlqm.com^$document
-! Third-party
+! ! Third-party
 ||123date.me^$third-party
 ||152media.com^$third-party
 ||2leep.com^$third-party
