@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Version: 202509241449
+! Version: 202509241643
 ! Title: EasyList
-! Last modified: 24 Sep 2025 14:49 UTC
+! Last modified: 24 Sep 2025 16:43 UTC
 ! Expires: 4 days (update frequency)
-! Commit: f3d898375177710380df85fdcfd8a28b7680522b
+! Commit: bb60a1f8293fc3f6da7cdae2fd27d3b50e90990b
 ! *** easylist:template_header.txt ***
 ! 
 ! Please report any unblocked adverts or problems
@@ -19029,6 +19029,7 @@ browsershots.org#@#.advert_area
 ||baitpros.net^
 ||baivooheephufub.net^
 ||bajoansams.net^
+||bajyiflenzdxl.space^
 ||bakaevzrmcqdo.global^
 ||bakertangiblebehaved.com^
 ||bakingbeheld.com^
@@ -21810,6 +21811,7 @@ browsershots.org#@#.advert_area
 ||chipmanksmochus.com^
 ||chipspasteprowl.com^
 ||chiroavenin.life^
+||chirruprevest.com^
 ||chisledtomjohn.shop^
 ||chistkavivos.help^
 ||chitchaudsoax.net^
@@ -23436,6 +23438,7 @@ browsershots.org#@#.advert_area
 ||cwrsyyzfooqyh.online^
 ||cwsbrxarjnaav.space^
 ||cwsstrmgcfs.com^
+||cwuifycltqy.com^
 ||cwvahnqeauemq.online^
 ||cwvipsciqhuqi.site^
 ||cwvxcmunccww.com^
@@ -23864,6 +23867,7 @@ browsershots.org#@#.advert_area
 ||dd4ef151bb.com^
 ||dd9l0474.de^
 ||ddbhm.pro^
+||ddcgpoltvrukxjc.net^
 ||ddcgwcyg.com^
 ||dddashasledopyt.com^
 ||dddashasledopyt.xyz^
@@ -33057,6 +33061,7 @@ browsershots.org#@#.advert_area
 ||jrpkizae.com^
 ||jrrygibhwcmwb.space^
 ||jrscalwlfmmvp.store^
+||jrsvxroksznbf.website^
 ||jrtyi.club^
 ||jrvhmxnfzczll.online^
 ||jrvrkzrjrmoyy.top^
@@ -35060,6 +35065,7 @@ browsershots.org#@#.advert_area
 ||ljwdlbqedp.com^
 ||ljxntwbagn.com^
 ||ljybpjbp.xyz^
+||ljybybyerzeer.top^
 ||ljybybyerzejk.top^
 ||ljybybyerzoev.top^
 ||ljybybyerzreq.top^
@@ -36769,6 +36775,7 @@ browsershots.org#@#.advert_area
 ||mkingffpvupjd.space^
 ||mkjsqrpmxqdf.com^
 ||mkjtenworoief.online^
+||mklygiferedme.site^
 ||mkounjuehhkhn.store^
 ||mkpjchfevxpud.website^
 ||mkqsbxtxdxtip.store^
@@ -39082,6 +39089,7 @@ browsershots.org#@#.advert_area
 ||ogrootoaloamept.net^
 ||ogscumkte.com^
 ||ogtcggtsbulfs.online^
+||ogtsesfvshtsk.website^
 ||oguaumtdjyqoe.online^
 ||ogvaqxjzfm-n.top^
 ||ogvwbovkgwbn.top^
@@ -42209,6 +42217,7 @@ browsershots.org#@#.advert_area
 ||ptlufbanslsse.website^
 ||ptlwm.com^
 ||ptlwmstc.com^
+||ptmbqrzsbevkh.store^
 ||ptmnd.com^
 ||ptnmmhicosg.net^
 ||ptoafauz.net^
@@ -48777,6 +48786,7 @@ browsershots.org#@#.advert_area
 ||tvprocessing.com^
 ||tvrqlfdtfxtsh.space^
 ||tvsvmmik.com^
+||tvuaaetfx.com^
 ||tvwxwboysflvt.website^
 ||tvxzuiiddkbqy.online^
 ||twaeppdjvb.com^
@@ -48985,6 +48995,7 @@ browsershots.org#@#.advert_area
 ||uhedsplo.com^
 ||uhegarberetrof.com^
 ||uhfdsplo.com^
+||uhhdkizbbjmmr.space^
 ||uhlelvypjm.com^
 ||uhlomzqpdtduv.space^
 ||uhnrcmlqloxij.site^
@@ -51943,6 +51954,7 @@ browsershots.org#@#.advert_area
 ||yavli.com^
 ||yawnfreakishnotably.com^
 ||yawnfulharpa.com^
+||yawning-setting.pro^
 ||yawninginsect.pro^
 ||yawningloss.com^
 ||yawnynumis.shop^
@@ -64205,7 +64217,7 @@ tokder.org###ssss
 stocktwits.com###st-bottom-content
 torrentgalaxy.to###startad
 geekwire.com###startup-resources-sidebar
-si.com###static-top-ad-placeholder_1
+fansided.com,si.com###static-top-ad-placeholder_1
 tvtropes.org###stick-cont
 dvdsreleasedates.com###sticky
 guelphmercury.com###sticky-ad-1
@@ -67213,7 +67225,7 @@ blanktext.co,finbold.com,gizmodo.com,kotaku.com,op.gg,outsideonline.com,radio.ne
 radiome.*##.min-h-\[250px\].mx-auto.w-full.hidden.my-1.lg\:flex.center-children
 uwufufu.com##.min-h-\[253px\]
 charlieintel.com,dexerto.com##.min-h-\[278px\]
-thenewdaily.com.au##.min-h-\[280px\]
+fansided.com,thenewdaily.com.au##.min-h-\[280px\]
 republicworld.com##.min-h-\[290px\].flex.justify-center.items-center
 uwufufu.com##.min-h-\[300px\]
 inc.com##.min-h-\[4000px\].second-scroll-container
