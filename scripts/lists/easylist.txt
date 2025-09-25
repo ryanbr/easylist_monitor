@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Version: 202509242245
+! Version: 202509250118
 ! Title: EasyList
-! Last modified: 24 Sep 2025 22:45 UTC
+! Last modified: 25 Sep 2025 01:18 UTC
 ! Expires: 4 days (update frequency)
-! Commit: c42f9c0d055c89799de2550b11e72295a94af4f0
+! Commit: b1795a517be7e0e5092bece51bc1bea7615638ee
 ! *** easylist:template_header.txt ***
 ! 
 ! Please report any unblocked adverts or problems
@@ -4584,6 +4584,7 @@ _800x80_
 ###ntvads
 ###openx-text-ad
 ###openx-widget
+###outstream_connatix_container
 ###ovadsense
 ###overlay-ad-bg
 ###overlay_ad
@@ -15367,6 +15368,7 @@ slickdeals.net#@#a[href*="adzerk.net"]
 sweetdeals.com#@#a[href*="https://www.sweetdeals.com/"] img
 legacy.com#@#a[href^="http://pubads.g.doubleclick.net/"]
 canstar.com.au,mail.yahoo.com#@#a[href^="https://ad.doubleclick.net/"]
+cars.com#@#a[href^="https://adclick.g.doubleclick.net/"]
 badoinkvr.com#@#a[href^="https://badoinkvr.com/"]
 xbdeals.net#@#a[href^="https://click.linksynergy.com/"]
 naughtyamerica.com#@#a[href^="https://natour.naughtyamerica.com/track/"]
@@ -15689,6 +15691,7 @@ browsershots.org#@#.advert_area
 ||26q4nn691.de^
 ||27352a740a.com^
 ||27igqr8b.de^
+||2830022a41.com^
 ||2838a86e6c.com^
 ||28b905d522.com^
 ||28c15cf09c.com^
@@ -18053,6 +18056,7 @@ browsershots.org#@#.advert_area
 ||aojhtyvd.com^
 ||aojlgmylzzoyq.top^
 ||aokgbiekzlqne.website^
+||aokxcojgnjjkv.online^
 ||aokxjkrmw.net^
 ||aoliterzgyhnv.website^
 ||aomgyawovbmw.top^
@@ -22467,6 +22471,7 @@ browsershots.org#@#.advert_area
 ||colentkeruing.top^
 ||colfoxmurrhas.click^
 ||coliassfeurytheme.com^
+||coliessapinda.cfd^
 ||collatent.rest^
 ||collectbladders.com^
 ||collection-day.com^
@@ -23280,6 +23285,7 @@ browsershots.org#@#.advert_area
 ||ctwmed.com^
 ||ctzsryncxsdkg.site^
 ||cubageostrich.com^
+||cubagesteeny.shop^
 ||cubapringle.click^
 ||cubbiesfeasten.click^
 ||cubersdope.life^
@@ -24374,6 +24380,7 @@ browsershots.org#@#.advert_area
 ||dikeprotectorencyclopaedia.com^
 ||dikersguzul.world^
 ||dikseeptozo.net^
+||dilagatha.life^
 ||dilatenine.com^
 ||diligentairline.pro^
 ||diligentcloset.com^
@@ -25738,6 +25745,7 @@ browsershots.org#@#.advert_area
 ||efvedjhdwmmcj.store^
 ||efvhgnxbgiwxa.site^
 ||efwukoulnhdluki.org^
+||efxumler.com^
 ||efykoaeajpzvy.site^
 ||egcqpvjtuvqk.com^
 ||egcuxefgvsjpw.online^
@@ -26853,6 +26861,7 @@ browsershots.org#@#.advert_area
 ||f10f9df901.com^
 ||f1617d6a6a.com^
 ||f1851c0962.com^
+||f18ddd0d1a.com^
 ||f23d7665ac.com^
 ||f29c4af968.com^
 ||f3010e5e7a.com^
@@ -27160,6 +27169,7 @@ browsershots.org#@#.advert_area
 ||fef86b659b.com^
 ||fefezjvaxkoqi.website^
 ||fefinegoldforeyes.com^
+||fegori.xyz^
 ||fehlqppruztrc.site^
 ||feignoccasionedmound.com^
 ||feijsojvphjqh.online^
@@ -27457,6 +27467,7 @@ browsershots.org#@#.advert_area
 ||fjpsodahfmshv.website^
 ||fjtedtxqagubja.com^
 ||fjutxytvnrfxl.site^
+||fjwdlijdyntkc.store^
 ||fjxiqjmutcgqo.store^
 ||fjxnlcppq.com^
 ||fjxxuccmjexrx.site^
@@ -29320,6 +29331,7 @@ browsershots.org#@#.advert_area
 ||gousoachahapt.com^
 ||goutee.top^
 ||goutslollup.world^
+||gouwodouzuy.com^
 ||gouzoptemus.net^
 ||govebecap.world^
 ||governmentlevityintroduction.com^
@@ -29817,6 +29829,7 @@ browsershots.org#@#.advert_area
 ||gvtdzbtjjqchi.website^
 ||gvtuctmstgxv.com^
 ||gwallet.com^
+||gwanmuopwaw.com^
 ||gwbjoieneuqb.com^
 ||gwbone-cpw.today^
 ||gwfwopvvtqmfh.space^
@@ -31888,6 +31901,7 @@ browsershots.org#@#.advert_area
 ||initiategunpowder.com^
 ||injzufavkuark.space^
 ||inkblotconusor.com^
+||inkeddeul.rest^
 ||inkestyle.net^
 ||inkfeedmausoleum.com^
 ||inkhornhutuktu.rest^
@@ -32111,6 +32125,7 @@ browsershots.org#@#.advert_area
 ||ioredi.com^
 ||iornjqfdcrjjy.store^
 ||iosjscxobtbkk.store^
+||iothkkqpgplrc.website^
 ||iotohcaxbfnzb.site^
 ||iotwyxhnjyw.com^
 ||iouyechctsbmz.vip^
@@ -32586,6 +32601,7 @@ browsershots.org#@#.advert_area
 ||jbvoejzmaqqjj.top^
 ||jbvoejzmaqwzl.top^
 ||jbvoucpj.xyz^
+||jbwydvrl.net^
 ||jbxgbdetzfgpn.space^
 ||jbxrcjsmhfm.com^
 ||jbzmwqmwqyejw.top^
@@ -32861,6 +32877,7 @@ browsershots.org#@#.advert_area
 ||jlqakyvqsyh.com^
 ||jlqnbbbvjoqzj.top^
 ||jlqnbbbvjozoz.top^
+||jltczmewqabda.online^
 ||jlvgqlyyooabb.top^
 ||jlvgqlyyooamz.top^
 ||jlvsspddgklhp.space^
@@ -32935,6 +32952,7 @@ browsershots.org#@#.advert_area
 ||joglomsexurgod.net^
 ||jogryvgycqjph.store^
 ||johannatailor.com^
+||johnianthoman.qpon^
 ||joinedvalerin.shop^
 ||joinhitched.cyou^
 ||joiningalhagi.click^
@@ -36964,6 +36982,7 @@ browsershots.org#@#.advert_area
 ||mogsparled.life^
 ||moiernonpaid.com^
 ||moiestdespoil.click^
+||moiledorient.click^
 ||moisonunfamed.shop^
 ||moistenmanoc.com^
 ||moistureretrievalnorm.com^
@@ -43238,6 +43257,7 @@ browsershots.org#@#.advert_area
 ||qwoeuhoeav.com^
 ||qwpsgqyzrzcr.life^
 ||qwrwawwlrlkyr.top^
+||qwrwawwlrzayz.top^
 ||qwrwawwlrzjvo.top^
 ||qwrwawwlrzjyw.top^
 ||qwrwhosailedbe.info^
@@ -44555,6 +44575,7 @@ browsershots.org#@#.advert_area
 ||rmzkqkvvrqqzk.top^
 ||rmzpwvgiwcpcm.space^
 ||rmzsglng.com^
+||rnbkuydkblend.site^
 ||rnccnwtekuerb.space^
 ||rndchandelureon.com^
 ||rndhaunteran.com^
@@ -45798,6 +45819,7 @@ browsershots.org#@#.advert_area
 ||serch26.biz^
 ||sereanstanza.com^
 ||seredobjet.cfd^
+||serenedust.pro^
 ||serenitymareaffection.com^
 ||serfismaryls.help^
 ||seriatetawing.cfd^
@@ -46459,6 +46481,7 @@ browsershots.org#@#.advert_area
 ||snithykurgan.qpon^
 ||snjgbykak.com^
 ||snjjfdfzvkcdp.online^
+||snljexumhfcyx.online^
 ||snomoneyandf.com^
 ||snoodslinable.digital^
 ||snoopundesirable.com^
@@ -47904,6 +47927,7 @@ browsershots.org#@#.advert_area
 ||theorboswear.help^
 ||thepartnerpleasurs.com^
 ||theplayadvisor.com^
+||thereare.cfd^
 ||thereforetreadvoluntarily.com^
 ||theretounstuff.cyou^
 ||theriannaevi.shop^
@@ -48753,6 +48777,7 @@ browsershots.org#@#.advert_area
 ||tuckedtucked.com^
 ||tuckerheiau.com^
 ||tucwydhulyyuk.net^
+||tudrrynzkocdq.website^
 ||tuesdayfetidlit.com^
 ||tuesdaypeas.com^
 ||tuffoonincaged.com^
@@ -48941,6 +48966,7 @@ browsershots.org#@#.advert_area
 ||uafkcvpvvelp.com^
 ||uaivqzpqzehth.love^
 ||uakarisigneur.com^
+||uaofdxdjqrirl.com^
 ||uaomfbzuiavmd.website^
 ||uaqjsohhkyppq.net^
 ||uaupemachos.rest^
@@ -50111,6 +50137,7 @@ browsershots.org#@#.advert_area
 ||visiblegains.com^
 ||visiblejoseph.com^
 ||visiblemeasures.com^
+||visitarkqr.click^
 ||visitcrispgrass.com^
 ||visiteeuntile.life^
 ||visitingmargaretantony.com^
@@ -52378,6 +52405,7 @@ browsershots.org#@#.advert_area
 ||yusgoonbncwiu.site^
 ||yut4is9b.xyz^
 ||yutbmrzewookl.website^
+||yutbpejoljhdpc.com^
 ||yuthecapstan.org^
 ||yuyykdjtkdpat.store^
 ||yvcchjdiqzpog.rocks^
@@ -53306,6 +53334,7 @@ browsershots.org#@#.advert_area
 ||offergate-software20.com^$document
 ||offergate-software6.com^$document
 ||offertops.info^$document
+||oglalavoodoo.world^$document
 ||ojrq.net^$document
 ||olopruy.com^$document
 ||omegaadblock.net^$document
@@ -53548,6 +53577,7 @@ browsershots.org#@#.advert_area
 ||violationphysics.click^$document
 ||viralnewsbd.xyz^$document
 ||virelon.com^$document
+||visitarkqr.click^$document
 ||visualmirage.co^$document
 ||vizoalygrenn.com^$document
 ||vmgjt.click^$document
@@ -57220,6 +57250,7 @@ browsershots.org#@#.advert_area
 ||ofredirect.com^$popup
 ||ofseedotom.com^$popup
 ||oghqvffmnt.com^$popup
+||oglalavoodoo.world^$popup
 ||ogrepsougie.net^$popup
 ||ogtrk.net^$popup
 ||ohrdsplu.com^$popup
@@ -58295,6 +58326,7 @@ browsershots.org#@#.advert_area
 ||viralnewsbd.xyz^$popup
 ||virelon.com^$popup
 ||visit-website.com^$popup
+||visitarkqr.click^$popup
 ||visitstats.com^$popup
 ||vizoalygrenn.com^$popup
 ||vkcdnservice.com^$popup
@@ -64046,7 +64078,6 @@ nzherald.co.nz###oneroof_nzh_homepage
 kohls.com###open-drawer
 op.gg###opgg-kit-house-image-banner
 livestreamfails.com###oranum_livefeed_container_0
-scrippsnews.com,wmar2news.com###outstream_connatix_container
 powvideo.net,streamplay.to,uxstyle.com###overlay
 megacloud.tv###overlay-center
 rabbitstream.net###overlay-container
@@ -67609,7 +67640,7 @@ motachashma.com,ordertracker.com##.partnerbanner
 bundesliga.com##.partnerbar
 freshnewgames.com##.partnercontent_box
 investopedia.com##.partnerlinks
-2oceansvibe.com,asianlemansseries.com,speedcafe.com,travelweekly.com##.partners
+2oceansvibe.com,asianlemansseries.com,invictaracing.com,speedcafe.com,travelweekly.com##.partners
 letsgodigital.org,letsgomobile.org##.partners-bar
 cbn.com##.partners-block
 practicalecommerce.com##.partners-sidebar
@@ -68028,6 +68059,7 @@ freewebarcade.com##.rxads
 freewebarcade.com##.rxse
 aerotime.aero##.s-banner
 bleepingcomputer.com##.s-ou-wrap
+bigskyconf.com##.s-sponsors
 hope1032.com.au##.s-supported-by
 japantoday.com##.s10r
 nodejs.libhunt.com##.saashub-ad
