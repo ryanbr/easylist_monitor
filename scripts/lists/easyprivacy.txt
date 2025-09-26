@@ -1,9 +1,9 @@
 [Adblock Plus 1.1]
-! Version: 202509252243
+! Version: 202509260126
 ! Title: EasyPrivacy
-! Last modified: 25 Sep 2025 22:43 UTC
+! Last modified: 26 Sep 2025 01:26 UTC
 ! Expires: 4 days (update frequency)
-! Commit: c6e0dea3a3911f9e776a90d45a42a0503cb19a2a
+! Commit: aab4f609c76d0343bb93641f64e7425fd4a16955
 ! *** easylist:template_header.txt ***
 ! 
 ! Please report any unblocked adverts or problems
@@ -930,6 +930,7 @@
 /fbpixel.js
 /fe_logger?
 /feature/metrics$xmlhttprequest
+/federated-analytics.all.min.js
 /figanalytics-short-ttl.js
 /fingerprint-3.4.1.js
 /fingerprint.js$domain=~github.com
@@ -6752,6 +6753,7 @@ omni.soundestlink.com$image
 ||clarifyverse.com^
 ||classicnotebook.com^
 ||cleanhaircut.com^
+||climbingright.com^
 ||cloisteredcurve.com^
 ||cloudguppy.com^
 ||cloudhustles.com^
