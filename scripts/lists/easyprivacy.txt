@@ -1,9 +1,9 @@
 [Adblock Plus 1.1]
-! Version: 202509291300
+! Version: 202509291440
 ! Title: EasyPrivacy
-! Last modified: 29 Sep 2025 13:00 UTC
+! Last modified: 29 Sep 2025 14:40 UTC
 ! Expires: 4 days (update frequency)
-! Commit: f8428654570e08b879f98d83eb4822747d1bf819
+! Commit: 44527773741a11db68f2e76ce542add7df04db81
 ! *** easylist:template_header.txt ***
 ! 
 ! Please report any unblocked adverts or problems
@@ -54933,6 +54933,7 @@ bitdefender.com##body[style="opacity: 0;"]:style(opacity: 1 !important;)
 @@||useinsider.com/ins.js$domain=pizzahut.jp
 @@||user.userguiding.com/sdk/identify$xmlhttprequest,domain=xaris.ai
 @@||webcdn.stream.ne.jp^*/referrer.js$domain=stream.ne.jp
+@@||wf.typesquare.com^$font,domain=morisawafonts.com
 @@||yjtag.yahoo.co.jp/tag?$script,domain=bousai.yahoo.co.jp
 @@||yu.xyz.mn/images/event.gif?$image,~third-party
 @@||zinro.net/m/log.php
