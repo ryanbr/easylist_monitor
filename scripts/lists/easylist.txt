@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Version: 202510060259
+! Version: 202510060448
 ! Title: EasyList
-! Last modified: 06 Oct 2025 02:59 UTC
+! Last modified: 06 Oct 2025 04:48 UTC
 ! Expires: 4 days (update frequency)
-! Commit: d0746ae3aa1d33c52da2766483fe921a9779a35b
+! Commit: c0be7ef1f2e82dc1c0ee3f2a6ba0d344529d7969
 ! *** easylist:template_header.txt ***
 ! 
 ! Please report any unblocked adverts or problems
@@ -4636,7 +4636,6 @@ _800x80_
 ###personalization_ads
 ###pgAdWrapper
 ###ph_ad
-###player-ads
 ###player-advert
 ###player-advertising
 ###player-below-advert
@@ -18000,6 +17999,7 @@ browsershots.org#@#.advert_area
 ||amylo.site^
 ||amyousocclude.cyou^
 ||amyrolrebob.cfd^
+||amzrjywmzljvj.top^
 ||amzrjywmzlqlr.top^
 ||amzrjyzjolzvm.top^
 ||anabolyjarveys.digital^
@@ -19427,6 +19427,7 @@ browsershots.org#@#.advert_area
 ||bbcrgate.com^
 ||bbd834il.de^
 ||bbhmawwj.com^
+||bbimacfomotju.com^
 ||bbipawjflxpct.site^
 ||bbiprljq.com^
 ||bbjqvwbdozgcf.site^
@@ -24910,6 +24911,7 @@ browsershots.org#@#.advert_area
 ||dvattbwxiofrk.site^
 ||dvdjtxgcokydc.online^
 ||dvfritvgogdkr.space^
+||dvjkexyijbjbg.site^
 ||dvjtalcvxbncokk.com^
 ||dvnhgkrzyxlzd.site^
 ||dvpiogikqpyrj.net^
@@ -28980,6 +28982,7 @@ browsershots.org#@#.advert_area
 ||gukmodukuleqasfo.com^
 ||gukmodukuleqasfors.org^
 ||gukrelrock.net^
+||gulchkiekie.cyou^
 ||gulfierboozing.world^
 ||gulioamsivgik.site^
 ||gulliesdamozel.cfd^
@@ -29400,6 +29403,7 @@ browsershots.org#@#.advert_area
 ||hdlpapujhjwrl.com^
 ||hdoditwa.xyz^
 ||hdphsinaijzjp.online^
+||hdppc.com^
 ||hdpreview.com^
 ||hdqxbeihymhut.online^
 ||hdsodgbcdpphb.store^
@@ -30492,6 +30496,7 @@ browsershots.org#@#.advert_area
 ||ieqdrtjjukp.net^
 ||iequiguknwrsk.store^
 ||iesqbiyuiiccz.online^
+||ietwzcakupkfs.store^
 ||ietyofedinj89yewtburgh.com^
 ||iewixvvsbfkwd.world^
 ||iewjctcinxthi.space^
@@ -32869,6 +32874,7 @@ browsershots.org#@#.advert_area
 ||kpvlhacvplbci.site^
 ||kq272lw4c.com^
 ||kqbjdvighp.com^
+||kqbkkyqv.com^
 ||kqboyauwwixla.space^
 ||kqdmpnqlefncp.site^
 ||kqejazglxkwta.space^
@@ -35599,6 +35605,7 @@ browsershots.org#@#.advert_area
 ||mormyregrackle.help^
 ||morningstraws.com^
 ||morsurecobang.world^
+||mortifiedassociation.pro^
 ||mortifiedcourse.com^
 ||mortifiedmom.com^
 ||mortimersmiles.com^
@@ -37385,6 +37392,7 @@ browsershots.org#@#.advert_area
 ||nztlzammtbqyd.today^
 ||nzwomoxfjcosy.store^
 ||nzxqdmladgibx.website^
+||nzyppdoppxpwb.website^
 ||nzyqdqbfixkmq.buzz^
 ||nzzdixglgsncv.site^
 ||nzzfhuyim.com^
@@ -39474,6 +39482,7 @@ browsershots.org#@#.advert_area
 ||percentagesubsequentprosper.com^
 ||percentscalespoorly.com^
 ||perceptpeperek.cyou^
+||perchwinter.com^
 ||percidfeeable.cyou^
 ||percussivedrip.com^
 ||perdmjdx.com^
@@ -39970,6 +39979,7 @@ browsershots.org#@#.advert_area
 ||pkazbknklrjtj.website^
 ||pkbujwbslc.com^
 ||pkcetjql.net^
+||pkcrklqxayaul.website^
 ||pkdvcmrjfscjr.space^
 ||pkehswqnitpvr.global^
 ||pkfftsxbv.com^
@@ -42003,6 +42013,7 @@ browsershots.org#@#.advert_area
 ||qtbqqrypghmme.store^
 ||qtcpvgdluotko.website^
 ||qtgfeyhcqcrhx.space^
+||qtgoiasqfgbgb.space^
 ||qtjlciojkhkfl.website^
 ||qtnljylmjmwpz.website^
 ||qtpwhuodcsbtt.space^
@@ -46003,6 +46014,7 @@ browsershots.org#@#.advert_area
 ||sprangromefoetus.com^
 ||sprattystubbly.help^
 ||sprayearthy.com^
+||sprdsefnyn.com^
 ||spreadingsinew.com^
 ||spreeuwpermian.digital^
 ||spriercorrals.help^
@@ -49377,6 +49389,7 @@ browsershots.org#@#.advert_area
 ||vcsxfynmtgwwj.global^
 ||vcsxmwpxo.com^
 ||vctcajeme.tech^
+||vcvbogndkwheb.space^
 ||vcxetmvjdgggi.store^
 ||vcxzp.com^
 ||vczfcmaxnqkby.club^
@@ -51378,6 +51391,7 @@ browsershots.org#@#.advert_area
 ||xcgkilnm.com^
 ||xchlleznintba.online^
 ||xcndoemtutgymmp.com^
+||xcougdnhiixge.site^
 ||xcowuheclvwryh.com^
 ||xcrghf.xyz^
 ||xctoquhnalqgn.vip^
@@ -51683,6 +51697,7 @@ browsershots.org#@#.advert_area
 ||xvlpksjchavbe.store^
 ||xvmtflyptiyjis.net^
 ||xvmyvbwgqnk.com^
+||xvolfkpkkzput.site^
 ||xvoqhsefm.net^
 ||xvpqmcgf.com^
 ||xvsypuik.com^
@@ -51977,6 +51992,7 @@ browsershots.org#@#.advert_area
 ||yiphail.qpon^
 ||yiptvlajyrmmc.top^
 ||yiqlnkvhjkyax.space^
+||yiuywkhqiyemsb.net^
 ||yizghfwqrbhgy.space^
 ||yjdzqszsqttiy.store^
 ||yjepztzvncndf.tech^
@@ -52762,6 +52778,7 @@ browsershots.org#@#.advert_area
 ||zxgjrlpmaqyek.website^
 ||zxhzhiaogwjknf.com^
 ||zxinihfgkdpfb.space^
+||zxnymrendoxms.space^
 ||zxttvkshqbded.space^
 ||zxvhxdpyordan.store^
 ||zxwzi.com^
