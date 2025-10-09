@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Version: 202510090311
+! Version: 202510090453
 ! Title: EasyList
-! Last modified: 09 Oct 2025 03:11 UTC
+! Last modified: 09 Oct 2025 04:53 UTC
 ! Expires: 4 days (update frequency)
-! Commit: 366be80d5782ba92bd74dc8cbfa97b525bf43d75
+! Commit: a264e4500ba60a73210f21daa521058555eecfd4
 ! *** easylist:template_header.txt ***
 ! 
 ! Please report any unblocked adverts or problems
@@ -17690,6 +17690,7 @@ browsershots.org#@#.advert_area
 ||akupmhxbzdhau.space^
 ||akutapro.com^
 ||akutyforemploej.com^
+||akvvkmqezvova.top^
 ||akvvkmqezvwlw.top^
 ||akvvltgfzmxvj.website^
 ||akwueerypuyi.com^
@@ -25538,6 +25539,7 @@ browsershots.org#@#.advert_area
 ||ehcdtcvzycdcy.website^
 ||ehceericjysgh.space^
 ||ehfeuvyalaxlm.online^
+||ehhvkgdfviw.com^
 ||ehillxjxfweiz.site^
 ||ehjlbjbbqsnct.website^
 ||ehlfnpduxldcy.online^
@@ -31825,6 +31827,7 @@ browsershots.org#@#.advert_area
 ||jattepush.com^
 ||jaucoawotaunee.net^
 ||jaukeepsaupsie.net^
+||jaukvogvxmise.store^
 ||jaunty-leadership.com^
 ||jauntyit.com^
 ||jauptoufivo.net^
@@ -33386,6 +33389,7 @@ browsershots.org#@#.advert_area
 ||kygwbcvevmaoz.store^
 ||kylhwlfq.com^
 ||kypjzznihczh.online^
+||kyqmbxxxmjw.net^
 ||kyqugqtxnwbq.com^
 ||kyriedowager.com^
 ||kyungclef.click^
@@ -37141,6 +37145,7 @@ browsershots.org#@#.advert_area
 ||njmfkbikilszt.space^
 ||njmhnurksjktt.buzz^
 ||njpwzgxksptql.website^
+||njsarhluoqxqo.store^
 ||njsxourgkanks.online^
 ||njtbmyyhwjaxo.online^
 ||njtfmqaexc.com^
@@ -38750,6 +38755,7 @@ browsershots.org#@#.advert_area
 ||oralismyelloch.com^
 ||oranegfodnd.com^
 ||orangeads.fr^
+||orangeassistant.pro^
 ||oraubsoux.net^
 ||orb92.com^
 ||orbengine.com^
@@ -42441,6 +42447,7 @@ browsershots.org#@#.advert_area
 ||qrqujzcdiarrk.store^
 ||qrquxbefwurmu.space^
 ||qrredraws.com^
+||qrrzkvqbcmqee.online^
 ||qrsghetto.cyou^
 ||qrsncgmcjerjx.site^
 ||qrtrdpegrswsw.com^
@@ -45838,6 +45845,7 @@ browsershots.org#@#.advert_area
 ||silpharapidly.com^
 ||siltsdespend.life^
 ||silverangleshookup.com^
+||silvermap.pro^
 ||similarlyabdomenwrestle.com^
 ||similarpresence.com^
 ||similorsetnet.digital^
@@ -50839,6 +50847,7 @@ browsershots.org#@#.advert_area
 ||wallpapersfacts.com^
 ||walruspractitioner.com^
 ||waltyallied.shop^
+||wamjaghxk.com^
 ||wamntavu.com^
 ||wampishbelly.world^
 ||wanderingbloke.com^
@@ -53538,6 +53547,7 @@ browsershots.org#@#.advert_area
 ||zzyxhvqjjtgxj.online^
 ||zzzjhkyprpsvl.store^
 ||zzzjvqzmkayve.top^
+||zzzmjfixezere.site^
 ! Anti-drainer eth phishing
 ||cdnweb3.pages.dev^
 ||certona.net^
@@ -55346,7 +55356,7 @@ browsershots.org#@#.advert_area
 ||stratos.blue^$third-party
 ||streamdefence.com^$third-party
 ||strossle.com^$third-party
-||succeedscene.com^$third-party,xmlhttprequest
+! ||succeedscene.com^$third-party
 ||super-traf.ru^$third-party
 ||supplyframe.com^$third-party
 ||surfe.pro^$third-party
