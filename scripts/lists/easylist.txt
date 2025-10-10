@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Version: 202510101054
+! Version: 202510101249
 ! Title: EasyList
-! Last modified: 10 Oct 2025 10:54 UTC
+! Last modified: 10 Oct 2025 12:49 UTC
 ! Expires: 4 days (update frequency)
-! Commit: 47a587893a4cd3584d7540237096391a005e2132
+! Commit: 13110ccf20b57ba130d0eeabbb6f77941ef837a3
 ! *** easylist:template_header.txt ***
 ! 
 ! Please report any unblocked adverts or problems
@@ -957,6 +957,9 @@ wss://www.*.xyz/ws^$third-party
 /prebidlink/*$script
 /tagman/*$domain=~abelssoft.de
 _prebid.js$script
+! trackwilltrk.com CNAME
+://r.*/s1/$subdocument,third-party
+://t.*/s1/$subdocument,third-party
 ! 
 &sadbl=1&abtg=$third-party
 &sadbl=1&chu=$third-party
@@ -21862,6 +21865,7 @@ browsershots.org#@#.advert_area
 ||cheeksognoura.net^
 ||cheephaimaihakr.net^
 ||cheepswoibe.qpon^
+||cheerfultell.pro^
 ||cheerfultrack.pro^
 ||cheerlessrelationswearisome.com^
 ||cheeroredraw.com^
@@ -22509,6 +22513,7 @@ browsershots.org#@#.advert_area
 ||coggieunwon.shop^
 ||cognatesyringe.com^
 ||cognizancesteepleelevate.com^
+||cogrrjdblji.net^
 ||cogzsatyhofvp.online^
 ||cohawaut.com^
 ||coherentchuckled.com^
@@ -24951,6 +24956,7 @@ browsershots.org#@#.advert_area
 ||drovedlenora.life^
 ||drsmediaexchange.com^
 ||drsmexa.xyz^
+||drtibnixidzrx.space^
 ||drtlgtrnqvnr.xyz^
 ||drubbedaloed.cfd^
 ||druej.com^
@@ -25717,6 +25723,7 @@ browsershots.org#@#.advert_area
 ||ekyimyfomkms.xyz^
 ||ekzrpjskeowcf.online^
 ||eladove.com^
+||elapmysgi.com^
 ||elapsejollyinsolence.com^
 ||elasticad.net^
 ||elasticalsdebatic.org^
@@ -26277,6 +26284,7 @@ browsershots.org#@#.advert_area
 ||ethecityonata.com^
 ||ethecityonatallcolu.org^
 ||ethena.online^
+||ethenemooneye.cfd^
 ||etheniccoarsen.com^
 ||ethicalfootball.pro^
 ||ethicel.com^
@@ -31949,6 +31957,7 @@ browsershots.org#@#.advert_area
 ||japaneseexceedinglysanctuary.com^
 ||japanhotties.jp^
 ||japbdpdmazimj.club^
+||japnagkac.com^
 ||japsihortoab.com^
 ||japw.cloud^
 ||jaqhbfzeufxgp.online^
@@ -32722,6 +32731,7 @@ browsershots.org#@#.advert_area
 ||jyzkut.com^
 ||jyzzwozoamjnj.top^
 ||jzbhqlgvsxdwb.store^
+||jzbvwqeowveyl.top^
 ||jzbvwqeowvlqw.top^
 ||jzeimirchegdf.site^
 ||jzleekzaovyeq.top^
@@ -33784,6 +33794,7 @@ browsershots.org#@#.advert_area
 ||lbbjokeqbzkqy.top^
 ||lbbjokeqbzqqj.top^
 ||lbbjokeqbzwqk.top^
+||lbdphmpwmwdzw.online^
 ||lbfpfffanlyzb.online^
 ||lbgklgbgjmbmy.top^
 ||lbkezllrokbev.top^
@@ -33809,6 +33820,7 @@ browsershots.org#@#.advert_area
 ||lbzyjmbvmkoov.top^
 ||lbzyjmbvmkovm.top^
 ||lbzyjmbvmkrvj.top^
+||lcbojuvjwbiebxo.com^
 ||lcbyixmmomlzh.space^
 ||lccboyojtdwq.xyz^
 ||lcdsheqvltdie.website^
@@ -34954,6 +34966,7 @@ browsershots.org#@#.advert_area
 ||lzlmmskqribu.com^
 ||lzmcyodoqgmrd.com^
 ||lzoqokmewrbkj.top^
+||lzsjauqvbc.com^
 ||lzvwybvvyroav.top^
 ||lzvwybvvyroqj.top^
 ||lzvwybvvyrqyk.top^
@@ -35242,6 +35255,7 @@ browsershots.org#@#.advert_area
 ||maternitybrainless.com^
 ||mathads.com^
 ||mathematicsefficiencyburnt.com^
+||mathematicswhineconvene.com^
 ||mathertaped.life^
 ||matildawu.online^
 ||matinshell.help^
@@ -39672,6 +39686,7 @@ browsershots.org#@#.advert_area
 ||painumoawhauste.net^
 ||pairchat.click^
 ||pairingpriori.com^
+||pairsdismissedralph.com^
 ||pairuthothi.com^
 ||paiwapanonauy.com^
 ||paiwena.xyz^
@@ -46608,6 +46623,7 @@ browsershots.org#@#.advert_area
 ||soloistneatly.com^
 ||solubleallusion.com^
 ||solujav.my^
+||solvemilitaryconsulate.com^
 ||somaloswifts.world^
 ||sombes.com^
 ||someclosing.com^
@@ -47132,6 +47148,7 @@ browsershots.org#@#.advert_area
 ||sthevoyager.org^
 ||stibiumalcosol.cyou^
 ||sticalsdebaticalfe.info^
+||stickingallot.com^
 ||stickyadstv.com^
 ||stiesboxtop.top^
 ||stifeyuruna.life^
@@ -47189,6 +47206,7 @@ browsershots.org#@#.advert_area
 ||stoorturtun.net^
 ||stootsou.net^
 ||stophurtfulunconscious.com^
+||stoppedgipsyundoubtedly.com^
 ||stopsoverreactcollations.com^
 ||storage-ad.com^
 ||storageimagedisplay.com^
@@ -47463,6 +47481,7 @@ browsershots.org#@#.advert_area
 ||supposedsite.com^
 ||suppressedbottlesenjoyable.com^
 ||suppresseduphousing.com^
+||suppresswhileobvious.com^
 ||supqajfecgjv.com^
 ||supremesavvyswan.com^
 ||suptessnects.com^
@@ -50828,6 +50847,7 @@ browsershots.org#@#.advert_area
 ||voanerehazim.net^
 ||voawhoowhapooth.net^
 ||vocabularypotsate.com^
+||vocationbunk.com^
 ||vocrojjwugeno.website^
 ||vodobyve.pro^
 ||vodumkilting.shop^
@@ -51235,6 +51255,7 @@ browsershots.org#@#.advert_area
 ||warslerascill.help^
 ||warthcoes.com^
 ||wartplisse.help^
+||waruggeefiljt.space^
 ||warumbistdusoarm.space^
 ||wary-corner.com^
 ||wary-prior.com^
@@ -51593,6 +51614,7 @@ browsershots.org#@#.advert_area
 ||wheelssightsdisappointed.com^
 ||wheensmisdone.shop^
 ||wheexaivaurda.com^
+||whejoolreekor.com^
 ||wheksoalookapo.com^
 ||whenasloppy.rest^
 ||whencewhence.com^
@@ -51862,6 +51884,7 @@ browsershots.org#@#.advert_area
 ||wjiebpblheplc.site^
 ||wjljwqbzjlkkr.top^
 ||wjljwqbzjloqz.top^
+||wjmepiytpjiki.website^
 ||wjmgjvgjvmzyn.top^
 ||wjoknteqd.com^
 ||wjqtqnstdthrb.website^
@@ -72607,6 +72630,7 @@ javtrailers.com###popunderLinkkkk
 pornstargold.com###popup
 jav321.com###popup-container
 sextvx.com###porntube_hor_bottom_ads
+javgg.*###post-999999
 katestube.com###pre-block
 sleazyneasy.com###pre-spots
 mopoga.com###preGamescontainer
@@ -73255,7 +73279,7 @@ pervclips.com,vikiporn.com##.remove-spots
 cam4.com##.removeAds
 cumlouder.com##.resumecard
 porndroids.com##.resumecard__banner
-abjav.com,bdsmx.tube,hotmovs.com,javdoe.fun,javdoe.sh,javtape.site,onlyporn.tube,pornstarwarshentai.com,porntop.com,xnxx.army##.right
+abjav.com,aniporn.com,bdsmx.tube,hotmovs.com,javdoe.fun,javdoe.sh,javtape.site,onlyporn.tube,pornstarwarshentai.com,porntop.com,xnxx.army##.right
 infospiral.com##.right-content
 pornoreino.com##.right-side
 definebabe.com##.right-sidebar
@@ -73274,8 +73298,8 @@ porngals4.com##.sb250
 pornflix.cc##.sbar
 7mmtv.sx,7tv045.com,7tv047.com##.set_height_250
 sextb.date##.sextb_300
-gay-streaming.com,gayvideo.me##.sgpb-popup-dialog-main-div-wrapper
-gay-streaming.com,gayvideo.me##.sgpb-popup-overlay
+fullporno.site,gay-streaming.com,gayvideo.me##.sgpb-popup-dialog-main-div-wrapper
+fullporno.site,gay-streaming.com,gayvideo.me##.sgpb-popup-overlay
 paradisehill.cc##.shapka
 thehentai.net##.showAd
 h2porn.com##.side-spot
@@ -73790,6 +73814,7 @@ fetishshrine.com##.container > .heading:has(+ .bottom-content)
 porngames.com##.contentbox:has(a[href="javascript:void(0);"])
 porngames.com##.contentbox:has(iframe[src^="//"])
 kimochi.info##.gridlove-posts > .layout-simple:has(.gridlove-archive-ad)
+av01.tv##.group:has(> .relative.overflow-hidden.rounded-lg.bg-gray-900.cursor-pointer)
 jable.tv##.gutter-20 > .col-sm-4:has(> .video-img-box a[target="_blank"])
 tokyomotion.com##.is-gapless > .has-text-centered:has(> div > .adv)
 rule34video.com##.item.thumb:has(> [title="Advertisement"])
