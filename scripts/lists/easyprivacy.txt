@@ -1,9 +1,9 @@
 [Adblock Plus 1.1]
-! Version: 202510160305
+! Version: 202510160451
 ! Title: EasyPrivacy
-! Last modified: 16 Oct 2025 03:05 UTC
+! Last modified: 16 Oct 2025 04:51 UTC
 ! Expires: 4 days (update frequency)
-! Commit: 690e6879cbb0e37cfa6e5cd292e57f05020c6769
+! Commit: 387d3808426d7384027d70004e7c18080ba64147
 ! *** easylist:template_header.txt ***
 ! 
 ! Please report any unblocked adverts or problems
@@ -7153,6 +7153,7 @@ omni.soundestlink.com$image
 ||gloriousbeef.com^
 ||glowingmeadow.com^
 ||gluedpixel.com^
+||goddesslamps.com^
 ||godseedband.com^
 ||goldfishgrowth.com^
 ||goldstudies.com^
@@ -7285,6 +7286,7 @@ omni.soundestlink.com$image
 ||intentlens.com^
 ||internalcondition.com^
 ||internalsink.com^
+||inventorycache.com^
 ||inventtango.com^
 ||iotapool.com^
 ||irelandroad.com^
@@ -7454,6 +7456,7 @@ omni.soundestlink.com$image
 ||mindfulgem.com^
 ||mindlessmark.com^
 ||mineinvoice.com^
+||minibilling.com^
 ||minorcattle.com^
 ||minuteburst.com^
 ||miscreantmoon.com^
@@ -7520,6 +7523,7 @@ omni.soundestlink.com$image
 ||notcardboard.com^
 ||notconscious.com^
 ||notifyglass.com^
+||notrealcat.com^
 ||noundictionary.com^
 ||novaseekers.com^
 ||nowaymail.com^
