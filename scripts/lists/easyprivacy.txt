@@ -1,9 +1,9 @@
 [Adblock Plus 1.1]
-! Version: 202510161248
+! Version: 202510161453
 ! Title: EasyPrivacy
-! Last modified: 16 Oct 2025 12:48 UTC
+! Last modified: 16 Oct 2025 14:53 UTC
 ! Expires: 4 days (update frequency)
-! Commit: 8d6157faa230c6f4e39046a44764029e08bffbe5
+! Commit: 098bc371a9f8369ef8bd9b1f816bc9db5a594e9e
 ! *** easylist:template_header.txt ***
 ! 
 ! Please report any unblocked adverts or problems
@@ -54795,6 +54795,7 @@ bitdefender.com##body[style="opacity: 0;"]:style(opacity: 1 !important;)
 @@||tag.aticdn.net/piano-analytics.js$script,domain=toureiffel.paris
 @@||tra.scds.pmdstatic.net/sourcepoint/$domain=businessinsider.fr|caminteresse.fr|capital.fr|geo.fr|voici.fr
 @@||trustcommander.net/iab-tcfapi/tcfapi.js$script,domain=tf1info.fr
+@@||usine-digitale.fr/*/stormcaster.js$script,~third-party
 ! 
 ! ---------- Arabic ----------
 ! 
