@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Version: 202510170654
+! Version: 202510170854
 ! Title: EasyList
-! Last modified: 17 Oct 2025 06:54 UTC
+! Last modified: 17 Oct 2025 08:54 UTC
 ! Expires: 4 days (update frequency)
-! Commit: 08eed7d7028254c5a8041dc29563a9a28f1e17ff
+! Commit: a43628021d1e97f61a86e9cd64137a83b18d3b50
 ! *** easylist:template_header.txt ***
 ! 
 ! Please report any unblocked adverts or problems
@@ -679,6 +679,7 @@
 /sticky_ads.js$script
 /stickyad.js$script
 /stickyads.js$script
+/storage/js/videojs.sda.js$script
 /style_ad.css$stylesheet
 /suurl4.php?$third-party
 /suurl5.php$third-party
@@ -713,7 +714,6 @@
 /videoads/*$~xmlhttprequest
 /videojs.ads-$script,stylesheet
 /videojs.ads.css$stylesheet
-/videojs.sda.js$script
 /view/ad/*$subdocument
 /view_banner.php$image
 /virtuagirlhd.$image
@@ -991,6 +991,7 @@ _prebid.js$script
 /anti-adblock/*$~stylesheet
 /blockblock/blockblock.jquery.js$script
 /jgcabd-detect-$script
+/js/adblockdetect.js$script
 /no-adblock/*$script,stylesheet
 ! *** easylist:easylist/easylist_general_block_dimensions.txt ***
 -120-600.
@@ -23802,6 +23803,7 @@ browsershots.org#@#.advert_area
 ||d5fb078bf9.com^
 ||d603b6ccf0.com^
 ||d71194ad75.com^
+||d77155313b.com^
 ||d8b03d6392.com^
 ||d8c04a25e8.com^
 ||d8c9bf3664.com^
@@ -25419,6 +25421,7 @@ browsershots.org#@#.advert_area
 ||duragyntvdcxs.space^
 ||durationwhoopbegun.com^
 ||durbanalbus.digital^
+||duregqgfvravp.space^
 ||duretnitriry.cyou^
 ||durhbvlfkhnln.store^
 ||duringcereal.com^
@@ -25456,6 +25459,7 @@ browsershots.org#@#.advert_area
 ||dvqldhfeowiyh.online^
 ||dvsoyszddzzfi.website^
 ||dvulz.org^
+||dvuonsjkeeief.website^
 ||dvvndprgsjdni.store^
 ||dvwedvktkcsvw.vip^
 ||dvxasfriw.com^
@@ -25665,6 +25669,7 @@ browsershots.org#@#.advert_area
 ||easythedate-casual.com^
 ||eatcarvedfootprints.com^
 ||eautifulasaweathercoc.org^
+||eavakddcdofik.site^
 ||eavefrom.net^
 ||eavesdroppingfurniture.com^
 ||eaxmvpgmvsazo.site^
@@ -26887,6 +26892,7 @@ browsershots.org#@#.advert_area
 ||expressmealdelivery.shop^
 ||exptlgooney.com^
 ||exqbxfzcrslqg.store^
+||exrcfdbcqiddp.space^
 ||exrtbsrv.com^
 ||exrzo.love^
 ||ext-jscdn.com^
@@ -29427,6 +29433,7 @@ browsershots.org#@#.advert_area
 ||gpcrn.com^
 ||gpfhlajkvdhvv.space^
 ||gpidiqhuncc.com^
+||gpjqjerjtp.com^
 ||gplansforourc.org^
 ||gplywfirosiwd.one^
 ||gpmznplrczobob.com^
@@ -29515,6 +29522,7 @@ browsershots.org#@#.advert_area
 ||gratisdescarga.xyz^
 ||gratpinkeen.rest^
 ||grauglak.com^
+||graumsocairto.com^
 ||graustolsaitch.net^
 ||graustoumtib.net^
 ||grautaupsetu.net^
@@ -31340,6 +31348,7 @@ browsershots.org#@#.advert_area
 ||ibmfunk.com^
 ||ibmwqchwzvlmd.online^
 ||ibnxviddjsqgq.store^
+||ibpoldddyveqhjy.com^
 ||ibrapush.com^
 ||ibryte.com^
 ||ibsxnvottfiou.space^
@@ -34810,6 +34819,7 @@ browsershots.org#@#.advert_area
 ||licenceconsiderably.com^
 ||licfbzovbjkuz.space^
 ||lichiobdt.click^
+||licluumkehiwi.store^
 ||lidburger.com^
 ||liddedodoom.rest^
 ||liddenlywilli.org^
@@ -38147,6 +38157,7 @@ browsershots.org#@#.advert_area
 ||ninase.sbs^
 ||ninetyfitful.com^
 ||ninetyninesec.com^
+||ninilfwodxdyj.website^
 ||ninontoising.com^
 ||niobeansarees.life^
 ||niolpwvcjjfvj.website^
@@ -39098,6 +39109,7 @@ browsershots.org#@#.advert_area
 ||ocvrulo.digital^
 ||ocwutmrfbsrwy.store^
 ||ocxelruljrn.xyz^
+||odakhzdbrzbny.website^
 ||odalrevaursartu.net^
 ||odbsmbtdcjuzp.site^
 ||odcqpbmqalyulou.com^
@@ -43812,6 +43824,7 @@ browsershots.org#@#.advert_area
 ||qtgfeyhcqcrhx.space^
 ||qtgoiasqfgbgb.space^
 ||qtjlciojkhkfl.website^
+||qtmcctlezxmvt.online^
 ||qtnljylmjmwpz.website^
 ||qtpwhuodcsbtt.space^
 ||qtsaziwgi.com^
@@ -49304,6 +49317,7 @@ browsershots.org#@#.advert_area
 ||tetteruroodal.click^
 ||tetyerecently.com^
 ||tevfosejxalzh.website^
+||tevgrruahhvgy.website^
 ||tevryvlkjnqec.website^
 ||texsk.com^
 ||texsxhprkkljb.rocks^
@@ -49327,6 +49341,7 @@ browsershots.org#@#.advert_area
 ||tftrm.com^
 ||tfwjtrkuueobz.online^
 ||tfxswxtxcickc.space^
+||tgcapgsjdizdv.website^
 ||tgel2ebtx.ru^
 ||tgfkqpvxzcfxq.world^
 ||tggpgfvgyhgps.website^
