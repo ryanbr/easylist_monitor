@@ -1,9 +1,9 @@
 [Adblock Plus 1.1]
-! Version: 202510181256
+! Version: 202510181454
 ! Title: EasyPrivacy
-! Last modified: 18 Oct 2025 12:56 UTC
+! Last modified: 18 Oct 2025 14:54 UTC
 ! Expires: 4 days (update frequency)
-! Commit: d671878b2c8e453f965baf9a2a12e1195dbd4c02
+! Commit: fc6a2ca58b2796a625ec801f3a6e8ac79bc87e1e
 ! *** easylist:template_header.txt ***
 ! 
 ! Please report any unblocked adverts or problems
@@ -6424,9 +6424,6 @@ omni.soundestlink.com$image
 ||nametraff.com^$third-party
 ||nerohut.com^$third-party
 ||nfwebminer.com^$third-party
-||nimiq.com^$third-party
-||nimiqpool.com^$third-party
-||nimpool.io^$third-party
 ||notmining.org^$third-party
 ||omine.org^$third-party
 ||openguid.org^$third-party
@@ -6435,7 +6432,6 @@ omni.soundestlink.com$image
 ||papoto.com^$third-party
 ||party-vqgdyvoycc.now.sh^$third-party
 ||pertholin.com^$third-party
-||pool.nimiq.watch^$third-party
 ||pr0gram.org^$third-party
 ||reauthenticator.com^
 ||rocks.io^$third-party
@@ -6452,7 +6448,6 @@ omni.soundestlink.com$image
 ||stonecalcom.com^$third-party
 ||str1kee.com^
 ||supportxmr.com^$third-party
-||sushipool.com^$third-party
 ||swiftmining.win^$third-party
 ||tercabilis.info^
 ||thewhizproducts.com^$third-party
