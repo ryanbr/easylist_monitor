@@ -1,9 +1,9 @@
 [Adblock Plus 1.1]
-! Version: 202510220614
+! Version: 202510220803
 ! Title: EasyPrivacy
-! Last modified: 22 Oct 2025 06:14 UTC
+! Last modified: 22 Oct 2025 08:03 UTC
 ! Expires: 4 days (update frequency)
-! Commit: 2f1a47857c39e0eeff0a7115c3323e10e09342fc
+! Commit: d9706a66316f836bd331a18c128f38e01f0a2bca
 ! *** easylist:template_header.txt ***
 ! 
 ! Please report any unblocked adverts or problems
@@ -54473,6 +54473,7 @@ bitdefender.com##body[style="opacity: 0;"]:style(opacity: 1 !important;)
 @@||palmettostatearmory.com/static/$script,~third-party
 @@||pals.pa.gov/vendor/analytics/$~third-party
 @@||parcel.app/webtrack.php?$~third-party
+@@||parliament.nz/*/stormcaster.js$script,~third-party
 @@||parsely.com/keys/$script,domain=wmmr.com|wrif.com
 @@||paypal.com/xoplatform/logger/api/logger$domain=play.leagueofkingdoms.com
 @@||paypalobjects.com/*/pageView.js$script,domain=paypal.com
