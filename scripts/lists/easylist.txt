@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Version: 202510301544
+! Version: 202510301738
 ! Title: EasyList
-! Last modified: 30 Oct 2025 15:44 UTC
+! Last modified: 30 Oct 2025 17:38 UTC
 ! Expires: 4 days (update frequency)
-! Commit: a63bda5c04a508133588739745842ba077c7758f
+! Commit: 149202f1b8a27fb524611ef4350144c7c3f0e8ce
 ! *** easylist:template_header.txt ***
 ! 
 ! Please report any unblocked adverts or problems
@@ -816,6 +816,7 @@ _reklama_$domain=~youtube.com
 ! l.wl.co scam on X
 /_meetups/r.php?click_id=$document
 ! Ad-Shield
+.com/players/*/-1/70/*?hash=-$script,third-party
 /ad-shield/e/*$script,third-party
 /anymanagerrecover.js
 ://0.www.*/player/*/a/$third-party,xmlhttprequest
@@ -16470,6 +16471,7 @@ browsershots.org#@#.advert_area
 ||aahingalette.com^
 ||aahpvdkakpska.online^
 ||aajhkzdwbmloi.today^
+||aajpntlpd.com^
 ||aakrwlikc.com^
 ||aalhjtdrhzqgu.site^
 ||aalpxgscssjnt.website^
@@ -19932,6 +19934,7 @@ browsershots.org#@#.advert_area
 ||bedodrioon.com^
 ||bedont.xyz^
 ||bedrapiona.com^
+||bedroulsustingi.com^
 ||bedsungoak.net^
 ||bedviojcrllpi.space^
 ||bedwaysunstoic.help^
@@ -22197,6 +22200,7 @@ browsershots.org#@#.advert_area
 ||ceget.xyz^
 ||cegifompifteefa.net^
 ||cehbmaknzpyic.store^
+||cehvroscn.com^
 ||ceibohan.help^
 ||cejaswati.com^
 ||cejckggvflvnf.space^
@@ -27272,6 +27276,7 @@ browsershots.org#@#.advert_area
 ||erthfeoveukrn.org^
 ||erucinundergo.cyou^
 ||eructedjoyhop.life^
+||erugosjoubert.cfd^
 ||eruxjtbqruaep.site^
 ||erwallowsisheha.com^
 ||erwflorcelkn.xyz^
@@ -31606,6 +31611,7 @@ browsershots.org#@#.advert_area
 ||hibids10.com^
 ||hidcolouredclink.com^
 ||hidden-fortune.pro^
+||hidden-paper.com^
 ||hiddengolf.pro^
 ||hiddenmilk.com^
 ||hiddenseet.com^
@@ -32258,6 +32264,7 @@ browsershots.org#@#.advert_area
 ||humoristshamrockzap.com^
 ||humpasylum.com^
 ||humpdecompose.com^
+||humpingunplain.shop^
 ||humro.site^
 ||humsoolt.net^
 ||humwatson.click^
@@ -32796,6 +32803,7 @@ browsershots.org#@#.advert_area
 ||ilumtoux.net^
 ||ilvumbonf.net^
 ||ilvumysnmlrvr.space^
+||ilxylgyphi.com^
 ||ilyaoipntdyol.space^
 ||ilyf4amifh.com^
 ||imageadvantage.net^
@@ -35412,6 +35420,7 @@ browsershots.org#@#.advert_area
 ||kragreparel.top^
 ||kraitbauld.cyou^
 ||krankenwagenmotor.com^
+||kraonwbi.com^
 ||krenkzfiuzryw.store^
 ||kreomfoq.com^
 ||kreps.xyz^
@@ -37817,6 +37826,7 @@ browsershots.org#@#.advert_area
 ||melodic-mess.com^
 ||melodramaticquery.com^
 ||melongatesdexterity.com^
+||melonslaid.help^
 ||melrxwyjn.com^
 ||memia.xyz^
 ||memksrjwjw.com^
@@ -39653,6 +39663,7 @@ browsershots.org#@#.advert_area
 ||njwfhenr.xyz^
 ||njzhrrgrkjsrl.space^
 ||njzwlqzpuxpcv.website^
+||nkavyuxjnilae.site^
 ||nkcpdrmwvgxqq.site^
 ||nkeepfetdnu.xyz^
 ||nkffaewmkgc.com^
@@ -41798,6 +41809,7 @@ browsershots.org#@#.advert_area
 ||pacteaten.com^
 ||paddlefidget.com^
 ||paddlemenu.com^
+||padinventoryvile.com^
 ||padlockmanners.com^
 ||padreedoulreeh.net^
 ||padsabs.com^
@@ -43931,6 +43943,7 @@ browsershots.org#@#.advert_area
 ||puerjtzvnpdmp.website^
 ||puffinskauris.help^
 ||puggedshushes.cyou^
+||pugglewinkel.cyou^
 ||pugmarksquiffy.com^
 ||pugmarktagua.com^
 ||pugsgivehugs.com^
@@ -44770,6 +44783,7 @@ browsershots.org#@#.advert_area
 ||qtpwhuodcsbtt.space^
 ||qtstwicbacsvl.com^
 ||qtutulebptizh.website^
+||qtymgbybuxtfi.online^
 ||qtytbmgil.com^
 ||quackedchevage.top^
 ||quackgraduation.com^
@@ -44979,6 +44993,7 @@ browsershots.org#@#.advert_area
 ||qylmbeojmzyez.top^
 ||qylyknxkeep.com^
 ||qymkbmjssadw.top^
+||qyoprobasxtbk.store^
 ||qypyleahjucze.com^
 ||qyqvxtufskevk.site^
 ||qyrkicaqiytxdml.com^
@@ -46787,6 +46802,7 @@ browsershots.org#@#.advert_area
 ||rxexiaam.guru^
 ||rxeyyesahhlyh.website^
 ||rxfjmmvjvnwxg.online^
+||rxgdrccvwuark.site^
 ||rxggkxdozyugf.space^
 ||rxgwcjrjbzzsw.website^
 ||rxiewfjyestco.website^
@@ -49283,6 +49299,7 @@ browsershots.org#@#.advert_area
 ||successesstudents.com^
 ||successorblushingplace.com^
 ||succubicocopan.cfd^
+||suchosfluxive.click^
 ||sucmahouckoo.com^
 ||sucnaegzvbrhu.site^
 ||sucocune.com^
@@ -51183,6 +51200,7 @@ browsershots.org#@#.advert_area
 ||ttributoraheadyg.org^
 ||ttrk.io^
 ||tttcraukuyqff.one^
+||ttukphqhic.com^
 ||ttusrifbdjqay.online^
 ||ttvshnuvy.net^
 ||ttwmed.com^
@@ -54108,6 +54126,7 @@ browsershots.org#@#.advert_area
 ||whimrjrilyixu.site^
 ||whimsical-section.com^
 ||whimsicalcoat.com^
+||whimsicaleast.com^
 ||whimsicalprofession.pro^
 ||whinemalnutrition.com^
 ||whingeearthen.life^
