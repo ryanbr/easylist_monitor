@@ -1,9 +1,9 @@
 [Adblock Plus 1.1]
-! Version: 202510300952
+! Version: 202510301132
 ! Title: EasyPrivacy
-! Last modified: 30 Oct 2025 09:52 UTC
+! Last modified: 30 Oct 2025 11:32 UTC
 ! Expires: 4 days (update frequency)
-! Commit: 66db4e01124e739d899369f51cedd92115a0b099
+! Commit: 1a09c771d9bececf5a87c4e6332062eb8c58a40f
 ! *** easylist:template_header.txt ***
 ! 
 ! Please report any unblocked adverts or problems
@@ -8345,6 +8345,7 @@ omni.soundestlink.com$image
 ||wildwoodavenue.com^
 ||wirecomic.com^
 ||wiredforcoffee.com^
+||wirenewsletter.com^
 ||wirypaste.com^
 ||wisedotcom.com^
 ||wispycity.com^
@@ -10829,6 +10830,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||invite.leanlab.co^
 ||invitejs.trustpilot.com^
 ||io.narrative.io/?$third-party
+||ip-check-perf.radar.cloudflare.com^
 ||ip.lovely-app.com^
 ||ip.momentummedia.com.au^
 ||ippen.space/idat
