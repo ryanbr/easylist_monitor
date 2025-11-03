@@ -1,9 +1,9 @@
 [Adblock Plus 1.1]
-! Version: 202511030558
+! Version: 202511030755
 ! Title: EasyPrivacy
-! Last modified: 03 Nov 2025 05:58 UTC
+! Last modified: 03 Nov 2025 07:55 UTC
 ! Expires: 4 days (update frequency)
-! Commit: 187d40c7d7dcb0100c98c78104839a536f60dee3
+! Commit: a12a012d39c982fa45abe023ff8c231eb7ad726f
 ! *** easylist:template_header.txt ***
 ! 
 ! Please report any unblocked adverts or problems
@@ -54757,6 +54757,7 @@ bitdefender.com##body[style="opacity: 0;"]:style(opacity: 1 !important;)
 @@||cbsi.map.fastly.net^
 @@||content.ingbank.pl^
 @@||ct.ddc.venmo.com.fpc.datadome.co^$domain=id.venmo.com
+@@||datadome.garena.com.first-party-js.datadome.co^$script,xmlhttprequest,domain=auth.garena.com
 @@||dd.blackhawknetwork.com.first-party-js.datadome.co^$domain=redeem.rewardlink.com
 @@||dd.wizzair.com.first-party-js.datadome.co^$domain=wizzair.com
 @@||gva.et-gv.fr^$script,domain=culture.gouv.fr
