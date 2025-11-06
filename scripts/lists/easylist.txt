@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Version: 202511060541
+! Version: 202511060735
 ! Title: EasyList
-! Last modified: 06 Nov 2025 05:41 UTC
+! Last modified: 06 Nov 2025 07:35 UTC
 ! Expires: 4 days (update frequency)
-! Commit: 68b7024bb05be6d7b817193b21598dcab4e063fd
+! Commit: 5b011c92e5b23970e144c53e61a9a619547855fc
 ! *** easylist:template_header.txt ***
 ! 
 ! Please report any unblocked adverts or problems
@@ -483,6 +483,7 @@
 /link?z=$subdocument
 /lmaz-ads-bannesr/*$script
 /mads.php$subdocument
+/mai-publisher-ads.js$script
 /maven/am.js$script
 /media/ads/*$image
 /media_ads/*$image
@@ -12179,6 +12180,8 @@ _800x80_
 ##.mad_adcontainer
 ##.magAd
 ##.magad
+##.mai-ad-unit-container
+##.mai-ad-video
 ##.main-ad
 ##.main-ad-container
 ##.main-ad-gallery
@@ -25575,6 +25578,7 @@ browsershots.org#@#.advert_area
 ||employerupsideliterally.com^
 ||empond.com^
 ||empoverchimes.rest^
+||empowerlocal.co^
 ||emptierkimchi.life^
 ||emptinessabjure.com^
 ||empty-advantage.pro^
@@ -29165,6 +29169,7 @@ browsershots.org#@#.advert_area
 ||gumon.site^
 ||gumophauny.net^
 ||gumvdxuwlvrjk.com^
+||gumyfui.com^
 ||gunatedbivvy.cfd^
 ||gundecklunts.rest^
 ||gunfirenestles.click^
@@ -31631,6 +31636,7 @@ browsershots.org#@#.advert_area
 ||intendsopush.com^
 ||intendwaitresssalty.com^
 ||intentanalysis.com^
+||intentionalintention.com^
 ||intentionscommunity.com^
 ||inter1ads.com^
 ||interbuzznews.com^
@@ -32172,6 +32178,7 @@ browsershots.org#@#.advert_area
 ||jalapicbecharm.com^
 ||jalapicundelve.top^
 ||jaletemetia.com^
+||jalnukexsct.com^
 ||jalopycarrel.cfd^
 ||jalormisdid.rest^
 ||jaltvejugmjjq.online^
@@ -34743,6 +34750,7 @@ browsershots.org#@#.advert_area
 ||lhuvxiezozkjg.online^
 ||lhuwawhcxtltx.space^
 ||lhvduqlahiakt.site^
+||lhwarqealdvqto.com^
 ||lhwimdpdjajfx.rocks^
 ||lhwmjrll.net^
 ||lhxmrcyaqsvze.site^
@@ -38285,6 +38293,7 @@ browsershots.org#@#.advert_area
 ||nizarstream.xyz^
 ||nizationservanta.com^
 ||nizkwvaqczcxj.space^
+||nj31x7kkyi23iy8u.rest^
 ||njatwiklklyae.site^
 ||njdapsyolatla.website^
 ||njhinxgrdyjur.space^
@@ -44375,6 +44384,7 @@ browsershots.org#@#.advert_area
 ||reeqqkeamaaay.top^
 ||reeqqkeamaomk.top^
 ||reestale.help^
+||reewhoaglopsola.com^
 ||refacedpearlet.qpon^
 ||refbanners.com^
 ||refbanners.website^
@@ -45112,6 +45122,7 @@ browsershots.org#@#.advert_area
 ||rmvvawqleqyqy.top^
 ||rmvvawqobqeov.top^
 ||rmwumpqxbuwqv.online^
+||rmwzbombkqrbv.top^
 ||rmwzbombkqwjy.top^
 ||rmwzbombkqwlk.top^
 ||rmxads.com^
@@ -48079,6 +48090,7 @@ browsershots.org#@#.advert_area
 ||stockingsight.com^
 ||stockpresentsauspice.com^
 ||stodgybiaxial.shop^
+||stoghocmidsup.com^
 ||stognanes.click^
 ||stoitersurfacy.digital^
 ||stolecutting.com^
@@ -51472,6 +51484,7 @@ browsershots.org#@#.advert_area
 ||uuhnjutdqxnac.space^
 ||uuidksinc.net^
 ||uujkujovceubhrf.com^
+||uun1vhle52vxofb3lmn.cfd^
 ||uuomedmlqscpa.store^
 ||uuoxqafmlhmemo.com^
 ||uupzixjvcwuda.website^
@@ -52620,6 +52633,7 @@ browsershots.org#@#.advert_area
 ||vwxfxcamyhpqq.online^
 ||vwzrmuzcjxpkh.space^
 ||vxbstsvddlepb.online^
+||vxcholycr.com^
 ||vxdbcutwrzzet.website^
 ||vxddydruqitjl.space^
 ||vxdehrxgnvhksfe.com^
@@ -72676,6 +72690,7 @@ babylonbee.com##[href^="https://www.yrxtrk.com/aff_c"]
 musicbusinessworldwide.com##[href^="https://wynstarks.lnk.to/"]
 cars.com##[id$="-sponsored"]
 lolalytics.com##[id$=":inline"]
+bridgebase.com##[id*="_ad"]
 homedepot.com##[id*="sponsored"]
 80.lv##[id^="Image_bner_"]
 ldoceonline.com##[id^="ad_contentslot"]
