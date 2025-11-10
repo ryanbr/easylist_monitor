@@ -1,9 +1,9 @@
 [Adblock Plus 1.1]
-! Version: 202511101539
+! Version: 202511101753
 ! Title: EasyPrivacy
-! Last modified: 10 Nov 2025 15:39 UTC
+! Last modified: 10 Nov 2025 17:53 UTC
 ! Expires: 4 days (update frequency)
-! Commit: 7a48873f74a28a862a5fabecafe72b5e0b76a281
+! Commit: 3ae4444db3877c2d3ddbaab2481080ee06cec94f
 ! *** easylist:template_header.txt ***
 ! 
 ! Please report any unblocked adverts or problems
@@ -3187,6 +3187,7 @@ _WebVitalsReporter_
 /ap.lijit.com/*
 /api.transferwise.com/v1/notification-flow/messages/*/open.gif
 /atlas-trk.prd.msg.ss-inf.net/*$image
+/b.k3r.jp/?a=$image
 /beacon.krxd.net/*
 /beacon?data=$image
 /beaconimages.netflix.net/*$image
