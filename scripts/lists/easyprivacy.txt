@@ -1,9 +1,9 @@
 [Adblock Plus 1.1]
-! Version: 202511112144
+! Version: 202511112349
 ! Title: EasyPrivacy
-! Last modified: 11 Nov 2025 21:44 UTC
+! Last modified: 11 Nov 2025 23:49 UTC
 ! Expires: 4 days (update frequency)
-! Commit: c5537c44653ea79d8b1e3ae3cf6e32dcd14bdb8f
+! Commit: 655e9313d0334dac3e4f0c6bf227f3a4f5e6d660
 ! *** easylist:template_header.txt ***
 ! 
 ! Please report any unblocked adverts or problems
@@ -7533,6 +7533,7 @@ omni.soundestlink.com$image
 ||muteknife.com^
 ||mutemailbox.com^
 ||mutualhappy.com^
+||mysketchpad.com^
 ||mysticalagoon.com^
 ||naivestatement.com^
 ||nappyattack.com^
