@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Version: 202511160555
+! Version: 202511160752
 ! Title: EasyList
-! Last modified: 16 Nov 2025 05:55 UTC
+! Last modified: 16 Nov 2025 07:52 UTC
 ! Expires: 4 days (update frequency)
-! Commit: 9c2f66eaf0d67b9c53a0e15bcef01d8f0f6c1223
+! Commit: 36c5428cc147501d389730fc1ddc7ee3d57d7d56
 ! *** easylist:template_header.txt ***
 ! 
 ! Please report any unblocked adverts or problems
@@ -15848,6 +15848,7 @@ browsershots.org#@#.advert_area
 ||31daa5lnq.de^
 ||31def61c3.de^
 ||31fbcecdf2.com^
+||31ixu8oyt8tj9e4icw.cfd^
 ||31o0jl63.de^
 ||32ae2295ab.com^
 ||32t4j1be6y7ulwq1nmx.cfd^
@@ -23313,6 +23314,7 @@ browsershots.org#@#.advert_area
 ||czhplaacakpki.website^
 ||czmehjnb.xyz^
 ||cznratophrtou.website^
+||czqtpkjueiffw.space^
 ||czsttsmgndlni.website^
 ||czsusasfoyqln.website^
 ||cztmmijwxiafu.click^
@@ -29010,6 +29012,7 @@ browsershots.org#@#.advert_area
 ||greroaso.com^
 ||gretseemudseevo.net^
 ||greundproximo.cfd^
+||greundunnest.shop^
 ||greuy.xyz^
 ||grewhinsass.net^
 ||greystripe.com^
@@ -37936,6 +37939,7 @@ browsershots.org#@#.advert_area
 ||ocmhood.com^
 ||ocmtag.com^
 ||ocmzkiobzod.com^
+||ocnfaemiucbge.space^
 ||oconner.link^
 ||ocoupaigipteejo.net^
 ||ocpjyfnbu.com^
@@ -39101,6 +39105,7 @@ browsershots.org#@#.advert_area
 ||p5eqkpzvrfnhbbnrr8.cfd^
 ||p5x4wcong1pih4yrxnflnprkn.cfd^
 ||p6jn1brfl5umwc2t2z4e3l7mv83f7jvp97.cfd^
+||p7y4hibeegzuzh.rest^
 ||p8wj9zko.com^
 ||p9vz94uemlzybqv.rest^
 ||pa5ka.com^
@@ -40892,6 +40897,7 @@ browsershots.org#@#.advert_area
 ||psoaftob.xyz^
 ||psoaglaihuphais.net^
 ||psoajoabuca.net^
+||psoamsoampeetog.net^
 ||psoassoongouh.com^
 ||psoathaithosh.net^
 ||psoavaumtoassuh.net^
@@ -41478,6 +41484,7 @@ browsershots.org#@#.advert_area
 ||qdbsewwvrrqug.site^
 ||qdbsjlwldjudty.com^
 ||qdfscelxyyem.club^
+||qdhaokyrqr.com^
 ||qdhrbget.click^
 ||qdjgcchrgsrza.space^
 ||qdlrbnjioxxnl.website^
@@ -42895,6 +42902,7 @@ browsershots.org#@#.advert_area
 ||rexsrv.com^
 ||reymvmqqyawjq.top^
 ||rezjcyniuvosb.online^
+||rezrboarmmjay.top^
 ||rezrboarmmqmv.top^
 ||rfarxhoikoda.xyz^
 ||rfbowzahficrp.site^
@@ -43410,6 +43418,7 @@ browsershots.org#@#.advert_area
 ||rpts.org^
 ||rptzikhuyzsgy.website^
 ||rpvhxowckitodm.net^
+||rpxjlfxnegnlz.website^
 ||rpxorephfxdvm.site^
 ||rqejawwjlomjw.top^
 ||rqejawwjlomla.top^
@@ -45841,6 +45850,7 @@ browsershots.org#@#.advert_area
 ||sqpcjfvdgnemlhf.net^
 ||sqrekndc.fun^
 ||sqrobmpshvj.com^
+||sqsupmkbenkyh.site^
 ||sqtagpqwzyfhj.site^
 ||sqtnbselqbaqw.site^
 ||sqtpgwvxxad.net^
@@ -47602,6 +47612,7 @@ browsershots.org#@#.advert_area
 ||tjndsmlcnoweq.space^
 ||tjnkzeqjntmhj.website^
 ||tjnukcxcafaiq.website^
+||tjosjuihqnxke.online^
 ||tjpkgnwvighek.click^
 ||tjpzz.buzz^
 ||tjskjndukyk.com^
@@ -49087,6 +49098,7 @@ browsershots.org#@#.advert_area
 ||unfortunate-can.com^
 ||unfortunatechampionship.com^
 ||unfortunatelyemotion.com^
+||unfortunatemiss.com^
 ||unfrostneoneds.help^
 ||unfumedvamoses.com^
 ||ungagosmund.rest^
@@ -52563,6 +52575,7 @@ browsershots.org#@#.advert_area
 ||xlivesucces.world^
 ||xlivrdr.com^
 ||xljgbrlqylwwt.store^
+||xlkrtccrhgo.com^
 ||xlqgxdxdlrcdkoa.com^
 ||xlqjivjtngyh.com^
 ||xlrdr.com^
@@ -53560,6 +53573,7 @@ browsershots.org#@#.advert_area
 ||yxlrztklsogxs.site^
 ||yxmtgttitplap.store^
 ||yxnitldzfbuun.space^
+||yxnkrmzdmjwwt.site^
 ||yxouetwlvpli.com^
 ||yxpmkgzsqcxyu.site^
 ||yxtwurrbxqifz.website^
@@ -67282,7 +67296,7 @@ thisismoney.co.uk##.cnr5
 letras.com##.cnt-space-top
 asda.com##.co-product-list[data-module-type="HookLogic"]
 map.riftkit.net##.coachify_wrapper
-100percentfedup.com,academicful.com,addapinch.com,aiarticlespinner.co,allaboutfpl.com,alltechnerd.com,americanmilitarynews.com,americansongwriter.com,androidsage.com,animatedtimes.com,anoopcnair.com,askpython.com,australiangeographic.com.au,autodaily.com.au,bakeitwithlove.com,bioinformant.com,bohemian.com,borncity.com,boxingnews24.com,browserhow.com,charlieintel.com,chillinghistory.com,chromeunboxed.com,circuitbasics.com,cjr.org,coincodecap.com,conservativebrief.com,conservativefiringline.com,corrosionhour.com,cricfy.net,crimereads.com,cryptobriefing.com,cryptointelligence.co.uk,cryptopotato.com,cryptoreporter.info,cryptoslate.com,cryptotimes.io,dafontfree.io,dailynewshungary.com,dorohedoro.online,dramacool.com.my,ecoportal.net,ecoticias.com,engineering-designer.com,epicdope.com,eurweb.com,fandomwire.com,firstcuriosity.com,firstsportz.com,flashbak.com,flickeringmyth.com,flowmountainbike.com,flyingmag.com,freemagazines.top,gadgetinsiders.com,gamebyte.com,gameinfinitus.com,gamertweak.com,gamingdeputy.com,gatewayhispanic.com,gatewaynews.co.za,geekdashboard.com,geekzag.com,glassalmanac.com,goodyfeed.com,greekreporter.com,hard-drive.net,harrowonline.org,helihub.com,hollywoodinsider.com,hollywoodunlocked.com,hotcelebshome.com,ifoodreal.com,indianhealthyrecipes.com,inspiredtaste.net,iotwreport.com,jessicagavin.com,jojolandsmanga.com,journeybytes.com,journeyjunket.com,libertyunlocked.com,linuxfordevices.com,lithub.com,mangaread.org,mb.com.ph,meaningfulspaces.com,medicotopics.com,medievalists.net,mpost.io,mycariboonow.com,mymodernmet.com,mymotherlode.com,nationalfile.com,nexdrive.lol,nexusgames.to,notalwaysright.com,nxbrew.com,organicfacts.net,patriotfetch.com,pcoptimizedsettings.com,politizoom.com,premiumtimesng.com,protrumpnews.com,pureinfotech.com,redrightvideos.com,reneweconomy.com.au,reptilesmagazine.com,rightwingnews.com,roadaheadonline.co.za,rok.guide,saabplanet.com,sciencenotes.org,simscommunity.info,slaynews.com,small-screen.co.uk,snipercentral.com,snowbrains.com,statisticsbyjim.com,storypick.com,streamingbetter.com,superwatchman.com,talkandroid.com,talkers.com,tech-latest.com,techaeris.com,techpp.com,techrounder.com,techviral.net,thebeaverton.com,theblueoceansgroup.com,thecinemaholic.com,thecricketlounge.com,thedriven.io,thegamehaus.com,thegatewaypundit.com,thegeekpage.com,thelibertydaily.com,thenipslip.com,theoilrig.ca,thepeoplesvoice.tv,theprint.in,thewincentral.com,trendingpoliticsnews.com,tvtonight.com.au,twistedvoxel.com,walletinvestor.com,washingtonblade.com,waves4you.com,wbiw.com,welovetrump.com,wepc.com,whynow.co.uk,win.gg,windowslatest.com,wisden.com,wltreport.com,wnd.com,wrestlingnews.co,zerohanger.com,ziperto.com##.code-block
+100percentfedup.com,academicful.com,addapinch.com,aiarticlespinner.co,allaboutfpl.com,alltechnerd.com,americanmilitarynews.com,americansongwriter.com,androidsage.com,animatedtimes.com,anoopcnair.com,askpython.com,australiangeographic.com.au,autodaily.com.au,bakeitwithlove.com,bioinformant.com,bohemian.com,borncity.com,boxingnews24.com,browserhow.com,charlieintel.com,chillinghistory.com,chromeunboxed.com,circuitbasics.com,cjr.org,coincodecap.com,conservativebrief.com,conservativefiringline.com,corrosionhour.com,cricfy.net,crimereads.com,cryptobriefing.com,cryptointelligence.co.uk,cryptopotato.com,cryptoreporter.info,cryptoslate.com,cryptotimes.io,dafontfree.io,dailynewshungary.com,dorohedoro.online,dramacool.com.my,ecoportal.net,ecoticias.com,engineering-designer.com,epicdope.com,eurweb.com,fandomwire.com,firstcuriosity.com,firstsportz.com,flashbak.com,flickeringmyth.com,flowmountainbike.com,flyingmag.com,freemagazines.top,gadgetinsiders.com,gamebyte.com,gameinfinitus.com,gamertweak.com,gamingdeputy.com,gatewayhispanic.com,gatewaynews.co.za,geekdashboard.com,geekzag.com,glassalmanac.com,goodyfeed.com,greekreporter.com,hard-drive.net,harrowonline.org,helihub.com,hollywoodinsider.com,hollywoodunlocked.com,hotcelebshome.com,ifoodreal.com,indianhealthyrecipes.com,inspiredtaste.net,iotwreport.com,jessicagavin.com,jojolandsmanga.com,journeybytes.com,journeyjunket.com,libertyunlocked.com,linuxfordevices.com,lithub.com,mangaread.org,mb.com.ph,meaningfulspaces.com,medicotopics.com,medievalists.net,mpost.io,mycariboonow.com,mymodernmet.com,mymotherlode.com,nationalfile.com,nexdrive.lol,nexusgames.to,notalwaysright.com,nxbrew.com,organicfacts.net,patriotfetch.com,pcoptimizedsettings.com,politizoom.com,premiumtimesng.com,protrumpnews.com,pureinfotech.com,redrightvideos.com,reneweconomy.com.au,reptilesmagazine.com,rightwingnews.com,roadaheadonline.co.za,rok.guide,saabplanet.com,sacurrent.com,sciencenotes.org,simscommunity.info,slaynews.com,small-screen.co.uk,snipercentral.com,snowbrains.com,statisticsbyjim.com,storypick.com,streamingbetter.com,superwatchman.com,talkandroid.com,talkers.com,tech-latest.com,techaeris.com,techpp.com,techrounder.com,techviral.net,thebeaverton.com,theblueoceansgroup.com,thecinemaholic.com,thecricketlounge.com,thedriven.io,thegamehaus.com,thegatewaypundit.com,thegeekpage.com,thelibertydaily.com,thenipslip.com,theoilrig.ca,thepeoplesvoice.tv,theprint.in,thewincentral.com,trendingpoliticsnews.com,tvtonight.com.au,twistedvoxel.com,walletinvestor.com,washingtonblade.com,waves4you.com,wbiw.com,welovetrump.com,wepc.com,whynow.co.uk,win.gg,windowslatest.com,wisden.com,wltreport.com,wnd.com,wrestlingnews.co,zerohanger.com,ziperto.com##.code-block
 storytohear.com,thefamilybreeze.com,thetravelbreeze.com,theworldreads.com,womensmethod.com##.code-block > center p
 cookingwithdog.com,streamtelly.com##.code-block-1
 powerpyx.com##.code-block-14
