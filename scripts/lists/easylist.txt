@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Version: 202511220548
+! Version: 202511220732
 ! Title: EasyList
-! Last modified: 22 Nov 2025 05:48 UTC
+! Last modified: 22 Nov 2025 07:32 UTC
 ! Expires: 4 days (update frequency)
-! Commit: ce8033c164db0ce947ef88d3829dd0cf9a06e5de
+! Commit: 735aab57de8118a1414f97c6f710bc722ee7b213
 ! *** easylist:template_header.txt ***
 ! 
 ! Please report any unblocked adverts or problems
@@ -16455,6 +16455,7 @@ browsershots.org#@#.advert_area
 ||9fe84e92a1.com^
 ||9japride.com^
 ||9ku4b9qlgt664oy.cfd^
+||9ky9wfu8tqe68tqpy.rest^
 ||9kynp8hu4126ggh5ph59358.cfd^
 ||9l3s3fnhl.com^
 ||9l5ss9l.de^
@@ -23286,6 +23287,7 @@ browsershots.org#@#.advert_area
 ||ctsbiznoeogh.site^
 ||ctsdwm.com^
 ||ctubhxbaew.com^
+||ctuqitwpic.com^
 ||ctwmcd.com^
 ||ctwmed.com^
 ||ctxirjhxpyjtm.space^
@@ -23554,6 +23556,7 @@ browsershots.org#@#.advert_area
 ||d4020f5f0f.com^
 ||d4797171fc.com^
 ||d49ae3cc10.com^
+||d4bx2if8xmi89.cloudfront.net^
 ||d4dc5a447c.com^
 ||d4edfb1010.com^
 ||d5465f9d11.com^
@@ -24231,6 +24234,7 @@ browsershots.org#@#.advert_area
 ||dfuijqrojtvcb.site^
 ||dfvmyfyb.xyz^
 ||dfwjcksuusdzf.site^
+||dfxaqkcanjrnqm.com^
 ||dfypinknckctz.website^
 ||dfzuxtkanxwxx.space^
 ||dgafgadsgkjg.top^
@@ -25037,6 +25041,7 @@ browsershots.org#@#.advert_area
 ||drvhpkomem.xyz^
 ||drvnycycgoslg.site^
 ||drwfkzlumcyob.space^
+||drwrnnqa.com^
 ||drxdbjkowgmgyx.xyz^
 ||drybid.pro^
 ||dryerhalfmoon.com^
@@ -26422,6 +26427,7 @@ browsershots.org#@#.advert_area
 ||eswpfkuwyovtm.space^
 ||esyeqegjjxuwr.website^
 ||etagumlbvhmuk.online^
+||etairgocheekr.com^
 ||etalageunwept.qpon^
 ||etchedpernis.cyou^
 ||etdtbkpurdcbb.xyz^
@@ -27590,6 +27596,7 @@ browsershots.org#@#.advert_area
 ||fmbristly.cyou^
 ||fmfdkgoj.net^
 ||fmgitnxalekei.website^
+||fmgkibaktcxdlj.com^
 ||fmgqdplqohfct.space^
 ||fmgxqcxzpfbel.click^
 ||fmipurdtuta.com^
@@ -29002,6 +29009,7 @@ browsershots.org#@#.advert_area
 ||glochatuji.com^
 ||glogoowo.net^
 ||gloochelraisse.net^
+||gloongadrar.com^
 ||gloophoa.net^
 ||gloostaimsou.net^
 ||gloporn.com^
@@ -34996,6 +35004,7 @@ browsershots.org#@#.advert_area
 ||loathesparkledisperse.com^
 ||loathesprolify.shop^
 ||loathsomeboy.com^
+||loathsomechart.pro^
 ||loathsomecrack.com^
 ||loathsomedark.pro^
 ||loazuptaice.net^
@@ -41717,6 +41726,7 @@ browsershots.org#@#.advert_area
 ||protectflow.life^
 ||protection-suggestion.com^
 ||protectioncleave.com^
+||protectionreportnicely.com^
 ||protectorcolor.com^
 ||protectorfolded.com^
 ||protectorincorporatehush.com^
@@ -43306,6 +43316,7 @@ browsershots.org#@#.advert_area
 ||rbtutqkqtfgbi.online^
 ||rbtwo.bid^
 ||rbvgaetqsk.love^
+||rbweljjbvvaaq.top^
 ||rbweljjbvvrrk.top^
 ||rbweljjbvvrvy.top^
 ||rbwrhihfbfdee.net^
@@ -51786,6 +51797,7 @@ browsershots.org#@#.advert_area
 ||wjiebpblheplc.site^
 ||wjmepiytpjiki.website^
 ||wjmghujaluysu.online^
+||wjmrvxezaj.com^
 ||wjqpyvulryxtg.site^
 ||wjqtqnstdthrb.website^
 ||wjtjdmik.com^
@@ -52044,6 +52056,7 @@ browsershots.org#@#.advert_area
 ||wpjplnykjopdp.online^
 ||wpjugqasgblow.space^
 ||wpmbnbbppmodfw.com^
+||wpmmh5n5xxkq4e.cfd^
 ||wpmpdpovgmnru.website^
 ||wpncdn.com^
 ||wpnetwork.eu^
@@ -64737,7 +64750,7 @@ vscode.one###flamelab-convo-widget
 apkmody.mobi###flirtwith-modal
 nanoreview.net###float-sb-right
 animetrilogy.com###floatcenter
-slashdot.org###floating-content
+slashdot.org,sourceforge.net###floating-content
 editpad.org###floorad-wrapper
 clintonherald.com,ottumwacourier.com,thetimestribune.com###floorboard_block
 streams.tv###flowerInGarden
