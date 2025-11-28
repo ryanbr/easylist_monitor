@@ -1,9 +1,9 @@
 [Adblock Plus 1.1]
-! Version: 202511281934
+! Version: 202511282150
 ! Title: EasyPrivacy
-! Last modified: 28 Nov 2025 19:34 UTC
+! Last modified: 28 Nov 2025 21:50 UTC
 ! Expires: 4 days (update frequency)
-! Commit: c00ce3216f7dee8f32a71c474c4d714a88ae4748
+! Commit: deef5ade8f321f915cb98234602c09fbbab2b339
 ! *** easylist:template_header.txt ***
 ! 
 ! Please report any unblocked adverts or problems
@@ -5048,6 +5048,7 @@ omni.soundestlink.com$image
 ||lexity.com^$third-party
 ||lfeeder.com^$third-party
 ||lfov.net^$third-party
+||lgrckt-in.com^$third-party
 ||linezing.com^$third-party
 ||linkconnector.com^$third-party
 ||linkifier.com^$third-party
@@ -7101,6 +7102,7 @@ omni.soundestlink.com$image
 ||fewjuice.com^
 ||fewkittens.com^
 ||fieldconfig.com^
+||figsprotein.com^
 ||fillthemap.com^
 ||filtercutter.com^
 ||finalizeforce.com^
@@ -8031,6 +8033,7 @@ omni.soundestlink.com$image
 ||slackpod.com^
 ||slaysweater.com^
 ||slickcontent.com^
+||slimesupplies.net^
 ||slinksuggestion.com^
 ||slopesoap.com^
 ||smallershops.com^
@@ -8450,6 +8453,7 @@ omni.soundestlink.com$image
 ||worldrealize.com^
 ||worriednumber.com^
 ||worriedwine.com^
+||wowfunnow.com^
 ||wrapstretch.com^
 ||wretchedfloor.com^
 ||writerhubs.com^
