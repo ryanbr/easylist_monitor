@@ -1,9 +1,9 @@
 [Adblock Plus 1.1]
-! Version: 202511290548
+! Version: 202511290743
 ! Title: EasyPrivacy
-! Last modified: 29 Nov 2025 05:48 UTC
+! Last modified: 29 Nov 2025 07:43 UTC
 ! Expires: 4 days (update frequency)
-! Commit: 84f2edebfdfca006e9ee0d53ace0d37b78b1b1a6
+! Commit: 3eb0620ee28dc461e29a63c159cee1d8a11272c7
 ! *** easylist:template_header.txt ***
 ! 
 ! Please report any unblocked adverts or problems
@@ -54781,6 +54781,8 @@ bitdefender.com##body[style="opacity: 0;"]:style(opacity: 1 !important;)
 @@||youvisit.com/tour/$script,subdocument,domain=uaf.edu
 @@||zillow.com/rental-manager/proxy/rental-manager-api/api/v1/users/freemium/analytics/pageViews$~third-party
 @@||zoominfo.com/c/amplitude-js$script,~third-party
+! ! monitor.azure.com
+@@||browser.events.data.microsoft.com/onecollector/$script,xmlhttprequest,domain=microsoft.com
 ! ! https://old.reddit.com/r/uBlockOrigin/comments/1czbcvg/foundit_is_blocking_searches_until_ublock_origin/
 @@||media.foundit.*/trex/public/theme_3/dist/js/userTracking.js$script,~third-party
 ! ! amplitude.com/libs
