@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Version: 202511302147
+! Version: 202511302356
 ! Title: EasyList
-! Last modified: 30 Nov 2025 21:47 UTC
+! Last modified: 30 Nov 2025 23:56 UTC
 ! Expires: 4 days (update frequency)
-! Commit: 2334b795f73de4286b2b440e73b3383981deff02
+! Commit: b5a75fc4c5647018321d3498ace3a16728f828e2
 ! *** easylist:template_header.txt ***
 ! 
 ! Please report any unblocked adverts or problems
@@ -17932,6 +17932,7 @@ browsershots.org#@#.advert_area
 ||akvvkmqezvolr.top^
 ||akvvltgfzmxvj.website^
 ||akwnihwgxvmim.space^
+||akxnizcz.com^
 ||akzawlyyllwmb.top^
 ||al-adtech.com^
 ||al5sm.com^
@@ -24105,6 +24106,7 @@ browsershots.org#@#.advert_area
 ||darnixdodgier.shop^
 ||darnobedienceupscale.com^
 ||dartsprox.cfd^
+||darvontaelbronco.cfd^
 ||darvorn.com^
 ||darwinpoliticslonger.com^
 ||dasensiblem.org^
@@ -24521,6 +24523,7 @@ browsershots.org#@#.advert_area
 ||densubmarinesubdued.com^
 ||denswordyogurt.com^
 ||dental-drawer.pro^
+||dental-human.com^
 ||denthaitingshospic.com^
 ||dentileazurite.com^
 ||deokxdgzwdyzm.website^
@@ -25093,6 +25096,7 @@ browsershots.org#@#.advert_area
 ||dlssuizl.art^
 ||dlvtuqmylwqwr.online^
 ||dlwhtkiilipxk.site^
+||dlwuuenfh.com^
 ||dlzunqyzwiiia.website^
 ||dlzuocvcjdqvq.space^
 ||dmadehimalowb.com^
@@ -26372,6 +26376,7 @@ browsershots.org#@#.advert_area
 ||ekymmkhhdfvwr.online^
 ||ekzrpjskeowcf.online^
 ||eladove.com^
+||elajqjtwnoaef.space^
 ||elapsejollyinsolence.com^
 ||elasticad.net^
 ||elasticalsdebatic.org^
@@ -30881,6 +30886,7 @@ browsershots.org#@#.advert_area
 ||hbudqnvaytwdc.world^
 ||hbutwehaveinour.com^
 ||hbwenyllyunbsxn.com^
+||hbwztfpirtboe.site^
 ||hbxhpqsociiwc.space^
 ||hbxpjlbmhffda.space^
 ||hbygyhcgjvclv.online^
@@ -34191,6 +34197,7 @@ browsershots.org#@#.advert_area
 ||jwqmdmojuzeex.online^
 ||jwqvnbzxwiibj.one^
 ||jwraxixytrvwm.site^
+||jwrgamvqwrtia.online^
 ||jwskgkxnwdivg.online^
 ||jwsltekcmzhkj.store^
 ||jwtlwywycybyc.space^
@@ -34527,6 +34534,7 @@ browsershots.org#@#.advert_area
 ||kfaktmfqtbw.xyz^
 ||kfbjqsqbvnmrj.site^
 ||kfbndkkbjbxkq.site^
+||kfdlhmuxhvlbc.website^
 ||kfeiovrksdezl.online^
 ||kfesymenamzyz.online^
 ||kffnjkvxbhyzl.vip^
@@ -38172,6 +38180,7 @@ browsershots.org#@#.advert_area
 ||mpejjumctx.com^
 ||mpeowvqnbeoah.online^
 ||mpfgnmfw.com^
+||mpfuaookisdkh.site^
 ||mpgnodally.qpon^
 ||mphhnxzquuyij.store^
 ||mphuvnjjobtyc.com^
@@ -40686,6 +40695,7 @@ browsershots.org#@#.advert_area
 ||oomougnoltaifto.net^
 ||oomsauleertoa.net^
 ||oonaijoufusheew.com^
+||oonsoholreed.net^
 ||oookxrpzrlmib.space^
 ||oooxizemrslcq.site^
 ||oophiwherou.net^
@@ -42949,6 +42959,7 @@ browsershots.org#@#.advert_area
 ||pregmatookles.com^
 ||pregnantlasting.com^
 ||pregnantskipper.com^
+||prelecdjladde.website^
 ||preloanplanum.cfd^
 ||premiermylodei.com^
 ||premierpearlet.shop^
@@ -45696,6 +45707,7 @@ browsershots.org#@#.advert_area
 ||rimerbiol.qpon^
 ||rimhysterical.com^
 ||rimierbeebees.com^
+||rimkfpxbnpxi.com^
 ||rimoudrauft.net^
 ||rimpirotunda.cyou^
 ||rimuvexils.shop^
@@ -50655,6 +50667,7 @@ browsershots.org#@#.advert_area
 ||trixblocka.com^
 ||trizoicaequi.com^
 ||trjftonxjxlqk.com^
+||trjhwbfhqpcwj.website^
 ||trjyhdpxtiyia.store^
 ||trk-aspernatur.com^
 ||trk-consulatu.com^
@@ -68118,6 +68131,7 @@ save.ca##.ad-box
 am5.com##.ad-box-pc-3
 am5.com##.ad-box-right-pc-1
 mv-voice.com##.ad-break
+tvtropes.org##.ad-caption-subscribe-wrapper
 imsa.com##.ad-close-container
 thisiscolossal.com##.ad-code-block
 npr.org##.ad-config
@@ -70445,6 +70459,7 @@ nintendolife.com##.mastfoot
 pushsquare.com,songlyrics.com##.masthead
 eetimes.eu,korinthostv.gr,powerelectronicsnews.com##.masthead-banner
 augustman.com##.masthead-container
+csst.at##.max-h-48
 cloudwards.net##.max-medium
 buzzheavier.com##.max-w-\[60rem\] > p.mt-5.text-center.text-lg
 spin.com##.max-w-\[970px\]
