@@ -1,9 +1,9 @@
 [Adblock Plus 1.1]
-! Version: 202512022350
+! Version: 202512030227
 ! Title: EasyPrivacy
-! Last modified: 02 Dec 2025 23:50 UTC
+! Last modified: 03 Dec 2025 02:27 UTC
 ! Expires: 4 days (update frequency)
-! Commit: 3b37e97e01081838000938e94c4658337ca1175e
+! Commit: 72b398a16a32bf881579933863414440977ab083
 ! *** easylist:template_header.txt ***
 ! 
 ! Please report any unblocked adverts or problems
@@ -6739,6 +6739,7 @@ omni.soundestlink.com$image
 ||canvasandsocks.com^
 ||capablecup.com^
 ||capriciouscorn.com^
+||captainstick.com^
 ||captivatingcanyon.com^
 ||captivatingillusion.com^
 ||captivatingpanorama.com^
@@ -7229,6 +7230,7 @@ omni.soundestlink.com$image
 ||gorgeousedge.com^
 ||gorillapage.com^
 ||gossamerwing.com^
+||gotlunched.com^
 ||gracefulmilk.com^
 ||grainmass.com^
 ||grandfatherguitar.com^
