@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Version: 202512032156
+! Version: 202512032357
 ! Title: EasyList
-! Last modified: 03 Dec 2025 21:56 UTC
+! Last modified: 03 Dec 2025 23:57 UTC
 ! Expires: 4 days (update frequency)
-! Commit: fca6b060b9c7de778bdc339fb654d4439c8e40a8
+! Commit: 029fd7159b1c450139d690123216a7ef45b9aa92
 ! *** easylist:template_header.txt ***
 ! 
 ! Please report any unblocked adverts or problems
@@ -15363,7 +15363,7 @@ dr.dk,smartadserver.de#@#a[href*=".smartadserver.com"]
 slickdeals.net#@#a[href*="adzerk.net"]
 sweetdeals.com#@#a[href*="https://www.sweetdeals.com/"] img
 legacy.com#@#a[href^="http://pubads.g.doubleclick.net/"]
-canstar.com.au,mail.yahoo.com#@#a[href^="https://ad.doubleclick.net/"]
+canstar.com.au,mail.yahoo.com,trulia.com#@#a[href^="https://ad.doubleclick.net/"]
 cars.com#@#a[href^="https://adclick.g.doubleclick.net/"]
 badoinkvr.com#@#a[href^="https://badoinkvr.com/"]
 xbdeals.net#@#a[href^="https://click.linksynergy.com/"]
@@ -18042,6 +18042,7 @@ browsershots.org#@#.advert_area
 ||allocatedense.com^
 ||allocationcaller.com^
 ||allongezemmi.rest^
+||allopjwwybt.com^
 ||allotupwardmalicious.com^
 ||allowchamber.com^
 ||allowcharitablepageant.com^
@@ -26876,6 +26877,7 @@ browsershots.org#@#.advert_area
 ||eogkxhtmoctjp.com^
 ||eoglimegdapoh.site^
 ||eogtxczxeevzc.store^
+||eohhehznagsqn.online^
 ||eojfxignjyzev.website^
 ||eolioadwse.xyz^
 ||eolithpopedom.cfd^
@@ -27283,6 +27285,7 @@ browsershots.org#@#.advert_area
 ||ewjuunftkhpge.net^
 ||ewjwigarbrgm.com^
 ||ewkufbdblyqud.com^
+||ewkxepvgd.com^
 ||ewltkoajehyzr.click^
 ||ewotranwrieqs.online^
 ||ewouldlookina.org^
@@ -28179,6 +28182,7 @@ browsershots.org#@#.advert_area
 ||fkgtwmwhjkozu.online^
 ||fkitumbk.com^
 ||fkjcuovnhzaaz.love^
+||fkkewlglyayispw.com^
 ||fkkfgerggbroicp.net^
 ||fkklcqmeqoerb.space^
 ||fkoixuuzbvklu.online^
@@ -28666,6 +28670,7 @@ browsershots.org#@#.advert_area
 ||frankeye.pro^
 ||franklycommission.com^
 ||frankproduct.pro^
+||franktoe.pro^
 ||frap.site^
 ||fraplepintano.cfd^
 ||fraterhents.rest^
@@ -30435,12 +30440,14 @@ browsershots.org#@#.advert_area
 ||groupcomebackheadphone.com^
 ||groupian.io^
 ||groupsingusie.net^
+||grourtukrooboow.net^
 ||groutaissou.net^
 ||groutoazikr.net^
 ||groutoozy.com^
 ||groutsedsauksee.net^
 ||groweyelid.com^
 ||growing-file.pro^
+||growingrequest.pro^
 ||growjav11.fun^
 ||growledbravely.com^
 ||growlinginflation.pro^
@@ -31631,6 +31638,7 @@ browsershots.org#@#.advert_area
 ||hmpeogztlynha.site^
 ||hmpryf89.xyz^
 ||hmqphmhktywbq.space^
+||hmrellyanupalong.cfd^
 ||hmsuxcnrcyzmn.today^
 ||hmwfxljbhtjvp.store^
 ||hmxg5mhyx.com^
@@ -35302,6 +35310,7 @@ browsershots.org#@#.advert_area
 ||ksdamndwucubm.online^
 ||ksehinkitw.hair^
 ||kseseemyresum.org^
+||ksezswovesyyb.online^
 ||ksfndodbfbgof.space^
 ||kshyumslvldhc.com^
 ||ksiabdgtqzbsq.top^
@@ -40361,6 +40370,7 @@ browsershots.org#@#.advert_area
 ||obarnedearie.shop^
 ||obcswpfk.xyz^
 ||obcvuf.com^
+||obdkeieufzyyr.website^
 ||obedieval.my.id^
 ||obese-actor.pro^
 ||obese-chicken.pro^
@@ -40780,6 +40790,7 @@ browsershots.org#@#.advert_area
 ||oiuiybsfqfmyd.site^
 ||oivlvkwuwlssr.website^
 ||oivzkyesgwkqh.site^
+||oiwryudeyymdj.online^
 ||oiycak.com^
 ||oiyhpucamolav.website^
 ||oiylclkpohspa.space^
@@ -41187,6 +41198,7 @@ browsershots.org#@#.advert_area
 ||optimal-neat.pro^
 ||optimalcelebration.pro^
 ||optimistic-grade.pro^
+||optimistic-strip.pro^
 ||optimistic-truck.pro^
 ||optimisticirresponsibility.com^
 ||optimisticsort.pro^
@@ -42108,6 +42120,7 @@ browsershots.org#@#.advert_area
 ||pbcdxcodlooba.online^
 ||pbestrdinkbff.online^
 ||pbfjtggffpxyq.com^
+||pbfyjddfreso.com^
 ||pbgkweapdycud.website^
 ||pbhfkwbelfh.com^
 ||pbjxoyypuueok.online^
@@ -46676,6 +46689,7 @@ browsershots.org#@#.advert_area
 ||rrqwarwrewolk.top^
 ||rrqwarwrewrlj.top^
 ||rrqwarwrewykq.top^
+||rrtrivkvstpci.site^
 ||rruxvlycnmeko.xyz^
 ||rrxoysq.art^
 ||rrzxwypjgtpta.store^
@@ -46910,6 +46924,7 @@ browsershots.org#@#.advert_area
 ||rviqayltwu.love^
 ||rvisofoseveralye.com^
 ||rvisofoseveralyear.com^
+||rvizawiwbsuy.com^
 ||rvktnbklgp.com^
 ||rvlcabsakhoog.space^
 ||rvolkknctgbvy.site^
@@ -49804,6 +49819,7 @@ browsershots.org#@#.advert_area
 ||sxfwwsii.net^
 ||sxgqqsngkzozy.website^
 ||sxidblabmvaod.site^
+||sxjaywwshzjby.online^
 ||sxjvnyieakqua.website^
 ||sxknohdvtxwur.site^
 ||sxlflt.com^
@@ -74219,6 +74235,7 @@ chewy.com##.kib-carousel-item:has(.kib-product-sponsor)
 bjs.com##.lazyload-wrapper:has(> #promoteIqContent)
 stocktwits.com##.leading-\[16px\]:has-text(Advertisement)
 motortrend.com##.lg\:min-h-\[90px\]
+trip.com##.list-item:has(span.ad-info)
 pixiv.net##.list-none:has(> div > [id^="adsdk"])
 pcgamer.com##.listingResult:has(> .sponsored-post)
 euronews.com##.m-object:has(.m-object__spons-quote)
@@ -74304,6 +74321,7 @@ neonheightsservers.com##.well:has(ins.adsbygoogle)
 evreporter.com##.widget_media_image:not(:has(a[href^="https://evreporter.com/"]))
 cnx-software.com##.widget_text.widget:has([href*="?utm"])
 navyamedia.com##.widget_text:has(> .textwidget .adsbygoogle)
+trip.com##.with-decorator-wrap-v8:has(span.ad_tag)
 navyamedia.com##.wpb_text_column:has(> .wpb_wrapper > p >ins.adsbygoogle)
 bestbuy.ca##.x-productListItem:has([data-automation="sponsoredProductLabel"])
 priceline.com##[class*="ListingCardWrapper"]:has([class*="PromoText"])
