@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Version: 202512102140
+! Version: 202512102342
 ! Title: EasyList
-! Last modified: 10 Dec 2025 21:40 UTC
+! Last modified: 10 Dec 2025 23:42 UTC
 ! Expires: 4 days (update frequency)
-! Commit: 980ab4891e66f05a56251a6dccb39e47b56ad7e9
+! Commit: f2f2c003492302dddff742ca5933d94f76ae0ce0
 ! *** easylist:template_header.txt ***
 ! 
 ! Please report any unblocked adverts or problems
@@ -19690,6 +19690,7 @@ browsershots.org#@#.advert_area
 ||bbqpvywcxmkjl.website^
 ||bbqtxxkyqk.net^
 ||bbrdbr.com^
+||bbsiqdmkaj.com^
 ||bbyoaowyljswd.site^
 ||bbztmceiyhybz.space^
 ||bc48fa9adc.com^
@@ -21114,6 +21115,7 @@ browsershots.org#@#.advert_area
 ||btxxxnav.com^
 ||btyklhjjasgfm.club^
 ||btzpcronctvtf.website^
+||buadhtnsx.com^
 ||buaontzlplobx.website^
 ||buawop.cloud^
 ||bubalesriffler.rest^
@@ -24212,6 +24214,7 @@ browsershots.org#@#.advert_area
 ||db0a4b4eb7.com^
 ||db33180b93.com^
 ||dba1bc1fdf.com^
+||dbaeynvmogqjr.site^
 ||dbaforialygmw.website^
 ||dberthformttete.com^
 ||dbgjsblkeulmq.online^
@@ -25572,6 +25575,7 @@ browsershots.org#@#.advert_area
 ||dseveralmefarketi.com^
 ||dsgszujtdzlea.online^
 ||dsgtosabuqcil.website^
+||dsiljgnplyejw.website^
 ||dsjoiyflhvxpq.website^
 ||dskesrsbhqdnlta.xyz^
 ||dslfndqpednqu.xyz^
@@ -31509,6 +31513,7 @@ browsershots.org#@#.advert_area
 ||hobblehorrifiedfox.com^
 ||hoboedbebump.help^
 ||hobsukocmohu.net^
+||hobvjzwnrkirtw.com^
 ||hocevqttpeekw.store^
 ||hockeydoorrejoined.com^
 ||hockeyhavoc.com^
@@ -36128,6 +36133,7 @@ browsershots.org#@#.advert_area
 ||lmftcihzmxzoy.site^
 ||lmgugqkguatve.store^
 ||lmgyjug31.com^
+||lmhfmxbygiuas.space^
 ||lmhvhlxacgtmb.site^
 ||lmlasnwtqygbw.space^
 ||lmmnkwbtxmrxq.website^
@@ -40646,6 +40652,7 @@ browsershots.org#@#.advert_area
 ||opjogdruojxwl.online^
 ||opjylzjlfxgw.com^
 ||oplaksik.online^
+||oplglpfynxfyxe.com^
 ||opmadpyqm.com^
 ||opnobbohq.com^
 ||opnwtirwio.com^
@@ -40896,6 +40903,7 @@ browsershots.org#@#.advert_area
 ||otkhotqdwhehp.space^
 ||otlpac.com^
 ||otm5noueyxc339h.cfd^
+||otmwlfeoejwfm.online^
 ||otnolabttmup.com^
 ||otnolatrnup.com^
 ||otoadom.com^
@@ -43745,6 +43753,7 @@ browsershots.org#@#.advert_area
 ||qaebaywwzvoyz.top^
 ||qaflyqanumeji.online^
 ||qahmipatkmaj.com^
+||qahpiszz.com^
 ||qainfcnvfensl.site^
 ||qaixhtzsjyipb.store^
 ||qaklbrqyzyeyw.top^
@@ -47762,6 +47771,7 @@ browsershots.org#@#.advert_area
 ||snomoneyandf.com^
 ||snoophooplasconfirm.cyou^
 ||snoopundesirable.com^
+||snoopy-girl.pro^
 ||snoopy-source.pro^
 ||snoopyworking.pro^
 ||snootrepipe.click^
@@ -49959,6 +49969,7 @@ browsershots.org#@#.advert_area
 ||toageenoaci.net^
 ||toagloodokapew.net^
 ||toagrarouchy.net^
+||toaposhogroogou.net^
 ||toapz.xyz^
 ||toarathaujooy.net^
 ||toasoudouh.net^
@@ -52318,6 +52329,7 @@ browsershots.org#@#.advert_area
 ||vigorous-average.com^
 ||vigorous-rush.com^
 ||vigorouslymicrophone.com^
+||vigoroustomorrow.pro^
 ||vihouxoacexoorg.net^
 ||vihshbhlnutid.online^
 ||vihub.ru^
@@ -53161,6 +53173,7 @@ browsershots.org#@#.advert_area
 ||wealthy-mixture.pro^
 ||weanerssouls.com^
 ||weaponschemicalenglish.com^
+||weaponsrefused.com^
 ||wearbald.care^
 ||wearbiolite.rest^
 ||wearbulbed.com^
@@ -54414,6 +54427,7 @@ browsershots.org#@#.advert_area
 ||xjjjeoythaboi.website^
 ||xjkokekq.com^
 ||xjmojakvb.net^
+||xjmsxhbfstxmo.space^
 ||xjmxdoztrfmnt.site^
 ||xjnmjwssymtwp.site^
 ||xjoilounpzfjm.website^
@@ -55145,6 +55159,7 @@ browsershots.org#@#.advert_area
 ||yohimbegunther.world^
 ||yohle.com^
 ||yohocrummer.cfd^
+||yoimeuyjstcyw.space^
 ||yojbiagdemrac.buzz^
 ||yokeeroud.com^
 ||yokematchesdashboard.com^
@@ -66137,6 +66152,7 @@ kohls.com###PDP_monetization_HL
 kohls.com###PMP_monetization_HL
 physicsandmathstutor.com###PMT_PDF_Top
 physicsandmathstutor.com###PMT_Top
+lowendtalk.com###Panel a[href^="https:"][target="_blank"][title][alt][rel="noopener"]
 snwa.com###PolicyNotice
 audioz.download###PromoHead
 newstarget.com###PromoTopFeatured
