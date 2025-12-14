@@ -1,9 +1,9 @@
 [Adblock Plus 1.1]
-! Version: 202512141551
+! Version: 202512141753
 ! Title: EasyPrivacy
-! Last modified: 14 Dec 2025 15:51 UTC
+! Last modified: 14 Dec 2025 17:53 UTC
 ! Expires: 4 days (update frequency)
-! Commit: 903768cdacce8acfd3fed9ca9c763a7334534ceb
+! Commit: 4d7dfd681bf8ecac04bd47fd8c6c4747ac503194
 ! *** easylist:template_header.txt ***
 ! 
 ! Please report any unblocked adverts or problems
@@ -9268,6 +9268,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||kaizenplatform.net^$third-party
 ||letro.jp^$third-party
 ||logly.co.jp^$third-party
+||ma-tag.com^$third-party
 ||macromill.com^$third-party
 ||medipartner.jp^$third-party
 ||mobadme.jp^$third-party
@@ -9299,6 +9300,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||tgknt.com^$third-party
 ||thench.net^$third-party
 ||thesmilingpencils.com^$third-party
+||track.robee.tech^$third-party
 ||trackfeed.com^$third-party
 ||uncn.jp^$third-party
 ||valis-cpx.jp^$third-party
