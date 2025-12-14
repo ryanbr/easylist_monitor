@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Version: 202512132151
+! Version: 202512132350
 ! Title: EasyList
-! Last modified: 13 Dec 2025 21:51 UTC
+! Last modified: 13 Dec 2025 23:50 UTC
 ! Expires: 4 days (update frequency)
-! Commit: 0b78c8c04721f8f3cafcd7f742cc0877dcc285a4
+! Commit: d28cb8783bca1093906057079dc0bf0217a1ceea
 ! *** easylist:template_header.txt ***
 ! 
 ! Please report any unblocked adverts or problems
@@ -15223,6 +15223,9 @@ ascii.jp#@#.adrect
 epawaweather.com#@#.adrow
 gemini.yahoo.com#@#.ads
 in.fo,moovitapp.com#@#.ads-banner
+amtrak.com#@#.ads-block
+amtrak.com#@#.ads-border
+amtrak.com#@#.ads-box-border
 bdsmlr.com#@#.ads-container
 happyend.life#@#.ads-core-placer
 ads.nipr.ac.jp,burzahrane.hr#@#.ads-header
@@ -21086,6 +21089,7 @@ browsershots.org#@#.advert_area
 ||broadsimp.site^
 ||broadsview.site^
 ||brobarrett.com^
+||brobsrqxrobzs.space^
 ||brodizqcy.com^
 ||brodnorway.qpon^
 ||brodownload6s.site^
@@ -25246,6 +25250,7 @@ browsershots.org#@#.advert_area
 ||djxtphppxkzkx.website^
 ||djyvrqsdwfcrh.store^
 ||djzxoqkezic.com^
+||dkaymney.com^
 ||dkcbuqudvsbkb.site^
 ||dkdgkkxqkpogauy.com^
 ||dkepsueazpneu.space^
@@ -27711,6 +27716,7 @@ browsershots.org#@#.advert_area
 ||faithful-yard.pro^
 ||faithfuldifficulty.com^
 ||faithfulevening.com^
+||faivaisoul.com^
 ||faiverty-station.com^
 ||faivohoaboogron.com^
 ||fajkyofaxhdvo.website^
@@ -29465,6 +29471,7 @@ browsershots.org#@#.advert_area
 ||gcgrabxewyxwe.website^
 ||gcgvouovrgqfkw.com^
 ||gchopgjoerxua.space^
+||gcifacowdpa.com^
 ||gckonsiykuejp.site^
 ||gcktvzojxuguq.website^
 ||gcmrsvkxfiwcq.space^
@@ -32511,6 +32518,7 @@ browsershots.org#@#.advert_area
 ||iculpiumiyznp.space^
 ||icwmsalkqywyp.fun^
 ||icxtalveexksf.space^
+||icyassimilateparchment.com^
 ||icyporno.com^
 ||iczhjrshqzong.site^
 ||id5-sync.com^
@@ -35366,6 +35374,7 @@ browsershots.org#@#.advert_area
 ||kpgks.online^
 ||kphsqtglfxqim.space^
 ||kpievcjcrkudrg.xyz^
+||kpkzbhcdsttqk.website^
 ||kposzngwqknai.space^
 ||kpprlojmsm.com^
 ||kpqoiewdruvvr.website^
@@ -38270,6 +38279,7 @@ browsershots.org#@#.advert_area
 ||mnqyjjbitxdvr.club^
 ||mnrazbdd.com^
 ||mnrdqnowjoajc.store^
+||mnrjkhvjvoyqe.website^
 ||mnroknmldvpcn.website^
 ||mntft.com^
 ||mnttmnonaroop.online^
@@ -40794,6 +40804,7 @@ browsershots.org#@#.advert_area
 ||okanwoesgsogw.website^
 ||okapiacoot.qpon^
 ||okaysgrange.cyou^
+||okcrtlnb.com^
 ||okdigital.me^
 ||okdyvjqdrbguk.online^
 ||okedvxsttyjlc.website^
@@ -42738,6 +42749,7 @@ browsershots.org#@#.advert_area
 ||pk910324e.com^
 ||pkahpynblcscu.space^
 ||pkazbknklrjtj.website^
+||pkcetizzgsxtv.online^
 ||pkcetjql.net^
 ||pkcrklqxayaul.website^
 ||pkdvcmrjfscjr.space^
@@ -43142,6 +43154,7 @@ browsershots.org#@#.advert_area
 ||poredtray.help^
 ||poretmuddler.rest^
 ||porikatha.com^
+||porismyounker.shop^
 ||porkpielepidin.com^
 ||porksandes.click^
 ||pornoegg.com^
@@ -51599,6 +51612,7 @@ browsershots.org#@#.advert_area
 ||uefvecpehqhlv.website^
 ||uegdysgfg.com^
 ||uegonhnxbiyrc.website^
+||uegptzzdsamus.space^
 ||uejqmrfxpuvdk.com^
 ||uektouluarthe.site^
 ||uel-uel-fie.com^
