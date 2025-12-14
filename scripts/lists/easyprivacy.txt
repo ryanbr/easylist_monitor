@@ -1,9 +1,9 @@
 [Adblock Plus 1.1]
-! Version: 202512141949
+! Version: 202512142154
 ! Title: EasyPrivacy
-! Last modified: 14 Dec 2025 19:49 UTC
+! Last modified: 14 Dec 2025 21:54 UTC
 ! Expires: 4 days (update frequency)
-! Commit: 4fd3844242f67e620e68f08494308a7e3e2ec410
+! Commit: a27f8f9e111de930798c09d67cfb6813bf15af71
 ! *** easylist:template_header.txt ***
 ! 
 ! Please report any unblocked adverts or problems
@@ -54612,7 +54612,7 @@ bitdefender.com##body[style="opacity: 0;"]:style(opacity: 1 !important;)
 @@||gtm.idealo.*/gtm.js?$domain=idealo.at|idealo.co.uk|idealo.de|idealo.es|idealo.fr|idealo.it
 @@||guce.advertising.com/collectIdentifiers$~third-party
 @@||healthgateway.gov.bc.ca/snowplow.js$~third-party
-@@||hello.myfonts.net/count/$stylesheet,domain=cfr.org|condor.com|furniturevillage.co.uk|luggagehero.com
+@@||hello.myfonts.net/count/$stylesheet,domain=cfr.org|condor.com|corsair.com|furniturevillage.co.uk|luggagehero.com
 @@||hobbyking.com^*/gtm.js$script,~third-party
 @@||hotstarext.com/web-messages/core/error/v52.json$xmlhttprequest,domain=hotstar.com
 @@||identity.mparticle.com^$xmlhttprequest
