@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Version: 202512150957
+! Version: 202512151140
 ! Title: EasyList
-! Last modified: 15 Dec 2025 09:57 UTC
+! Last modified: 15 Dec 2025 11:40 UTC
 ! Expires: 4 days (update frequency)
-! Commit: cc4af9b01ef5d0a093834564f64f02c5c9059ad5
+! Commit: 2980fe9b3cde860303ee47795bfd87ec32f2eb7c
 ! *** easylist:template_header.txt ***
 ! 
 ! Please report any unblocked adverts or problems
@@ -458,6 +458,7 @@
 /jquery.dfp.min.js?
 /jquery.lazyload-ad-$script
 /jquery.lazyload-ad.js
+/jquery.meerkat.
 /jquery.openxtag.js
 /jquery.overlayad.js
 /jquery.popunder.js
@@ -18799,6 +18800,7 @@ browsershots.org#@#.advert_area
 ||arubdaraqigxc.site^
 ||aruranmbqiyus.store^
 ||arvigorothan.com^
+||arvyhcrp.com^
 ||arwdcrdpiwinc.site^
 ||arxrozanvbjde.website^
 ||arxxbyffdtqxlqx.net^
@@ -25710,6 +25712,7 @@ browsershots.org#@#.advert_area
 ||dragonflyproblemsubway.com^
 ||dragstergibletshaded.com^
 ||drailsbetrays.cyou^
+||drainsmeristforbow.cyou^
 ||drakerecitalpraised.com^
 ||dralintheirbrightscar.org^
 ||dramatic-swim.pro^
@@ -30467,6 +30470,7 @@ browsershots.org#@#.advert_area
 ||gqrzrssheetzc.website^
 ||gqtvqjhfhxofz.site^
 ||gquwuefddojikxo.xyz^
+||gqwblrijc.com^
 ||gqxgrffjsyviu.space^
 ||grabsohofaupoo.net^
 ||graceful-operation.com^
@@ -37771,6 +37775,7 @@ browsershots.org#@#.advert_area
 ||mbsspads.com^
 ||mbubaembargo.cfd^
 ||mbuncha.com^
+||mbupnllvhmbzy.site^
 ||mbvlmx.com^
 ||mbvlmz.com^
 ||mbvndisplay.site^
@@ -38738,6 +38743,7 @@ browsershots.org#@#.advert_area
 ||motivatingother.com^
 ||motiveinsulationflamboyant.com^
 ||motleyimproviseink.com^
+||motonuvekerwi.online^
 ||motorshook.com^
 ||motorsuffer.com^
 ||motqctjhtfsmc.site^
@@ -39345,6 +39351,7 @@ browsershots.org#@#.advert_area
 ||nappekksiwlrl.store^
 ||nappertroughy.cfd^
 ||nappyonsetstiffness.com^
+||napstiling.qpon^
 ||naqumvitezuzrh.com^
 ||nardineactaeon.cfd^
 ||nardvlmewjjsc.website^
@@ -40320,6 +40327,7 @@ browsershots.org#@#.advert_area
 ||ntwxobjkqxodv.online^
 ||ntxviewsinterfu.info^
 ||ntyivmvvzscaj.store^
+||ntyjrarija.com^
 ||ntyuxyriuojuo.site^
 ||nuamhmoviliol.online^
 ||nuayrztxdbfem.site^
@@ -40744,6 +40752,7 @@ browsershots.org#@#.advert_area
 ||ocrlmgqgqlfqt.store^
 ||ocseniors.help^
 ||octaplagaius.shop^
+||octettealanylscaridea.cfd^
 ||octo25.me^
 ||octoberads.space^
 ||octobertheatrenosy.com^
@@ -41650,6 +41659,7 @@ browsershots.org#@#.advert_area
 ||ouftecocman.net^
 ||ougeechimp.net^
 ||ougesselree.net^
+||ouggltcbkrrej.space^
 ||ouglauster.net^
 ||ouglugnourdo.net^
 ||ougnflauhyluf.online^
@@ -42210,6 +42220,7 @@ browsershots.org#@#.advert_area
 ||partners-show.com^
 ||partsroll.xyz^
 ||partycastes.shop^
+||partyjerk.com^
 ||partypartners.com^
 ||partyroll.xyz^
 ||parumal.com^
@@ -46792,6 +46803,7 @@ browsershots.org#@#.advert_area
 ||rpvhxowckitodm.net^
 ||rpxjlfxnegnlz.website^
 ||rpxorephfxdvm.site^
+||rpxthifhxwznd.space^
 ||rpyoasspbcjmr.site^
 ||rpyztjadsbonh.store^
 ||rqejawwjloqlk.top^
@@ -52007,6 +52019,7 @@ browsershots.org#@#.advert_area
 ||ugyokhycezstl.site^
 ||ugyppaqollegn.online^
 ||uhakhbbuuqanf.site^
+||uhauhqiuqbjoq.website^
 ||uhdgtnzuttvhb.online^
 ||uhdobftqarvye.space^
 ||uhdokoq5ocmk.com^
@@ -72823,6 +72836,7 @@ totalprosports.com##.tps-top-leaderboard
 techreen.com##.tr-block-header-ad
 techreen.com##.tr-block-label
 torbay.gov.uk##.track
+adsoftheworld.com##.tracking-widest
 bincodes.com##.transferwise
 sun-sentinel.com##.trb_sf_hl
 coinmarketcap.com##.trending-sponsored
@@ -73830,7 +73844,6 @@ classicstoday.com##a[target="_blank"][rel="noopener"] > img
 megaplay.cc,wiztube.xyz##a[title="Free money easy"]
 kroger.com##a[title^="Advertisement:"]
 rottentomatoes.com##ad-unit
-adsoftheworld.com#.tracking-widest
 cryptodaily.co.uk##advert
 cooljugator.com##amp-auto-ads
 extraetf.com##app-ad-block
@@ -76577,6 +76590,7 @@ hdtube.porn##.under-player-link
 criollasx.com##.under-video-block
 sexvid.xxx##.under_player_link
 upornia.com,upornia.tube##.underplayer > section
+senzuri.tube##.underplayer-review
 thegay.com##.underplayer__info > div:not([class])
 videojav.com##.underplayer_banner
 vjav.com,vjav.tube##.undp
