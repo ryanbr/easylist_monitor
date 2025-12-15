@@ -1,9 +1,9 @@
 [Adblock Plus 1.1]
-! Version: 202512142154
+! Version: 202512142349
 ! Title: EasyPrivacy
-! Last modified: 14 Dec 2025 21:54 UTC
+! Last modified: 14 Dec 2025 23:49 UTC
 ! Expires: 4 days (update frequency)
-! Commit: a27f8f9e111de930798c09d67cfb6813bf15af71
+! Commit: 7bacfdd7a56ef8fed89fcf377df8acaa1767b805
 ! *** easylist:template_header.txt ***
 ! 
 ! Please report any unblocked adverts or problems
@@ -6864,6 +6864,7 @@ omni.soundestlink.com$image
 ||coolestcatcare.com^
 ||coolguesthouse.com^
 ||coordinatedcoat.com^
+||copperstills.net^
 ||copycarpenter.com^
 ||copyfranchise.com^
 ||copyrightaccesscontrols.com^
@@ -6879,6 +6880,7 @@ omni.soundestlink.com$image
 ||costwinner.com^
 ||courageousbaby.com^
 ||coverlayer.com^
+||cowbelltime.com^
 ||cozydusk.com^
 ||cozyhillside.com^
 ||cozytryst.com^
