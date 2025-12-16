@@ -1,9 +1,9 @@
 [Adblock Plus 1.1]
-! Version: 202512152146
+! Version: 202512152353
 ! Title: EasyPrivacy
-! Last modified: 15 Dec 2025 21:46 UTC
+! Last modified: 15 Dec 2025 23:53 UTC
 ! Expires: 4 days (update frequency)
-! Commit: 9d52a47d7a4fe1595147e6548e1bc1870d51f7df
+! Commit: 1afe840b84fb3c21885ca5bdf54f78d18519ad4a
 ! *** easylist:template_header.txt ***
 ! 
 ! Please report any unblocked adverts or problems
@@ -7303,6 +7303,7 @@ omni.soundestlink.com$image
 ||harborcub.com^
 ||harmonywing.com^
 ||hatefulrequest.com^
+||hayweb.net^
 ||hazmatworkshop.com^
 ||headydegree.com^
 ||headyhook.com^
@@ -7320,6 +7321,7 @@ omni.soundestlink.com$image
 ||hfc195b.com^
 ||highfalutinbox.com^
 ||highfalutinhoney.com^
+||highnoongear.com^
 ||hikingbars.com^
 ||hilariouszinc.com^
 ||historicalbeam.com^
