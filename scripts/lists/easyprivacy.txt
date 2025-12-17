@@ -1,9 +1,9 @@
 [Adblock Plus 1.1]
-! Version: 202512170957
+! Version: 202512171149
 ! Title: EasyPrivacy
-! Last modified: 17 Dec 2025 09:57 UTC
+! Last modified: 17 Dec 2025 11:49 UTC
 ! Expires: 4 days (update frequency)
-! Commit: e223ca3ae00e6d5d91a3b42d6a7615418ca2cbee
+! Commit: ea3581209b7ad51d342fac7778164943342dfd73
 ! *** easylist:template_header.txt ***
 ! 
 ! Please report any unblocked adverts or problems
@@ -7423,6 +7423,7 @@ omni.soundestlink.com$image
 ||jubilantwhisper.com^
 ||juicebard.com^
 ||juiceblocks.com^
+||juicingoasis.com^
 ||justconfig.com^
 ||justicejudo.com^
 ||justpickaname.com^
@@ -7882,6 +7883,7 @@ omni.soundestlink.com$image
 ||rememberdiscussion.com^
 ||remixslot.com^
 ||rentinfinity.com^
+||rentpenny.com^
 ||repeatsweater.com^
 ||replaceroute.com^
 ||rescuerhino.com^
