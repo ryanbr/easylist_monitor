@@ -1,9 +1,9 @@
 [Adblock Plus 1.1]
-! Version: 202512180358
+! Version: 202512180547
 ! Title: EasyPrivacy
-! Last modified: 18 Dec 2025 03:58 UTC
+! Last modified: 18 Dec 2025 05:47 UTC
 ! Expires: 4 days (update frequency)
-! Commit: 4e9382f2552a751e741934eb9a7cc16fc4418c68
+! Commit: 35db70b78092b3dd348b9ebc5fe2b1430531cd7e
 ! *** easylist:template_header.txt ***
 ! 
 ! Please report any unblocked adverts or problems
@@ -3327,6 +3327,7 @@ _WebVitalsReporter_
 ://e.*/open?$image
 ://email.*/o/$image
 ://emailtracking.$image
+://i.*@groovehq.com.gif$image
 ://line.karte.io/CI0/$image
 ://links.flickr.com/s/eo/$image
 ://links.paypal.*/eos/$image
@@ -3914,6 +3915,7 @@ omni.soundestlink.com$image
 ||addfreestats.com^$third-party
 ||addwish.com^$third-party
 ||adelixir.com^$third-party
+||adfenix.com^$third-party
 ||adfox.ru^$third-party
 ||adgreed.com^$third-party
 ||adheart.de^$third-party
