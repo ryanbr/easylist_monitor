@@ -1,9 +1,9 @@
 [Adblock Plus 1.1]
-! Version: 202512180944
+! Version: 202512181151
 ! Title: EasyPrivacy
-! Last modified: 18 Dec 2025 09:44 UTC
+! Last modified: 18 Dec 2025 11:51 UTC
 ! Expires: 4 days (update frequency)
-! Commit: 4fd154b2d22099bd85673cca4b4d069cb950a967
+! Commit: 09c8475b58d3eece007afad0c3cf9a387eb22b77
 ! *** easylist:template_header.txt ***
 ! 
 ! Please report any unblocked adverts or problems
@@ -204,6 +204,7 @@
 /ajax/analytics/*
 /ajax/log?
 /ajax/stat/*
+/ajax/whereami$ping
 /ajax_video_counter.php?
 /ajaxlog?
 /akam/*/pixel_
@@ -3324,6 +3325,7 @@ _WebVitalsReporter_
 /znsrc.com/c/*$image
 /znsrc.com/o/*$image
 ://2ip.*/member_photo/$third-party
+://c.groovehq.com/*.gif
 ://cl.melonbooks.co.jp/c/$image
 ://e.*/open?$image
 ://email.*/o/$image
