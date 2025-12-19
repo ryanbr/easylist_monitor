@@ -1,9 +1,9 @@
 [Adblock Plus 1.1]
-! Version: 202512191945
+! Version: 202512192147
 ! Title: EasyPrivacy
-! Last modified: 19 Dec 2025 19:45 UTC
+! Last modified: 19 Dec 2025 21:47 UTC
 ! Expires: 4 days (update frequency)
-! Commit: 6d30bdac7499458880366ecd952947e94c537fab
+! Commit: e3d3085d0628eb7b573c1f9a01ae19e41a8db7cc
 ! *** easylist:template_header.txt ***
 ! 
 ! Please report any unblocked adverts or problems
@@ -6928,6 +6928,7 @@ omni.soundestlink.com$image
 ||cumbersomecake.com^
 ||cumbersomecarpenter.com^
 ||cupcakegem.com^
+||curatedtea.com^
 ||curbminers.com^
 ||curbneon.com^
 ||curiouschalk.com^
@@ -7017,6 +7018,7 @@ omni.soundestlink.com$image
 ||dreamycanyon.com^
 ||driftingchef.com^
 ||driftpizza.com^
+||droidwiz.com^
 ||drollwharf.com^
 ||dustydime.com^
 ||dustyhammer.com^
