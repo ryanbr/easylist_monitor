@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Version: 202512210540
+! Version: 202512210736
 ! Title: EasyList
-! Last modified: 21 Dec 2025 05:40 UTC
+! Last modified: 21 Dec 2025 07:36 UTC
 ! Expires: 4 days (update frequency)
-! Commit: 4ba74024f937153064eb5e1a4fb5f8cd09c7184e
+! Commit: 785a37527ff0aa8af8965137dcb256be51c2e5fe
 ! *** easylist:template_header.txt ***
 ! 
 ! Please report any unblocked adverts or problems
@@ -262,7 +262,16 @@
 /adv_out.js$third-party
 /adv_vert.js$script
 /AdvAdsV3/*$script,stylesheet
-/advanced-ads-$script,stylesheet,domain=~transinfo.pl|~wordpress.org
+/advanced-ads-layer/public/assets/js/layer.js
+/advanced-ads-pro.js$script
+/advanced-ads-pro.min.js$script
+/advanced-ads-pro/assets/dist/front.js$script
+/advanced-ads-pro/assets/js/postscribe.js$script
+/advanced-ads-pro/modules/*$script
+/advanced-ads-sticky-ads/assets/dist/sticky.js$script
+/advanced-ads-tracking/assets/dist/delayed.js$script
+/advanced-ads-tracking/assets/dist/tracking.js$script
+/advanced-ads/public/assets/js/advanced.min.js$script
 /advbanner.frontend.js$script
 /advert.$~script,~xmlhttprequest,domain=~advert.ae|~advert.club|~advert.com.tr|~advert.ee|~advert.ge|~advert.io|~advert.media|~advert.org.pl|~motortrader.com.my
 /advertising/ad-shield.js$script
@@ -15594,6 +15603,7 @@ browsershots.org#@#.advert_area
 ||1b3tmfcbq.de^
 ||1b4r5lcv7iv4nlvk71.rest^
 ||1b87094b09.com^
+||1b94588l77xw476wi.cfd^
 ||1b9e934cbd.com^
 ||1be953d1cc.com^
 ||1betandgonow.com^
@@ -18483,6 +18493,7 @@ browsershots.org#@#.advert_area
 ||annuarybeeper.click^
 ||annulmentequitycereals.com^
 ||annulusagt.com^
+||anodachwrhdbv.space^
 ||anodeovistic.rest^
 ||anodicgomavel.shop^
 ||anomalahervati.help^
@@ -20006,6 +20017,7 @@ browsershots.org#@#.advert_area
 ||bdfxohpay.com^
 ||bdhiktdrf.com^
 ||bdidqntuyyuav.online^
+||bdikjljwzgycz.space^
 ||bdiuqnbyqpems.online^
 ||bdkrltbdwxmxe.space^
 ||bdletryp.rest^
@@ -25756,6 +25768,7 @@ browsershots.org#@#.advert_area
 ||dngfhejzawbga.online^
 ||dngzvmztykhkw.online^
 ||dnhjvfwwf.com^
+||dnibrjbhidpyq.space^
 ||dniiypanzutzi.site^
 ||dnjdkumlkguwr.online^
 ||dnllyhkrumiui.website^
@@ -29831,6 +29844,7 @@ browsershots.org#@#.advert_area
 ||g8tor.com^
 ||g9qnk89pd5ic.com^
 ||gaaekexcvdkur.site^
+||gabbleddipodidupbuild.cyou^
 ||gablockchunner.help^
 ||gablockheavers.qpon^
 ||gaboonspooked.cyou^
@@ -34417,6 +34431,7 @@ browsershots.org#@#.advert_area
 ||ixaxwiexuwcry.space^
 ||ixbfaxlyvbqfd.space^
 ||ixcirsgywnnmi.website^
+||ixcswknfty.com^
 ||ixehvtycykhik.store^
 ||ixendtolyio.com^
 ||ixgyezjgpsnob.store^
@@ -40283,6 +40298,7 @@ browsershots.org#@#.advert_area
 ||nbxcijnlqfrbd.website^
 ||nbyljnyrtyhx.com^
 ||nbzemeyiknni7o3l7riictvi.rest^
+||ncaapttwuw.com^
 ||ncb6i6mbeiig3xq19c.cfd^
 ||nceneverdreamsofc.org^
 ||ncetdrzpalozq.space^
@@ -43294,6 +43310,7 @@ browsershots.org#@#.advert_area
 ||pbmlcgdxrjxcp.website^
 ||pbmmqjehjhyff.website^
 ||pbmt.cloud^
+||pbnl1x4bu7riux8bz.rest^
 ||pbogeswgndovxr.com^
 ||pbolnoomselab.online^
 ||pbpbcriabaaay.website^
@@ -44990,6 +45007,7 @@ browsershots.org#@#.advert_area
 ||pseghoftixoo.net^
 ||pseghutsodizaig.net^
 ||psejatoanoush.net^
+||psekrucoolsaub.com^
 ||pselsiphodsoul.net^
 ||pserdoochur.net^
 ||psetchorda.net^
@@ -45270,6 +45288,7 @@ browsershots.org#@#.advert_area
 ||pumpbead.com^
 ||pumpmenrestage.rest^
 ||punchpantherwhip.com^
+||punchytitties.rest^
 ||punctalhexdra.cfd^
 ||punctuationbandycontradict.com^
 ||pundumringatu.cfd^
@@ -46603,6 +46622,7 @@ browsershots.org#@#.advert_area
 ||rbqfprbbtwgej.online^
 ||rbqiospxmncwf.site^
 ||rbqlbokvoryea.top^
+||rbqlbokvoryyy.top^
 ||rbrightscarletcloaksan.org^
 ||rbrstyvmhfgnv.online^
 ||rbsfckgfwpgnr.site^
@@ -48486,6 +48506,7 @@ browsershots.org#@#.advert_area
 ||satisfied-dare.com^
 ||satisfied-politics.com^
 ||satisfiedbad.com^
+||satisfiedbrave.pro^
 ||satisfypliablehumiliated.com^
 ||satisfyruns.com^
 ||sattiostiounper.com^
@@ -50993,6 +51014,7 @@ browsershots.org#@#.advert_area
 ||superrgood.com^
 ||supers-date-themeetup.com^
 ||supersedeforbes.com^
+||supershopping.pro^
 ||superstitionscarecrowunbelievable.com^
 ||superstitionstrainconvincing.com^
 ||superstriker.net^
@@ -51756,6 +51778,7 @@ browsershots.org#@#.advert_area
 ||thanksgivingdelights.com^
 ||thanksgivingdelights.name^
 ||thanosofcos5.com^
+||thapsiascrumaortal.cfd^
 ||thatmonkeybites3.com^
 ||thaudray.com^
 ||thauftoaceensy.net^
@@ -57222,6 +57245,7 @@ browsershots.org#@#.advert_area
 ||xpywjxtnamrdv.website^
 ||xqaosfdbhff.today^
 ||xqcxufkredlqg.site^
+||xqdpvfnmwgmkbfq.com^
 ||xqedtqzjdjheh.space^
 ||xqeoitqw.site^
 ||xqfpgwarzkecj.website^
@@ -57429,6 +57453,7 @@ browsershots.org#@#.advert_area
 ||xympumihvhkkv.online^
 ||xynkzguvdhttm.site^
 ||xyntqqrtdrjzk.online^
+||xypfboanhelbs.space^
 ||xypfhmtcc.com^
 ||xyroxqxhjcjzd.store^
 ||xysbvkskxvsyj.online^
@@ -57757,6 +57782,7 @@ browsershots.org#@#.advert_area
 ||yjgpbrpbpfkvr.website^
 ||yjgrhzvtvkqen.tech^
 ||yjjfvcbzbrppe.store^
+||yjnymcgboozbn.site^
 ||yjpqcnhnpaghu.site^
 ||yjrohhkqfddlx.store^
 ||yjtrcuqfxbvhz.space^
@@ -58172,6 +58198,7 @@ browsershots.org#@#.advert_area
 ||yzsinffpguits.space^
 ||yzsmvphqdnsdk.website^
 ||yzswlkwqkkndh.space^
+||yztieslfdokbq.website^
 ||yzusmqxulljzm.website^
 ||yzwtg89j.xyz^
 ||yzwtz.com^
@@ -59807,6 +59834,7 @@ browsershots.org#@#.advert_area
 ||adshot.de^$third-party
 ||adsiduous.com^$third-party
 ||adsight.nl^$third-party
+||adsinteractive.com^$third-party
 ||adslivecorp.com^$third-party
 ||adsmart.hk^$third-party
 ||adsninja.ca^$third-party
