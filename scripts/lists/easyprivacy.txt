@@ -1,9 +1,9 @@
 [Adblock Plus 1.1]
-! Version: 202512230944
+! Version: 202512231152
 ! Title: EasyPrivacy
-! Last modified: 23 Dec 2025 09:44 UTC
+! Last modified: 23 Dec 2025 11:52 UTC
 ! Expires: 4 days (update frequency)
-! Commit: 726873f254947b6770350e8b5557711d94784407
+! Commit: fb2472f42bd9a669c223e87a553a26a4f9d506d4
 ! *** easylist:template_header.txt ***
 ! 
 ! Please report any unblocked adverts or problems
@@ -54865,6 +54865,7 @@ bitdefender.com##body[style="opacity: 0;"]:style(opacity: 1 !important;)
 @@||trackjs.com/agent/$script,domain=delta.com
 @@||trackonomics.net/client/$script,domain=popsugar.com
 @@||travel-assets.com/platform-analytics-prime/$domain=chase.com
+@@||try.abtasty.com^$script,domain=tickpick.com
 @@||tunein.com/api/v1/comscore$~third-party
 @@||unpkg.com/@adobe/magento-storefront-event-collector@$domain=osprey.com
 @@||userapi.com^*.gif?extra=$image,domain=vk.com
