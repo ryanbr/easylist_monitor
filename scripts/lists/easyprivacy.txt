@@ -1,9 +1,9 @@
 [Adblock Plus 1.1]
-! Version: 202512231941
+! Version: 202512232141
 ! Title: EasyPrivacy
-! Last modified: 23 Dec 2025 19:41 UTC
+! Last modified: 23 Dec 2025 21:41 UTC
 ! Expires: 4 days (update frequency)
-! Commit: 4aabdaa9595930825e37493442004005b0eac730
+! Commit: e92b91545a439e03a2a663580a7cdea4d6f6c547
 ! *** easylist:template_header.txt ***
 ! 
 ! Please report any unblocked adverts or problems
@@ -7191,6 +7191,7 @@ omni.soundestlink.com$image
 ||forwardslashetc.com^
 ||fossilzero.com^
 ||fourpawsahead.com^
+||foxlagoon.com^
 ||foxtrotdata.com^
 ||frailfruit.com^
 ||framebanana.com^
@@ -7279,6 +7280,7 @@ omni.soundestlink.com$image
 ||grayoranges.com^
 ||grayreceipt.com^
 ||grayscaleart.com^
+||graywords.net^
 ||greasegarden.com^
 ||greasysquare.com^
 ||gridbelow.com^
@@ -40463,6 +40465,8 @@ bitdefender.com##body[style="opacity: 0;"]:style(opacity: 1 !important;)
 ! ||info.mouser.com^
 ! ||visit.tafensw.edu.au^
 ! ||sw.broadcom.com^
+! ||lrbelgium.wolterskluwer.com^
+! ||belgium.wolterskluwer.com^
 ! 
 ||10stepswp.advancedtech.com^
 ||1stparty.equifax.co.uk^
@@ -41011,7 +41015,6 @@ bitdefender.com##body[style="opacity: 0;"]:style(opacity: 1 !important;)
 ||bbk.pnc.com^
 ||bbworld.blackboard.com^
 ||be-go.experian.com^
-||belgium.wolterskluwer.com^
 ||belong.curtin.edu.au^
 ||beneficios.davivienda.hn^
 ||beneficios.davivienda.sv^
@@ -43493,7 +43496,6 @@ bitdefender.com##body[style="opacity: 0;"]:style(opacity: 1 !important;)
 ||lp.tix.lehigh.edu^
 ||lp3.dentsplysirona.com^
 ||lps-info.arval.com^
-||lrbelgium.wolterskluwer.com^
 ||lrgermany.wolterskluwer.com^
 ||lrhungary.wolterskluwer.com^
 ||lritaly.wolterskluwer.com^
