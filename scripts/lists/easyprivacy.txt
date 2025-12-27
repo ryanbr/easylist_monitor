@@ -1,9 +1,9 @@
 [Adblock Plus 1.1]
-! Version: 202512271948
+! Version: 202512272151
 ! Title: EasyPrivacy
-! Last modified: 27 Dec 2025 19:48 UTC
+! Last modified: 27 Dec 2025 21:51 UTC
 ! Expires: 4 days (update frequency)
-! Commit: 01384eef232b8a432460c7a2bdf255e05c0b68a8
+! Commit: 17c7517c3e529d95d91e99cd272b2dc292e4f0fd
 ! *** easylist:template_header.txt ***
 ! 
 ! Please report any unblocked adverts or problems
@@ -7417,6 +7417,7 @@ omni.soundestlink.com$image
 ||irelandroad.com^
 ||iridescentdusk.com^
 ||irritatingfog.com^
+||islandssouth.com^
 ||islandwebhelp.com^
 ||itemslice.com^
 ||ivykiosk.com^
@@ -7482,6 +7483,7 @@ omni.soundestlink.com$image
 ||laughdrum.com^
 ||launchjack.com^
 ||lazychord.com^
+||lazyexplore.com^
 ||leafpilot.com^
 ||leaguepoll.com^
 ||leaplunchroom.com^
