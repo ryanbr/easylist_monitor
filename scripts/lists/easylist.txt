@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Version: 202512270550
+! Version: 202512270751
 ! Title: EasyList
-! Last modified: 27 Dec 2025 05:50 UTC
+! Last modified: 27 Dec 2025 07:51 UTC
 ! Expires: 4 days (update frequency)
-! Commit: 831f52453d79559931db895dd488c2324456cbe7
+! Commit: eb114dce64641592a73a456e84883b7e81154fc7
 ! *** easylist:template_header.txt ***
 ! 
 ! Please report any unblocked adverts or problems
@@ -14634,6 +14634,20 @@ _800x80_
 ##.TaboolaMoreToExplore_taboolaContainerWrapper__Ccf_j
 ##.TopBannerstyled__Wrapper-sc-x2ypns-0
 ##.style_medTopAdsWrapper__rd6bz
+! ACM Media https://acm.media/brands/non-dailies/
+###billboard-container.bg-gray-100.py-3
+###main-side-container.bg-gray-100.space-y-2
+###mrec-297631-container
+###mrec-leaderboard-298545-container
+###newswell-leaderboard-container
+###newswell-side-1-container
+###newswell-side-2-container
+###story-side-1-container.min-w-mrec
+###story-side-2-container.min-w-mrec
+###story3-container.py-2.bg-gray-100
+###story4-container.py-2.bg-gray-100
+###story5-container.py-2.bg-gray-100
+##div[id^="mrec-leaderboard-"]
 ! newspack.com (noozhawk.com)
 ##.bs-sneaker-container
 ##.newspack-broadstreet-ad
@@ -18521,6 +18535,7 @@ browsershots.org#@#.advert_area
 ||angryheadlong.com^
 ||angrymarketingprecise.com^
 ||anguishaddition.com^
+||anguished-total.pro^
 ||angularpoppyrobbing.com^
 ||anhimaetoller.help^
 ||anillabedders.shop^
@@ -23806,6 +23821,7 @@ browsershots.org#@#.advert_area
 ||conjunctionblackmailspill.com^
 ||conjunctionrepresentativepowerless.com^
 ||conjuremachinery.com^
+||conksfrundelrodster.cyou^
 ||connectad.io^
 ||connectedflownow.com^
 ||connectingadjusthospitality.com^
@@ -28291,6 +28307,7 @@ browsershots.org#@#.advert_area
 ||evrhzvgcbxiyx.space^
 ||evrrdjkoevuia.online^
 ||evsw-zfdmag.one^
+||evtmafjtota.com^
 ||evuuiytrdkshg.website^
 ||evxtwhslqddyy.website^
 ||evxxkaaecmwgz.online^
@@ -28304,6 +28321,7 @@ browsershots.org#@#.advert_area
 ||ewerlgufrpkg.com^
 ||ewesmedia.com^
 ||ewhareey.com^
+||ewheegeeci.net^
 ||ewhewfncwelac.com^
 ||ewhflgnckfbx.com^
 ||ewhfrfdrwffkg.website^
@@ -31978,6 +31996,7 @@ browsershots.org#@#.advert_area
 ||gurrahjur.shop^
 ||gurtoaksija.com^
 ||gusabfluchu.com^
+||guserrivose.rest^
 ||guseubkxyvw.com^
 ||gushfilmingbaseless.com^
 ||gussame.com^
@@ -32518,6 +32537,7 @@ browsershots.org#@#.advert_area
 ||hdkpdrzcvooaz.online^
 ||hdmmkguxvsfrl.site^
 ||hdoditwa.xyz^
+||hdowamsiyeibv.online^
 ||hdpaaaidikjlf.site^
 ||hdphsinaijzjp.online^
 ||hdppc.com^
@@ -34830,6 +34850,7 @@ browsershots.org#@#.advert_area
 ||irmlutzpydekm.website^
 ||irnmh.fun^
 ||iroaltidsou.net^
+||irognpinedsgo.website^
 ||irokohexamer.shop^
 ||ironcladtrouble.com^
 ||ironedjumana.click^
@@ -35006,6 +35027,7 @@ browsershots.org#@#.advert_area
 ||iuhmfkhuh.com^
 ||iujmtfksuiui.com^
 ||iukkxczhqekat.space^
+||iukrelfkscaiy.space^
 ||iulkpesaffexi.site^
 ||iulqktifw.com^
 ||iumdnilpxclup.store^
@@ -35139,6 +35161,7 @@ browsershots.org#@#.advert_area
 ||iylqknznqxlst.site^
 ||iylwnmnnchzkq.website^
 ||iymvmpyfsqnui.site^
+||iynjavfquxrirfn.com^
 ||iynpksdwcomnq.com^
 ||iypxxhjdiwggg.website^
 ||iytlhykzxford.space^
@@ -36224,6 +36247,7 @@ browsershots.org#@#.advert_area
 ||k658wboqe53ffqxn.cfd^
 ||k68tkg.com^
 ||k6w3mnr6b8gq7jrl7rhlg829.cfd^
+||k7zjkgvqnernpnzr78vqek8lm73u.rest^
 ||k8rq72yu3oeii6nv8o3cr8kj9o.rest^
 ||k8zy.com^
 ||k96t7pr4352386.rest^
@@ -37300,6 +37324,7 @@ browsershots.org#@#.advert_area
 ||la-la-moon.com^
 ||la-la-sf.com^
 ||laaaqmkbvcxf.xyz^
+||laarmwcgehodw.website^
 ||labaaraseta.cfd^
 ||labadena.com^
 ||labeldollars.com^
@@ -38553,6 +38578,7 @@ browsershots.org#@#.advert_area
 ||lptrak.com^
 ||lptrck.com^
 ||lpuacqxrawpu.com^
+||lpwtbsfgamivm.space^
 ||lpwxtzhqeodnb.website^
 ||lpxwtr7f3umqhjb9.cfd^
 ||lpyyzoetztnmv.one^
@@ -38856,6 +38882,7 @@ browsershots.org#@#.advert_area
 ||lwktemxpaiuzx.website^
 ||lwmpocteuzldy.world^
 ||lwnbts.com^
+||lwnocmmomsuwn.website^
 ||lwobwfalyrbyn.space^
 ||lwonclbench.com^
 ||lwqloccqmtt.xyz^
@@ -41754,6 +41781,7 @@ browsershots.org#@#.advert_area
 ||nncdtquddmjjb.site^
 ||nncgorhtrjrjn.store^
 ||nnerventualkentin.org^
+||nneurlaben.xyz^
 ||nnfaatpwydlje.space^
 ||nnhghmknpmph.xyz^
 ||nnkkwfcnwkzud.space^
@@ -41810,6 +41838,7 @@ browsershots.org#@#.advert_area
 ||noisyanywhere.pro^
 ||noisyattention.pro^
 ||nojjpugwlpwns.online^
+||nojzmdvcnawjt.space^
 ||nokakjaulkrgi.site^
 ||nollchaber.world^
 ||nomeuspagrus.com^
@@ -48239,6 +48268,7 @@ browsershots.org#@#.advert_area
 ||renamereptiliantrance.com^
 ||renaybannack.shop^
 ||rencessedessations.com^
+||rench-single.pro^
 ||rencheffort.pro^
 ||rencontreadultere.club^
 ||rencontresparis2015.com^
@@ -48977,6 +49007,7 @@ browsershots.org#@#.advert_area
 ||romancetastic.com^
 ||romanjillstrung.com^
 ||romanlyampery.click^
+||romanlygilded.cyou^
 ||romantic-future.sk^
 ||romanticbun.com^
 ||romantlcaffair.net^
@@ -49424,6 +49455,7 @@ browsershots.org#@#.advert_area
 ||rwohwaeyupzjp.website^
 ||rwohxheuqhmqy.site^
 ||rworljrkarvev.top^
+||rworljrkarvyq.top^
 ||rworljrkawlqq.top^
 ||rworljrkawoma.top^
 ||rwqovmoezrerk.top^
@@ -59896,6 +59928,7 @@ browsershots.org#@#.advert_area
 ||zaxekvomlfghf.site^
 ||zazlluqbstvzk.website^
 ||zazlpkapqlrai.website^
+||zb94bheebq2bip.cfd^
 ||zbhfbgoskxqmz.online^
 ||zbhxbpkoqbysc.website^
 ||zbifzcbcwsuuu.space^
@@ -60241,6 +60274,7 @@ browsershots.org#@#.advert_area
 ||znzfvmdtklsvv.xyz^
 ||zoachoar.net^
 ||zoagremo.net^
+||zoakationswane.cfd^
 ||zoaloawoop.com^
 ||zoanoowhooky.net^
 ||zoaphogree.net^
