@@ -1,9 +1,9 @@
 [Adblock Plus 1.1]
-! Version: 202512272356
+! Version: 202512280234
 ! Title: EasyPrivacy
-! Last modified: 27 Dec 2025 23:56 UTC
+! Last modified: 28 Dec 2025 02:34 UTC
 ! Expires: 4 days (update frequency)
-! Commit: 3539cc59ee28c5d9f61a7a5e7983d24470674603
+! Commit: 71876f9c74131907d1d377d7df1b27b85dfb2468
 ! *** easylist:template_header.txt ***
 ! 
 ! Please report any unblocked adverts or problems
@@ -2572,6 +2572,7 @@
 /tynt.js
 /u.gif?
 /ucount.php?
+/udp-analytics.js
 /uds/stats?
 /uecomscore_cmp_event_mundo.js
 /uem-ep.js
@@ -9986,6 +9987,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||app.octaneai.com/get_analytics_engine/
 ||app.opmnstr.com/v2/geolocate/
 ||app.optibase.io^
+||app.partnerboost.com^
 ||app.pendo.io/data/$image
 ||app.posthog.com/e/?compression=
 ||app.posthog.com/e/?ip=
@@ -12330,6 +12332,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||traq.li/tracker/
 ||travix.com/log
 ||traxex.gannettdigital.com^
+||trck.digiteka.com^
 ||tree-nation.com/js/track.js
 ||trends.newsmaxwidget.com^
 ||trib.al^$image,third-party
@@ -13050,11 +13053,11 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||tracking.s24.com^
 ||tracking.srv2.de^
 ||tracking.webtradecenter.com^
+||traffic.askrella.de^
 ||trck.bdi-services.de^
 ||trck.spoteffects.net^
 ||trecker.aklamio.com^
 ||tw.reppublika.com^
-||umami.askrella.de^
 ||uni-duesseldorf.de/cgi-bin/nph-count?
 ||united-infos.net/event?
 ||veeseo.com^*/url.gif?
@@ -15388,6 +15391,8 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||qc.vogue.com^
 ||qc.wired.com^
 ||qm.redbull.com^
+||qub.ca/api/log
+||qub.ca/collector-service/event
 ||quibids.com/marketing/pixels/
 ||quickmeme.com/tracker/
 ||quotev.com/ajax/ping
