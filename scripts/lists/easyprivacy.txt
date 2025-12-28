@@ -1,9 +1,9 @@
 [Adblock Plus 1.1]
-! Version: 202512280543
+! Version: 202512280750
 ! Title: EasyPrivacy
-! Last modified: 28 Dec 2025 05:43 UTC
+! Last modified: 28 Dec 2025 07:50 UTC
 ! Expires: 4 days (update frequency)
-! Commit: 953ebbb1db099518d94de263109b4e6a4116244d
+! Commit: acecfdb201bac8ac879409da0c770cf9f7332b18
 ! *** easylist:template_header.txt ***
 ! 
 ! Please report any unblocked adverts or problems
@@ -11053,6 +11053,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||jly24aw29n5m-a.akamaihd.net^
 ||jobvite.com/analytics.js
 ||jotform.io/getReferrer/$third-party
+||js.cdn.applicationinsights.io/scripts/b/ai.3.gbl.min.js
 ||js.go2sdk.com/v2/tune.js
 ||js.verisoul.ai^
 ||jscache.com/static/page_moniker/
@@ -11392,6 +11393,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||o.aolcdn.com/js/mg1.js
 ||o.momently.info^
 ||o9tt6h08li.execute-api.eu-west-1.amazonaws.com^
+||obs.du89buildings.com^
 ||obs.esnlocco.com^
 ||obs.jollyoutdoorjogger.com^
 ||obs.system1onesource.com^
@@ -12054,6 +12056,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||t.mail.sony-europe.com/r/?
 ||t.menepe.com^
 ||t.metrilo.com^
+||t.mydialoginsight.com^
 ||t.pointandplace.com^
 ||t.powerreviews.com^$third-party
 ||t.raptorsmartadvisor.com^
@@ -12379,6 +12382,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||ucounter.ucoz.net^
 ||ucoz.net/stat/
 ||uct.service.usercentrics.eu^
+||ufe.helixo.co/scripts/sdk.min.js
 ||uhit.eu/id/$third-party
 ||uid.mediacorp.sg^
 ||uilogging.tcdevops.com^
@@ -13014,6 +13018,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||script.idgentertainment.de/gt.js
 ||serverkompetenz.net/cpx.php?
 ||sheego.de/ar/$third-party
+||shopper.shop.pe/input.js
 ||sim-technik.de/dvs.gif?
 ||sim-technik.de^*&uniqueTrackId=
 ||simetra.tracking.ringieraxelspringer.tech^
@@ -52490,6 +52495,7 @@ bitdefender.com##body[style="opacity: 0;"]:style(opacity: 1 !important;)
 ||as.mytoys.de^
 ||as.yomonda.de^
 ||autoscout24.de^$ping
+||aw.perlesandco.com^
 ||basicthinking.de/stats/
 ||behave.sn.at^
 ||berliner-stadtplan.com/t.gif
