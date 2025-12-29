@@ -1,9 +1,9 @@
 [Adblock Plus 1.1]
-! Version: 202512291550
+! Version: 202512291744
 ! Title: EasyPrivacy
-! Last modified: 29 Dec 2025 15:50 UTC
+! Last modified: 29 Dec 2025 17:44 UTC
 ! Expires: 4 days (update frequency)
-! Commit: 6ada23e38bad777f07d90638b297c5688ca1b08f
+! Commit: d65e8da9354920765261b926f7d54e74bd93b3d0
 ! *** easylist:template_header.txt ***
 ! 
 ! Please report any unblocked adverts or problems
@@ -11559,6 +11559,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||pixel.sprinklr.com^
 ||pixel.veritone-ce.com^
 ||pixel.videohub.tv^
+||pixel.visitiq.io^
 ||pixel.wetracked.io^
 ||pixel.wp.com^
 ||pixel.yabidos.com^
@@ -14541,6 +14542,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||cpb.esprit.*/91405.js
 ||cpt.itv.com^
 ||creately.com/static/js/creately-analytics-
+||creator-spring.com/ngjj/
 ||crta.metro.co.uk^
 ||crumbs.robinhood.com^
 ||crunchyroll.com/tracker?
