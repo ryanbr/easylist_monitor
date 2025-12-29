@@ -1,9 +1,9 @@
 [Adblock Plus 1.1]
-! Version: 202512291955
+! Version: 202512292151
 ! Title: EasyPrivacy
-! Last modified: 29 Dec 2025 19:55 UTC
+! Last modified: 29 Dec 2025 21:51 UTC
 ! Expires: 4 days (update frequency)
-! Commit: 65a8461ef6a34fdb41d3fb0685cda0bcfc854006
+! Commit: e6a4b2efb55d447fc370adcdc843fea1e7874d92
 ! *** easylist:template_header.txt ***
 ! 
 ! Please report any unblocked adverts or problems
@@ -7532,6 +7532,8 @@ omni.soundestlink.com$image
 ||lovelydrum.com^
 ||loveseashore.com^
 ||lowercases.com^
+||lowerthewatts.net^
+||luckyshelf.com^
 ||ludicrousarch.com^
 ||lumberamount.com^
 ||luminousboulevard.com^
