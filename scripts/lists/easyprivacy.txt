@@ -1,9 +1,9 @@
 [Adblock Plus 1.1]
-! Version: 202512301946
+! Version: 202512302158
 ! Title: EasyPrivacy
-! Last modified: 30 Dec 2025 19:46 UTC
+! Last modified: 30 Dec 2025 21:58 UTC
 ! Expires: 4 days (update frequency)
-! Commit: 2045e50f811e2f5efc4e2789043db9cc0de1dca8
+! Commit: 6824459439d6bd54c8bbd606f462c6e6e30a7f47
 ! *** easylist:template_header.txt ***
 ! 
 ! Please report any unblocked adverts or problems
@@ -7544,6 +7544,7 @@ omni.soundestlink.com$image
 ||lumpygnome.com^
 ||lumpylumber.com^
 ||lumpywood.com^
+||lunarcave.com^
 ||lunchroomlock.com^
 ||lustroushaven.com^
 ||luxformula.com^
@@ -7551,6 +7552,7 @@ omni.soundestlink.com$image
 ||maddeningpowder.com^
 ||madebyintent.com^
 ||madlysuccessful.com^
+||madnessbuzz.com^
 ||madoverrice.com^
 ||magicaljoin.com^
 ||magicminibox.com^
@@ -16526,6 +16528,8 @@ gbatemp.net##+js(set, admiral, noopFunc)
 usatoday.com##+js(set, gnt.x.adm, '')
 ! anikore.jp
 anikore.jp##html[class^="loading"]:style(visibility: visible !important;)
+! https://github.com/uBlockOrigin/uAssets/issues/31343
+||void.nicopr.fr/rec$method=POST
 ! fedex.com
 fedex.com##+js(set-local-storage-item, fdx_enable_new_detail_page, true)
 ! mweb.jp
