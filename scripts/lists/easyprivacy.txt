@@ -1,9 +1,9 @@
 [Adblock Plus 1.1]
-! Version: 202601031943
+! Version: 202601032136
 ! Title: EasyPrivacy
-! Last modified: 03 Jan 2026 19:43 UTC
+! Last modified: 03 Jan 2026 21:36 UTC
 ! Expires: 4 days (update frequency)
-! Commit: ca58eba1f59f0a6e71a7ab3632ae518fb7fca6d6
+! Commit: caa61f113eff75c03e5d2d98af2ca2ad026f833a
 ! *** easylist:template_header.txt ***
 ! 
 ! Please report any unblocked adverts or problems
@@ -7642,6 +7642,7 @@ omni.soundestlink.com$image
 ||monthlyhat.com^
 ||mooncrustpizza.com^
 ||moorshoes.com^
+||morefolks.com^
 ||morefriendly.com^
 ||motionflowers.com^
 ||motionlessbelief.com^
@@ -7678,6 +7679,7 @@ omni.soundestlink.com$image
 ||networklast.com^
 ||newarkdriving.com^
 ||newartreview.com^
+||nicefollows.com^
 ||niftygraphs.com^
 ||niftyhospital.com^
 ||niftyjelly.com^
