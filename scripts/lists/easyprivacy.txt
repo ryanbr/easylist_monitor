@@ -1,9 +1,9 @@
 [Adblock Plus 1.1]
-! Version: 202601032136
+! Version: 202601032336
 ! Title: EasyPrivacy
-! Last modified: 03 Jan 2026 21:36 UTC
+! Last modified: 03 Jan 2026 23:36 UTC
 ! Expires: 4 days (update frequency)
-! Commit: caa61f113eff75c03e5d2d98af2ca2ad026f833a
+! Commit: 7cff5f07f70ab8e19a423a032e9f75e5d737959b
 ! *** easylist:template_header.txt ***
 ! 
 ! Please report any unblocked adverts or problems
@@ -14878,6 +14878,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||gnar.grammarly.com^
 ||gnavi.co.jp/analysis/
 ||go.fap18.net/ftt2/js.php
+||go.nutraingredients.com/pd.js
 ||go.pardot.com^
 ||go.thegrocer.co.uk^
 ||go.theregister.com^$image
@@ -15270,6 +15271,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||nextdoor.*/ajax/ping_ndas/
 ||nextdoor.com/events/
 ||nflshop.com/api/track
+||nid.mansionglobal.com^
 ||nid.thesun.co.uk^
 ||nid.thetimes.com^
 ||nike.com/assets/measure/data-capture/
@@ -15781,6 +15783,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||tags.stepstone.com^
 ||tahoe.com/imp
 ||taiwanplus.com/api/video/startVideo
+||talkingpointsmemo.com/whoami
 ||tao.barstoolsports.com^
 ||tapeadsenjoyer.com/stat/
 ||tapeadvertisement.com/stat/
