@@ -1,9 +1,9 @@
 [Adblock Plus 1.1]
-! Version: 202601050404
+! Version: 202601050554
 ! Title: EasyPrivacy
-! Last modified: 05 Jan 2026 04:04 UTC
+! Last modified: 05 Jan 2026 05:54 UTC
 ! Expires: 4 days (update frequency)
-! Commit: bc61af11dddc893666c75d2ce5d3615b73c30af2
+! Commit: 971fe70146e79188542d20e0a82222cec7ab4c1b
 ! *** easylist:template_header.txt ***
 ! 
 ! Please report any unblocked adverts or problems
@@ -6521,7 +6521,6 @@ omni.soundestlink.com$image
 ||webminerpool.com^$third-party
 ||webmining.co^$third-party
 ||webxmr.com^$third-party
-||ws_storage.funnyjunk.com^
 ||wtm.monitoringservice.co^$third-party
 ||wtmtrack.com^$third-party
 ||xmrpool.net^$third-party
