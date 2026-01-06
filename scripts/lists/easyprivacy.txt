@@ -1,9 +1,9 @@
 [Adblock Plus 1.1]
-! Version: 202601052144
+! Version: 202601052338
 ! Title: EasyPrivacy
-! Last modified: 05 Jan 2026 21:44 UTC
+! Last modified: 05 Jan 2026 23:38 UTC
 ! Expires: 4 days (update frequency)
-! Commit: 4e38c1b89aee481333c49a0214e0f209f3f6cc76
+! Commit: 8efd5388dae673e0130a134b3fb41a6f5858a6c5
 ! *** easylist:template_header.txt ***
 ! 
 ! Please report any unblocked adverts or problems
@@ -7720,8 +7720,10 @@ omni.soundestlink.com$image
 ||offshoreassets.com^
 ||offshorecyclone.com^
 ||offshoregeology.com^
+||okaysurethat.com^
 ||oldandindie.com^
 ||oldfashionedoffer.com^
+||oldportcoffee.com^
 ||omgthink.com^
 ||onedropocean.com^
 ||onlinestarten.net^
