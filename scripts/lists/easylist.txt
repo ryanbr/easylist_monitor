@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Version: 202601060408
+! Version: 202601060554
 ! Title: EasyList
-! Last modified: 06 Jan 2026 04:08 UTC
+! Last modified: 06 Jan 2026 05:54 UTC
 ! Expires: 4 days (update frequency)
-! Commit: e22c45ec2be3065051d4de6eaed9905aad1c049d
+! Commit: 5f4be41e1fcf4347257f1bc5b2fad70401609c1c
 ! *** easylist:template_header.txt ***
 ! 
 ! Please report any unblocked adverts or problems
@@ -19287,6 +19287,7 @@ browsershots.org#@#.advert_area
 ||avkauywgzdxlx.online^
 ||avlmy.com^
 ||avloan3431.fun^
+||avmhpkbmvsqx.com^
 ||avmmsekplixsk.space^
 ||avmonk3431.fun^
 ||avocaterehouse.cyou^
@@ -21504,6 +21505,7 @@ browsershots.org#@#.advert_area
 ||burkerchyazic.cyou^
 ||burkhakalekah.com^
 ||burlytonight.pro^
+||burrelgisla.shop^
 ||burryethene.cfd^
 ||burryidiots.cfd^
 ||bursasrewaxes.qpon^
@@ -22512,6 +22514,7 @@ browsershots.org#@#.advert_area
 ||chethoutaujeed.net^
 ||chetiftaphoa.net^
 ||chevalriflery.qpon^
+||chevebyword.com^
 ||chewhaidroub.net^
 ||chezoams.com^
 ||chfinqdgoptju.website^
@@ -36902,6 +36905,7 @@ browsershots.org#@#.advert_area
 ||limaceacellarjumble.cfd^
 ||limatailsaib.net^
 ||limbacoaming.cyou^
+||limbostap.qpon^
 ||limbouswirer.cyou^
 ||limited-bird.pro^
 ||limited-final.pro^
@@ -37624,6 +37628,7 @@ browsershots.org#@#.advert_area
 ||lunytaboos.help^
 ||luoqdtopebadx.store^
 ||lupmsbacuqlwm.online^
+||luqnucopvr.com^
 ||luqxzzythzopn.space^
 ||lurerbons.help^
 ||lurgaimt.net^
@@ -41244,6 +41249,7 @@ browsershots.org#@#.advert_area
 ||octopuspop.com^
 ||octroizombis.cfd^
 ||octuortogaed.cyou^
+||oculistaboil.qpon^
 ||ocvbfvpmfhhmbr.com^
 ||ocvrulo.digital^
 ||ocvzuwajq.com^
@@ -42423,6 +42429,7 @@ browsershots.org#@#.advert_area
 ||oxggcpdorbixe.xyz^
 ||oxgnxuoxiizko.xyz^
 ||oxgocmsci.com^
+||oxidfrisketspic.cyou^
 ||oxjjllkjlpkxs.online^
 ||oxjlblrzzfmzh.online^
 ||oxknmkqejvseu.site^
@@ -42660,6 +42667,7 @@ browsershots.org#@#.advert_area
 ||papatrol.xyz^
 ||papawrefits.com^
 ||papeeheeph.net^
+||paplikeverily.qpon^
 ||papmeatidigbo.com^
 ||pappiernobbler.cfd^
 ||pappousmoriori.rest^
@@ -51467,6 +51475,7 @@ browsershots.org#@#.advert_area
 ||tingledthraws.qpon^
 ||tinkerwidth.com^
 ||tinnilybagdi.cfd^
+||tinningbilk.cfd^
 ||tinselspecifically.com^
 ||tinsus.com^
 ||tinted-run.com^
@@ -52655,6 +52664,7 @@ browsershots.org#@#.advert_area
 ||uddougqbgbhmg.website^
 ||udfaguykrfeur.site^
 ||udgdzwjgilmwn.site^
+||udishcotty.cyou^
 ||udjolmaphsyfo.online^
 ||udjvypscmvaxq.website^
 ||udkeqktfblppo.site^
@@ -54840,6 +54850,7 @@ browsershots.org#@#.advert_area
 ||wakealibis.com^
 ||wakesblingerbasket.cyou^
 ||wakonbhandar.shop^
+||wakratgr.com^
 ||walletrelapse.com^
 ||walletsmobsmanawner.click^
 ||wallieoutplod.cyou^
@@ -56867,6 +56878,7 @@ browsershots.org#@#.advert_area
 ||yaebhbyweyxvt.store^
 ||yaffingunbegun.cyou^
 ||yafvuazomntue.website^
+||yaggersured.shop^
 ||yaguazaderail.shop^
 ||yahdrctswmvax.space^
 ||yajeindieselvamosed.cyou^
@@ -56921,6 +56933,7 @@ browsershots.org#@#.advert_area
 ||yaylgwxilnrio.website^
 ||yb23b.com^
 ||yb78i88x9t5py3.rest^
+||ybcrloylb.com^
 ||ybdigfjtqjcnu.site^
 ||ybdjitccawtqj.website^
 ||ybibpwduubqhk.space^
@@ -57732,6 +57745,7 @@ browsershots.org#@#.advert_area
 ||zeqbfcbuyfnyz.website^
 ||zerads.com^
 ||zercenius.com^
+||zerdidrardoo.net^
 ||zeroclampentice.com^
 ||zeroglamour.com^
 ||zeroizeslavize.rest^
@@ -60354,6 +60368,7 @@ browsershots.org#@#.advert_area
 ||evenpatroller.com^
 ||evenyumbroadlywitharmoire.com^
 ||foldyahoolestorderly.com^
+||followingbehold.com^
 ||forkstrictly.com^
 ||forrepresentzen.com^
 ||fs-loader.com^
@@ -76320,6 +76335,7 @@ yahoo.com##li[data-test-locator="stream-related-ad-item"]
 ! youtube
 ! youtube.com###mealbar-promo-renderer
 youtube.com###description-inner > ytd-merch-shelf-renderer > #main.ytd-merch-shelf-renderer
+youtube.com###shopping-timely-shelf
 youtube.com###shorts-inner-container > .ytd-shorts:has(> .ytd-reel-video-renderer > ytd-ad-slot-renderer)
 youtube.com##.ytReelMetapanelViewModelHost > .ytReelMetapanelViewModelMetapanelItem > .ytShortsSuggestedActionViewModelStaticHost
 youtube.com##.ytd-section-list-renderer > .ytd-item-section-renderer > ytd-search-pyv-renderer.ytd-item-section-renderer
