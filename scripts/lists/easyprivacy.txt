@@ -1,9 +1,9 @@
 [Adblock Plus 1.1]
-! Version: 202601142149
+! Version: 202601142353
 ! Title: EasyPrivacy
-! Last modified: 14 Jan 2026 21:49 UTC
+! Last modified: 14 Jan 2026 23:53 UTC
 ! Expires: 4 days (update frequency)
-! Commit: 69db2f695ca61f2c4f9f595ed8e06eda49fbf223
+! Commit: 1385511393dedd733b80669e861ee5ad31daf0d2
 ! *** easylist:template_header.txt ***
 ! 
 ! Please report any unblocked adverts or problems
@@ -8110,10 +8110,12 @@ omni.soundestlink.com$image
 ||shallowblade.com^
 ||shamerain.com^
 ||shapecomb.com^
+||sharedswap.com^
 ||sheargovernor.com^
 ||sheideal.com^
 ||shesubscriptions.com^
 ||shinypond.com^
+||shirtseasons.com^
 ||shirtsidewalk.com^
 ||shiveringspot.com^
 ||shiverscissors.com^
