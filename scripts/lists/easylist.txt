@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Version: 202601170542
+! Version: 202601170752
 ! Title: EasyList
-! Last modified: 17 Jan 2026 05:42 UTC
+! Last modified: 17 Jan 2026 07:52 UTC
 ! Expires: 4 days (update frequency)
-! Commit: 7269f320f2a7e9d04223aa59cc894846ddadae51
+! Commit: 0a8e2f25843e2072f5beb775a167f2a5caafd813
 ! *** easylist:template_header.txt ***
 ! 
 ! Please report any unblocked adverts or problems
@@ -14267,6 +14267,7 @@ _800x80_
 ##[href^="http://clicks.totemcash.com/"]
 ##[href^="http://mypillow.com/"] > img
 ##[href^="http://www.mypillow.com/"] > img
+##[href^="https://a.acebet.com/api/click?"]
 ##[href^="https://aads.com/campaigns/"]
 ##[href^="https://ad.admitad.com/"]
 ##[href^="https://ad1.adfarm1.adition.com/"]
@@ -19236,6 +19237,7 @@ browsershots.org#@#.advert_area
 ||atswfbonkmkrw.website^
 ||attabalkanaka.cyou^
 ||attacheatableoverlabor.com^
+||attached-clock.pro^
 ||attachedglorysticks.com^
 ||attachedkneel.com^
 ||attackastonishment.com^
@@ -22396,6 +22398,7 @@ browsershots.org#@#.advert_area
 ||cbkyaepzyibsx.click^
 ||cbldtrxnatewy.site^
 ||cblmcgeipgxxc.online^
+||cblqmoests.com^
 ||cbpttdpymofjx.online^
 ||cbqhmxsejgjma.website^
 ||cbqkgyeeqnzjq.site^
@@ -32474,6 +32477,7 @@ browsershots.org#@#.advert_area
 ||hatchunbaledplotter.click^
 ||hatdiu.xyz^
 ||hateful-pride.pro^
+||hatpinswarbird.cfd^
 ||hatqnnwgdxvkq.online^
 ||hatredspongetrustworthy.com^
 ||hatsfulsevered.help^
@@ -32523,6 +32527,7 @@ browsershots.org#@#.advert_area
 ||hawktzefayiat.space^
 ||hawkyeye5ssnd.com^
 ||hawmcontain.cyou^
+||hawsertockcircs.cfd^
 ||hawsuffer.com^
 ||haxrkdicbviay.online^
 ||haycapmanhole.cyou^
@@ -35240,6 +35245,7 @@ browsershots.org#@#.advert_area
 ||ixjqjoscayasz.website^
 ||ixjukhzbob.com^
 ||ixljkceobvgqy.website^
+||ixlqtaghypthu.online^
 ||ixmcdnqobyecu.website^
 ||ixmelvjeev.net^
 ||ixmfhpogypi.com^
@@ -36741,6 +36747,7 @@ browsershots.org#@#.advert_area
 ||kgvvvgxtvi.rocks^
 ||kgwbngjoviypv.store^
 ||kgxaiyasvrtdf.website^
+||kgxkzdvkuwnsv.space^
 ||kgzfmbpkbydoj.online^
 ||kh-bkcvqxc.online^
 ||khamalpulli.cyou^
@@ -38475,6 +38482,7 @@ browsershots.org#@#.advert_area
 ||lmmnkwbtxmrxq.website^
 ||lmn-pou-win.com^
 ||lmngvqqskhppa.online^
+||lmnjsywqztqlk.site^
 ||lmoozvlrzemlq.top^
 ||lmottoofja.com^
 ||lmqvowebejzyy.top^
@@ -38496,6 +38504,7 @@ browsershots.org#@#.advert_area
 ||lnejt9ziuhx67mcb.cfd^
 ||lnemejybcariz.space^
 ||lnevgpyqncwpj.life^
+||lnevhxqvlwwdd.website^
 ||lnfksfxtuojmk.site^
 ||lnfncvjaweewi.tech^
 ||lnhvtwwsghodc.space^
@@ -40894,6 +40903,7 @@ browsershots.org#@#.advert_area
 ||muffled-hope.pro^
 ||muffledhigh.com^
 ||mufflelengthen.com^
+||muffygulf.qpon^
 ||mufgaklgqgzvm.site^
 ||mufkrwzrpcumw.online^
 ||mufpamrilrdfr.site^
@@ -49010,6 +49020,7 @@ browsershots.org#@#.advert_area
 ||rjokawzwvavma.top^
 ||rjqwkmcvxsouz.space^
 ||rjqzljvlbaeww.top^
+||rjqzljvzeaekw.top^
 ||rjrflywubejow.website^
 ||rjsayvndhakyn.online^
 ||rjsdiikketqvt.online^
@@ -49587,6 +49598,7 @@ browsershots.org#@#.advert_area
 ||rufcdstpjdcrd.site^
 ||rufdbymsjiwsg.website^
 ||rufffeotfnic.com^
+||rufhdndiebfal.website^
 ||rufiwccmsvvlc.website^
 ||ruftodru.net^
 ||rugakim.cyou^
@@ -49757,6 +49769,7 @@ browsershots.org#@#.advert_area
 ||ryapalta.com^
 ||ryaqlyayozjw.top^
 ||rybjwenfwjovuqf.xyz^
+||ryddiuaiixndo.site^
 ||rydmuxmuocztf.space^
 ||rydresa.info^
 ||ryemnlgddrxss.website^
@@ -50647,6 +50660,7 @@ browsershots.org#@#.advert_area
 ||sgftdcfhszswh.site^
 ||sggsfejquvhak.site^
 ||sghbvhktcomrn.online^
+||sginwrdwx.xyz^
 ||sgnetwork.co^
 ||sgpniarijjbzt.online^
 ||sgvoflsxekugp.site^
@@ -51081,6 +51095,7 @@ browsershots.org#@#.advert_area
 ||sjemmwjqgdpud.com^
 ||sjfyupmvpazsj.store^
 ||sjgtsqnmrqswz.space^
+||sjgynxxcbmpbf.online^
 ||sjiuevumbyiir.website^
 ||sjkigukddtknz.store^
 ||sjkiplqf.com^
@@ -55160,6 +55175,7 @@ browsershots.org#@#.advert_area
 ||uhsfoists.help^
 ||uhsmmaq4l2n5.com^
 ||uhtqrghdgtgvp.website^
+||uhuruslavsmatzas.cyou^
 ||uhvsefglyttww.fun^
 ||uhvsqmhvi.com^
 ||uhyuspdyothna.online^
@@ -55266,6 +55282,7 @@ browsershots.org#@#.advert_area
 ||ulidianpretaorigami.cyou^
 ||ulisxyz.store^
 ||uljbjmfmgenbh.online^
+||uljtltlwybhpz.com^
 ||ulkfvwizkfbml.site^
 ||ulkwsrgnlbakt.site^
 ||ullaskyways.cyou^
@@ -58736,6 +58753,7 @@ browsershots.org#@#.advert_area
 ||wvdkbuoimnxyu.site^
 ||wvdoncfed.com^
 ||wvhba6470p.com^
+||wviblxnpe.com^
 ||wvjzqrwhbvepc.space^
 ||wvlwtsgbperzr.space^
 ||wvmvpjlguwapy.online^
@@ -59869,6 +59887,7 @@ browsershots.org#@#.advert_area
 ||yiydsygynhskw.space^
 ||yizghfwqrbhgy.space^
 ||yizjfsgpdtkpq.space^
+||yj7nlo8n7ll8xe49bo2w6wjexl7129zf.cfd^
 ||yjcckvcaln.net^
 ||yjdzqszsqttiy.store^
 ||yjepztzvncndf.tech^
@@ -61825,6 +61844,7 @@ browsershots.org#@#.advert_area
 ||aanetwork.vn^$third-party
 ||abnad.net^$third-party
 ||aboutads.quantcast.com^$third-party
+||acebet.com^$third-party
 ||acronym.com^$third-party
 ||actiondesk.com^$third-party
 ||activedancer.com^$third-party
