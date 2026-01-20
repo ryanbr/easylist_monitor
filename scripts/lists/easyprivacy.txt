@@ -1,9 +1,9 @@
 [Adblock Plus 1.1]
-! Version: 202601202010
+! Version: 202601202143
 ! Title: EasyPrivacy
-! Last modified: 20 Jan 2026 20:10 UTC
+! Last modified: 20 Jan 2026 21:43 UTC
 ! Expires: 4 days (update frequency)
-! Commit: 1692848c7695cf689d35ff120a5bc433b50b9368
+! Commit: 67fba205d2f11e4031c1e236db8b9295d45fe76f
 ! *** easylist:template_header.txt ***
 ! 
 ! Please report any unblocked adverts or problems
@@ -7620,6 +7620,7 @@ omni.soundestlink.com$image
 ||melodiouscomposition.com^
 ||melodiousharmony.com^
 ||melodioussymphony.com^
+||melodyglobe.com^
 ||meltmilk.com^
 ||memeorigin.com^
 ||memolight.com^
@@ -8011,6 +8012,7 @@ omni.soundestlink.com$image
 ||roseincome.com^
 ||rottenray.com^
 ||rovememoirs.com^
+||royalespring.com^
 ||royalsbagels.com^
 ||royalsweeper.com^
 ||ruralrobin.com^
@@ -13117,6 +13119,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||scdn.literatur-couch.de^
 ||script.idgentertainment.de/gt.js
 ||serverkompetenz.net/cpx.php?
+||services.nexx.cloud/samaritan/
 ||sheego.de/ar/$third-party
 ||shopper.shop.pe/input.js
 ||sim-technik.de/dvs.gif?
