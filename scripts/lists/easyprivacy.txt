@@ -1,9 +1,9 @@
 [Adblock Plus 1.1]
-! Version: 202601242157
+! Version: 202601250001
 ! Title: EasyPrivacy
-! Last modified: 24 Jan 2026 21:57 UTC
+! Last modified: 25 Jan 2026 00:01 UTC
 ! Expires: 4 days (update frequency)
-! Commit: da9a76b929aa56d58a6c6e71b7e887d3ab5a796b
+! Commit: 9346ab017965463dd8aeedd271310ce2e972558e
 ! *** easylist:template_header.txt ***
 ! 
 ! Please report any unblocked adverts or problems
@@ -3318,6 +3318,7 @@ _WebVitalsReporter_
 /t.paypal.com/*$image
 /t.yesware.com/t/*$image
 /T/OFC4/*$image
+/tlinks.nordaccount.com/q/*$image
 /tp.mkt.vorwerk.com/r/*$image
 /track.email.$image
 /track.interestingfacts.com/?xol=
@@ -7591,6 +7592,7 @@ omni.soundestlink.com$image
 ||madnessbuzz.com^
 ||madoverrice.com^
 ||magicaljoin.com^
+||magicalpiano.com^
 ||magicminibox.com^
 ||majesticwaterscape.com^
 ||majesticwilderness.com^
@@ -8552,6 +8554,7 @@ omni.soundestlink.com$image
 ||victoriousrequest.com^
 ||victoryideas.com^
 ||vilenexus.com^
+||viralfoodie.net^
 ||virtualvincent.com^
 ||visitstor.com^
 ||vividcanopy.com^
