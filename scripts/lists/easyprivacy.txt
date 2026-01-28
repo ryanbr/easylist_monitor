@@ -1,9 +1,9 @@
 [Adblock Plus 1.1]
-! Version: 202601280125
+! Version: 202601280326
 ! Title: EasyPrivacy
-! Last modified: 28 Jan 2026 01:25 UTC
+! Last modified: 28 Jan 2026 03:26 UTC
 ! Expires: 4 days (update frequency)
-! Commit: e4020682d4c24a33532749cc2a046ebd72a63f1f
+! Commit: 816cb715d3599e5431cb8e86ec8a55e0e3df589c
 ! *** easylist:template_header.txt ***
 ! 
 ! Please report any unblocked adverts or problems
@@ -52,14 +52,18 @@
 .de/l.gif?
 .eloqua.js
 .EventTracking.
+.file-downloads.outbound-links.js
 .gatracking.js
 .gif?Log=
+.hash.outbound-links.js
 .jp/pv?
 .jp/static/js/track.js
 .net/l.gif?
 .no/app/aas/a
-.outbound-links.pageview-props.revenue.tagged-events.js
+.outbound-links.file-downloads.js
+.outbound-links.tagged-events.js
 .pageview-props.js
+.pageview-props.tagged-events.js
 .php?action=browse&
 .php?action_name=
 .php?logid=$image
@@ -70,10 +74,13 @@
 .php?ping=
 .php?stats=
 .php?tracking=
+.revenue.tagged-events.js
 .sharecounter.$third-party
 .skimlinks.js
 .stats?action=
 .svc/?tracking_id=
+.tagged-events.outbound-links.js
+.tagged-events.revenue.js
 .v4.analytics.
 /.webscale/rum?
 /.well-known/shopify/monorail
@@ -430,6 +437,7 @@
 /awstats_misc_tracker
 /azion-pulse.js
 /aztracker.js
+/azzas-tracker-web@
 /b.banners.impress.
 /b.gif?
 /b.rnc?
@@ -1371,6 +1379,7 @@
 /load_analytics.php
 /loader-wp/static/loader.min.js?
 /loader/counter.js
+/loaders/analyticsScript.ts?
 /localga.js
 /locotrack.js
 /log-adblock.php?
@@ -1499,6 +1508,7 @@
 /matomo.php
 /matomo/*$script,domain=~github.com|~hub.docker.com|~matomo.org|~wordpress.org
 /matomo_video_tracking.js
+/mc4wp-premium/ecommerce3/assets/js/tracker.js
 /mcookie.aspx
 /mcount.cgi?
 /measure/pixel/*
@@ -1807,6 +1817,7 @@
 /plausible.js$domain=~plausible.io
 /plausible.manual.js
 /plausible.outbound-links.js$domain=~plausible.io
+/plausible.tagged-events.js
 /player-test-impression?
 /player/stats.php?
 /plg_convertformstools_gatracker/js/script.js
@@ -1834,6 +1845,8 @@
 /pomegranate.js
 /pongAudienceLS?
 /popu.js$script
+/post-views-counter-pro/js/crawler-detect.js
+/post-views-counter-pro/js/frontend.js
 /postcounter.php?
 /postlog?
 /postview.gif?
@@ -2031,10 +2044,8 @@
 /scmetrics.*/b/ss/*
 /screencount?vcid=
 /scribd_events?
-/script.hash.outbound-links.pageview-props.tagged-events.js
-/script.pageview-props.tagged-events.js
+/script.outbound-links.js
 /script.tagged-events.js
-/script.tagged-events.outbound-links.js
 /script/pixel.js
 /scriptAnalytics.js
 /scripts.kissmetrics.com/*
@@ -3620,6 +3631,7 @@ omni.soundestlink.com$image
 ||instantfox.co^
 ||intellimizeio.com^
 ||irs01.com^
+||itsstats.wp1.site^
 ||jams.wiki^
 ||jcpclick.com^
 ||jubbie.de^
@@ -7189,6 +7201,7 @@ omni.soundestlink.com$image
 ||fewkittens.com^
 ||fieldconfig.com^
 ||figsprotein.com^
+||figurehunter.net^
 ||fillthemap.com^
 ||filtercutter.com^
 ||finalizeforce.com^
@@ -10617,6 +10630,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||customers.xray-superpixel.com^
 ||customfingerprints.bablosoft.com^
 ||cws.conviva.com^
+||d.lilstts.com^
 ||d.rcmd.jp^$image
 ||d.shareaholic.com^
 ||dadi.technology^$third-party
@@ -12055,6 +12069,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||stats.bitgravity.com^
 ||stats.bluebillywig.com^
 ||stats.bradmax.com^
+||stats.bryancollins.com^
 ||stats.bunkr.ru^
 ||stats.callnowbutton.com^
 ||stats.cmcigroup.com^
@@ -15445,6 +15460,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||okx.com/jsstat/sb?
 ||oneroof.co.nz/*/record-log/
 ||online-umwandeln.de/analytics.js
+||online.marketing/a.js
 ||ontraport.com/opt_assets/static/js/logging.js
 ||opendesktop.org/l/fp
 ||ophan.theguardian.com^
@@ -16182,6 +16198,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||vk.com/js/lib/px.js
 ||vortex.hulu.com^
 ||voyeur-house.tv/js/track.js
+||vpsbenchmarks.com/plausible.vpsb.js
 ||vrbo.com/edap/elo/v1/event/beacon
 ||vrbo.com/serp/api/metrics
 ||vsco.co/api/cantor/track
