@@ -1,9 +1,9 @@
 [Adblock Plus 1.1]
-! Version: 202601280326
+! Version: 202601280459
 ! Title: EasyPrivacy
-! Last modified: 28 Jan 2026 03:26 UTC
+! Last modified: 28 Jan 2026 04:59 UTC
 ! Expires: 4 days (update frequency)
-! Commit: 816cb715d3599e5431cb8e86ec8a55e0e3df589c
+! Commit: 10956c34792d06ed674f0f8fe7ee86c0a54726c5
 ! *** easylist:template_header.txt ***
 ! 
 ! Please report any unblocked adverts or problems
@@ -1094,6 +1094,7 @@
 /getintent.js
 /getlog.gif
 /getstats.js.php
+/ghost-stats.min.js
 /gigyaGAIntegration.js
 /gingeranalytics.min.js
 /GlanceCobrowseLoader_
@@ -1814,6 +1815,7 @@
 /pixelyoursite/dist/scripts/public.js
 /pixy.gif?
 /planetstat.php
+/plausible.file-downloads.js
 /plausible.js$domain=~plausible.io
 /plausible.manual.js
 /plausible.outbound-links.js$domain=~plausible.io
@@ -9996,6 +9998,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||analytics.lunaweb.cloud^
 ||analytics.m7g.twitch.tv^
 ||analytics.maikel.pro^
+||analytics.maileon.com^
 ||analytics.mailmunch.co^
 ||analytics.matchbin.com^
 ||analytics.metriko.app^
@@ -14388,6 +14391,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||analytics.designspiration.com^
 ||analytics.egdata.app^
 ||analytics.eip.telegraph.co.uk^
+||analytics.eternagame.org^
 ||analytics.faceitanalytics.com^
 ||analytics.footballdb.com^
 ||analytics.freemake.com^
@@ -14971,6 +14975,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||fresnel-events.vimeocdn.com^
 ||fsho.st/tracker.js
 ||ft.com/ingest?
+||fuel-design.com/js/script.js
 ||fullscreen.nz/v1/tracking/$domain=threenow.co.nz
 ||fusevideo.io/api/event
 ||futureparty.com/nectar_analytics
@@ -15783,6 +15788,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||srv.plesk.com^
 ||ss.esade.edu^
 ||ss.photospecialist.co.uk^
+||sst.brodo.com^
 ||sst.bwt.com^
 ||sst.shopware.com^
 ||st.sawlive.tv^
@@ -54626,6 +54632,7 @@ bitdefender.com##body[style="opacity: 0;"]:style(opacity: 1 !important;)
 ||rba.es/track.action
 ||realtime.bbcl.cl^
 ||rvv.emol.com^
+||salvalaselva.org/plsbl/js
 ||sst.cooperativa.cl^
 ||statsmp2.emol.com^
 ||t-pan.triodos.com^
