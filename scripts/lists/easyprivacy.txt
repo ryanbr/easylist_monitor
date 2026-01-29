@@ -1,9 +1,9 @@
 [Adblock Plus 1.1]
-! Version: 202601290335
+! Version: 202601290508
 ! Title: EasyPrivacy
-! Last modified: 29 Jan 2026 03:35 UTC
+! Last modified: 29 Jan 2026 05:08 UTC
 ! Expires: 4 days (update frequency)
-! Commit: d6f5d2b9e28e71a8ba07e76974f1eaa796c36ce6
+! Commit: 37f28eeab9a72b61e310d76f78774bf310955c9c
 ! *** easylist:template_header.txt ***
 ! 
 ! Please report any unblocked adverts or problems
@@ -10168,6 +10168,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||assets.yumpu.com/release/*/tracking.js
 ||assistant.watson.appdomain.cloud/analytics/
 ||asterpix.com/tagcloudview/
+||async-px-eu.dynamicyield.com^
 ||async-px.dynamicyield.com^
 ||at.cbsi.com/lib/api/client-info
 ||at.cbsi.com^*/event?
@@ -11899,6 +11900,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||rumstat.cdnvideo.ru^
 ||run.app/api/pixel-event
 ||run.app/data.log
+||run.app/event-tracking-trigger
 ||run.app/events-receiver/get-web-event
 ||run.app/metrics/
 ||run.app/track.js
@@ -12087,6 +12089,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||stats.esecured.net^
 ||stats.externulls.com^$domain=beeg.com
 ||stats.flixhq.live^
+||stats.fluorescent.co^
 ||stats.fomo.com^
 ||stats.gifs.com^
 ||stats.heyoya.com^
