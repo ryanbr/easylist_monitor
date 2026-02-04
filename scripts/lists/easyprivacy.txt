@@ -1,9 +1,9 @@
 [Adblock Plus 1.1]
-! Version: 202602040706
+! Version: 202602040857
 ! Title: EasyPrivacy
-! Last modified: 04 Feb 2026 07:06 UTC
+! Last modified: 04 Feb 2026 08:57 UTC
 ! Expires: 4 days (update frequency)
-! Commit: bc35ae5faeb6fafb1ca939f69264fb2d11aa8baf
+! Commit: c2a31e91269cdf77361d8af8e6fab80ffdaa4161
 ! *** easylist:template_header.txt ***
 ! 
 ! Please report any unblocked adverts or problems
@@ -7083,6 +7083,7 @@ omni.soundestlink.com$image
 ||doggieshome.com^
 ||dollardelta.com^
 ||dollarthrill.com^
+||domaincolumn.com^
 ||doomhedge.com^
 ||doubledefend.com^
 ||doubtdrawer.com^
@@ -7718,6 +7719,7 @@ omni.soundestlink.com$image
 ||motionlessbelief.com^
 ||motionlessmeeting.com^
 ||mountedbattery.com^
+||movableobject.com^
 ||movemeal.com^
 ||mowgoats.com^
 ||muddledaftermath.com^
@@ -7818,6 +7820,7 @@ omni.soundestlink.com$image
 ||overconfidentfood.com^
 ||overkick.com^
 ||overratedchalk.com^
+||owlbees.com^
 ||owlreporter.com^
 ||owlsr.us^
 ||owlstwo.com^
