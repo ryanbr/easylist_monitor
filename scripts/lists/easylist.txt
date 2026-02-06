@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Version: 202602060123
+! Version: 202602060327
 ! Title: EasyList
-! Last modified: 06 Feb 2026 01:23 UTC
+! Last modified: 06 Feb 2026 03:27 UTC
 ! Expires: 4 days (update frequency)
-! Commit: df27817c6a241da074f04b254408ff7b14b958a5
+! Commit: 3342015484c204974ce17dc14ed04fba736bbf5f
 ! *** easylist:template_header.txt ***
 ! 
 ! Please report any unblocked adverts or problems
@@ -15992,6 +15992,7 @@ browsershots.org#@#.advert_area
 ||3jgtwq9ywh273fqr.cfd^
 ||3jwgygnq3t6rlyiunymyx.cfd^
 ||3khbi6czbrbqqwmi.cfd^
+||3l6qgblpuqhkv3r.rest^
 ||3lift.com^
 ||3m8p16urm11roby.cfd^
 ||3mads.com^
@@ -22082,6 +22083,7 @@ browsershots.org#@#.advert_area
 ||bwhuyauklndvt.online^
 ||bwkwfuwfv.xyz^
 ||bwloqkpsisafx.xyz^
+||bwmbwughl.xyz^
 ||bwnkofqbv.com^
 ||bwnnbwlngkwgd.space^
 ||bwofuzfzhgqnp.website^
@@ -29866,6 +29868,7 @@ browsershots.org#@#.advert_area
 ||fjqfdwtdahpte.space^
 ||fjsmzymmzjyck.online^
 ||fjutxytvnrfxl.site^
+||fjvpypusdqwz.com^
 ||fjwdlijdyntkc.store^
 ||fjwhpouzlllfh.space^
 ||fjwrelzhabrhh.space^
@@ -31453,6 +31456,7 @@ browsershots.org#@#.advert_area
 ||geolcornin.cfd^
 ||geologycontentillegally.com^
 ||geologylineal.com^
+||geomalywigful.shop^
 ||geometryafflictionshrub.com^
 ||geometryperformance.com^
 ||geonicpeaked.cfd^
@@ -32157,6 +32161,7 @@ browsershots.org#@#.advert_area
 ||goosebomb.com^
 ||goosevisiting.com^
 ||goosierappetit.com^
+||goosisharmariaendrin.qpon^
 ||goourl.me^
 ||gophkih8fnhjv16v5ob.cfd^
 ||gophykopta.com^
@@ -32664,6 +32669,7 @@ browsershots.org#@#.advert_area
 ||gtiqupisxnouh.site^
 ||gtjeawhxitoad.space^
 ||gtjjppgduvobm.online^
+||gtk65j4boptqk6w83hk.cfd^
 ||gtlykyvizfrui.space^
 ||gtosmdjgn.xyz^
 ||gtprmwvtduybm.online^
@@ -40003,6 +40009,7 @@ browsershots.org#@#.advert_area
 ||luagyywwmuq.xyz^
 ||luationiamcu.org^
 ||lubowitz.biz^
+||lubrrquxbrka.com^
 ||lubywhabi.com^
 ||lucajlsq.xyz^
 ||luciankybele.com^
@@ -41428,6 +41435,7 @@ browsershots.org#@#.advert_area
 ||ml314.com^
 ||mladedda.net^
 ||mlapifxkewalg.space^
+||mlarejfvqspiw.com^
 ||mlatrmae.net^
 ||mlb8ys4v.xyz^
 ||mlbqkzrsjsyny.space^
@@ -47144,6 +47152,7 @@ browsershots.org#@#.advert_area
 ||popmonetizer.com^
 ||popmonetizer.net^
 ||popmyads.com^
+||popplesgranite.qpon^
 ||poppysol.com^
 ||poprtb.com^
 ||popsads.net^
@@ -48302,6 +48311,7 @@ browsershots.org#@#.advert_area
 ||pvnwfoxrfezes.space^
 ||pvokaqjpntpin.store^
 ||pvqbhhtmpzlcv.online^
+||pvrkvosmou.com^
 ||pvtnlmysbeigh.website^
 ||pvuaypsrfcecd.site^
 ||pvufgnguxvuhg.online^
@@ -50489,6 +50499,7 @@ browsershots.org#@#.advert_area
 ||rigapchevkews.site^
 ||riggishants.help^
 ||riggurgle.com^
+||right-spot.pro^
 ||rightfullyincomparablefortnight.com^
 ||rightlanguage.pro^
 ||rightpiece.pro^
@@ -52772,6 +52783,7 @@ browsershots.org#@#.advert_area
 ||siwashfetcher.top^
 ||sixdespise.com^
 ||sixft-apart.com^
+||sixtesyellowyalkalic.cfd^
 ||sixytpaxhbgoq.space^
 ||siyvxnnrigoxv.website^
 ||sizefencing.com^
@@ -58295,6 +58307,7 @@ browsershots.org#@#.advert_area
 ||vandalismundermineshock.com^
 ||vanderlisten.pro^
 ||vanfossathenssenaite.cfd^
+||vangeewasps.com^
 ||vanillagrapelowlife.com^
 ||vanivhljfgvhq.website^
 ||vannedslued.help^
@@ -60369,6 +60382,7 @@ browsershots.org#@#.advert_area
 ||withatukhyistk.org^
 ||withdrawalbellownovel.com^
 ||withsaystreyne.qpon^
+||witjardrch.cyou^
 ||witnessjacket.com^
 ||witnessportfoliolobes.com^
 ||witssnoopacceleration.com^
@@ -65274,6 +65288,7 @@ browsershots.org#@#.advert_area
 ||undertone.com^$third-party
 ||unibots.in^$third-party
 ||unibotscdn.com^$third-party
+||universalads.com^$third-party
 ||urlcash.net^$third-party
 ||usemax.de^$third-party
 ||usenetjunction.com^$third-party
@@ -74657,6 +74672,7 @@ dashnet.org###support
 vk.com,vk.ru###system_msg
 gumtree.com###tBanner
 cbsnews.com###taboola-around-the-web-video-door
+womansworld.com###taboola-article-1x1
 comicbookrealm.com###tad
 mirror.co.uk###takeover
 quizlet.com###targetDiv-setpage_billboard
@@ -76474,6 +76490,7 @@ datedatego.com##.ddg
 datedatego.com##.ddg0
 darkreader.org##.ddgr
 gsmarena.com##.deal
+womansworld.com##.deal-of-the-day__container___1LYO6
 sgcarmart##.dealer_banner
 slashdot.org##.deals-wrapper
 defiantamerica.com##.defia-widget
@@ -78099,6 +78116,7 @@ g2.com##.product-head__leads
 bestbuy.com##.product-list-sponsored-wrapper-grid-view
 cnn.com##.product-offer-card-container_related-products
 letsgodigital.org##.product__wrapper
+womansworld.com##.products-carousel-video__wrapper___2hfhX
 nymag.com##.products-package
 nymag.com##.products-package_single
 kohls.com##.products_grid.sponsored-product
@@ -78237,6 +78255,7 @@ nzherald.co.nz##.recommended-articles > .recommended-articles__heading
 streamtvinsider.com##.recommended-content
 cined.com##.recommended-course-card
 slashgear.com##.recommended-heading
+womansworld.com##.recommended-posts
 forestriverforums.com##.recommended-stories
 last.fm##.recs-feed-item--ad
 anisearch.com##.rect_sidebar
