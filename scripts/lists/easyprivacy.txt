@@ -1,9 +1,9 @@
 [Adblock Plus 1.1]
-! Version: 202602072059
+! Version: 202602072250
 ! Title: EasyPrivacy
-! Last modified: 07 Feb 2026 20:59 UTC
+! Last modified: 07 Feb 2026 22:50 UTC
 ! Expires: 4 days (update frequency)
-! Commit: 97a4e53c4154094684b4a877ec3d8dd9497d4a55
+! Commit: 029fdb35bae0a9ee4003004e2438da1eb0f88d13
 ! *** easylist:template_header.txt ***
 ! 
 ! Please report any unblocked adverts or problems
@@ -946,6 +946,7 @@
 /fbevents.min.js
 /fbpix-events-
 /fbpixel.js
+/fdmg-tag-manager/tags.js
 /fe_logger?
 /feature/metrics$xmlhttprequest
 /federated-analytics.all.min.js
@@ -2323,6 +2324,7 @@
 /supercookie.asp
 /supercookie.js
 /svs.gif?
+/sw.js?origin=
 /sw/analytics.js
 /swa_t.gif?
 /swatag.js
@@ -2904,6 +2906,7 @@
 ://signal.*/hardal
 ://signals.*/hardal
 ://sp.*/sp/h|$xmlhttprequest
+://ssgtm.
 ://stat.*/pageview/$xmlhttprequest
 ://stats.*/code/e.js
 ://t.targito.
@@ -2960,6 +2963,12 @@ _trackWebtrekkEvents.
 _view_pixel&$image
 _webanalytics.
 _WebVitalsReporter_
+! outfitters.com.pk/cdn/wpm/b7cecd0b6w90c54c6cpe92089d5m57a67346m.js
+! www.32degrees.com/cdn/wpm/b7cecd0b6w90c54c6cpe92089d5m57a67346m.js
+! stylo.pk/cdn/wpm/b7cecd0b6w90c54c6cpe92089d5m57a67346m.js
+! flyingtiger.com/cdn/wpm/b7cecd0b6w90c54c6cpe92089d5m57a67346m.js
+! shop.mattel.com/cdn/wpm/b7cecd0b6w90c54c6cpe92089d5m57a67346m.js
+/cdn/wpm/b3918e4e0wbf3ac3cepc5707306mb02b36c6m.js
 ! https://github.com/AdguardTeam/AdguardFilters/commit/934912b3e760e068a91cd6cb502096a55ab1ca16
 ! Tracking on parked domains
 /_static/deliver.js?nonce=$script,~third-party
@@ -15548,6 +15557,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||papi.stylar.ai^
 ||pappagallu.onefootball.com^
 ||pardot.com/pd.js
+||partsgeek.com/sspgt/
 ||pay4fans.com/api/analytics
 ||paypal.com/credit-presentment/log
 ||paypal.com/platform/tealeaftarget
