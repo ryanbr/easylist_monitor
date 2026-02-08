@@ -1,9 +1,9 @@
 [Adblock Plus 1.1]
-! Version: 202602081942
+! Version: 202602082155
 ! Title: EasyPrivacy
-! Last modified: 08 Feb 2026 19:42 UTC
+! Last modified: 08 Feb 2026 21:55 UTC
 ! Expires: 4 days (update frequency)
-! Commit: f7ae7dbc7b08af06fe1c84f9a38d39d19773a3ea
+! Commit: 5010cb114e6de98c4ec4bac601cea7210ed901f8
 ! *** easylist:template_header.txt ***
 ! 
 ! Please report any unblocked adverts or problems
@@ -7562,6 +7562,7 @@ omni.soundestlink.com$image
 ||knottyswing.com^
 ||laboredlocket.com^
 ||lackadaisicalkite.com^
+||lakesecure.com^
 ||lameletters.com^
 ||lamplow.com^
 ||landkarts.com^
@@ -7991,6 +7992,7 @@ omni.soundestlink.com$image
 ||radiantcanopy.com^
 ||radiantlullaby.com^
 ||radiateprose.com^
+||radiosfax.com^
 ||raidmedics.com^
 ||railwaygiraffe.com^
 ||railwayrainstorm.com^
@@ -8545,6 +8547,7 @@ omni.soundestlink.com$image
 ||truejasmine.com^
 ||tumbleicicle.com^
 ||tuneupcoffee.com^
+||twelvedawn.com^
 ||twistloss.com^
 ||typepredict.com^
 ||typewebsite.com^
