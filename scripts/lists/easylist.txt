@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Version: 202602091850
+! Version: 202602092055
 ! Title: EasyList
-! Last modified: 09 Feb 2026 18:50 UTC
+! Last modified: 09 Feb 2026 20:55 UTC
 ! Expires: 4 days (update frequency)
-! Commit: ef7e19899e05078161eaaf41947cab8057c8d585
+! Commit: 8f82e49f29d029941d5f273bcdc90b144a88ca6b
 ! *** easylist:template_header.txt ***
 ! 
 ! Please report any unblocked adverts or problems
@@ -17915,6 +17915,7 @@ browsershots.org#@#.advert_area
 ||agricultureprowesscardinal.com^
 ||agronnag.cfd^
 ||agrpqxhku.com^
+||agsdloqj.com^
 ||agspbaoctkmna.site^
 ||aguamascormac.qpon^
 ||aguedactyl.shop^
@@ -20318,6 +20319,7 @@ browsershots.org#@#.advert_area
 ||bdelkjdmtfkjy.website^
 ||bdesankeyqfi.net^
 ||bdesankeyqfi.xyz^
+||bdfqxgsbkclrk.website^
 ||bdidqntuyyuav.online^
 ||bdikjljwzgycz.space^
 ||bdiuqnbyqpems.online^
@@ -22287,6 +22289,7 @@ browsershots.org#@#.advert_area
 ||bypassduehardly.com^
 ||bypasspickupfaculty.com^
 ||bypathcanabae.cyou^
+||bypathsohingintice.cyou^
 ||byremanjokish.cfd^
 ||byryqaysgfpwz.website^
 ||byssinsuzukiepochs.cfd^
@@ -26645,6 +26648,7 @@ browsershots.org#@#.advert_area
 ||dmajmrejzqhsb.space^
 ||dmatzeelpqsqr.space^
 ||dmbfiumbqqimg.space^
+||dmebbackvikth.space^
 ||dmesmbaifpdfj.space^
 ||dmfletnofbgay.site^
 ||dmfnljgqpuduj.space^
@@ -28349,6 +28353,7 @@ browsershots.org#@#.advert_area
 ||emwjliqa.xyz^
 ||emxdgt.com^
 ||emxipsmjhingj.website^
+||emxmterapyzun.space^
 ||emydeexcl.help^
 ||emywsmsdyqzne.site^
 ||emzxhwzaxdarg.vip^
@@ -30120,6 +30125,7 @@ browsershots.org#@#.advert_area
 ||fixingscarrow.cfd^
 ||fixittoday.biz^
 ||fixpass.net^
+||fixuonstjaodh.online^
 ||fizgigsrealty.qpon^
 ||fizhshmfzduwk.online^
 ||fizzedkha.qpon^
@@ -38911,6 +38917,7 @@ browsershots.org#@#.advert_area
 ||kxdxsbyomyuim.rocks^
 ||kxdzhgidmcqwi.space^
 ||kxgnjfuf.net^
+||kxgytyvxucere.site^
 ||kxhvyyfmwssbv.online^
 ||kxiaruornurfb.tech^
 ||kxkvomqjyhfmq.space^
@@ -39528,6 +39535,7 @@ browsershots.org#@#.advert_area
 ||letupselev.cfd^
 ||leucismbemata.help^
 ||leuikpidclhez.space^
+||levantsjarrypleon.cyou^
 ||levantsnankeen.cfd^
 ||levatoroboists.world^
 ||levelborrowingo.com^
@@ -45195,6 +45203,7 @@ browsershots.org#@#.advert_area
 ||oneratecoalboxexciter.cfd^
 ||onerousgardening.com^
 ||onerousgathering.com^
+||onerousimpatiently.com^
 ||onerouslittledomestic.com^
 ||onerukh.com^
 ||onespot.com^
@@ -49613,6 +49622,7 @@ browsershots.org#@#.advert_area
 ||qrjiyastbajim.store^
 ||qrjyjhdyvobsity.xyz^
 ||qrlsx.com^
+||qrmhvvmsakwbo.website^
 ||qroiqakv.xyz^
 ||qrqfqwhvwupcy.online^
 ||qrqofbbkajwci.site^
@@ -55826,6 +55836,7 @@ browsershots.org#@#.advert_area
 ||tbavixmkrnspx.space^
 ||tbbf186fbrrjjt9ex.rest^
 ||tbdhrjsywgjcq.tech^
+||tbdipxey.com^
 ||tbeiu658gftk.com^
 ||tbepgemptaegvx.xyz^
 ||tbexzfbwrbnfp.online^
@@ -65914,6 +65925,7 @@ browsershots.org#@#.advert_area
 ||monetano.com^$third-party
 ||monetixads.com^$third-party
 ||monsy.com^$third-party
+||mplat-ppcprotect.com^$third-party
 ||mrjaz.com^$third-party
 ||multiview.com^$third-party
 ||myaffiliates.com^$third-party
@@ -81561,6 +81573,7 @@ walmart.*##div[class="mv3 ml3 mv4-xl mh0-xl"][data-testid="sp-item"]
 tripadvisor.*##div[class="ui_container dSjaD _S"]
 zoohit.*,zooplus.*##div[class^="SearchSuggestion-module_suggestionItem_"]:has(.z-sponsored-tag)
 walmart.*##div[data-automation^="HookLogicCarouses"]
+tripadvisor.*##div[data-curated-shelf-id]:has(a[rel="sponsored"])
 wayfair.*##div[data-enzyme-id="WssBannerContainer"]
 pinterest.com##div[data-grid-item]:has([data-test-pin-id] [data-test-id^="one-tap-desktop"] > a[href^="http"][rel="nofollow"]):not(body > div)
 wayfair.*##div[data-hb-id="Grid.Item"]:has(a[href*="&sponsoredid="])
@@ -82791,6 +82804,8 @@ bing.com#?#li.b_algo:has(.rms_img[src*="id=ODLS.A2450BEC-5595-40BA-9F13-D9EC6AB7
 modivo.*#?#.banner:-abp-contains(/Sponsorizzato|Sponsorowane|Sponsorizat|Sponzorováno|Szponzorált|Спонсорирани|Sponsored|Gesponsert/)
 modivo.*#?#.product:-abp-contains(/Sponsorizzato|Sponsorowane|Sponsorizat|Sponzorováno|Szponzorált|Спонсорирани|Sponsored|Gesponsert/)
 tripadvisor.*#?#.AaFRW:-abp-contains(Sponsored)
+tripadvisor.*#?#div[class="JYrkj w"]:-abp-has(span:-abp-contains(In partnership with))
+tripadvisor.*#?#div[class="JYrkj w"]:-abp-has(span:-abp-contains(Sponsored by))
 walmart.*#?#div > div[io-id]:-abp-contains(Sponsored)
 walmart.*#?#div[role="group"]:-abp-has(div:-abp-contains(/Sponsored|Commandité/))
 yelp.*#?#main[class^="searchResultsContainer"] li h2:-abp-contains(Sponsored)
