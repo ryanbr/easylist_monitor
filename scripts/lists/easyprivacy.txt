@@ -1,9 +1,9 @@
 [Adblock Plus 1.1]
-! Version: 202602101952
+! Version: 202602102206
 ! Title: EasyPrivacy
-! Last modified: 10 Feb 2026 19:52 UTC
+! Last modified: 10 Feb 2026 22:06 UTC
 ! Expires: 4 days (update frequency)
-! Commit: 35cf9f9346369bfbea6a6485864bd9d9b69b16c4
+! Commit: 903da52e72cb8ef20ae1d91f98d5de473f846128
 ! *** easylist:template_header.txt ***
 ! 
 ! Please report any unblocked adverts or problems
@@ -8106,6 +8106,7 @@ omni.soundestlink.com$image
 ||samuraibots.com^
 ||sandboxbid.com^
 ||sandstrophies.com^
+||sandypocket.com^
 ||sapnest.com^
 ||satisfycork.com^
 ||savoryink.com^
@@ -8640,6 +8641,7 @@ omni.soundestlink.com$image
 ||wavesmachine.com^
 ||waxsirens.com^
 ||wayjoyfarm.com^
+||weatherbytes.net^
 ||websitesdude.com^
 ||weeklybanner.com^
 ||wellgroomedapparel.com^
@@ -14537,7 +14539,6 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||assets.engoo-static.com/tracking.js
 ||assets.prod.abebookscdn.com/cdn/com/scripts/abepixel-$domain=abebooks.com
 ||assets.s-bol.com/AppMeasurement-
-||assets.targetimg1.com/ssx/ssx.mod.js$domain=target.com
 ||ats.alot.com^
 ||att.com/scripts/adobe/prod/marketing.min.js
 ||audacy.com/data-events/
