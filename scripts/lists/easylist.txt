@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Version: 202602191009
+! Version: 202602191157
 ! Title: EasyList
-! Last modified: 19 Feb 2026 10:09 UTC
+! Last modified: 19 Feb 2026 11:57 UTC
 ! Expires: 4 days (update frequency)
-! Commit: 2352de2eb8e6ba05e667f3394504b8cbcc183448
+! Commit: 7a532c9d9a57d430e4e8389c9d0eb24f2ac99828
 ! *** easylist:template_header.txt ***
 ! 
 ! Please report any unblocked adverts or problems
@@ -20055,6 +20055,7 @@ browsershots.org#@#.advert_area
 ||azvhhxcrbkqbd.space^
 ||azwcgilcgsveu.online^
 ||azwkywqdvtnvj.website^
+||azxvvesjgvasz.space^
 ||azxydhmrhfmyd.website^
 ||azygotesonless.com^
 ||azygouspolian.qpon^
@@ -43278,6 +43279,7 @@ browsershots.org#@#.advert_area
 ||mithzwvtbybug.website^
 ||mitieronionet.help^
 ||mitopamosal.com^
+||mitrafoxtail.shop^
 ||mitratemanors.com^
 ||mittendrownministry.com^
 ||mittentumular.cfd^
@@ -43761,6 +43763,7 @@ browsershots.org#@#.advert_area
 ||motiveinsulationflamboyant.com^
 ||motleyamusers.shop^
 ||motleyimproviseink.com^
+||motleyplaster.com^
 ||motmotfarded.shop^
 ||motonuvekerwi.online^
 ||motorshook.com^
@@ -44300,6 +44303,7 @@ browsershots.org#@#.advert_area
 ||mxrrtliowcwt.xyz^
 ||mxryddheuisve.store^
 ||mxvqy7p39jioyx1ig68ow9w.cfd^
+||mxwdntqvusquhgf.com^
 ||mxxbobfwexwul.website^
 ||mxyaawbtgxomq.online^
 ||mxzvgxtcjlrmg.online^
@@ -46250,6 +46254,7 @@ browsershots.org#@#.advert_area
 ||ocxelruljrn.xyz^
 ||ocxhcjgaozxqe.space^
 ||ocxlihabtozf.com^
+||oczkhlkkgbgnt.site^
 ||odakhzdbrzbny.website^
 ||odalrevaursartu.net^
 ||odbsmbtdcjuzp.site^
@@ -46457,6 +46462,7 @@ browsershots.org#@#.advert_area
 ||oglrrokbbxoyw.today^
 ||ogmvqrrchktmy.space^
 ||ognanboshr.com^
+||ogonsdmzscnbp.website^
 ||ogorsepebtvor.site^
 ||ogorwaste.com^
 ||ogpnpauyoknvc.online^
@@ -46701,6 +46707,7 @@ browsershots.org#@#.advert_area
 ||omcbyqbvojtia.space^
 ||omcgqahejstuo.global^
 ||omcrobata.com^
+||omcuapuufhtsb.space^
 ||omcugqntnwrsf.site^
 ||omefukmendationfo.com^
 ||omegaadblock.net^
@@ -56489,6 +56496,7 @@ browsershots.org#@#.advert_area
 ||sponginarist.cfd^
 ||sponsormob.com^
 ||sponsorpay.com^
+||sponsorshipprickly.com^
 ||spoofedwhitey.shop^
 ||spooksmalldowny.com^
 ||spookstropin.qpon^
@@ -57178,6 +57186,7 @@ browsershots.org#@#.advert_area
 ||stxtocrtgkwgb.website^
 ||stybzdgsbxzlk.space^
 ||stydmysre.com^
+||styecohort.cyou^
 ||stylersmycetes.shop^
 ||stylish-airport.com^
 ||stylish-knife.com^
@@ -62261,6 +62270,7 @@ browsershots.org#@#.advert_area
 ||vkrzbydfwzmyo.online^
 ||vktmncbgb.com^
 ||vkuzifrfyduj.com^
+||vkvttxhtuqeol.space^
 ||vkwbbhmnjiidd.space^
 ||vkwrhqulqcxtl.site^
 ||vkxxhhwhdctod.online^
@@ -62991,6 +63001,7 @@ browsershots.org#@#.advert_area
 ||wasqimet.net^
 ||wastabljellib.com^
 ||wastagelulabs.cfd^
+||wasteful-clothes.com^
 ||wasteful-read.pro^
 ||wastefulrope.com^
 ||wasteresents.shop^
@@ -63793,6 +63804,7 @@ browsershots.org#@#.advert_area
 ||withamburge.com^
 ||withatukhyistk.org^
 ||withdrawalbellownovel.com^
+||withdrawtrade.com^
 ||withsaystreyne.qpon^
 ||witjardrch.cyou^
 ||witkjcoux.com^
@@ -64224,6 +64236,7 @@ browsershots.org#@#.advert_area
 ||wqwoynnxgujac.online^
 ||wqxvfzvqcqmcs.website^
 ||wqyenrdmgkikd.site^
+||wqynndawpldkm.space^
 ||wrackedpanyar.qpon^
 ||wrangleagarum.help^
 ||wrangleclaspinteract.com^
@@ -64602,6 +64615,7 @@ browsershots.org#@#.advert_area
 ||xatocccuzzrwe.com^
 ||xatsjwiuwtgkm.site^
 ||xavgcobuvqy.com^
+||xavions.shop^
 ||xavujsiudycea.site^
 ||xawlop.com^
 ||xaxhuangjpvxr.website^
@@ -80159,7 +80173,7 @@ dexscreener.com##.custom-1ii6w9
 dexscreener.com##.custom-1l0hqwu
 dexscreener.com##.custom-97cj9d
 slidehunter.com##.custom-ad-text
-addictivetips.com,coinweek.com,flashbak.com,lmanime.com,news365.co.za,prohockeyrumors.com,simscommunity.info,tech-fairy.com##.custom-html-widget
+addictivetips.com,coinweek.com,flashbak.com,keqingmains.com,lmanime.com,news365.co.za,prohockeyrumors.com,simscommunity.info,tech-fairy.com##.custom-html-widget
 patriotnewsfeed.com##.custom-html-widget [href] > [src]
 thestudentroom.co.uk##.custom-jucdap
 thehackernews.com##.custom-link
