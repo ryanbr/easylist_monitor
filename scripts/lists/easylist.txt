@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Version: 202602250610
+! Version: 202602250756
 ! Title: EasyList
-! Last modified: 25 Feb 2026 06:10 UTC
+! Last modified: 25 Feb 2026 07:56 UTC
 ! Expires: 4 days (update frequency)
-! Commit: 54931a1b987596a9da6780ad1ab35b6b39d2752b
+! Commit: 5f54e51b0a48cf69a4e7e2ba33e6f8d2eef0762d
 ! *** easylist:template_header.txt ***
 ! 
 ! Please report any unblocked adverts or problems
@@ -22904,6 +22904,7 @@ browsershots.org#@#.advert_area
 ||caitoasece.com^
 ||caizaipt.net^
 ||caizuvuptobane.net^
+||cajangtikker.cyou^
 ||cajolesnassau.qpon^
 ||cajunspiddled.cfd^
 ||cakcobqvrgklu.space^
@@ -35935,6 +35936,7 @@ browsershots.org#@#.advert_area
 ||hospicaladapto.org^
 ||hospitable-effort.pro^
 ||hospitabledues.com^
+||hosrkaejczqfig.com^
 ||hostadsmarkets.com^
 ||hostave.net^
 ||hostave4.net^
@@ -38880,6 +38882,7 @@ browsershots.org#@#.advert_area
 ||jnacpgkcophpn.site^
 ||jnbarehsnnbgg.online^
 ||jnbhi.com^
+||jncfvnoerwgw.com^
 ||jncqlqqy.xyz^
 ||jndcdxcoqjroj.store^
 ||jndgnfrypjtsy.site^
@@ -64616,6 +64619,7 @@ browsershots.org#@#.advert_area
 ||wfxxjwzu.com^
 ||wfzoskvfbdwot.site^
 ||wg-aff.com^
+||wgamaokmdqwfij.com^
 ||wgbjshoxpgwgu.online^
 ||wgbqzjarapkbi.website^
 ||wgbslhcemsixx.website^
@@ -85662,6 +85666,7 @@ douglas.*##.criteo-product-carousel
 kaufland.*##.exp-vision__ext-wrapper--spad
 yts.*##.home-content > div:has(.blue ~ a img[src*="/images/download"])
 yandex.*##.mini-suggest__item[data-suggest-counter*="/yandex.ru/clck/safeclick/"]
+flashscore.*##.outrightWidget
 lazada.*##.pdp-block__product-ads
 kaufland.*##.product--spa
 kaufland.*##.product--sponsored
@@ -85674,7 +85679,7 @@ kaufland.*##.rd-recommender__tile:has(span.advertiser-info__button-icon)
 yandex.*##.search-advert-badge
 yandex.*##.search-business-snippet-view__direct
 yandex.*##.search-list-view__advert-offer-banner
-flashscore.*##.section--nmb
+flashscore.*##.section__prematchOdds
 vinted.*##.slot-container--leaderboard
 kaufland.*##.spads-recommender
 kaufland.*##.sponsored-brand-products-container
