@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Version: 202603091402
+! Version: 202603091608
 ! Title: EasyList
-! Last modified: 09 Mar 2026 14:02 UTC
+! Last modified: 09 Mar 2026 16:08 UTC
 ! Expires: 4 days (update frequency)
-! Commit: 01447a8dd8ee9f649c44d6b87a126cd332779ae6
+! Commit: 510a400968650aa77d51a701e63a622943729352
 ! *** easylist:template_header.txt ***
 ! 
 ! Please report any unblocked adverts or problems
@@ -12331,6 +12331,7 @@ _800x80_
 ##.mm-ads-adhesive-ad
 ##.mm-ads-gpt-adunit
 ##.mm-ads-leaderboard-header
+##.mm-ads-leaderboard-spacer
 ##.mmads
 ##.mntl-gpt-adunit
 ##.mntl-sc-block-adslot
@@ -18600,6 +18601,7 @@ browsershots.org#@#.advert_area
 ||amlpevtuyxrar.site^
 ||amlumineona.com^
 ||amlzndgkbicak.store^
+||ammeevilo.com^
 ||ammeossmalts.help^
 ||ammhmvurnghxn.space^
 ||ammisooeouofx.space^
@@ -31163,6 +31165,7 @@ browsershots.org#@#.advert_area
 ||flushpersist.com^
 ||flusoprano.com^
 ||fluspaisa.cyou^
+||flutterstumpbullet.com^
 ||flutyantlion.cyou^
 ||fluxads.com^
 ||fluxingdirely.help^
@@ -33316,6 +33319,7 @@ browsershots.org#@#.advert_area
 ||goaserv.com^
 ||goasrv.com^
 ||goathaga.top^
+||goatsalmighty.com^
 ||goatsearlapflock.com^
 ||goavesyuruk.qpon^
 ||gobacktothefuture.biz^
@@ -36777,6 +36781,7 @@ browsershots.org#@#.advert_area
 ||impersonalsix.com^
 ||impertinencefiddledeplore.com^
 ||impetrenotice.com^
+||impetretangosuncool.cfd^
 ||impetuousseatspeck.com^
 ||impetusorgansseparation.com^
 ||impiesprosos.cfd^
@@ -44080,6 +44085,7 @@ browsershots.org#@#.advert_area
 ||mpldvwhxugash.site^
 ||mpmowomlypnmf.website^
 ||mpmqzkienrxkm.website^
+||mpnfvgxmbsdu.com^
 ||mpniplgzpqmlx.website^
 ||mpnjigsicbtas.site^
 ||mpnoyjbqtyfht.love^
@@ -47337,6 +47343,7 @@ browsershots.org#@#.advert_area
 ||opwgvbakasvqe.online^
 ||opwitbdnfdbcm.website^
 ||opyavarfwqcpf.store^
+||opyjyket.xyz^
 ||opzyfzgklzpty.space^
 ||oqapeisicnzci.com^
 ||oqezwhyvtyduh.click^
@@ -52111,6 +52118,7 @@ browsershots.org#@#.advert_area
 ||qydglzrnpltna.website^
 ||qygnlhhxbm.xyz^
 ||qygpcxfqqvfhr.online^
+||qyjlopimxtyq.com^
 ||qyjosnnv.link^
 ||qykbotmyrifqw.xyz^
 ||qykjptypnuhjz.website^
@@ -53411,6 +53419,8 @@ browsershots.org#@#.advert_area
 ||riddenlernaea.com^
 ||riddingjumpers.help^
 ||riddmqqubqwnj.website^
+||rideradjective.com^
+||ridgedtrophallohan.qpon^
 ||ridgepilotavalanche.com^
 ||ridgerzorillo.cyou^
 ||ridgewherevertical.com^
@@ -61068,6 +61078,7 @@ browsershots.org#@#.advert_area
 ||unfatedkhuzi.com^
 ||unfeatyeyeroot.cyou^
 ||unfencelumpens.cyou^
+||unfinished-accident.pro^
 ||unfinished-apple.com^
 ||unfinished-face.com^
 ||unfinishedplace.com^
@@ -62334,6 +62345,7 @@ browsershots.org#@#.advert_area
 ||vfhojzsbmfwkx.website^
 ||vfhtgrjsmcdzi.site^
 ||vfhwifrvx.com^
+||vfie3ximi3elx4uw.cfd^
 ||vfigkfjtvaepv.space^
 ||vfjkrktoqhmoy.space^
 ||vfjktzbecbede.space^
@@ -62742,6 +62754,7 @@ browsershots.org#@#.advert_area
 ||vltpzlttwbmpa.website^
 ||vlvsmfjibrzie.space^
 ||vlwjbqqovvugf.site^
+||vlwnh9in6ivxhgll9l.rest^
 ||vlwqyhgnslfad.space^
 ||vlwrncwqf.xyz^
 ||vlxctnusilgeh.site^
@@ -67191,6 +67204,7 @@ browsershots.org#@#.advert_area
 ||zimndjkkk.com^
 ||zimpolo.com^
 ||zinbreys.com^
+||zinckedditionlysines.cyou^
 ||zincodefunksdottrel.cfd^
 ||zingaurtoam.net^
 ||zingingsuist.cyou^
@@ -86808,6 +86822,7 @@ sexvid.porn,sexvid.pro,sexvid.xxx##.download_link
 drtuber.com,nuvid.com##.drt-sponsor-block
 drtuber.com,iceporn.com,nuvid.com,proporn.com,viptube.com,winporn.com##.drt-spot-box
 pornsex.rocks##.dump
+tube8.com,tube8.es,tube8.fr##.e8-column
 pornx.to##.elementor-element-e8dcf4f
 porngifs2u.com##.elementor-widget-posts + .elementor-widget-heading
 vxxx.com##.emrihiilcrehehmmll
@@ -87039,6 +87054,7 @@ hot.co.uk,hot.com##.p-search__action-results.badge-absolute.text-div-wrap.top
 empflix.com##.pInterstitialx
 hobby.porn##.pad
 dessi.co##.pages__BannerWrapper-sc-1yt8jfz-0
+tube8.com,tube8.es,tube8.fr##.paidTab
 xxxdan3.com##.partner-site
 hclips.com,hotmovs.tube##.partners-wrap
 xfantazy.com##.partwidg1
