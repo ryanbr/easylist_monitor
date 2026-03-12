@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Version: 202603120608
+! Version: 202603120757
 ! Title: EasyList
-! Last modified: 12 Mar 2026 06:08 UTC
+! Last modified: 12 Mar 2026 07:57 UTC
 ! Expires: 4 days (update frequency)
-! Commit: edad30f61764363e114ff8956d0e7fd7a618dc2b
+! Commit: beceaf6fb2719517a1808bed350c142a1238b14d
 ! *** easylist:template_header.txt ***
 ! 
 ! Please report any unblocked adverts or problems
@@ -15972,6 +15972,7 @@ browsershots.org#@#.advert_area
 ||33ewu7kr.xyz^
 ||34-new-lambda.net^
 ||342ef7c20e.com^
+||342imaging.com^
 ||3434849c2e.com^
 ||34634rutx7l38xxob.cfd^
 ||34c2f9c751.com^
@@ -40035,6 +40036,7 @@ browsershots.org#@#.advert_area
 ||kkyaopwsqzopc.site^
 ||kkymnfgrmaykx.website^
 ||kkytqmuyworov.online^
+||kkzceimlnbtaw.site^
 ||kkzsewwbrnuhg.website^
 ||kl9uquhqxv47f4g.cfd^
 ||klamrearing.cyou^
@@ -40892,6 +40894,7 @@ browsershots.org#@#.advert_area
 ||laolcwsd.tech^
 ||laoslloydskeeg.cfd^
 ||laoxkzqexiduv.website^
+||lapdmotmslqps.space^
 ||lapelmanbot.help^
 ||laphagrito.com^
 ||lapillitigre.qpon^
@@ -41065,6 +41068,7 @@ browsershots.org#@#.advert_area
 ||lcfamqtgupf.xyz^
 ||lcfauizghtxzb.website^
 ||lcfegzfnnayrz.website^
+||lcfzdtilsbpiu.site^
 ||lcgvdkaclfzft.website^
 ||lcgwkdjniixjb.store^
 ||lch9v39rrim7p4ogmwbzzj.rest^
@@ -44239,6 +44243,7 @@ browsershots.org#@#.advert_area
 ||moninas.store^
 ||monkeyarmiesdisturbing.com^
 ||monkeybroker.net^
+||monkeygerman.com^
 ||monkeyhundredsarmed.com^
 ||monkeysloveyou.com^
 ||monkishkecked.com^
@@ -45677,6 +45682,7 @@ browsershots.org#@#.advert_area
 ||nibbysherpasotol.cyou^
 ||niblicchimb.cfd^
 ||niblikekabob.cfd^
+||nibllvnmlrncf.website^
 ||nibungaminsinbowed.qpon^
 ||nibyobhikhaiu.online^
 ||nicatethebene.info^
@@ -52112,6 +52118,7 @@ browsershots.org#@#.advert_area
 ||qmqftdljsqqit.website^
 ||qmrelvevwlwlw.top^
 ||qmryzbpwvcodw.website^
+||qmslxhbiksdzi.site^
 ||qmvujqpcnwkma.website^
 ||qmvwjbawxsese.site^
 ||qmwkcavnwiibm.online^
@@ -52394,6 +52401,7 @@ browsershots.org#@#.advert_area
 ||qudbmtsluirkx.site^
 ||queachhewing.qpon^
 ||queachycorer.com^
+||queasommalignerecter.qpon^
 ||queasy-regular.pro^
 ||queasydashed.top^
 ||queasytonight.com^
@@ -54077,6 +54085,7 @@ browsershots.org#@#.advert_area
 ||rkfhmcdvprsbz.website^
 ||rkgwzfwjgk.com^
 ||rkhovdiminatedmo.org^
+||rkjamgshqcip.com^
 ||rkjtlnfhsocoz.store^
 ||rklghovcdg.com^
 ||rkndaxwnmlcwn.space^
@@ -54409,6 +54418,7 @@ browsershots.org#@#.advert_area
 ||rougthatsidhe.org^
 ||rouilleunswung.cyou^
 ||roujonoa.net^
+||round-extension.pro^
 ||roundaboutgnatuniversal.com^
 ||roundaboutpoisonousglobe.com^
 ||rounddescribe.com^
@@ -62969,6 +62979,7 @@ browsershots.org#@#.advert_area
 ||vfedymrbwcsmw.net^
 ||vfegfmbcyerbh.space^
 ||vfegqmbcgyndw.today^
+||vfeissowmnvyu.website^
 ||vfetupuyuwhso.space^
 ||vffncubbivrcm.website^
 ||vffottxgcmtyy.site^
@@ -65310,6 +65321,7 @@ browsershots.org#@#.advert_area
 ||wpnsrv.com^
 ||wpnxiswpuyrfn.icu^
 ||wpr9qgbvf8vn3v4nqofet6mwvl2hz.cfd^
+||wprdyqsmmmp.com^
 ||wpshsdk.com^
 ||wptcd.com^
 ||wptzryotgvxkk.space^
@@ -67524,6 +67536,7 @@ browsershots.org#@#.advert_area
 ||yztrxgyjcxcte.online^
 ||yzuflrxgejd.com^
 ||yzusmqxulljzm.website^
+||yzvbuuyrwpgqch.com^
 ||yzwtg89j.xyz^
 ||yzwtz.com^
 ||yzxbdzrnsyscx.rocks^
@@ -79011,6 +79024,7 @@ academictorrents.com###carbon
 downforeveryoneorjustme.com###carbonDiv
 csdb.dk###casdivhor
 csdb.dk###casdivver
+jigsawplanet.com###cb984b30f2-4
 cbn.com###cbn_leaderboard_atf
 cloudwards.net,guitaradvise.com###cbox
 linuxinsider.com###cboxOverlay
