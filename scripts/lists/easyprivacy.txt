@@ -1,9 +1,9 @@
 [Adblock Plus 1.1]
-! Version: 202603142153
+! Version: 202603150002
 ! Title: EasyPrivacy
-! Last modified: 14 Mar 2026 21:53 UTC
+! Last modified: 15 Mar 2026 00:02 UTC
 ! Expires: 4 days (update frequency)
-! Commit: dafce99bd28633ae4dbfc0089b1ae92a2844344b
+! Commit: 478494febf5998ad0aba5d0411d75b07393b01d6
 ! *** easylist:template_header.txt ***
 ! 
 ! Please report any unblocked adverts or problems
@@ -1370,6 +1370,7 @@
 /li.lms-analytics/insight.min.js
 /lib/analytics.js
 /library/svy/broker.js
+/libs/sentry/*/sentry.js
 /libs/tracker.js
 /liferay-analytics-api.js
 /liferay-analytics-processor.js
@@ -11086,6 +11087,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||genesis.malwarebytes.com^
 ||geni.us/snippet.js
 ||geni.us/snippet.min.js
+||geniusplus.ai/v1/lre-events?
 ||geo.bdg.com^
 ||geo.ertya.com^
 ||geo.gorillanation.com^
@@ -11942,6 +11944,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||quora.com/qevents.js
 ||qzzr.com/_uid.gif
 ||r.mail.ru^$script
+||r.sdiapi.net^
 ||r.skimresources.com^
 ||r.stripe.com^$ping,script,xmlhttprequest
 ||r.wdfl.co/rw.js
@@ -13737,6 +13740,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||metrics.find.gr^
 ||stats-real-clients.zentech.gr^
 ! Hebrew
+||selectika.com/selectika-pixel.min.js
 ||tag.weezmo.com^
 ||walla.co.il/stats/
 ! Hungarian
@@ -15564,6 +15568,8 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||mstm.motorsport.com^
 ||mtg.macpaw.com^
 ||mtm.bondagevalley.cc^
+||musescore.com/components/data?
+||musescore.com/score/stats/
 ||mx.eneba.com^
 ||myanimelist.net/static/logging.html
 ||myfreecams.com/php/tracking.php?
@@ -16506,6 +16512,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||youtube-nocookie.com/robots.txt?
 ||youtube-nocookie.com/youtubei/v1/log_event?
 ||youtube.com/api/stats/ads?
+||zed.dev/docs/theme/analytics.js
 ! ||youtube.com/api/stats/atr?ns=*&ver=2&cmt=1.*&fs=0&*&euri&lact=
 ||youtube.com/api/stats/qoe?*page&ns=yt&fexp=v1%*&event=streamingstats&
 ||youtube.com/get_video?
