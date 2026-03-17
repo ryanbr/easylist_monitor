@@ -1,9 +1,9 @@
 [Adblock Plus 1.1]
-! Version: 202603170422
+! Version: 202603170604
 ! Title: EasyPrivacy
-! Last modified: 17 Mar 2026 04:22 UTC
+! Last modified: 17 Mar 2026 06:04 UTC
 ! Expires: 4 days (update frequency)
-! Commit: 95d1de04cda9f8d519dcce2cc781b9e7027988a0
+! Commit: 24ebce017e9fe6a00dcb801f80c63c87496c124d
 ! *** easylist:template_header.txt ***
 ! 
 ! Please report any unblocked adverts or problems
@@ -3290,6 +3290,7 @@ _WebVitalsReporter_
 /gp/r.html?$image
 /gridinbound.blob.core.
 /i?aid=*&se_ac=open&$image
+/image.info.jr-odekake.net/lib/*$image
 /impression?mkevt=
 /inbox.*/imp?$image
 /is-tracking-pixel-
@@ -8249,6 +8250,7 @@ omni.soundestlink.com$image
 ||shamerain.com^
 ||shapecomb.com^
 ||sharedswap.com^
+||shatterloop.com^
 ||sheargovernor.com^
 ||sheideal.com^
 ||shesubscriptions.com^
