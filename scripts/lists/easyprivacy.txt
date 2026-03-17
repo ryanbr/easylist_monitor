@@ -1,9 +1,9 @@
 [Adblock Plus 1.1]
-! Version: 202603162350
+! Version: 202603170247
 ! Title: EasyPrivacy
-! Last modified: 16 Mar 2026 23:50 UTC
+! Last modified: 17 Mar 2026 02:47 UTC
 ! Expires: 4 days (update frequency)
-! Commit: ffec50e68ab86a6a20136bd1ea93c4635defd1ee
+! Commit: a884fbeed3305285df6d0b80b7db291d2fb46397
 ! *** easylist:template_header.txt ***
 ! 
 ! Please report any unblocked adverts or problems
@@ -10214,6 +10214,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||api.iris.tv/update
 ||api.june.so^
 ||api.mambasms.com/monitorEvent/
+||api.pcid.ca/v1/client/logs
 ||api.picox.bendingspoons.com/v1/events
 ||api.reo.dev^$third-party
 ||api.sardine.ai/assets/loader.min.js$third-party
@@ -15580,6 +15581,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||mtg.macpaw.com^
 ||mtm.bondagevalley.cc^
 ||musescore.com/components/data?
+||musescore.com/components/log/$ping
 ||musescore.com/score/stats/
 ||mx.eneba.com^
 ||myanimelist.net/static/logging.html
@@ -15693,6 +15695,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||paypal.com/credit-presentment/log
 ||paypal.com/platform/tealeaftarget
 ||pb.ytmp3tube.com/js/script.js$domain=yt1s.com.co
+||pc-optimum.ada.support/api/business_events/track$domain=pcoptimum.ca
 ||pcgamesn.com/cdn-cgi/trace
 ||pcmag.com/js/ga.js
 ||pcmag.com/js/z0WVjCBSEeGLoxIxOQVEwQ.min.js
