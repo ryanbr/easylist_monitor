@@ -1,17 +1,17 @@
 {
   "updated": 2,
-  "timestamp": "2026-03-19T02:58:29.173Z",
+  "timestamp": "2026-03-19T04:36:52.660Z",
   "lists": [
     {
       "filename": "easylist.txt",
       "url": "https://easylist.to/easylist/easylist.txt",
-      "hash": "3f9d5a81fa9d6c6fd7d37c6b1a49112b21692252cf9782dd0944d9815b23476c",
-      "version": "202603190239",
-      "lastModified": "2026-03-19T02:40:06.000Z",
-      "contentLastModified": "19 Mar 2026 02:39 UTC",
-      "serverLastModified": "Thu, 19 Mar 2026 02:40:06 GMT",
-      "etag": "W/\"69bb6206-23606e\"",
-      "size": 2317900,
+      "hash": "8e9ef9415bfe793a7a0d28817bc0ef5d56e50be7a32a60c6e6b55e48870bbf47",
+      "version": "202603190416",
+      "lastModified": "2026-03-19T04:17:31.000Z",
+      "contentLastModified": "19 Mar 2026 04:16 UTC",
+      "serverLastModified": "Thu, 19 Mar 2026 04:17:31 GMT",
+      "etag": "W/\"69bb78db-23613e\"",
+      "size": 2318108,
       "changeReason": "content hash changed and timestamp newer and ETag changed",
       "expires": "4 days (update frequency)",
       "ageHours": "0.3",
@@ -21,18 +21,18 @@
     {
       "filename": "easyprivacy.txt",
       "url": "https://easylist.to/easylist/easyprivacy.txt",
-      "hash": "9c6835f0b42f34d5d7e91d0c5d6f83fd9b7fd41b7a9854b77d4d4294ed7e1ddb",
-      "version": "202603190239",
-      "lastModified": "2026-03-19T02:40:06.000Z",
-      "contentLastModified": "19 Mar 2026 02:39 UTC",
-      "serverLastModified": "Thu, 19 Mar 2026 02:40:06 GMT",
-      "etag": "W/\"69bb6206-168397\"",
+      "hash": "dcb9c6a579fff79ae6d67fd2bcf09b0473cda14ba20e849966e4928027b1b6c7",
+      "version": "202603190430",
+      "lastModified": "2026-03-19T04:31:03.000Z",
+      "contentLastModified": "19 Mar 2026 04:30 UTC",
+      "serverLastModified": "Thu, 19 Mar 2026 04:31:03 GMT",
+      "etag": "W/\"69bb7c07-168397\"",
       "size": 1475479,
       "changeReason": "content hash changed and timestamp newer and ETag changed",
       "expires": "4 days (update frequency)",
-      "ageHours": "0.3",
+      "ageHours": "0.1",
       "isStale": false,
-      "ageAnalysis": "Fresh: 0.3 hours old"
+      "ageAnalysis": "Fresh: 0.1 hours old"
     }
   ],
   "staleFiles": []
