@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Version: 202603182200
+! Version: 202603182348
 ! Title: EasyList
-! Last modified: 18 Mar 2026 22:00 UTC
+! Last modified: 18 Mar 2026 23:48 UTC
 ! Expires: 4 days (update frequency)
-! Commit: a5907238d8dc68338a04f792394844170225e0fb
+! Commit: 409c8eaa86f7d58b70764aa5bf66f952991294bd
 ! *** easylist:template_header.txt ***
 ! 
 ! Please report any unblocked adverts or problems
@@ -30259,6 +30259,7 @@ browsershots.org#@#.advert_area
 ||etvurlcoygadl.site^
 ||etwasranter.cfd^
 ||etwdpgjsvdqzk.site^
+||etweesqueres.qpon^
 ||etwiwgnnyouvw.space^
 ||etwmijxejhqrr.site^
 ||etxezrqexghpb.site^
@@ -36919,6 +36920,7 @@ browsershots.org#@#.advert_area
 ||hwugaspawa.com^
 ||hwuhkabi.in^
 ||hwuqyjgmgptkd.website^
+||hwwjovvnkuqytg.com^
 ||hwyijnwehlsrq.website^
 ||hwzuwlghfqizh.space^
 ||hxaeqktmhvawj.space^
@@ -36975,6 +36977,7 @@ browsershots.org#@#.advert_area
 ||hyi5z8ivnlt2ooj9h.cfd^
 ||hyihyfouxfsjb.online^
 ||hyjxuvsklboyu.online^
+||hykhlwseeyjp.com^
 ||hykntjogtejpt.space^
 ||hyknzlikidbdf.website^
 ||hyldaxiyvidxg.online^
@@ -41666,6 +41669,7 @@ browsershots.org#@#.advert_area
 ||lamplynx.com^
 ||lamppostadaptationlassitude.com^
 ||lampshadescreen.com^
+||lanatedcypruschandui.cfd^
 ||lancasternh.com^
 ||lancbcdncmphy.online^
 ||land.izuchai.dance^
@@ -52110,6 +52114,7 @@ browsershots.org#@#.advert_area
 ||psausheets.net^
 ||psausoay.net^
 ||psaussasta.net^
+||psbdkvomgl.com^
 ||psbksjnkacikm.space^
 ||psdatjrnkurfb.website^
 ||psdjyhuerechn.site^
@@ -61825,6 +61830,7 @@ browsershots.org#@#.advert_area
 ||trellian.com^
 ||trellischafing.shop^
 ||tremblesyringeillusive.com^
+||tremblyrageousumbril.qpon^
 ||tremendous-hook.pro^
 ||tremendouscheek.com^
 ||tremendousthesis.com^
@@ -86598,6 +86604,7 @@ musicbusinessworldwide.com##[href^="https://wynstarks.lnk.to/"]
 bleepingcomputer.com##[href^="https://ztw.com/"]
 cars.com##[id$="-sponsored"]
 lolalytics.com##[id$=":inline"]
+news18.com##[id*="_Ad_Mid"]
 bridgebase.com##[id*="_ad"]
 homedepot.com##[id*="sponsored"]
 80.lv##[id^="Image_bner_"]
