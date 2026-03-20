@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Version: 202603192151
+! Version: 202603200000
 ! Title: EasyList
-! Last modified: 19 Mar 2026 21:51 UTC
+! Last modified: 20 Mar 2026 00:00 UTC
 ! Expires: 4 days (update frequency)
-! Commit: 3566fead10737c6ca715dcf02dab14e1c3ac0785
+! Commit: 77319d0c3a7fc13fd8622b1da1df4a5494a957ce
 ! *** easylist:template_header.txt ***
 ! 
 ! Please report any unblocked adverts or problems
@@ -25204,6 +25204,7 @@ browsershots.org#@#.advert_area
 ||coolestreactionstems.com^
 ||cooliessclent.cfd^
 ||coolingvaluer.com^
+||coolishrocked.com^
 ||cools-sweetclub.com^
 ||coolserving.com^
 ||coolsize.pro^
@@ -29602,6 +29603,7 @@ browsershots.org#@#.advert_area
 ||eminentcopy.pro^
 ||emissigougers.cfd^
 ||emissionidiompolygon.com^
+||emitmicaciv.cfd^
 ||emitprocured.com^
 ||emivjymhpovva.com^
 ||emjrwypl.xyz^
@@ -33379,6 +33381,7 @@ browsershots.org#@#.advert_area
 ||geesoaptomu.net^
 ||geethemaushaupa.net^
 ||geeweseeglep.net^
+||geeyfircgahp.com^
 ||gefiqflpfiikr.site^
 ||gefqbzyzufohv.online^
 ||gegennkikwrij.xyz^
@@ -40037,6 +40040,7 @@ browsershots.org#@#.advert_area
 ||jumpylevel.com^
 ||jumpyliterature.com^
 ||jumpystupid.pro^
+||jumto.xyz^
 ||jumvsaapqxaed.site^
 ||junchiromapping.cfd^
 ||juneaugeticsnowmen.cyou^
@@ -42599,6 +42603,7 @@ browsershots.org#@#.advert_area
 ||listenerhooter.com^
 ||listenrecess.com^
 ||listersdater.cfd^
+||listhoversrainout.cyou^
 ||listlesspropose.com^
 ||listmenace.com^
 ||litaicharms.qpon^
@@ -44759,6 +44764,7 @@ browsershots.org#@#.advert_area
 ||mindedenhance.com^
 ||mindedonly.com^
 ||mindershrimp.com^
+||mindinggreund.cfd^
 ||mindlesscancel.pro^
 ||mindmeters.biz^
 ||mindoccupy.com^
@@ -56107,6 +56113,7 @@ browsershots.org#@#.advert_area
 ||rugalnylon.com^
 ||rugbycaricaturescheme.com^
 ||rugbymentalads.com^
+||rugccudvv.com^
 ||rugcleping.cfd^
 ||rugcookingintersection.com^
 ||rugiomyh2vmr.com^
@@ -56181,6 +56188,7 @@ browsershots.org#@#.advert_area
 ||russellminorpresumptuous.com^
 ||russianwoodencrown.com^
 ||rustierplumier.qpon^
+||rustledlogania.cfd^
 ||rustredredroot.cyou^
 ||rustscrupulousstates.com^
 ||rusty-platform.com^
@@ -59561,6 +59569,7 @@ browsershots.org#@#.advert_area
 ||strongholdnearby.com^
 ||stronglyspringdoubly.com^
 ||stroweduntipsy.cyou^
+||stroyerbalebos.cyou^
 ||strtgic.com^
 ||strubjalapa.com^
 ||structure420.net^
@@ -61162,6 +61171,7 @@ browsershots.org#@#.advert_area
 ||ticftyxartuy.com^
 ||ticielongsuched.com^
 ||ticismovernemen.org^
+||tickcabinrender.com^
 ||ticketswinning.com^
 ||tickleinclosetried.com^
 ||ticoepaarflt.com^
@@ -65281,6 +65291,7 @@ browsershots.org#@#.advert_area
 ||vovnjqjpzxqdr.space^
 ||vowelsubnet.cyou^
 ||vowlvgdgbkqmv.online^
+||vowsavageskim.com^
 ||vowthreehilarious.com^
 ||voxar.xyz^
 ||voxozvccofzwc.website^
@@ -68591,6 +68602,7 @@ browsershots.org#@#.advert_area
 ||ydnrwntqtikfg.online^
 ||ydoekexzpcxdf.online^
 ||ydopvxjwmlkoo.space^
+||ydpvpcnmwh.com^
 ||ydqhvlqqhtuli.website^
 ||ydqjjnyincwxu.site^
 ||ydrfibhfdbhv.com^
@@ -83385,6 +83397,7 @@ nationalmemo.com##.content_nm_placeholder
 insta-stories-viewer.com##.context
 usedcarnews.com##.continut
 metar-taf.com##.controls-right
+savvytime.com##.converter-ad
 traderie.com##.cool-slot
 live-tennis.eu##.copyright
 imdb.com##.cornerstone_slot
@@ -86888,7 +86901,8 @@ mydramalist.com##[style="min-height: 600px;"]
 phys.org##[style="min-height: 601px;"]
 adweek.com##[style="min-height: 90px; box-sizing: content-box;"]
 africam.com,open3dlab.com##[style="min-height: 90px;"]
-calendar-uk.co.uk,theartnewspaper.com##[style="min-height:250px;"]
+utctime.net##[style="min-height:120px"]
+calendar-uk.co.uk,theartnewspaper.com,utctime.net##[style="min-height:250px;"]
 theroar.com.au##[style="min-height:260px;max-height:260px;overflow:hidden;"]
 ntd.com##[style="min-height:266px"]
 ntd.com##[style="min-height:296px"]
