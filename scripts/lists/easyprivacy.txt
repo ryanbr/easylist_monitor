@@ -1,9 +1,9 @@
 [Adblock Plus 1.1]
-! Version: 202603302259
+! Version: 202603310112
 ! Title: EasyPrivacy
-! Last modified: 30 Mar 2026 22:59 UTC
+! Last modified: 31 Mar 2026 01:12 UTC
 ! Expires: 4 days (update frequency)
-! Commit: 77707f76971609a49a84e839c351a2b17247cc4d
+! Commit: 43ef0b6d0f2eb2685f4f7541b434c53a36ccdbcc
 ! *** easylist:template_header.txt ***
 ! 
 ! Please report any unblocked adverts or problems
@@ -2067,6 +2067,7 @@
 /screencount?vcid=
 /scribd_events?
 /script.outbound-links.js
+/script.outbound-links.pageview-props.revenue.js
 /script.tagged-events.js
 /script/pixel.js
 /scriptAnalytics.js
@@ -8759,6 +8760,7 @@ omni.soundestlink.com$image
 ||whoogled.com^
 ||whymaze.com^
 ||widgethouse.com^
+||wikiquotations.com^
 ||wikiwhatwhere.com^
 ||wildcommittee.com^
 ||wildwoodavenue.com^
@@ -10403,6 +10405,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||beacon.sftoaa.com^
 ||beacon.sojern.com^
 ||beacon.statful.com^
+||beacon.webpresence.work^
 ||beacons.mediamelon.com^
 ||beam.mjhlifesciences.com^
 ||beamanalytics.b-cdn.net^
