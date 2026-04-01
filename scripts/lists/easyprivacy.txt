@@ -1,9 +1,9 @@
 [Adblock Plus 1.1]
-! Version: 202604010252
+! Version: 202604010530
 ! Title: EasyPrivacy
-! Last modified: 01 Apr 2026 02:52 UTC
+! Last modified: 01 Apr 2026 05:30 UTC
 ! Expires: 4 days (update frequency)
-! Commit: 2b4e7f5d9d27f457a2443407a840defcfe3b71d8
+! Commit: 2efbf7a9e84984efcaedbb89af87c2176b72c7b1
 ! *** easylist:template_header.txt ***
 ! 
 ! Please report any unblocked adverts or problems
@@ -8766,6 +8766,7 @@ omni.soundestlink.com$image
 ||wikiwhatwhere.com^
 ||wildcommittee.com^
 ||wildwoodavenue.com^
+||windbeetle.com^
 ||wirecomic.com^
 ||wiredforcoffee.com^
 ||wirenewsletter.com^
@@ -14461,7 +14462,6 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||app.kulgacdn.com/js/script.js
 ||apps.ihlasdigitalassets.com/stats
 ||c.keltis.com^
-||collector.wawlabs.com^
 ||core.dehapi.com/ip.php
 ||daioncdn.net/events?
 ||eticaret.pro/pixel/
@@ -14476,6 +14476,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||track.livasoft.com.tr^
 ||tracker.adcluster.com.tr^
 ||traffic.wdc.center^
+||wa.wawlabs.com^
 ||web.tv/analytics/
 ! Ukranian
 ||informers.sinoptik.ua^
@@ -14603,7 +14604,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||ampltd.medal.tv^
 ||ampltd.top.gg^
 ||ampltd2.medal.tv^
-||anal.billingserv.com^
+||anal.baseserv.com^
 ||anal.doubledouble.top^
 ||analytics-api.dvdfab.
 ||analytics-batch.blitz.gg^
