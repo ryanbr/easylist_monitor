@@ -1,9 +1,9 @@
 [Adblock Plus 1.1]
-! Version: 202604121351
+! Version: 202604121555
 ! Title: EasyPrivacy
-! Last modified: 12 Apr 2026 13:51 UTC
+! Last modified: 12 Apr 2026 15:55 UTC
 ! Expires: 4 days (update frequency)
-! Commit: 1bee1fd2464ef86b7cb477e34bf751279a34369c
+! Commit: 1d12a063c631398bf4d3987a9b2f8721b671ee7d
 ! *** easylist:template_header.txt ***
 ! 
 ! Please report any unblocked adverts or problems
@@ -53057,6 +53057,7 @@ bitdefender.com##body[style="opacity: 0;"]:style(opacity: 1 !important;)
 ||chartsurfer.de/js/mtm.js
 ||chartsurfer.de/uscoll.php?
 ||chefkoch-cdn.de/agf/agf.js
+||chefkoch-cdn.de/search/tracking/
 ||chefkoch.de/search/tracking/
 ||chefkoch.de/tracking/
 ||cinestar.de/collect/
