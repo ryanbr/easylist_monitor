@@ -1,9 +1,9 @@
 [Adblock Plus 1.1]
-! Version: 202604141118
+! Version: 202604141315
 ! Title: EasyPrivacy
-! Last modified: 14 Apr 2026 11:18 UTC
+! Last modified: 14 Apr 2026 13:15 UTC
 ! Expires: 4 days (update frequency)
-! Commit: 52439a19294d2cb9247c1546e1a7aa79f14a5806
+! Commit: dc4bc570aa2f6a8adeee17c225001bd24c42f5d6
 ! *** easylist:template_header.txt ***
 ! 
 ! Please report any unblocked adverts or problems
@@ -7577,7 +7577,6 @@ omni.soundestlink.com$image
 ||internalcondition.com^
 ||internalsink.com^
 ||intricateberry.com^
-||inventorycache.com^
 ||inventtango.com^
 ||invoicetick.com^
 ||iotapool.com^
@@ -10841,6 +10840,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||data.woosmap.com^
 ||data2.gosquared.com^
 ||datadog-service.mvfglobal.com^
+||datadome00.id.me/tags.js
 ||datasign.co/js/opn.js
 ||datasphere-sbsvc.sharethis.com^
 ||daxab.com/logger/
