@@ -1,9 +1,9 @@
 [Adblock Plus 1.1]
-! Version: 202604141315
+! Version: 202604141516
 ! Title: EasyPrivacy
-! Last modified: 14 Apr 2026 13:15 UTC
+! Last modified: 14 Apr 2026 15:16 UTC
 ! Expires: 4 days (update frequency)
-! Commit: dc4bc570aa2f6a8adeee17c225001bd24c42f5d6
+! Commit: 418c39e4089db94c7bac8bb2d985882387c1e2cd
 ! *** easylist:template_header.txt ***
 ! 
 ! Please report any unblocked adverts or problems
@@ -5293,7 +5293,6 @@ omni.soundestlink.com$image
 ||metarouter.io^$third-party
 ||meteorsolutions.com^$third-party
 ||metricode.com^$third-party
-||metricool.com^$third-party
 ||metrics0.com^$third-party
 ||metricsdirect.com^$third-party
 ||metricswave.com^$third-party
@@ -12627,6 +12626,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||tracker.jkstremum.xyz^
 ||tracker.keywordintent.com^
 ||tracker.marinsoftware.com^
+||tracker.metricool.com^
 ||tracker.mrpfd.com^
 ||tracker.myth.dev^
 ||tracker.myyschool.xyz^
