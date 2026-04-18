@@ -1,9 +1,9 @@
 [Adblock Plus 1.1]
-! Version: 202604181007
+! Version: 202604181153
 ! Title: EasyPrivacy
-! Last modified: 18 Apr 2026 10:07 UTC
+! Last modified: 18 Apr 2026 11:53 UTC
 ! Expires: 4 days (update frequency)
-! Commit: 1b4532eaa3d4093986d1f5a37f9305332d6b7bf4
+! Commit: 25bc71e75c3cb1a39553364cd37c3734a9aab57c
 ! *** easylist:template_header.txt ***
 ! 
 ! Please report any unblocked adverts or problems
@@ -268,6 +268,7 @@
 /analytics-library.js
 /analytics-minimal-v4.js
 /analytics-minimal.js
+/analytics-module-api/v1/analytics?
 /analytics-ping.js
 /analytics-prod.js
 /analytics-reporter/*
@@ -3808,6 +3809,7 @@ omni.soundestlink.com$image
 ||raac33.net^
 ||rapidpanda.io^
 ||rapidzebra.io^
+||re-ads.com^
 ||realtimely.io^
 ||reportic.app^
 ||rezync.com^
