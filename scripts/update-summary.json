@@ -1,38 +1,22 @@
 {
-  "updated": 2,
-  "timestamp": "2026-04-21T15:25:21.845Z",
+  "updated": 1,
+  "timestamp": "2026-04-21T17:19:19.935Z",
   "lists": [
-    {
-      "filename": "easylist.txt",
-      "url": "https://easylist.to/easylist/easylist.txt",
-      "hash": "b15ecf2ea079f0391ff625944dd98dfc14876bd34a9c69d8e840c92307584528",
-      "version": "202604211515",
-      "lastModified": "2026-04-21T15:16:30.000Z",
-      "contentLastModified": "21 Apr 2026 15:15 UTC",
-      "serverLastModified": "Tue, 21 Apr 2026 15:16:30 GMT",
-      "etag": "W/\"69e794ce-22363e\"",
-      "size": 2241192,
-      "changeReason": "content hash changed and timestamp newer and ETag changed",
-      "expires": "4 days (update frequency)",
-      "ageHours": "0.1",
-      "isStale": false,
-      "ageAnalysis": "Fresh: 0.2 hours old"
-    },
     {
       "filename": "easyprivacy.txt",
       "url": "https://easylist.to/easylist/easyprivacy.txt",
-      "hash": "85ee13b3e0a9d55cfafc082316fcb723adfd5d379e9fea4b88bbd9ee6a5b827e",
-      "version": "202604211515",
-      "lastModified": "2026-04-21T15:16:30.000Z",
-      "contentLastModified": "21 Apr 2026 15:15 UTC",
-      "serverLastModified": "Tue, 21 Apr 2026 15:16:30 GMT",
-      "etag": "W/\"69e794ce-169709\"",
+      "hash": "60e1037cf18f7d993eca4922072eca9f694f1daade635c13e85212edb4157531",
+      "version": "202604211703",
+      "lastModified": "2026-04-21T17:03:53.000Z",
+      "contentLastModified": "21 Apr 2026 17:03 UTC",
+      "serverLastModified": "Tue, 21 Apr 2026 17:03:53 GMT",
+      "etag": "W/\"69e7adf9-169709\"",
       "size": 1480457,
       "changeReason": "content hash changed and timestamp newer and ETag changed",
       "expires": "4 days (update frequency)",
-      "ageHours": "0.1",
+      "ageHours": "0.3",
       "isStale": false,
-      "ageAnalysis": "Fresh: 0.2 hours old"
+      "ageAnalysis": "Fresh: 0.3 hours old"
     }
   ],
   "staleFiles": []
