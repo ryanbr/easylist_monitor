@@ -1,22 +1,22 @@
 {
   "updated": 1,
-  "timestamp": "2026-04-21T20:15:04.168Z",
+  "timestamp": "2026-04-21T21:13:42.897Z",
   "lists": [
     {
-      "filename": "easylist.txt",
-      "url": "https://easylist.to/easylist/easylist.txt",
-      "hash": "5d37d9c8339aa86d461750df666edf5c0941d58db8c3b02172feeb78ea49ae2c",
-      "version": "202604212004",
-      "lastModified": "2026-04-21T20:05:32.000Z",
-      "contentLastModified": "21 Apr 2026 20:04 UTC",
-      "serverLastModified": "Tue, 21 Apr 2026 20:05:32 GMT",
-      "etag": "W/\"69e7d88c-2239f7\"",
-      "size": 2242145,
+      "filename": "easyprivacy.txt",
+      "url": "https://easylist.to/easylist/easyprivacy.txt",
+      "hash": "3f900a4a3c68d5bce7ef00fbe01ac2ae8d76bc8667705a51e2ed91e3b6bc982b",
+      "version": "202604212108",
+      "lastModified": "2026-04-21T21:09:22.000Z",
+      "contentLastModified": "21 Apr 2026 21:08 UTC",
+      "serverLastModified": "Tue, 21 Apr 2026 21:09:22 GMT",
+      "etag": "W/\"69e7e782-169709\"",
+      "size": 1480457,
       "changeReason": "content hash changed and timestamp newer and ETag changed",
       "expires": "4 days (update frequency)",
-      "ageHours": "0.2",
+      "ageHours": "0.1",
       "isStale": false,
-      "ageAnalysis": "Fresh: 0.2 hours old"
+      "ageAnalysis": "Fresh: 0.1 hours old"
     }
   ],
   "staleFiles": []
