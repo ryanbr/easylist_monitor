@@ -1,9 +1,9 @@
 [Adblock Plus 1.1]
-! Version: 202604250354
+! Version: 202604250531
 ! Title: EasyPrivacy
-! Last modified: 25 Apr 2026 03:54 UTC
+! Last modified: 25 Apr 2026 05:31 UTC
 ! Expires: 4 days (update frequency)
-! Commit: b63ee4ac993a6a0fd31d4fce4d3a4da34187b1f4
+! Commit: c979e03d05a0b87a9518235996c3baa1d286abd0
 ! *** easylist:template_header.txt ***
 ! 
 ! Please report any unblocked adverts or problems
@@ -8836,6 +8836,7 @@ omni.soundestlink.com$image
 ||wretchedfloor.com^
 ||writerhubs.com^
 ||writewealth.com^
+||writingcalls.com^
 ||wrongpotato.com^
 ||wrongwound.com^
 ||wtaccesscontrol.com^
