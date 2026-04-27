@@ -1,9 +1,9 @@
 [Adblock Plus 1.1]
-! Version: 202604270820
+! Version: 202604271024
 ! Title: EasyPrivacy
-! Last modified: 27 Apr 2026 08:20 UTC
+! Last modified: 27 Apr 2026 10:24 UTC
 ! Expires: 4 days (update frequency)
-! Commit: bdb6aaca79afe78bd075b96b48a69b68ea180bdc
+! Commit: ba5138e1c60cc094890144919ae4646ff7b7fae1
 ! *** easylist:template_header.txt ***
 ! 
 ! Please report any unblocked adverts or problems
@@ -7888,6 +7888,7 @@ omni.soundestlink.com$image
 ||nightwound.com^
 ||nimbleplot.com^
 ||noblecables.com^
+||noblefellow.com^
 ||nodenotify.com^
 ||nodethisweek.com^
 ||noiselessplough.com^
@@ -15644,6 +15645,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||mangadex.org/p.js
 ||mangakoma.net/ajax/manga/view
 ||manomano.*/api/v1/sp-tracking/
+||manscaped.com/rud-dataplane/
 ||manua.ls/g/collect?
 ||manua.ls/gtag
 ||mapcarta.com/logs
