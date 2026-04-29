@@ -1,38 +1,38 @@
 {
   "updated": 2,
-  "timestamp": "2026-04-29T12:25:28.585Z",
+  "timestamp": "2026-04-29T14:41:40.524Z",
   "lists": [
     {
       "filename": "easylist.txt",
       "url": "https://easylist.to/easylist/easylist.txt",
-      "hash": "e56f0c17a6ddfe35f48c059e8363cf20a0edb9079e437077e0e8f8ae5493eb8d",
-      "version": "202604291212",
-      "lastModified": "2026-04-29T12:13:11.000Z",
-      "contentLastModified": "29 Apr 2026 12:12 UTC",
-      "serverLastModified": "Wed, 29 Apr 2026 12:13:11 GMT",
-      "etag": "W/\"69f1f5d7-22ef05\"",
-      "size": 2288495,
+      "hash": "65d2d5043cc4e5c3c8ffccec8b0818720b0736b494751437dabe64b9807fd587",
+      "version": "202604291405",
+      "lastModified": "2026-04-29T14:06:25.000Z",
+      "contentLastModified": "29 Apr 2026 14:05 UTC",
+      "serverLastModified": "Wed, 29 Apr 2026 14:06:25 GMT",
+      "etag": "W/\"69f21061-22f053\"",
+      "size": 2288829,
       "changeReason": "content hash changed and timestamp newer and ETag changed",
       "expires": "4 days (update frequency)",
-      "ageHours": "0.2",
+      "ageHours": "0.6",
       "isStale": false,
-      "ageAnalysis": "Fresh: 0.2 hours old"
+      "ageAnalysis": "Fresh: 0.6 hours old"
     },
     {
       "filename": "easyprivacy.txt",
       "url": "https://easylist.to/easylist/easyprivacy.txt",
-      "hash": "07f3e3743bee47b79d9acd8ad46de0fb9d6e689b1fd50c92a663edf5160213c0",
-      "version": "202604291212",
-      "lastModified": "2026-04-29T12:13:11.000Z",
-      "contentLastModified": "29 Apr 2026 12:12 UTC",
-      "serverLastModified": "Wed, 29 Apr 2026 12:13:11 GMT",
-      "etag": "W/\"69f1f5d7-169cbf\"",
-      "size": 1481919,
+      "hash": "a1f88c1c943637c2b3e87e0bd8943c8788d3ebddb190d818b9c18cd1b9b4f736",
+      "version": "202604291405",
+      "lastModified": "2026-04-29T14:06:25.000Z",
+      "contentLastModified": "29 Apr 2026 14:05 UTC",
+      "serverLastModified": "Wed, 29 Apr 2026 14:06:25 GMT",
+      "etag": "W/\"69f21061-169d3e\"",
+      "size": 1482046,
       "changeReason": "content hash changed and timestamp newer and ETag changed",
       "expires": "4 days (update frequency)",
-      "ageHours": "0.2",
+      "ageHours": "0.6",
       "isStale": false,
-      "ageAnalysis": "Fresh: 0.2 hours old"
+      "ageAnalysis": "Fresh: 0.6 hours old"
     }
   ],
   "staleFiles": []
