@@ -1,9 +1,9 @@
 [Adblock Plus 1.1]
-! Version: 202605021101
+! Version: 202605021315
 ! Title: EasyPrivacy
-! Last modified: 02 May 2026 11:01 UTC
+! Last modified: 02 May 2026 13:15 UTC
 ! Expires: 4 days (update frequency)
-! Commit: c2f617c717287774485d43925c85ebde683cd382
+! Commit: 7cb6ce52da82c91247601e0895b755c1856f68ea
 ! *** easylist:template_header.txt ***
 ! 
 ! Please report any unblocked adverts or problems
@@ -6891,6 +6891,7 @@ omni.soundestlink.com$image
 ||broadcastbed.com^
 ||brotherslocket.com^
 ||brownboxgroup.com^
+||browserguides.net^
 ||bruisebaseball.com^
 ||bubblyaction.com^
 ||bucketlistbob.com^
@@ -6925,6 +6926,7 @@ omni.soundestlink.com$image
 ||calvarycards.com^
 ||calypsocapsule.com^
 ||camelsfestival.com^
+||camelspark.com^
 ||cannonborough.com^
 ||cannonchange.com^
 ||canvasandsocks.com^
@@ -54431,6 +54433,7 @@ bitdefender.com##body[style="opacity: 0;"]:style(opacity: 1 !important;)
 ||t.bukalapak.com^
 ||ta.tokopedia.com/promo/v1/views
 ||tokopedia.com/helios-client/client-log
+||tracker-beam.tempo.co^
 ! Italian
 /~shared/do/~/count/?$image
 ||adnkronos.com/akTracking_isf.js
