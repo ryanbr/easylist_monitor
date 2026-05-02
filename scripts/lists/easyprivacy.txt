@@ -1,9 +1,9 @@
 [Adblock Plus 1.1]
-! Version: 202605020718
+! Version: 202605020908
 ! Title: EasyPrivacy
-! Last modified: 02 May 2026 07:18 UTC
+! Last modified: 02 May 2026 09:08 UTC
 ! Expires: 4 days (update frequency)
-! Commit: dcb91cafa735d3748c1b742d3cb9ff9c761fd8cb
+! Commit: fc3e7859140f9ee512ab1729b389991d1bb0ed98
 ! *** easylist:template_header.txt ***
 ! 
 ! Please report any unblocked adverts or problems
@@ -16198,6 +16198,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||sst.brodo.com^
 ||sst.bwt.com^
 ||sst.carwow.
+||sst.fdiintelligence.com^
 ||sst.shopware.com^
 ||st.sawlive.tv^
 ||stackoverflow.com/_/client-timings
