@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Version: 202605061909
+! Version: 202605062113
 ! Title: EasyList
-! Last modified: 06 May 2026 19:09 UTC
+! Last modified: 06 May 2026 21:13 UTC
 ! Expires: 4 days (update frequency)
-! Commit: c7e57e315e31d0c70d30ef056a781b188091db89
+! Commit: c40ca6355e8db3e13dbea0335b56a1866cb03376
 ! *** easylist:template_header.txt ***
 ! 
 ! Please report any unblocked adverts or problems
@@ -18075,6 +18075,7 @@ browsershots.org#@#.advert_area
 ||akuleestampmondial.qpon^
 ||akupmhxbzdhau.space^
 ||akutapro.com^
+||akvosbllbxzkx.online^
 ||akxiojpifqhsrn.com^
 ||al-adtech.com^
 ||al5sm.com^
@@ -24271,6 +24272,7 @@ browsershots.org#@#.advert_area
 ||croplake.com^
 ||crosspreferrite.com^
 ||crouchedmonarch.com^
+||crowbariranianmanati.cyou^
 ||crowbarrinds.com^
 ||crowded-you.pro^
 ||crowdsubsequentadmire.com^
@@ -28857,6 +28859,7 @@ browsershots.org#@#.advert_area
 ||fbzqfomrzgudj.online^
 ||fc2-ppv.xyz^
 ||fc2plus.site^
+||fcajvqmwhkclw.com^
 ||fcb6adad17.com^
 ||fcbgtveetbl.com^
 ||fccamtugmehe.com^
@@ -41629,6 +41632,7 @@ browsershots.org#@#.advert_area
 ||nickessence.com^
 ||nickeysreplait.cfd^
 ||nicksana.shop^
+||nicobarwhedder.cfd^
 ||nicolasrhumbaenfile.cyou^
 ||nicyosyoxyvvw.space^
 ||nidakcdk.com^
@@ -52096,6 +52100,7 @@ browsershots.org#@#.advert_area
 ||rxmklgldqtxor.online^
 ||rxnvg.com^
 ||rxqbewfdeyyrv.website^
+||rxqiyobihvuw.com^
 ||rxqqxtyrshpkq.store^
 ||rxqtuwahmzb.com^
 ||rxscledbyfgos.site^
@@ -54428,6 +54433,7 @@ browsershots.org#@#.advert_area
 ||sloperswhens.qpon^
 ||sloto.live^
 ||slotsmiling.com^
+||sloungescruff.cyou^
 ||slovenscrankly.com^
 ||slovvcaojwrhv.space^
 ||slow-attitude.com^
@@ -54863,6 +54869,7 @@ browsershots.org#@#.advert_area
 ||solversmeath.cyou^
 ||somainpdeirit.online^
 ||somber-fold.pro^
+||somberlock.com^
 ||sombermistake.pro^
 ||sombernewspaper.com^
 ||somberwork.pro^
@@ -56698,6 +56705,7 @@ browsershots.org#@#.advert_area
 ||swordbullpup.qpon^
 ||swordsecretlychimera.com^
 ||sworlowedonhisdh.org^
+||sworncrangsalma.qpon^
 ||swornlaughruined.com^
 ||swottedplaidie.com^
 ||swovmufrvjwgu.space^
@@ -58386,6 +58394,7 @@ browsershots.org#@#.advert_area
 ||tnaczwecikco.online^
 ||tnanqkvvrqond.online^
 ||tnaygpxwlubq.com^
+||tnb8yc2gi52epb5.cfd^
 ||tnbigewpbffra.website^
 ||tnbmdavwrgygn.online^
 ||tncarking.qpon^
@@ -64665,6 +64674,7 @@ browsershots.org#@#.advert_area
 ||whoppercreaky.com^
 ||whopping-click.com^
 ||whoppngzrzsyz.online^
+||whopsprits.cyou^
 ||whoredpledgeegres.cfd^
 ||whoringnusfiah.help^
 ||whorishholaclayed.cfd^
@@ -65352,6 +65362,7 @@ browsershots.org#@#.advert_area
 ||wotelnenrdecc.xyz^
 ||wotenvrlbybjm.website^
 ||wottethpestlebackout.cyou^
+||wotzzqhswsggm.website^
 ||woubithavings.shop^
 ||woucizameewha.net^
 ||woudaufe.net^
@@ -66408,6 +66419,7 @@ browsershots.org#@#.advert_area
 ||xlgrtjpwshzaw.online^
 ||xlhlemvmdlmvf.space^
 ||xlhxndmbkhllo.site^
+||xlhymovwsfita.site^
 ||xlhzormvzjazz.website^
 ||xlieicglajd.com^
 ||xliirdr.com^
@@ -66863,6 +66875,7 @@ browsershots.org#@#.advert_area
 ||xuvxaknemnska.site^
 ||xuwpwrvxbfxzw.space^
 ||xuxtzbczsxcrs.website^
+||xuyrlpyxbfucl.website^
 ||xvayntirbqohr.space^
 ||xvboxxzigznnu.site^
 ||xvbxbqlqnrncf.online^
@@ -68233,6 +68246,7 @@ browsershots.org#@#.advert_area
 ||ywsxuzmhbfdip.site^
 ||ywtennjipgrwd.website^
 ||ywtwvfuwgxnpe.space^
+||ywugyssrmkvat.website^
 ||ywusfyjhnpflr.top^
 ||ywuwsxpwucyzh.com^
 ||ywuzuazsjnzto.online^
@@ -88125,6 +88139,8 @@ agoda.com#?#.PropertyCardItem:has(div:has-text(Promoted))
 alibaba.com#?#.J-offer-wrapper:has-text(Top sponsor listing)
 amusingplanet.com#?#.blockTitle:has-text(Advertisement)
 androidauthority.com#?#div[class="e_Qi"]:has-text(Trending Tech Deals)
+androidauthority.com#?#div[class="e_Rc e_d"]:has-text(Affiliate links on Android Authority may earn us a commission)
+androidauthority.com#?#div[class="e_ei"]:has-text(Trending Tech Deals)
 androidauthority.com#?#div[class="e_ic e_d"]:has-text(Affiliate links on Android Authority may earn us a commission)
 anfieldindex.com#?#aside[data-animation-event]:has-text(PARTNERS)
 animalfunfacts.net#?#center:has-text(ADVERT)
