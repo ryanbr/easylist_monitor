@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Version: 202605060405
+! Version: 202605060551
 ! Title: EasyList
-! Last modified: 06 May 2026 04:05 UTC
+! Last modified: 06 May 2026 05:51 UTC
 ! Expires: 4 days (update frequency)
-! Commit: bb9a0d9956dde80909db016ff0b0dd848b816b52
+! Commit: 59776bf38cc70caee1cea8ac63e9f992a1a4f369
 ! *** easylist:template_header.txt ***
 ! 
 ! Please report any unblocked adverts or problems
@@ -17908,6 +17908,7 @@ browsershots.org#@#.advert_area
 ||ahxnkoskyo.in^
 ||ahxpudoydaraw.site^
 ||ahxqqfgmfumpo.website^
+||ahydsrvipqpep.space^
 ||ahyjsrlslitla.online^
 ||ahymmqagnewae.online^
 ||ahzrdogdenuok.site^
@@ -18896,6 +18897,7 @@ browsershots.org#@#.advert_area
 ||armfhefszehro.site^
 ||armieddentate.shop^
 ||arminius.io^
+||armlocknanes.cfd^
 ||armpitgratitudecruelty.com^
 ||armrackwoodier.cfd^
 ||armseyekuman.cyou^
@@ -20406,6 +20408,7 @@ browsershots.org#@#.advert_area
 ||bfhrwqaroikoo.site^
 ||bfjflpryolthp.online^
 ||bfkvcvakbhdkh.website^
+||bfkzxvtskojbz.website^
 ||bfpartners.click^
 ||bfpxcbamfvhsl.website^
 ||bfpxyzomls.com^
@@ -22262,6 +22265,7 @@ browsershots.org#@#.advert_area
 ||cashooshut.com^
 ||cashtrafic.com^
 ||cashtrafic.info^
+||casinadoglike.cfd^
 ||casinohacksforyou.com^
 ||casinousagevacant.com^
 ||casketdropperregalia.com^
@@ -44675,6 +44679,7 @@ browsershots.org#@#.advert_area
 ||peacefulshadowway.com^
 ||peacetriunal.cfd^
 ||peachesbrulzie.cyou^
+||peacoatpopular.shop^
 ||peacockanapes.cyou^
 ||peacockresistpeppermint.com^
 ||peacockvowel.com^
@@ -53421,6 +53426,7 @@ browsershots.org#@#.advert_area
 ||shakepersianrehearse.com^
 ||shakingdoless.qpon^
 ||shakingtacklingunpeeled.com^
+||shakoeslockage.cyou^
 ||shakosfustoc.cyou^
 ||shakubistatenahane.cfd^
 ||shakydeploylofty.com^
@@ -54027,6 +54033,7 @@ browsershots.org#@#.advert_area
 ||sjmdxqvqbyxui.website^
 ||sjmjytjohslin.space^
 ||sjnsiuqhjmugz.store^
+||sjobmfxcchbad.online^
 ||sjosepaqwwcbh.site^
 ||sjowkktmatgny.site^
 ||sjppuztuufvam.space^
@@ -54578,6 +54585,7 @@ browsershots.org#@#.advert_area
 ||snittleaquilon.cyou^
 ||snivelinginsect.com^
 ||snjjfdfzvkcdp.online^
+||snlaavecjmpja.online^
 ||snljexumhfcyx.online^
 ||snmsyvlntztmx.site^
 ||snockbebaronkarri.cyou^
@@ -56134,6 +56142,7 @@ browsershots.org#@#.advert_area
 ||sucuriugwantus.cfd^
 ||sucuryinquiet.qpon^
 ||suczjwsoelppw.site^
+||sudariacueman.cyou^
 ||sudden-club.pro^
 ||suddensvalval.qpon^
 ||suddercorv.cyou^
@@ -58640,6 +58649,7 @@ browsershots.org#@#.advert_area
 ||toxtysjglzklk.site^
 ||toyednevoy.qpon^
 ||toyedvictory.cyou^
+||toyerbuyable.qpon^
 ||toyingimsonic.cfd^
 ||toyjqttcfwvvi.space^
 ||toylytwtwbphk.website^
@@ -62698,9 +62708,11 @@ browsershots.org#@#.advert_area
 ||vitsaukiwe.net^
 ||vittlespricesfidding.cfd^
 ||viucyeykydbvz.online^
+||vivacecored.cyou^
 ||vivacious-pin.pro^
 ||vivaciousinterposed.com^
 ||vivariarageous.help^
+||vivdwowvgfyllqt.com^
 ||vivecitatum.help^
 ||viviantenai.shop^
 ||vivid-baseball.com^
@@ -64551,6 +64563,7 @@ browsershots.org#@#.advert_area
 ||whoppercreaky.com^
 ||whopping-click.com^
 ||whoppngzrzsyz.online^
+||whoredpledgeegres.cfd^
 ||whoringnusfiah.help^
 ||whorishholaclayed.cfd^
 ||whosfmnqwci.com^
@@ -81032,7 +81045,7 @@ tennesseestar.com##.AdvancedText
 iogames.onl##.Advc
 tvnz.co.nz,world-nuclear-news.org##.Advert
 aimagazine.com##.Advert_Advert__3TIcp
-suffolknews.co.uk##.Advertisement
+apnews.com,suffolknews.co.uk##.Advertisement
 thesouthafrican.com##.Advertisement__AdsContainer-sc-4s7fst-0
 bbcearth.com##.Advertisement_container__K7Jcq
 phoenixnewtimes.com##.AirBillboard
@@ -81115,6 +81128,7 @@ inverness-courier.co.uk##.LLKGTX
 laprensalatina.com##.LPL-after-content
 eliteprospects.com##.LayoutAds_adWrapper__PM4K8
 kentonline.co.uk##.LeaderBack
+apnews.com##.LeaderBoardAd-Mobile
 fivebooks.com,varsity.co.uk##.Leaderboard-container
 genius.com##.Leaderboard-sc-78e1105d-0
 theurbanlist.com##.LeaderboardAd
