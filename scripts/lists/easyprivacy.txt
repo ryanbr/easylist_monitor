@@ -1,9 +1,9 @@
 [Adblock Plus 1.1]
-! Version: 202605151115
+! Version: 202605151314
 ! Title: EasyPrivacy
-! Last modified: 15 May 2026 11:15 UTC
+! Last modified: 15 May 2026 13:14 UTC
 ! Expires: 4 days (update frequency)
-! Commit: 55cbb10551901fe39d64c488b2f47a8f0ba6d93f
+! Commit: 92fbaeb4f495a242f7fc23655c5d78c61dd22de3
 ! *** easylist:template_header.txt ***
 ! 
 ! Please report any unblocked adverts or problems
@@ -15348,6 +15348,8 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||et.nytimes.com^
 ||et.tidal.com^
 ||eta.animenewsnetwork.com^
+||etfstream.com/api/analytics/
+||etfstream.com/api/proxy/get-search-sponsor
 ||etracker.noon.com^
 ||etsy.com/bcn/beacon
 ||etsy.com/clientlog
