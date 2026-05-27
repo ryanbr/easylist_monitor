@@ -1,9 +1,9 @@
 [Adblock Plus 1.1]
-! Version: 202605271600
+! Version: 202605271744
 ! Title: EasyPrivacy
-! Last modified: 27 May 2026 16:00 UTC
+! Last modified: 27 May 2026 17:44 UTC
 ! Expires: 4 days (update frequency)
-! Commit: 35e3cda37d197defad14659b9517beef5e4b535c
+! Commit: ba64f0ebe5a07608ca5ed8de9451b8a35e9903d5
 ! *** easylist:template_header.txt ***
 ! 
 ! Please report any unblocked adverts or problems
@@ -3208,6 +3208,7 @@ _WebVitalsReporter_
 .mkt51.net/eos/
 .mozilla.org/eos/$image
 .na1.hs-sales-engage.com/$image
+.na1.hubspotlinks.com/$image
 .ne16.com/do/
 .netcologne.de/-open2/$image
 .nordvpn.com/q/$image
