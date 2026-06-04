@@ -1,9 +1,9 @@
 [Adblock Plus 1.1]
-! Version: 202606040135
+! Version: 202606040522
 ! Title: EasyPrivacy
-! Last modified: 04 Jun 2026 01:35 UTC
+! Last modified: 04 Jun 2026 05:22 UTC
 ! Expires: 4 days (update frequency)
-! Commit: 77521e1468ff064a45264466269f59d6a802a80a
+! Commit: 7853673b48a05bb6189a567b113b58d5a5cb63d4
 ! *** easylist:template_header.txt ***
 ! 
 ! Please report any unblocked adverts or problems
@@ -3808,6 +3808,7 @@ omni.soundestlink.com$image
 ||pzimff.com^
 ||q0losid.com^
 ||qntm.pro^
+||queen-one.net^
 ||quickkoala.io^
 ||quickpcfixer.click^
 ||r42tag.com^
@@ -11886,6 +11887,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||pixel.fohr.co^
 ||pixel.lilystyle.ai^
 ||pixel.locker2.com^
+||pixel.marqo-ep.ai^
 ||pixel.mintigo.com^
 ||pixel.mtrcs.samba.tv^
 ||pixel.newscred.com^
