@@ -1,9 +1,9 @@
 [Adblock Plus 1.1]
-! Version: 202606050858
+! Version: 202606051100
 ! Title: EasyPrivacy
-! Last modified: 05 Jun 2026 08:58 UTC
+! Last modified: 05 Jun 2026 11:00 UTC
 ! Expires: 4 days (update frequency)
-! Commit: 6d94444e00838495c10b9c5d5681e86a2fe2bfa8
+! Commit: 6176026645b2f6c698bf9ea9085a48578f37bcf9
 ! *** easylist:template_header.txt ***
 ! 
 ! Please report any unblocked adverts or problems
@@ -55699,7 +55699,7 @@ bitdefender.com##body[style="opacity: 0;"]:style(opacity: 1 !important;)
 ! ! omtrdc.net
 @@||omtrdc.net^*/mbox/json?$xmlhttprequest,domain=absa.co.za|att.com|pnc.com|vodafone.it
 ! ! tags.tiqcdn.com
-@@||tags.tiqcdn.com/utag/*/utag.sync.js$domain=bankofamerica.com|hsbc.co.uk|samsung.com|sony.jp|visible.com|vmware.com
+@@||tags.tiqcdn.com/utag/*/utag.sync.js$domain=10.com.au|bankofamerica.com|hsbc.co.uk|samsung.com|sony.jp|visible.com|vmware.com
 ! statcounter.com charts https://github.com/uBlockOrigin/uAssets/issues/11321
 @@||gs.statcounter.com/chart.php$script,third-party
 @@||statcounter.com/js//fusioncharts.charts.js
