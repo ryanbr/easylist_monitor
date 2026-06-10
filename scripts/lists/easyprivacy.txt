@@ -1,9 +1,9 @@
 [Adblock Plus 1.1]
-! Version: 202606100126
+! Version: 202606100517
 ! Title: EasyPrivacy
-! Last modified: 10 Jun 2026 01:26 UTC
+! Last modified: 10 Jun 2026 05:17 UTC
 ! Expires: 4 days (update frequency)
-! Commit: 2721a66d724b7b39874a6187983b3f9585bc0ee7
+! Commit: 059c333a24b75e638698beef359ccc8951f64daa
 ! *** easylist:template_header.txt ***
 ! 
 ! Please report any unblocked adverts or problems
@@ -54415,6 +54415,7 @@ bitdefender.com##body[style="opacity: 0;"]:style(opacity: 1 !important;)
 ||bukalapak.com/banner-redirector/impression
 ||bukalapak.com/track-external-visit
 ||bukalapak.com/track_external.json
+||dap.rri.go.id/tracker/
 ||dt-tracker.mamikos.com^
 ||ktracker.kumparan.com^
 ||mygostore.com/api/log
