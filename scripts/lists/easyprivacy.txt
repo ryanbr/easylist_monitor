@@ -1,9 +1,9 @@
 [Adblock Plus 1.1]
-! Version: 202606121557
+! Version: 202606121733
 ! Title: EasyPrivacy
-! Last modified: 12 Jun 2026 15:57 UTC
+! Last modified: 12 Jun 2026 17:33 UTC
 ! Expires: 4 days (update frequency)
-! Commit: 8ff945d4153f25dbc6b0048fa9826f38fb8a0a39
+! Commit: c70de2851ab70d25d9cda1ba48a6dc07b56148af
 ! *** easylist:template_header.txt ***
 ! 
 ! Please report any unblocked adverts or problems
@@ -54709,8 +54709,8 @@ bitdefender.com##body[style="opacity: 0;"]:style(opacity: 1 !important;)
 ||track.prod.smash.pet^
 ||tracker.curama.jp^
 ||tracking.ai.rakuten.co.jp^
-||tracking.cds.dmm.co.jp^
-||tracking.cds.dmm.com^
+||tracking.cds.dmm.co.jp^$image
+||tracking.cds.dmm.com^$image
 ||tracking.game8.jp^
 ||tracking.gnavi.co.jp^
 ||travel.co.jp/js/analysis.js
