@@ -1,9 +1,9 @@
 [Adblock Plus 1.1]
-! Version: 202606130134
+! Version: 202606130511
 ! Title: EasyPrivacy
-! Last modified: 13 Jun 2026 01:34 UTC
+! Last modified: 13 Jun 2026 05:11 UTC
 ! Expires: 4 days (update frequency)
-! Commit: 6c353c371e8c54e929046bf18365fb0281833369
+! Commit: 257e3f51e804c2afd6708f028aa5f878cb5d7ecd
 ! *** easylist:template_header.txt ***
 ! 
 ! Please report any unblocked adverts or problems
@@ -16666,6 +16666,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||wellsfargo.com/dti_apg/
 ||wellsfargo.com/jenny/
 ||wellsfargo.com/tracking/
+||weworkremotely.com/listing_ads/8/impression?
 ||wfinterface.com/tracking/$domain=wellsfargo.com
 ||wh.ipaddress.com^
 ||whattomine.com/stats
