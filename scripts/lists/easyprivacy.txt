@@ -1,9 +1,9 @@
 [Adblock Plus 1.1]
-! Version: 202606150017
+! Version: 202606150252
 ! Title: EasyPrivacy
-! Last modified: 15 Jun 2026 00:17 UTC
+! Last modified: 15 Jun 2026 02:52 UTC
 ! Expires: 4 days (update frequency)
-! Commit: e5541b5b52fd907e7ad8a7e794a69e7567d06c65
+! Commit: e693ec3a736d18c9a0bdcbd967e6fde9fc2e40a9
 ! *** easylist:template_header.txt ***
 ! 
 ! Please report any unblocked adverts or problems
@@ -3703,7 +3703,6 @@ omni.soundestlink.com$image
 ||leadhit.io^
 ||leadsy.ai^
 ||lemonpi.io^
-||lipstat.com^
 ||liveyield.com^
 ||lltrck.com^
 ||lmepbq.com^
@@ -3790,7 +3789,6 @@ omni.soundestlink.com$image
 ||powerrobotflower.com^
 ||prfct.co^
 ||procroanalytics.com^
-||proftrafficcounter.com^
 ||progmxs.com^
 ||protechts.net^
 ||purcartz.com^
@@ -4531,6 +4529,7 @@ omni.soundestlink.com$image
 ||dapxl.com^$third-party
 ||dashboard.io^$third-party
 ||data-dynamic.net^$third-party
+||data.u.software^$third-party
 ||databrain.com^$third-party
 ||databreakers.com^$third-party
 ||datacaciques.com^$third-party
