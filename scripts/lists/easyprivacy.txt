@@ -1,9 +1,9 @@
 [Adblock Plus 1.1]
-! Version: 202606211225
+! Version: 202606211433
 ! Title: EasyPrivacy
-! Last modified: 21 Jun 2026 12:25 UTC
+! Last modified: 21 Jun 2026 14:33 UTC
 ! Expires: 4 days (update frequency)
-! Commit: acde828290cd8afc08bd94ea4d565ca42812b31b
+! Commit: 8f9ad98cbe8446f9cc3d67391d35b13c72f656f9
 ! *** easylist:template_header.txt ***
 ! 
 ! Please report any unblocked adverts or problems
@@ -55350,6 +55350,7 @@ bitdefender.com##body[style="opacity: 0;"]:style(opacity: 1 !important;)
 @@||dishtv.in/scripts/adobeAnalytics.js$~third-party
 @@||docs.google.com/*/viewdata$~third-party
 @@||driverfix.com^*/index_src.php?tracking=$~third-party
+@@||duckduckgo.com/local.js$~third-party
 @@||dw.com.com/js/dw.js$domain=cbsnews.com|tv.com
 @@||dz9qn8fh4jznm.cloudfront.net/script.js$script,domain=bostonglobe.com
 @@||easternbank.com/sites/easternbank/files/google_tag/eastern_bank/google_tag.script.js$script,~third-party
