@@ -1,9 +1,9 @@
 [Adblock Plus 1.1]
-! Version: 202606222133
+! Version: 202606222323
 ! Title: EasyPrivacy
-! Last modified: 22 Jun 2026 21:33 UTC
+! Last modified: 22 Jun 2026 23:23 UTC
 ! Expires: 4 days (update frequency)
-! Commit: 8dfd176e095a165f728cb5cbee15dc48d12823d3
+! Commit: c452e6f8efa21488d52b45170ca5d853b330aeec
 ! *** easylist:template_header.txt ***
 ! 
 ! Please report any unblocked adverts or problems
@@ -7053,6 +7053,7 @@ omni.soundestlink.com$image
 ||coralcranes.com^
 ||coralreverie.com^
 ||corgibeachday.com^
+||correctedcode.com^
 ||cosmicsculptor.com^
 ||cosmosjackson.com^
 ||cosplaygalaxy.com^
