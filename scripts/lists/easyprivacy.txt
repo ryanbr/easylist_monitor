@@ -1,9 +1,9 @@
 [Adblock Plus 1.1]
-! Version: 202606240118
+! Version: 202606240457
 ! Title: EasyPrivacy
-! Last modified: 24 Jun 2026 01:18 UTC
+! Last modified: 24 Jun 2026 04:57 UTC
 ! Expires: 4 days (update frequency)
-! Commit: ef187e4c1ac8ec64af82e9ffe0920f2f1bbadf4b
+! Commit: 20b83ddb63158956e56999c7a31ee02199f538ce
 ! *** easylist:template_header.txt ***
 ! 
 ! Please report any unblocked adverts or problems
@@ -15238,6 +15238,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||faphouse.com/collector/
 ||farfetch.net/v1/marketing/trackings
 ||faro-collector-prod-*.grafana.net^
+||fastly.com/metrics/gtm/
 ||fastmail.com/api/event/
 ||fathom.app.silverbeak.com^
 ||fathom.tdvm.net^
@@ -15538,6 +15539,8 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||keirin.netkeiba.com/ndtracker/
 ||kgoma.com/v1/stat/
 ||khanacademy.org/api/internal/_analytics/
+||kick.com/149e9513-01fa-4fb0-aad4-566afd725d1b/
+||kick.com/UcggFnr2hNhLCwLf/
 ||kinesis.us-east-1.analytics.edmentum.com^
 ||kio.ac/analytics/
 ||klm.us/CWZUvc/
