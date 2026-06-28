@@ -1,9 +1,9 @@
 [Adblock Plus 1.1]
-! Version: 202606280847
+! Version: 202606281114
 ! Title: EasyPrivacy
-! Last modified: 28 Jun 2026 08:47 UTC
+! Last modified: 28 Jun 2026 11:14 UTC
 ! Expires: 4 days (update frequency)
-! Commit: 9a4e8f43b8522b54a6ebe4568f594a9d1aed29bb
+! Commit: a4c38c981083a8d8ac4a4db53e2a7e7c01608f71
 ! *** easylist:template_header.txt ***
 ! 
 ! Please report any unblocked adverts or problems
@@ -11993,6 +11993,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||public.fbot.me/track/
 ||public.profitwell.com^
 ||publicbroadcasting.net/analytics/
+||publisher-services.amazon.dev/v1/recordVendorsLoaded
 ||pulse.ecmapps.com^
 ||pulse.shopflo.com^
 ||purevideo.com^*/pvshim.gif?
