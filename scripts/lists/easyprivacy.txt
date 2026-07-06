@@ -1,9 +1,9 @@
 [Adblock Plus 1.1]
-! Version: 202607060008
+! Version: 202607060242
 ! Title: EasyPrivacy
-! Last modified: 06 Jul 2026 00:08 UTC
+! Last modified: 06 Jul 2026 02:42 UTC
 ! Expires: 4 days (update frequency)
-! Commit: ddcc9104b06607be8ee15d71263d3fafeade2949
+! Commit: 7adc09bbfb131c35d2ac957cb2044c1f28fea4ce
 ! *** easylist:template_header.txt ***
 ! 
 ! Please report any unblocked adverts or problems
@@ -6798,6 +6798,7 @@ omni.soundestlink.com$image
 ||bandborder.com^
 ||barbarousbase.com^
 ||barbershirts.com^
+||barkfactor.com^
 ||barqueue.com^
 ||baseboosters.com^
 ||basilfish.com^
@@ -16692,6 +16693,8 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||waaw1.tv/cdn-cgi/trace
 ||waitrose.com/gDaVC7/
 ||wal.wolfram.com^
+||wallethacks.com/js/t/|
+||wallethacks.com/js/w
 ||walmart.ca/api/bsp/logger
 ||walmart.ca/api/home-page/logger
 ||walmart.ca/api/landing-page/beacon-logger
