@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Version: 202607061014
+! Version: 202607061206
 ! Title: EasyList
-! Last modified: 06 Jul 2026 10:14 UTC
+! Last modified: 06 Jul 2026 12:06 UTC
 ! Expires: 4 days (update frequency)
-! Commit: 175571f3a8c406ac1b2fb53273e1df9c4ccbb35e
+! Commit: 30a79229463d071a27ecbddc5378995d0fce7d17
 ! *** easylist:template_header.txt ***
 ! 
 ! Please report any unblocked adverts or problems
@@ -18964,6 +18964,7 @@ browsershots.org#@#.advert_area
 ||asgarddeanbhunder.cyou^
 ||asgclick.com^
 ||asgmtwatson.qpon^
+||ashamed-temperature.com^
 ||ashamedleague.pro^
 ||ashamedresist.com^
 ||ashameskirmishcontinuing.com^
@@ -19805,6 +19806,7 @@ browsershots.org#@#.advert_area
 ||bauderyhistory.cfd^
 ||bavbfmokxwqtn.space^
 ||bavdxafbegkvr.space^
+||bavoadmjdqhus.website^
 ||bawarojxbcrnv.space^
 ||bawattbzy.com^
 ||bawcockburstedmermis.qpon^
@@ -21071,6 +21073,7 @@ browsershots.org#@#.advert_area
 ||brankiewringle.cyou^
 ||brannedalbinosstaw.cyou^
 ||brarowmannetbigwigs.cfd^
+||brashgrandchild.com^
 ||brassedcreme.cfd^
 ||brassedunicism.qpon^
 ||brassstacker.com^
@@ -22290,6 +22293,7 @@ browsershots.org#@#.advert_area
 ||cgg3ex4w172ygyx7f9yxto4qo1.cfd^
 ||cggrinkqbazwe.site^
 ||cgheqxwfnqmm.com^
+||cghfoulstwugv.website^
 ||cgiaiptgdasfi.site^
 ||cgiaysvjnljyk.online^
 ||cgioikozcnuoh.website^
@@ -22303,6 +22307,7 @@ browsershots.org#@#.advert_area
 ||cgpjpvvcadzrp.store^
 ||cgrmqvnefcjwj.website^
 ||cgsaxsvjvswcu.space^
+||cgsgtmoxszyhu.online^
 ||cgthnxnovsmml.xyz^
 ||cgtkclfydnqhp.site^
 ||cguunwxpkld.com^
@@ -26504,6 +26509,7 @@ browsershots.org#@#.advert_area
 ||eelwgpubhnjxv.website^
 ||eelxrrsnormoc.space^
 ||eenyxwxaeelzx.online^
+||eeohlihmbvmyl.website^
 ||eepjhvlyzlred.icu^
 ||eeptoabs.com^
 ||eeqjdgqbvpbjw.site^
@@ -26937,6 +26943,7 @@ browsershots.org#@#.advert_area
 ||enabledetective.com^
 ||enablesasmetot.org^
 ||enacttournamentcute.com^
+||enalpxkciyhyj.website^
 ||enalsk.click^
 ||enamelhurdleunpaid.com^
 ||enathyimemedi.org^
@@ -27421,6 +27428,7 @@ browsershots.org#@#.advert_area
 ||etizxmcerpddd.com^
 ||etjoeybjppksy.site^
 ||etjrkgaqrkfad.space^
+||etjyvsglizfic.website^
 ||etkybhmigxoyt.site^
 ||etneanlaos.cfd^
 ||etnxtlqhknmmb.space^
@@ -28302,6 +28310,7 @@ browsershots.org#@#.advert_area
 ||fhxgezqysdmtg.online^
 ||fhxyofvlnthdu.site^
 ||fhytqgxyygeay.space^
+||fhyxomiufvuvx.online^
 ||fhziaqcpjvoky.space^
 ||fiafydmfzzsul.space^
 ||fiantviandetecla.cyou^
@@ -33888,6 +33897,7 @@ browsershots.org#@#.advert_area
 ||jakebizarreexclusively.com^
 ||jakeconventconcerned.com^
 ||jakedefy.com^
+||jalbwwqldi.com^
 ||jalkarsontag.cyou^
 ||jalrlgochsjoe.space^
 ||jamanolepy.qpon^
@@ -37439,6 +37449,7 @@ browsershots.org#@#.advert_area
 ||manufacturemoustache.com^
 ||manumeaseggy.qpon^
 ||manureads.com^
+||manuredplumbumgunnies.cfd^
 ||manurepatronageitalian.com^
 ||manyielding.com^
 ||maocsjbcjljog.online^
@@ -43320,6 +43331,7 @@ browsershots.org#@#.advert_area
 ||preparecommands.com^
 ||prepareprintingapologizing.com^
 ||preparingnondescriptextinguish.com^
+||preplaneffie.com^
 ||preponderantapologizingtestify.com^
 ||preponderantcorrectlydecline.com^
 ||prepucezwitter.shop^
@@ -49628,6 +49640,7 @@ browsershots.org#@#.advert_area
 ||sweetnessnewest.com^
 ||sweetnessspeaksintimidate.com^
 ||swelpawaitedopaline.qpon^
+||swelpmonkery.shop^
 ||swelteringcatch.com^
 ||swervemunchfibber.com^
 ||swesomepop.com^
@@ -51751,6 +51764,7 @@ browsershots.org#@#.advert_area
 ||ublasklnrnifs.site^
 ||ublcyigsixgyu.website^
 ||ubmyqcleulnqa.website^
+||ubndxnesjlrjqn.com^
 ||ubqnvqrjaxlso.space^
 ||ubssxfunnecbf.website^
 ||ubswpblqoluae.online^
@@ -65306,7 +65320,7 @@ $third-party,xmlhttprequest,domain=mega4upload.net
 ||dirproxy.com/helper-js
 ||discover.hubpages.com/runtime/webads.js
 ||djpunjab.*/ads/
-||dlhd.pk/rs4k-adbanner.html
+||dlhd.*/rs4k-adbanner.html
 ||dnslytics.com/images/ads/
 ||domaintyper.com/Images/dotsitehead.png
 ||dominicantoday.com/wp-content/themes/dominicantoday/banners/
@@ -65454,6 +65468,7 @@ $third-party,xmlhttprequest,domain=mega4upload.net
 ||igg-games.*/maven/
 ||igg-games.co/sw.js
 ||igg-games.com/sw.js
+||igniteandship.com/js/adcashign.js
 ||ih1.fileforums.com^
 ||illicium.web.money^$subdocument
 ||illicium.wmtransfer.com^$subdocument
