@@ -1,9 +1,9 @@
 [Adblock Plus 1.1]
-! Version: 202607080937
+! Version: 202607081122
 ! Title: EasyPrivacy
-! Last modified: 08 Jul 2026 09:37 UTC
+! Last modified: 08 Jul 2026 11:22 UTC
 ! Expires: 4 days (update frequency)
-! Commit: 17665051163851f6f9e69acffa6c1f8421637b08
+! Commit: b015e94e8eae2033bbe4620342045719722f2f10
 ! *** easylist:template_header.txt ***
 ! 
 ! Please report any unblocked adverts or problems
@@ -15616,6 +15616,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||lego.com/api/dl-event-ingest
 ||lendingtree.com/analytics/
 ||lendingtree.com/pixel/
+||lenovo.com/gemets/
 ||lensdirect.com/page-tracking/
 ||letsdoeit.com/tracking/
 ||lexology.com/pd.js
@@ -54642,6 +54643,7 @@ bitdefender.com##body[style="opacity: 0;"]:style(opacity: 1 !important;)
 ||analytics.cocolog-nifty.com^
 ||analytics.ikyu.com^
 ||analytics.tver.jp^
+||analytics.vk.asahi.co.jp^
 ||analyzer.fc2.com^
 ||analyzer2.fc2.com^
 ||anyelse.com/stat^
