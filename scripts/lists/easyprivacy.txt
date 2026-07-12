@@ -1,9 +1,9 @@
 [Adblock Plus 1.1]
-! Version: 202607121208
+! Version: 202607121419
 ! Title: EasyPrivacy
-! Last modified: 12 Jul 2026 12:08 UTC
+! Last modified: 12 Jul 2026 14:19 UTC
 ! Expires: 4 days (update frequency)
-! Commit: ec2845c3053717b455315f7de5f062032a643a66
+! Commit: 273c1c15d6c23033de63374a2e89572ae01693d8
 ! *** easylist:template_header.txt ***
 ! 
 ! Please report any unblocked adverts or problems
@@ -1697,7 +1697,7 @@
 /ot_e404.gif?
 /OtAutoBlock.js
 /ouibounce.min.js
-/outbrain.js
+/outbrain.js$~xmlhttprequest
 /outbrainAd.
 /outLoging.js
 /outLoging2.js
@@ -2377,7 +2377,7 @@
 /t/event?
 /t?referer=
 /t?tcid=
-/taboola.js
+/taboola.js$~xmlhttprequest
 /taboola/loader.js
 /taboolaHead.js
 /taevents-c.js
