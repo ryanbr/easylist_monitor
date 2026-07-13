@@ -1,9 +1,9 @@
 [Adblock Plus 1.1]
-! Version: 202607130007
+! Version: 202607130216
 ! Title: EasyPrivacy
-! Last modified: 13 Jul 2026 00:07 UTC
+! Last modified: 13 Jul 2026 02:16 UTC
 ! Expires: 4 days (update frequency)
-! Commit: a183cd6a459c67c6344b125c662a307067d14a49
+! Commit: 0653aa7997bdb61a57c29685f0a90e19b8802034
 ! *** easylist:template_header.txt ***
 ! 
 ! Please report any unblocked adverts or problems
@@ -10258,6 +10258,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||api.croct.io^
 ||api.gist.ai/v1/analytics/track
 ||api.gleap.io/sessions/ping
+||api.intelligems.io/v3/track
 ||api.ipgeolocation.io/getip
 ||api.iris.tv/update
 ||api.june.so^
@@ -12784,6 +12785,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||trafficfuelpixel.s3-us-west-2.amazonaws.com^
 ||trafficmanager.net/uet/tracking_script?
 ||trakksocial.googlecode.com^$third-party
+||transcend.io/collect
 ||trap.skype.com^
 ||traq.li/tracker/
 ||travix.com/log
@@ -13839,6 +13841,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||amazonaws.com/prod/v1/track$domain=ixxi.com
 ||analytics.belgacom.be^
 ||analytics.hatech.dev^
+||analytics.infraloods.nl^
 ||analytics.newsifier.nl^
 ||apm.tnet.nl^
 ||bbvms.com/zone/js/zonestats.js
