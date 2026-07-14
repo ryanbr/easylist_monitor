@@ -1,9 +1,9 @@
 [Adblock Plus 1.1]
-! Version: 202607141318
+! Version: 202607141515
 ! Title: EasyPrivacy
-! Last modified: 14 Jul 2026 13:18 UTC
+! Last modified: 14 Jul 2026 15:15 UTC
 ! Expires: 4 days (update frequency)
-! Commit: 667c8f829cef8547c5fb9d0e190755d9f7698a96
+! Commit: b7756dd2b12e3784ce89c30456a92a3bd0ada20a
 ! *** easylist:template_header.txt ***
 ! 
 ! Please report any unblocked adverts or problems
@@ -7554,6 +7554,7 @@ omni.soundestlink.com$image
 ||homebizplaza.com^
 ||homelycrown.com^
 ||homelyheater.com^
+||homerunfood.com^
 ||homeslick.com^
 ||honestharbor.com^
 ||honeybulb.com^
@@ -8246,6 +8247,7 @@ omni.soundestlink.com$image
 ||scentedkindly.com^
 ||scholarloop.com^
 ||sciencedart.com^
+||sciencevault.net^
 ||scientificshirt.com^
 ||scintillatingscissors.com^
 ||scintillatingsilver.com^
