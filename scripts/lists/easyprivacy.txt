@@ -1,9 +1,9 @@
 [Adblock Plus 1.1]
-! Version: 202607150356
+! Version: 202607150535
 ! Title: EasyPrivacy
-! Last modified: 15 Jul 2026 03:56 UTC
+! Last modified: 15 Jul 2026 05:35 UTC
 ! Expires: 4 days (update frequency)
-! Commit: 42b385e7ea2ec6a60b5e9eed8fd8bf920052f463
+! Commit: d3f9dd2eb52230ae91a7d087169d1ffb6fb8bbfd
 ! *** easylist:template_header.txt ***
 ! 
 ! Please report any unblocked adverts or problems
@@ -14075,10 +14075,12 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||docomo.ne.jp/scripts/retargeting/retargeting.js
 ||estore.jp/beacon/
 ||ev.tpocdm.com^
+||external-tag.mysquadbeyond.com^
 ||flux-cdn.com/client/ukiuki/flux_wikiwiki_AS_TM_AT.min.js
 ||future-shop.jp/rview.gif?
 ||gacraft.jp/publish/token.html
 ||hatmiso.net^$third-party
+||heatmap.support-inc.co.jp^
 ||insight-x.tech/trackerlog-publisher-service/tracker-logs
 ||ip2c.landscape.co.jp^
 ||ipcheck.blogsys.jp^
