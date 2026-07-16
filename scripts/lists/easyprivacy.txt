@@ -1,9 +1,9 @@
 [Adblock Plus 1.1]
-! Version: 202607160122
+! Version: 202607160359
 ! Title: EasyPrivacy
-! Last modified: 16 Jul 2026 01:22 UTC
+! Last modified: 16 Jul 2026 03:59 UTC
 ! Expires: 4 days (update frequency)
-! Commit: a8fcc0aa92a961f394aa6329b1de1d64d008d58f
+! Commit: f0a959a5f23493c12f4f65fe21ba46b5c54e27e8
 ! *** easylist:template_header.txt ***
 ! 
 ! Please report any unblocked adverts or problems
@@ -8351,6 +8351,7 @@ omni.soundestlink.com$image
 ||skilledview.com^
 ||skillfuldrop.com^
 ||skillfullyfrugal.com^
+||skillpuppy.com^
 ||skisofa.com^
 ||skullmagnets.com^
 ||skullteeth.com^
@@ -8552,6 +8553,7 @@ omni.soundestlink.com$image
 ||swingslip.com^
 ||swipechief.com^
 ||swirlstop.com^
+||swordblock.com^
 ||swordgoose.com^
 ||syllablesight.com^
 ||synonymoussticks.com^
