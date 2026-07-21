@@ -1,9 +1,9 @@
 [Adblock Plus 1.1]
-! Version: 202607211113
+! Version: 202607211320
 ! Title: EasyPrivacy
-! Last modified: 21 Jul 2026 11:13 UTC
+! Last modified: 21 Jul 2026 13:20 UTC
 ! Expires: 4 days (update frequency)
-! Commit: 4014e30d18065f04227889c029a1c7e9a71f9c09
+! Commit: 84c33bbf55f7470bdebab5b01215e8ea835d25a4
 ! *** easylist:template_header.txt ***
 ! 
 ! Please report any unblocked adverts or problems
@@ -901,7 +901,6 @@
 /event?s=$ping
 /event_log/*
 /event_logger
-/event_logging/*
 /eventLog.ajax
 /EventLoggerV3.min.js
 /eventLogServlet?
@@ -7218,6 +7217,7 @@ omni.soundestlink.com$image
 ||doubtdrawer.com^
 ||dq95d35.com^
 ||dragonbats.com^
+||dragontamer.net^
 ||drainpaste.com^
 ||dramaticdirection.com^
 ||dreamsdome.com^
