@@ -1,9 +1,9 @@
 [Adblock Plus 1.1]
-! Version: 202607221315
+! Version: 202607221518
 ! Title: EasyPrivacy
-! Last modified: 22 Jul 2026 13:15 UTC
+! Last modified: 22 Jul 2026 15:18 UTC
 ! Expires: 4 days (update frequency)
-! Commit: e291413a929c0a8d3946a7c7768f304b5b55efc8
+! Commit: d49d61e2bf057eef212652dd0336bb63e892db5e
 ! *** easylist:template_header.txt ***
 ! 
 ! Please report any unblocked adverts or problems
@@ -7562,6 +7562,7 @@ omni.soundestlink.com$image
 ||hippojump.com^
 ||historicalbeam.com^
 ||historytrade.com^
+||hitboxdesigns.com^
 ||hocgeese.com^
 ||hockeyfool.com^
 ||hollowafterthought.com^
