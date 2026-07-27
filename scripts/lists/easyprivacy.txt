@@ -1,9 +1,9 @@
 [Adblock Plus 1.1]
-! Version: 202607271712
+! Version: 202607271905
 ! Title: EasyPrivacy
-! Last modified: 27 Jul 2026 17:12 UTC
+! Last modified: 27 Jul 2026 19:05 UTC
 ! Expires: 4 days (update frequency)
-! Commit: 802b9e38eb6905967933c8d9fb92787d921a4a11
+! Commit: c576c586fe3998273fd172d7de27c0a371a7a947
 ! *** easylist:template_header.txt ***
 ! 
 ! Please report any unblocked adverts or problems
@@ -7480,6 +7480,7 @@ omni.soundestlink.com$image
 ||glisteningguide.com^
 ||glisteningsign.com^
 ||glitteringbrook.com^
+||globalorders.net^
 ||gloomyseason.com^
 ||gloriousbeef.com^
 ||glowingmeadow.com^
