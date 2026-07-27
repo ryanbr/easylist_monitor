@@ -1,9 +1,9 @@
 [Adblock Plus 1.1]
-! Version: 202607270243
+! Version: 202607270558
 ! Title: EasyPrivacy
-! Last modified: 27 Jul 2026 02:43 UTC
+! Last modified: 27 Jul 2026 05:58 UTC
 ! Expires: 4 days (update frequency)
-! Commit: c4ffa565ac2f4f21415c3581c1072f14560f7fc9
+! Commit: 31470c10aecb95836b7c1cd0dad2b5f411edfd38
 ! *** easylist:template_header.txt ***
 ! 
 ! Please report any unblocked adverts or problems
@@ -3085,6 +3085,7 @@ _WebVitalsReporter_
 &ga_blocked=$image
 &l=dataLayer&cx=c
 &sst.sw_exp=
+&tag_exp=*&e=gtm.
 .js?id=GTM-
 /*JmVu.js?sp=
 /.netlify/scripts/rum
@@ -14070,6 +14071,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||acclog001.shop-pro.jp^
 ||acclog002.shop-pro.jp^
 ||actagtracker.jp/tag
+||acv.mira-dsp.com^
 ||ad.daum.net^
 ||admin.blog.fc2.com/dctanalyzer.php
 ||affiliate.rakuten.co.jp^$script,third-party
@@ -14177,7 +14179,6 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||rcm.shinobi.jp^
 ||rd.rakuten.co.jp^$script
 ||re-volver.net/visitor/
-||receptions.smart-bdash.com/receptions/action/click
 ||reports-tsi.tangerine.io^
 ||reproio.com^$third-party
 ||resultspage.com/js/sli-spark.js
@@ -54822,6 +54823,7 @@ x.com##+js(no-xhr-if, /i/api/1.1/flow/viewer.json)
 ||mbp-japan.com/js/pv.js
 ||measure.ameblo.jp^
 ||medibot.delling.care/api/counts/
+||mercari.com/gtm/
 ||mixi.net/static/js/build/mixi-analysis.production.js
 ||mng.jiji.com/cookie.html
 ||muragon.com/js/normal/gtag-event.js
