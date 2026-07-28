@@ -1,9 +1,9 @@
 [Adblock Plus 1.1]
-! Version: 202607280338
+! Version: 202607280544
 ! Title: EasyPrivacy
-! Last modified: 28 Jul 2026 03:38 UTC
+! Last modified: 28 Jul 2026 05:44 UTC
 ! Expires: 4 days (update frequency)
-! Commit: 0a54a9210d7106b25127d4ea94896db12a6287cf
+! Commit: 1e46e0dfeaa1c3a4c664888a3dae7e93cebdcd8b
 ! *** easylist:template_header.txt ***
 ! 
 ! Please report any unblocked adverts or problems
@@ -56191,6 +56191,7 @@ x.com##+js(no-xhr-if, /i/api/1.1/flow/viewer.json)
 @@||f-gear.ec-optimizer.com/search4.do$script,domain=ec.f-gear.co.jp
 @@||f-gear.ec-optimizer.com/speights/searchresult2fgear.js$script,domain=ec.f-gear.co.jp
 @@||f-tra.com^$script,domain=pokemoncenter-online.com
+@@||fate-go.jp/anniv_11th_sns/assets/js/services/gtm.js$~third-party
 @@||friday.kodansha.co.jp/scripts/taboola.js$script,~third-party
 @@||gamerch.com/s3-assets/library/js/fingerprint2.min.js?$script,~third-party
 @@||get.s-onetag.com/*/tag.min.js$domain=zakzak.co.jp
