@@ -1,9 +1,9 @@
 [Adblock Plus 1.1]
-! Version: 202607282110
+! Version: 202607282308
 ! Title: EasyPrivacy
-! Last modified: 28 Jul 2026 21:10 UTC
+! Last modified: 28 Jul 2026 23:08 UTC
 ! Expires: 4 days (update frequency)
-! Commit: 9a10eca45601cbe324cd141d37929524e1f4d50f
+! Commit: b7124e02db0f40416636ed7747fdcd6f08017246
 ! *** easylist:template_header.txt ***
 ! 
 ! Please report any unblocked adverts or problems
@@ -3476,6 +3476,7 @@ omni.soundestlink.com$image
 ||aggle.net^
 ||agkn.com^
 ||agma-analytics.de^
+||aisiteanalytics.com^
 ||allvideometrika.com^
 ||altopd.com^
 ||analys.live^
@@ -3749,6 +3750,7 @@ omni.soundestlink.com$image
 ||mitself.net^
 ||ml-sys.xyz^
 ||mm-api.agency^
+||mm-uxrv.com^
 ||mnbvpo8trk.com^
 ||mobildev.in^
 ||monicaatron.com^
@@ -10264,6 +10266,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||analytics.vanillaforums.com^
 ||analytics.vdo.ai^
 ||analytics.vendemore.com^
+||analytics.veygo.co^
 ||analytics.vitalsignstracker.com^
 ||analytics.vixcloud.co^
 ||analytics.wask.co^
@@ -10753,7 +10756,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||collect.usefathom.com^
 ||collect.verify.lnearn.com^
 ||collectfront.nector.io^
-||collection.e-satisfaction.com^
+||collection.e-satisfaction.com^$third-party
 ||collector-*.luigisbox.com^
 ||collector-1.ex.co^
 ||collector-api.99designs.com^
@@ -11800,6 +11803,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||netne.net/stats/
 ||netscape.com/c.cgi?
 ||neulion.vo.llnwd.net^*/track.js
+||neuronal.infunnel.inconcert.cloud/public/tracking/frame.html
 ||news.banggood.com/mo/$image,third-party
 ||newsanalytics.com.au^$third-party
 ||newscgp.com/cs/sync/
@@ -11989,6 +11993,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||pixel.mintigo.com^
 ||pixel.mtrcs.samba.tv^
 ||pixel.newscred.com^
+||pixel.nudgify.com^
 ||pixel.propublica.org^
 ||pixel.pub.lilyai.net^
 ||pixel.redgifs.com^
