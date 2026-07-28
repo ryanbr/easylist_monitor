@@ -1,9 +1,9 @@
 [Adblock Plus 1.1]
-! Version: 202607281717
+! Version: 202607281913
 ! Title: EasyPrivacy
-! Last modified: 28 Jul 2026 17:17 UTC
+! Last modified: 28 Jul 2026 19:13 UTC
 ! Expires: 4 days (update frequency)
-! Commit: bd15d39043e0cbe0a31e4f65dfc0b0e2ea2cb9c4
+! Commit: 2a39fc9d0f55edd562b25de727ebde291df14bf0
 ! *** easylist:template_header.txt ***
 ! 
 ! Please report any unblocked adverts or problems
@@ -13527,6 +13527,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||newelements.de/tracker/
 ||nexx.cloud/play/beacon.
 ||nexxtv-events.servicebus.windows.net^
+||nltcs.idfnet.net^
 ||nlytcs.idfnet.net^
 ||ntmb.de/count.html?
 ||oe-static.de^*/wws.js
