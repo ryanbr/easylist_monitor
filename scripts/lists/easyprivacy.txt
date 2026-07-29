@@ -1,9 +1,9 @@
 [Adblock Plus 1.1]
-! Version: 202607292004
+! Version: 202607292201
 ! Title: EasyPrivacy
-! Last modified: 29 Jul 2026 20:04 UTC
+! Last modified: 29 Jul 2026 22:01 UTC
 ! Expires: 4 days (update frequency)
-! Commit: 035849da9542a9438a09fc3c1983902101fed1f4
+! Commit: 10df9542e82bde5dd1cb059b4fa6bf6ea6a0a16f
 ! *** easylist:template_header.txt ***
 ! 
 ! Please report any unblocked adverts or problems
@@ -1268,6 +1268,7 @@
 /imp_check.php
 /imp_cnt.gif?
 /imp_img.php?
+/impb?b=
 /impr.gif?
 /impresion/zona/*
 /impress.php?
@@ -8381,6 +8382,7 @@ omni.soundestlink.com$image
 ||simplenaming.com^
 ||simplesafari.com^
 ||simplesidewalk.com^
+||simplyradon.com^
 ||simulateswing.com^
 ||sincerebuffalo.com^
 ||sincerepelican.com^
@@ -8435,6 +8437,7 @@ omni.soundestlink.com$image
 ||soilcontent.com^
 ||soilphotos.com^
 ||solarislabyrinth.com^
+||solarrecharge.net^
 ||soleblinds.com^
 ||solidsub.com^
 ||solosduetstrios.com^
@@ -8614,6 +8617,7 @@ omni.soundestlink.com$image
 ||tangletrace.com^
 ||tangyamount.com^
 ||tangycover.com^
+||targetfax.com^
 ||tarttendency.com^
 ||taskdelight.com^
 ||tasksimplify.com^
