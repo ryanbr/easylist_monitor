@@ -1,9 +1,9 @@
 [Adblock Plus 1.1]
-! Version: 202608031913
+! Version: 202608032108
 ! Title: EasyPrivacy
-! Last modified: 03 Aug 2026 19:13 UTC
+! Last modified: 03 Aug 2026 21:08 UTC
 ! Expires: 4 days (update frequency)
-! Commit: 81401e5479bc150c8548256c5ca18e5aba66d163
+! Commit: 558d3dd6e896a3ae4407d7514f0588f5fe365cf0
 ! *** easylist:template_header.txt ***
 ! 
 ! Please report any unblocked adverts or problems
@@ -7351,6 +7351,7 @@ omni.soundestlink.com$image
 ||fancycolorlist.net^
 ||fancydune.com^
 ||fangfeeling.com^
+||fanless.net^
 ||farethief.com^
 ||farmergoldfish.com^
 ||farshake.com^
@@ -7621,6 +7622,7 @@ omni.soundestlink.com$image
 ||hystericalfinger.com^
 ||icywinter.com^
 ||idlecollect.com^
+||idsmodules.com^
 ||illinvention.com^
 ||illustriousoatmeal.com^
 ||imagebuffer.com^
