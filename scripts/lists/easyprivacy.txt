@@ -1,9 +1,9 @@
 [Adblock Plus 1.1]
-! Version: 202608041922
+! Version: 202608042113
 ! Title: EasyPrivacy
-! Last modified: 04 Aug 2026 19:22 UTC
+! Last modified: 04 Aug 2026 21:13 UTC
 ! Expires: 4 days (update frequency)
-! Commit: d19e7afd6f988c8349e57d8d9002129fe00ee2b7
+! Commit: 938adf0363ab431158401d94f5b09c031d90eff1
 ! *** easylist:template_header.txt ***
 ! 
 ! Please report any unblocked adverts or problems
@@ -5492,6 +5492,7 @@ omni.soundestlink.com$image
 ||nyltx.com^$third-party
 ||nytlog.com^$third-party
 ||o-s.io^$third-party
+||observer.marketing^$third-party
 ||observerapp.com^$third-party
 ||octavius.rocks^$third-party
 ||octomarket.com^$third-party
@@ -8462,6 +8463,7 @@ omni.soundestlink.com$image
 ||sombersticks.com^
 ||sombersurprise.com^
 ||songsterritory.com^
+||sonicsessions.net^
 ||soothingglade.com^
 ||sophisticatedstove.com^
 ||sorebear.com^
