@@ -1,9 +1,9 @@
 [Adblock Plus 1.1]
-! Version: 202608100232
+! Version: 202608100422
 ! Title: EasyPrivacy
-! Last modified: 10 Aug 2026 02:32 UTC
+! Last modified: 10 Aug 2026 04:22 UTC
 ! Expires: 4 days (update frequency)
-! Commit: 2a4b83ae16ff4c20f44ee427032f2d21f88a8c78
+! Commit: c6f722c54ad84a5055827b44ec80a5ae67e399cb
 ! *** easylist:template_header.txt ***
 ! 
 ! Please report any unblocked adverts or problems
@@ -3695,6 +3695,7 @@ omni.soundestlink.com$image
 ||iconnode.com^
 ||id-ward.com^
 ||identitypxl.app^
+||idsequoia.ai^
 ||idx.lat^
 ||ilius.net^
 ||impactcdn.com^
@@ -15590,6 +15591,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||groove.so/unlocker.js
 ||groupon.com/analytic/
 ||groupondata.com/tracky
+||grow.urbandictionary.network^
 ||gsght.com/twizards.js
 ||gso.amocrm.com/humans/
 ||gtm.lercio.it^
