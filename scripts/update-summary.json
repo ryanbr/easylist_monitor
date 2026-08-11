@@ -1,38 +1,38 @@
 {
   "updated": 2,
-  "timestamp": "2026-08-11T18:15:07.607Z",
+  "timestamp": "2026-08-11T20:12:35.034Z",
   "lists": [
     {
       "filename": "easylist.txt",
       "url": "https://easylist.to/easylist/easylist.txt",
-      "hash": "5a76d0fa8f9bebb9a21ed3d359f0bbc04fb98220b2a462b66242283f92febae9",
-      "version": "202608111811",
-      "lastModified": "2026-08-11T18:12:19.000Z",
-      "contentLastModified": "11 Aug 2026 18:11 UTC",
-      "serverLastModified": "Tue, 11 Aug 2026 18:12:19 GMT",
-      "etag": "W/\"6a7b6603-1f3e43\"",
-      "size": 2046634,
-      "changeReason": "content hash changed and timestamp newer and ETag changed",
-      "expires": "4 days (update frequency)",
-      "ageHours": "0.0",
-      "isStale": false,
-      "ageAnalysis": "Fresh: 0.1 hours old"
-    },
-    {
-      "filename": "easyprivacy.txt",
-      "url": "https://easylist.to/easylist/easyprivacy.txt",
-      "hash": "5127afa77e67783f1e4d2757ec8f98ab66877c286fb037e53646f05e83f166c1",
-      "version": "202608111809",
-      "lastModified": "2026-08-11T18:10:08.000Z",
-      "contentLastModified": "11 Aug 2026 18:09 UTC",
-      "serverLastModified": "Tue, 11 Aug 2026 18:10:08 GMT",
-      "etag": "W/\"6a7b6580-16c9a0\"",
-      "size": 1493408,
+      "hash": "3f2589f90e732ed28c7a177f204b275e6ab2e1ba25ddc54765d51ca0375cba40",
+      "version": "202608112003",
+      "lastModified": "2026-08-11T20:04:11.000Z",
+      "contentLastModified": "11 Aug 2026 20:03 UTC",
+      "serverLastModified": "Tue, 11 Aug 2026 20:04:11 GMT",
+      "etag": "W/\"6a7b803b-1f4063\"",
+      "size": 2047178,
       "changeReason": "content hash changed and timestamp newer and ETag changed",
       "expires": "4 days (update frequency)",
       "ageHours": "0.1",
       "isStale": false,
-      "ageAnalysis": "Fresh: 0.1 hours old"
+      "ageAnalysis": "Fresh: 0.2 hours old"
+    },
+    {
+      "filename": "easyprivacy.txt",
+      "url": "https://easylist.to/easylist/easyprivacy.txt",
+      "hash": "5aff167c142331b53932c3191b47508e297561e68a4c7c0d49d27f667bcea937",
+      "version": "202608112003",
+      "lastModified": "2026-08-11T20:04:11.000Z",
+      "contentLastModified": "11 Aug 2026 20:03 UTC",
+      "serverLastModified": "Tue, 11 Aug 2026 20:04:11 GMT",
+      "etag": "W/\"6a7b803b-16c9b3\"",
+      "size": 1493427,
+      "changeReason": "content hash changed and timestamp newer and ETag changed",
+      "expires": "4 days (update frequency)",
+      "ageHours": "0.1",
+      "isStale": false,
+      "ageAnalysis": "Fresh: 0.2 hours old"
     }
   ],
   "staleFiles": []
