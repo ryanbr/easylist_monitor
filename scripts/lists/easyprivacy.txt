@@ -1,9 +1,9 @@
 [Adblock Plus 1.1]
-! Version: 202608141602
+! Version: 202608141806
 ! Title: EasyPrivacy
-! Last modified: 14 Aug 2026 16:02 UTC
+! Last modified: 14 Aug 2026 18:06 UTC
 ! Expires: 4 days (update frequency)
-! Commit: 3d8e5d1d2c2ab5b2c1f4088539a8b4204a0d3ec0
+! Commit: 91420fa3a3ef2d66307380dbda9c3717bbf1758f
 ! *** easylist:template_header.txt ***
 ! 
 ! Please report any unblocked adverts or problems
@@ -1324,6 +1324,7 @@
 /jquery.google-analytics.js
 /jquery.iframetracker-
 /jquery.trackstar.js
+/js-cdn/scstats.js
 /js-responsive/minimal-analytics-$script
 /js-sdk-event.min.js
 /js/_analytics.js
@@ -2106,6 +2107,7 @@
 /scroll-analytics-
 /scroll-track.js
 /scroll-tracker.js
+/scstats/api/stat/*
 /SdaAnalytics.js
 /sdc.js|
 /sdc1.js
@@ -10538,6 +10540,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||beacon.cdnma.com^
 ||beacon.errorception.com^
 ||beacon.flow.io^
+||beacon.joinlede.com^
 ||beacon.klm.com^
 ||beacon.peakhour.io^
 ||beacon.riskified.com^
@@ -16570,6 +16573,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||t.appsflyer.com^
 ||t.av.st^
 ||t.birchlane.com^
+||t.dailydot.com^
 ||t.dailymail.co.uk^
 ||t.deepnote.com^
 ||t.factorform.com^
