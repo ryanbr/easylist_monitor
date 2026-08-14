@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Version: 202608141006
+! Version: 202608141204
 ! Title: EasyList
-! Last modified: 14 Aug 2026 10:06 UTC
+! Last modified: 14 Aug 2026 12:04 UTC
 ! Expires: 4 days (update frequency)
-! Commit: 3fadf5180f61352c0f14c8b2e3be54e1ec6c6fbe
+! Commit: 52435093dd1cb19b7d0e7db72347478d59accc75
 ! *** easylist:template_header.txt ***
 ! 
 ! Please report any unblocked adverts or problems
@@ -19786,6 +19786,7 @@ browsershots.org#@#.advert_area
 ||bbd834il.de^
 ||bbehvkrkbzcyw.online^
 ||bbexwxh978vugbij4zctewh5o9bnbj4ohmmpxk.cfd^
+||bbgfssicevqpa.space^
 ||bbhszcabrptsq.space^
 ||bbiklzuzmsylk.online^
 ||bbikmvkmebxn.com^
@@ -20765,6 +20766,7 @@ browsershots.org#@#.advert_area
 ||bolckrijublup.space^
 ||bold-display.pro^
 ||bold-potential.com^
+||boldinencloud.cyou^
 ||boldlypinfall.cfd^
 ||boletetimers.cfd^
 ||bolichejerl.cyou^
@@ -21224,6 +21226,7 @@ browsershots.org#@#.advert_area
 ||bsqvmdbkmeyte.website^
 ||bssgnowkrcjpm.online^
 ||bstrvqdwuytk.com^
+||bsuwaczsfertl.site^
 ||bsuzrzbpyviyv.online^
 ||bsvajclq.com^
 ||bsvhinycewtko.space^
@@ -24005,6 +24008,7 @@ browsershots.org#@#.advert_area
 ||cymecres.cyou^
 ||cymfjunafovza.space^
 ||cymlinshrovy.qpon^
+||cymmaiyhjziic.website^
 ||cynem.xyz^
 ||cynzybmckvjxg.store^
 ||cyrnrpliixwi.com^
@@ -28761,6 +28765,7 @@ browsershots.org#@#.advert_area
 ||fnozzitywh.com^
 ||fnqhgazwgznjq.site^
 ||fnqhhshfbpkwp.site^
+||fnrrvyypkcckq.online^
 ||fntevbrdbjg.com^
 ||fnvbvmrbvfbtjg.com^
 ||fnvvtwclgdcqr.online^
@@ -29214,6 +29219,7 @@ browsershots.org#@#.advert_area
 ||fsuwiwvhtcfzm.space^
 ||fswatrlxubu.com^
 ||fsxmidyo.com^
+||fszuzgqojcqdf.com^
 ||ft8wc5lywzb9r8.cfd^
 ||ftamwoagth.in^
 ||ftblltrck.com^
@@ -30978,6 +30984,7 @@ browsershots.org#@#.advert_area
 ||gzbivgztyxmdj.site^
 ||gzdsnsgboqrbs.online^
 ||gzefeydgsckbj.online^
+||gzekicodtacr.in^
 ||gzewqaxbkwijp.website^
 ||gzgejhwjeoufd.store^
 ||gzjrjszrtxbya.space^
@@ -35746,7 +35753,6 @@ browsershots.org#@#.advert_area
 ||kuvirixa.com^
 ||kuvkjnmxs.com^
 ||kuxibbprpctsb.website^
-||kuyhaa-me.site^
 ||kvaaa.com^
 ||kvaosvpndvxzs.space^
 ||kvarcureeny.com^
@@ -39885,6 +39891,7 @@ browsershots.org#@#.advert_area
 ||nkcdtumculrow.space^
 ||nkdfuveaxnmnt.space^
 ||nkfyeklrvwa.com^
+||nkgcezyw.com^
 ||nkgmodulsssiy.online^
 ||nkjeclbpgotxd.website^
 ||nkjykuobtzsgg.store^
@@ -41988,6 +41995,7 @@ browsershots.org#@#.advert_area
 ||palpimisos.shop^
 ||palsifyeslisor.cyou^
 ||palsybecamedislike.com^
+||paltry-blind.pro^
 ||paluinho.cloud^
 ||palulusshojo.shop^
 ||pameladayside.qpon^
@@ -48315,6 +48323,7 @@ browsershots.org#@#.advert_area
 ||slaqandsan.xyz^
 ||slashstar.net^
 ||slate-assets.click^
+||slate-assets.shop^
 ||slatehystericaltaunt.com^
 ||slavesthy.com^
 ||slaviankolobia.com^
@@ -50114,6 +50123,7 @@ browsershots.org#@#.advert_area
 ||talldoubted.com^
 ||tallmentally.com^
 ||tallthirsty.com^
+||talonfidgesumbers.cyou^
 ||talpiddel.qpon^
 ||talroebnwhbif.space^
 ||tamableleporid.qpon^
@@ -52896,6 +52906,7 @@ browsershots.org#@#.advert_area
 ||userstat.net^
 ||usertag.online^
 ||usewmeukdgmnh.website^
+||usfduc.com^
 ||usgutmbdobzni.website^
 ||ushercensor.com^
 ||usherfrightenwaiter.com^
@@ -53625,6 +53636,7 @@ browsershots.org#@#.advert_area
 ||vinaliapilers.qpon^
 ||vindicosuite.com^
 ||vindictivemopenthrone.com^
+||vineaeguacimo.shop^
 ||vinegardaring.com^
 ||vinettaahaaina.shop^
 ||vinit.cloud^
@@ -75399,6 +75411,7 @@ pixiv.net##section:has(> div > div > iframe[name="illusttop_appeal"])
 tripadvisor.*##section[data-automation$="_AdPlaceholder"]:has(.txxUo)
 homedepot.com##section[id^="browse-search-pods-"] > div.browse-search__pod:has(div.product-sponsored)
 mirrored.to##tbody > tr:has(> td[data-label="Host"] > img[src="https://www.mirrored.to/templates/mirrored/images/hosts/FilesDL.png"])
+theregister.com#?#article.large-12:has-text(SPONSORED FEATURE)
 titantv.com##tr:has(> td[align="center"][valign="middle"][colspan="2"][class="gC"])
 opensubtitles.org##tr[style]:has([src*="php"])
 oneindia.com##ul > li:has(> div[class^="adg_"])
