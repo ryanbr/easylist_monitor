@@ -1,9 +1,9 @@
 [Adblock Plus 1.1]
-! Version: 202608170213
+! Version: 202608170401
 ! Title: EasyPrivacy
-! Last modified: 17 Aug 2026 02:13 UTC
+! Last modified: 17 Aug 2026 04:01 UTC
 ! Expires: 4 days (update frequency)
-! Commit: 700372db34968a62480d13d1442612da1cc57cfa
+! Commit: 18d980714613b43bfa53297f178d0accff23dcaf
 ! *** easylist:template_header.txt ***
 ! 
 ! Please report any unblocked adverts or problems
@@ -15192,6 +15192,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||biosolutions.tv/audience-proxy/
 ||bis.org/metrics/web.gif?
 ||bitchute.com/data/script.js
+||bitdefender.com/geoip
 ||bitwarden.com/plsbl/
 ||blitz-analytics-batch-server.blitz.gg^
 ||blockworks.co/_vercel/insights/
@@ -54266,6 +54267,9 @@ x.com##+js(no-xhr-if, /i/api/1.1/flow/viewer.json)
 ||bellesdemeures.com/Content/dist/js/libs/thor.js
 ||bmly.impots.gouv.fr^
 ||boingtv.fr/track_view
+||cdn.lesnumeriques.com/assets/*/js/eventsTracker-
+||cdn.lesnumeriques.com/assets/*/js/offer-tracking-
+||cdn.lesnumeriques.com/assets/*/js/tracking-
 ||cdtm.cdiscount.com^
 ||centerblog.net/a/in
 ||cesu.urssaf.fr/clm10
