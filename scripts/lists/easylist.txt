@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Version: 202608172154
+! Version: 202608172352
 ! Title: EasyList
-! Last modified: 17 Aug 2026 21:54 UTC
+! Last modified: 17 Aug 2026 23:52 UTC
 ! Expires: 4 days (update frequency)
-! Commit: 028cc1f4905c9989d2768ac6378902121aeaef4f
+! Commit: 6539554757cda7af4993754f1d5cb6da4652652a
 ! *** easylist:template_header.txt ***
 ! 
 ! Please report any unblocked adverts or problems
@@ -17960,6 +17960,7 @@ browsershots.org#@#.advert_area
 ||aigretdisgigscoops.cyou^
 ||aiharsoreersu.net^
 ||aihryemflflsa.website^
+||aiibwewvtdhkr.site^
 ||aiilyhytauvirl.com^
 ||aiivvwvygmoyv.space^
 ||aiiyoosioydfm.website^
@@ -18758,6 +18759,7 @@ browsershots.org#@#.advert_area
 ||areasnap.com^
 ||arenaetango.shop^
 ||arettemonton.qpon^
+||arettrebletstation.cyou^
 ||argalasaminscurship.qpon^
 ||argalsheydays.qpon^
 ||arglesmtn.com^
@@ -20179,6 +20181,7 @@ browsershots.org#@#.advert_area
 ||bfsqzaxsjeycw.space^
 ||bftbphjlcefsk.site^
 ||bfwnbnerccsor.space^
+||bfwzpynoz.com^
 ||bfxytxdpnk.com^
 ||bfyybnlyys.com^
 ||bfyydwxdkefev.online^
@@ -29351,6 +29354,7 @@ browsershots.org#@#.advert_area
 ||fwtrck.com^
 ||fwuewerfrwgpr.online^
 ||fwunymlwmsebu.site^
+||fwvduofolpzzj.site^
 ||fwyxbluvntuep.website^
 ||fwzvgdqhtxsxc.store^
 ||fxayenbztjzdg.website^
@@ -30814,6 +30818,7 @@ browsershots.org#@#.advert_area
 ||gwaevffiiyj.com^
 ||gwallet.com^
 ||gwaqanrpzkknt.website^
+||gwirammplkwzj.online^
 ||gwiryqwgylcdq.online^
 ||gwithearama.org^
 ||gwjbnsnlkckyq.space^
@@ -31999,6 +32004,7 @@ browsershots.org#@#.advert_area
 ||hqdhdyehelnks.online^
 ||hqfatherembraid.qpon^
 ||hqgkgvxhdlzba.store^
+||hqhxfrcxxky.com^
 ||hqhzkaewwexrp.website^
 ||hqiozkugrprzc.site^
 ||hqitrefgxtwvb.space^
@@ -34689,6 +34695,7 @@ browsershots.org#@#.advert_area
 ||jzhkmgdeesljp.online^
 ||jzhnqycanbvsn.space^
 ||jziweafbssqyj.store^
+||jzklxzldskqok.online^
 ||jzmgykztfsjwd.website^
 ||jzmwxos.com^
 ||jzrmxnvcniwmj.online^
@@ -45242,6 +45249,7 @@ browsershots.org#@#.advert_area
 ||recorderfuss.com^
 ||recordingbush.com^
 ||recordtwo.com^
+||recountcalahan.cyou^
 ||recoupsamakebe.com^
 ||recoverbrawlverbal.com^
 ||recoverlizziegainful.com^
@@ -48469,6 +48477,7 @@ browsershots.org#@#.advert_area
 ||soqwtxjtvglkz.website^
 ||soraviable.com^
 ||sorbetbungler.com^
+||sorbindoddlepottaro.qpon^
 ||sordidsicknessfaded.com^
 ||sore-medicine.com^
 ||sore-middle.com^
@@ -50531,6 +50540,7 @@ browsershots.org#@#.advert_area
 ||tiny-atmosphere.com^
 ||tinyblobs.com^
 ||tinyplywood.com^
+||tionkghwvsomc.space^
 ||tionsandindeedther.org^
 ||tiotezbvkfggq.space^
 ||tipburnhot.shop^
@@ -55617,6 +55627,7 @@ browsershots.org#@#.advert_area
 ||xfvclznzhmtte.site^
 ||xfvrkhjmanrnr.online^
 ||xfwblpomxc.com^
+||xfyvaaphnojmw.site^
 ||xgahbeklumki.com^
 ||xgaxtbrifshmc.website^
 ||xgbetzbmmdqbv.space^
@@ -56876,6 +56887,7 @@ browsershots.org#@#.advert_area
 ||ywjpthwoddmos.space^
 ||ywjrbvjriuumc.site^
 ||ywjvjschozjzq.online^
+||ywjzvgbtqtyjx.online^
 ||ywkjptehnjlwt.space^
 ||ywnnfctifhikobx.com^
 ||ywrenjevvou.com^
@@ -73568,6 +73580,7 @@ ldoceonline.com##[id^="ad_contentslot"]
 eloshapes.com##[id^="ads-"]
 bestbuy.ca,bestbuy.com##[id^="atwb-ninja-carousel"]
 beforeitsnews.com##[id^="banners_"]
+embedsun.cc##[id^="bg_wrap_"]
 pluggedingolf.com##[id^="black-studio-tinymce-"]
 shipt.com##[id^="cms-ad_banner"]
 dictionary.com##[id^="dco"]
