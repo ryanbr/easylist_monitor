@@ -1,9 +1,9 @@
 [Adblock Plus 1.1]
-! Version: 202608201147
+! Version: 202608201408
 ! Title: EasyPrivacy
-! Last modified: 20 Aug 2026 11:47 UTC
+! Last modified: 20 Aug 2026 14:08 UTC
 ! Expires: 4 days (update frequency)
-! Commit: 0d157627f09cc7b248df4dfee311573165cbcf7e
+! Commit: e8eac9e95c97ac6d7591c24abc63566bd4aac1a9
 ! *** easylist:template_header.txt ***
 ! 
 ! Please report any unblocked adverts or problems
@@ -11664,6 +11664,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||infusionsoft.com^*/getTrackingCode?
 ||ingest.in.signoz.cloud^
 ||ingest.make.rvapps.io^
+||ingest.promptwatch.com^
 ||ingesteer.services-prod.nsvcs.net^
 ||ingress.rebelboost.com/_ingest-rbst-stats?
 ||ingress.trendii.com^
@@ -12716,6 +12717,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||statsig.anthropic.com^
 ||statsjs.klevu.com^
 ||statt-collect.herokuapp.com^
+||statuspage.io/embed/frame
 ||stg-data-collector.playbuzz.com^
 ||stg.truvidplayer.com/*/v.php?st=
 ||stileproject.com/vhtk/
@@ -15422,6 +15424,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||d401.dollartree.com^
 ||d712.theinformation.com^
 ||dabu.askmediagroup.com^
+||dailydevstatus.com/embed/script.js
 ||dailymail.co.uk/geo/
 ||dailymail.co.uk/rta2/
 ||dailymotion.com/logger/
