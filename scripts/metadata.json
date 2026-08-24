@@ -1,16 +1,16 @@
 {
   "easylist.txt": {
-    "lastModified": "2026-08-23T21:44:47.000Z",
-    "etag": "W/\"6a8b69cf-1fff62\"",
-    "version": "202608232144",
-    "lastChecked": "2026-08-23T22:02:34.019Z",
-    "size": 2095887
+    "lastModified": "2026-08-23T23:52:47.000Z",
+    "etag": "W/\"6a8b87cf-2000be\"",
+    "version": "202608232352",
+    "lastChecked": "2026-08-24T00:04:06.100Z",
+    "size": 2096235
   },
   "easyprivacy.txt": {
-    "lastModified": "2026-08-23T21:58:50.000Z",
-    "etag": "W/\"6a8b6d1a-16db47\"",
-    "version": "202608232158",
-    "lastChecked": "2026-08-23T22:02:35.082Z",
+    "lastModified": "2026-08-23T23:52:47.000Z",
+    "etag": "W/\"6a8b87cf-16db47\"",
+    "version": "202608232352",
+    "lastChecked": "2026-08-24T00:04:07.145Z",
     "size": 1497927
   }
 }
