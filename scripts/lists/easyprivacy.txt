@@ -1,9 +1,9 @@
 [Adblock Plus 1.1]
-! Version: 202608241149
+! Version: 202608241408
 ! Title: EasyPrivacy
-! Last modified: 24 Aug 2026 11:49 UTC
+! Last modified: 24 Aug 2026 14:08 UTC
 ! Expires: 4 days (update frequency)
-! Commit: 3908db7bd8ccc1ce218c1502b810be03f1416b5e
+! Commit: 8103b4c0c2099fd9e6728741d5426dd122e4a227
 ! *** easylist:template_header.txt ***
 ! 
 ! Please report any unblocked adverts or problems
@@ -17675,7 +17675,6 @@ abema.tv##^script:has-text(NREUM)
 abema.tv##+js(rmnt, script, NREUM)
 ! #endif
 ! phileweb.com
-phileweb.com##+js(set-attr, span[class] img.lazyload[width], src, [data-src])
 ||clarity.ms/tag/$important,script,domain=phileweb.com
 ! e-begin.jp
 e-begin.jp##.inviewSection:not(.is-show):style(transform: translateY(0) !important; opacity: 1 !important;)
