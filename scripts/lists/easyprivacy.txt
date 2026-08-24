@@ -1,9 +1,9 @@
 [Adblock Plus 1.1]
-! Version: 202608232352
+! Version: 202608240216
 ! Title: EasyPrivacy
-! Last modified: 23 Aug 2026 23:52 UTC
+! Last modified: 24 Aug 2026 02:16 UTC
 ! Expires: 4 days (update frequency)
-! Commit: 6855c01b0c7f5307ed51aca9e0061d8930b10773
+! Commit: 33c8190ed333e1b6e0d91a48b38bb2b67cf73850
 ! *** easylist:template_header.txt ***
 ! 
 ! Please report any unblocked adverts or problems
@@ -2867,6 +2867,7 @@
 /ws-tracking.js
 /wstat.pl
 /wstats.php?
+/wt-connect-pixel/carts/init?
 /wt_capi.js
 /wtbase.js
 /wtd.gif?
@@ -5931,6 +5932,7 @@ omni.soundestlink.com$image
 ||shoplytics.com^$third-party
 ||shoptimally.com^$third-party
 ||showheroes.com^$third-party
+||shrinetheme.com^$third-party
 ||sift.com^$third-party
 ||siftscience.com^$third-party
 ||signalfx.com^$third-party
@@ -10216,7 +10218,6 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||brandmetrics.com^$third-party
 ||citypaketet.se^$third-party
 ||dep-x.com^$third-party
-||lwadm.com^$third-party
 ||myvisitors.se^$third-party
 ||prospecteye.com^$third-party
 ||publish-int.se^$third-party
@@ -15209,6 +15210,8 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||beacons.ai/api/next_api/rta_v1/
 ||beacons.digital.disneyadvertising.com^
 ||bearblog.dev/hit/
+||beehiiv.com/nectar_analytics
+||beehiiv.com/page_view
 ||beforeitsnews.com/core/ajax/counter/count.php^
 ||behance.net/log
 ||behance.net/v2/logs
@@ -56662,7 +56665,6 @@ x.com##+js(no-xhr-if, /i/api/1.1/flow/viewer.json)
 ! 
 ! ---------- Swedish ----------
 ! 
-@@||lwadm.com/lw/pbjs?pid=$script,domain=sydostran.se
 @@||picsearch.com/js/comscore.js$domain=dn.se
 ! 
 ! ---------- Thai ----------
