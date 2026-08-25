@@ -1,9 +1,9 @@
 [Adblock Plus 1.1]
-! Version: 202608251409
+! Version: 202608251604
 ! Title: EasyPrivacy
-! Last modified: 25 Aug 2026 14:09 UTC
+! Last modified: 25 Aug 2026 16:04 UTC
 ! Expires: 4 days (update frequency)
-! Commit: 0ba736da9c24b9b25cd850edd8312cc5a5e02170
+! Commit: 3e7f0cdf3b8a8094fc8812aaa724580e472431c3
 ! *** easylist:template_header.txt ***
 ! 
 ! Please report any unblocked adverts or problems
@@ -1255,7 +1255,6 @@
 /ibeat.min.js
 /icf-analytics.js
 /id?d_visid_
-/identity/token/verify?browser_id=
 /if/services/tdg?hs=
 /IIQUniversalID.min.js
 /image.ng/*
@@ -6803,6 +6802,7 @@ omni.soundestlink.com$image
 ||arclet.net^
 ||aromamirror.com^
 ||arrivegrowth.com^
+||artbranch.net^
 ||articledemon.com^
 ||arubahello.com^
 ||askdriver.com^
@@ -6819,6 +6819,7 @@ omni.soundestlink.com$image
 ||attractionbanana.com^
 ||attractivecap.com^
 ||audioarctic.com^
+||autoappearancetraining.com^
 ||automaticside.com^
 ||automaticturkey.com^
 ||availablerest.com^
