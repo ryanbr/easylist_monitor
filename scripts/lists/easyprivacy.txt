@@ -1,9 +1,9 @@
 [Adblock Plus 1.1]
-! Version: 202608261601
+! Version: 202608261811
 ! Title: EasyPrivacy
-! Last modified: 26 Aug 2026 16:01 UTC
+! Last modified: 26 Aug 2026 18:11 UTC
 ! Expires: 4 days (update frequency)
-! Commit: 37c4c75f807a8b7668aed505d5cc43f403ce863b
+! Commit: 18c4d00bb6044b1a5ca0c726c654037078025b96
 ! *** easylist:template_header.txt ***
 ! 
 ! Please report any unblocked adverts or problems
@@ -7619,6 +7619,7 @@ omni.soundestlink.com$image
 ||golfersrow.com^
 ||golfinglounge.com^
 ||gondolagnome.com^
+||goodandwild.com^
 ||goodfoodtours.com^
 ||gorgeousedge.com^
 ||gorillapage.com^
