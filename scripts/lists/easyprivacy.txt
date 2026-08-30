@@ -1,9 +1,9 @@
 [Adblock Plus 1.1]
-! Version: 202608300142
+! Version: 202608300347
 ! Title: EasyPrivacy
-! Last modified: 30 Aug 2026 01:42 UTC
+! Last modified: 30 Aug 2026 03:47 UTC
 ! Expires: 4 days (update frequency)
-! Commit: 731e4c35b34d2d462a1f152948ef0af01f214434
+! Commit: 07b2ecf8d0587f8abaef45aca99c805aadcc28e9
 ! *** easylist:template_header.txt ***
 ! 
 ! Please report any unblocked adverts or problems
@@ -16299,6 +16299,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||okx.com/jsstat/sb?
 ||ol-collector.quillbot.com^
 ||onboarding-ui.frontiersin.org/api/onboarding-ui/v1/session/logged
+||ondigitalocean.app/tracker.js
 ||oneroof.co.nz/*/record-log/
 ||online-umwandeln.de/analytics.js
 ||online.marketing/a.js
