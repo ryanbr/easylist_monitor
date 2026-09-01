@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Version: 202609010953
+! Version: 202609011150
 ! Title: EasyList
-! Last modified: 01 Sep 2026 09:53 UTC
+! Last modified: 01 Sep 2026 11:50 UTC
 ! Expires: 4 days (update frequency)
-! Commit: 96577497ae6e9bbba0093e787565eeb24dee7f60
+! Commit: 8ba84c085e8c05a040d057e7dc7bb2f0be7bb47c
 ! *** easylist:template_header.txt ***
 ! 
 ! Please report any unblocked adverts or problems
@@ -279,7 +279,6 @@
 /advanced-ads/public/assets/js/advanced.min.js$script
 /advbanner.frontend.js$script
 /advert.$~script,~xmlhttprequest,domain=~advert.ae|~advert.club|~advert.com.tr|~advert.ee|~advert.ge|~advert.io|~advert.media|~advert.org.pl|~motortrader.com.my
-/advertising/ad-shield.js$script
 /advertising/banners/*$image
 /adverts.$~script,~xmlhttprequest,domain=~0xacab.org|~adverts.ie|~adverts.org.ua|~github.com|~gitlab.com
 /adverts/*$~xmlhttprequest
@@ -24146,6 +24145,7 @@ browsershots.org#@#.advert_area
 ||csqojhzrapobd.online^
 ||csrtvckpwnfby.site^
 ||cssdwkjzdxxqn.online^
+||csttugboobr.com^
 ||cstwpush.com^
 ||csufnzbxyfrfd.space^
 ||csuhgqcwubodd.online^
@@ -27208,6 +27208,7 @@ browsershots.org#@#.advert_area
 ||ehasnoconversat.org^
 ||ehaveagoldenbed.org^
 ||ehbm7vph.xyz^
+||ehbtpkttcpvgc.site^
 ||ehclkqpxnvfqd.website^
 ||ehcqubscjotaa.space^
 ||ehdmckprfptyg.store^
@@ -33243,6 +33244,7 @@ browsershots.org#@#.advert_area
 ||hyihyfouxfsjb.online^
 ||hyjxuvsklboyu.online^
 ||hykbzmkdp.com^
+||hykuctsojemuh.website^
 ||hylasdozens.com^
 ||hylatownet.qpon^
 ||hyldaxiyvidxg.online^
@@ -38259,6 +38261,7 @@ browsershots.org#@#.advert_area
 ||lvaokswa.com^
 ||lvb84t963m77n7g6b9pp.cfd^
 ||lvbbdxvfisdnw.website^
+||lvbelptfwsiow.space^
 ||lvbeybbrwlamk.top^
 ||lvesfrucnt.com^
 ||lvfgmuaroloxd.online^
@@ -40056,6 +40059,7 @@ browsershots.org#@#.advert_area
 ||mugsteise.shop^
 ||mugvqlryqdtcq.online^
 ||muhjwmynzkfns.site^
+||muhkcbunesaer.website^
 ||muidpurrfryer.qpon^
 ||muigejwkogwuxb.com^
 ||mujhetfonkjnt.website^
@@ -42718,6 +42722,7 @@ browsershots.org#@#.advert_area
 ||otqmunvibzp.in^
 ||otsoasxgsyabr.online^
 ||otswhtxkfprcy.online^
+||otsywqxwaxxpq.site^
 ||otterscrenula.qpon^
 ||otunmakpjbtga.website^
 ||otvojqdrozce.com^
@@ -46194,6 +46199,7 @@ browsershots.org#@#.advert_area
 ||quartannavessolutio.cyou^
 ||quarterbackdisturbing.com^
 ||quartodweltmools.cyou^
+||quartosnudity.cyou^
 ||quaser87.com^
 ||quasheenunhood.com^
 ||quasherrebs.cyou^
@@ -48048,6 +48054,7 @@ browsershots.org#@#.advert_area
 ||rsxekbcl.com^
 ||rsxkamyyjynij.online^
 ||rsxtxfgrowhzm.online^
+||rsxychytfogzm.online^
 ||rtalffozjnwkq.space^
 ||rtb-media.me^
 ||rtbbhub.com^
@@ -51884,6 +51891,7 @@ browsershots.org#@#.advert_area
 ||tassagovibex.shop^
 ||tassalpatente.cfd^
 ||tasscyclo.cyou^
+||tassetmimmedbarfing.cfd^
 ||tassetsplotch.cyou^
 ||tassoopomp.qpon^
 ||tastejapan.life^
@@ -52436,6 +52444,7 @@ browsershots.org#@#.advert_area
 ||tickenmissoutcircus.cyou^
 ||ticketswinning.com^
 ||tickleinclosetried.com^
+||ticniyfgcat.com^
 ||tictacfrison.com^
 ||tictocsquare.cyou^
 ||ticunaattask.shop^
@@ -53720,6 +53729,7 @@ browsershots.org#@#.advert_area
 ||tykkffdzmrobu.space^
 ||tykseckvnewdh.online^
 ||tylgdscnpwitkz.com^
+||tylomamannosemisura.qpon^
 ||tyloticseseli.shop^
 ||tylulewe.com^
 ||tylustrocked.cfd^
@@ -54235,6 +54245,7 @@ browsershots.org#@#.advert_area
 ||undesirablemountain.com^
 ||undesirableratificationprograms.com^
 ||undigneskullmbeuer.cfd^
+||undocksweirdie.com^
 ||undoersaconic.cyou^
 ||undoneknit.com^
 ||undosupporterpyjamas.com^
@@ -57196,6 +57207,7 @@ browsershots.org#@#.advert_area
 ||wnotrbrxpealj.online^
 ||wnoyzbrcacpep.site^
 ||wnp.com^
+||wnqzazngmohkh.space^
 ||wnsyicfquaczs.site^
 ||wntkjkymoulmx.online^
 ||wntxecprzkusk.site^
@@ -58276,6 +58288,7 @@ browsershots.org#@#.advert_area
 ||xtrbagcbjrabn.online^
 ||xtremeviewing.com^
 ||xtroglobal.com^
+||xtrsoqurexoad.website^
 ||xttaff.com^
 ||xtuirgdoviqif.online^
 ||xtvzanfdrfjrz.site^
@@ -59736,6 +59749,7 @@ browsershots.org#@#.advert_area
 ||zoaeafogyishunl.cfd^
 ||zoaisgughwyvm.space^
 ||zoanoowhooky.net^
+||zoapumtysehna.online^
 ||zoasmnxzyhzis.space^
 ||zoaulspmuxrac.online^
 ||zoawufoy.net^
