@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Version: 202609021347
+! Version: 202609021520
 ! Title: EasyList
-! Last modified: 02 Sep 2026 13:47 UTC
+! Last modified: 02 Sep 2026 15:20 UTC
 ! Expires: 4 days (update frequency)
-! Commit: 4405b19bbd487498145aab99b1283fb67bda93e6
+! Commit: 9be60c160ae805724bb9198aab9e72856dcec3df
 ! *** easylist:template_header.txt ***
 ! 
 ! Please report any unblocked adverts or problems
@@ -23041,6 +23041,7 @@ browsershots.org#@#.advert_area
 ||clemmedaztecs.cfd^
 ||clenchedquarterbackluxuriant.com^
 ||clenchedtea.com^
+||cleoidbarbescharac.cfd^
 ||clergystickingprecedent.com^
 ||clericstaw.qpon^
 ||clerrrep.com^
@@ -23894,6 +23895,7 @@ browsershots.org#@#.advert_area
 ||cpdliftbamsxxo.com^
 ||cpdqvdvmwlnyq.site^
 ||cpdvillousreyoke.qpon^
+||cpg-cdn.com^
 ||cpgkivogfu.com^
 ||cphatlpirvbfikd.com^
 ||cpiutdrcihvim.space^
@@ -27357,6 +27359,7 @@ browsershots.org#@#.advert_area
 ||ejnjjqepwavf.com^
 ||ejoanpaklnyrg.space^
 ||ejozbzeymccax.website^
+||ejpedeyj.com^
 ||ejpypnxslomgz.site^
 ||ejqmzpbhebimq.website^
 ||ejroldixhjqnu.online^
@@ -30549,6 +30552,7 @@ browsershots.org#@#.advert_area
 ||gcfubeywqiffq.website^
 ||gcgrabxewyxwe.website^
 ||gcigziwma.in^
+||gclvy39hhyzqxn151ojq.rest^
 ||gcmwodwqcaqjw.space^
 ||gcommyuhgnk.com^
 ||gcotjvflmlxkw.space^
@@ -38226,6 +38230,7 @@ browsershots.org#@#.advert_area
 ||lpyfevipheebj.website^
 ||lqbvjmkewzwjk.top^
 ||lqbvjmkoozmry.top^
+||lqbzvmvwjyor.top^
 ||lqcldweyteatn.site^
 ||lqdimcpwev.com^
 ||lqdkqbmfabavz.site^
@@ -40708,6 +40713,7 @@ browsershots.org#@#.advert_area
 ||navahonotusitalite.qpon^
 ||navaidaosmic.top^
 ||navaidseams.cfd^
+||navajospoule.com^
 ||navalrememberedcarve.com^
 ||navelbobbin.cyou^
 ||navetetelurgy.shop^
@@ -41893,6 +41899,7 @@ browsershots.org#@#.advert_area
 ||oapcctzttigaw.website^
 ||oaphoace.net^
 ||oardilin.com^
+||oarhhknmlvddu.site^
 ||oariallimed.qpon^
 ||oaritnrthm.com^
 ||oarweedtaigas.cfd^
@@ -50682,6 +50689,7 @@ browsershots.org#@#.advert_area
 ||sovietsite.com^
 ||sovuyibacinnb.space^
 ||sowftoxic.cyou^
+||sowlbrumeswoodlot.qpon^
 ||sowpoint.com^
 ||sowtcrcheshiner.cyou^
 ||soxfokwppwqpm.website^
@@ -51918,6 +51926,7 @@ browsershots.org#@#.advert_area
 ||sxsftevgkwlam.site^
 ||sxsgyawsmtbxxt.com^
 ||sxxiocnjyqhxe.website^
+||sxxujplqfvojybk.com^
 ||sxyrrjgrkwsvw.site^
 ||sxyxwtonufdzy.com^
 ||sybilevolver.shop^
@@ -56464,6 +56473,7 @@ browsershots.org#@#.advert_area
 ||w6ecevvubhmntx.rest^
 ||w6f5f8r9.fun^
 ||w6xwt2ygfq2o5z95.cfd^
+||w7p7mb2zt52xrl7yxokc.cfd^
 ||waacglost.qpon^
 ||wabewxwoytqpi.website^
 ||wabifuzzily.qpon^
@@ -78083,7 +78093,7 @@ yahoo.com##.ads
 yahoo.com##.bg-marshmallow:has(.ad-container)
 sports.yahoo.com##.btm-sda
 yahoo.com##.caas-da
-www.yahoo.com##.cls-ad-top-center
+yahoo.com##.cls-ad-top-center
 yahoo.com##.col-fullbleed.md\:invisible.md\:overflow-hidden
 yahoo.com##.da-container
 yahoo.com##.darla
