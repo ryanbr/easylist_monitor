@@ -1,9 +1,9 @@
 [Adblock Plus 1.1]
-! Version: 202609021159
+! Version: 202609021358
 ! Title: EasyPrivacy
-! Last modified: 02 Sep 2026 11:59 UTC
+! Last modified: 02 Sep 2026 13:58 UTC
 ! Expires: 4 days (update frequency)
-! Commit: 76197a96a5e90ab877e67a6d7276cd95d401300f
+! Commit: c3d16fd2392a5dc6d61eca2f050ca0f6d6113d75
 ! *** easylist:template_header.txt ***
 ! 
 ! Please report any unblocked adverts or problems
@@ -14462,7 +14462,6 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||heatmap.support-inc.co.jp^
 ||insight-x.tech/trackerlog-publisher-service/tracker-logs
 ||ip2c.landscape.co.jp^
-||ipcheck.blogsys.jp^
 ||jal.co.jp/common_rn/img/rtam.gif
 ||jal.co.jp/common_rn/js/rtam.js
 ||js.dsp.bance.jp/bncdmp.js
@@ -17769,6 +17768,8 @@ x.com##+js(no-xhr-if, /i/api/1.1/flow/viewer.json)
 ! https://forum.ru-board.com/topic.cgi?forum=5&topic=51666&start=1420#14
 aliexpress.com,aliexpress.ru,aliexpress.us##+js(set, OfflineAudioContext, undefined)
 aliexpress.com,aliexpress.ru,aliexpress.us##+js(set, navigator.bluetooth, undefined)
+! alfalfalfa.com,matometanews.com
+||ipcheck.blogsys.jp^$redirect=noop.js,script
 ! -----------------Individual cname tracking systems-----------------!
 ! *** easylist:easyprivacy/easyprivacy_specific_cname_dataunlocker.txt ***
 ! easyprivacy_specific_cname_dataunlocker.txt
@@ -56278,9 +56279,9 @@ aliexpress.com,aliexpress.ru,aliexpress.us##+js(set, navigator.bluetooth, undefi
 ! ! cxense.com/persisted/execute
 @@||cxense.com/persisted/execute$domain=nippon.com
 ! ! cxense.com/public/widget/
-@@||cxense.com/public/widget/$domain=bizjournals.com|businessinsider.de|businessinsider.jp|computerbild.de|cxpublic.com|cyclestyle.net|diamond.jp|friday.gold|friday.kodansha.co.jp|handelsblatt.com|hochi.news|inquirer.com|journaldequebec.com|ksml.fi|mainichi.jp|marketwatch.com|nippon.com|rikejo.jp|savonsanomat.fi|shueisha.co.jp|tn.com.ar|tvnet.lv|wsj.com
+@@||cxense.com/public/widget/$domain=bizjournals.com|businessinsider.de|businessinsider.jp|computerbild.de|cxpublic.com|cyclestyle.net|diamond.jp|friday.gold|friday.kodansha.co.jp|handelsblatt.com|hochi.news|inquirer.com|journaldequebec.com|ksml.fi|mainichi.jp|marketwatch.com|nikkansports.com|nippon.com|rikejo.jp|savonsanomat.fi|shueisha.co.jp|tn.com.ar|tvnet.lv|wsj.com
 ! ! cxense.com/cx.cce.js
-@@||cxense.com/cx.cce.js$domain=bizjournals.com|businessinsider.de|cxpublic.com|diamond.jp|handelsblatt.com|hochi.news|inquirer.com|mainichi.jp|marketwatch.com|shueisha.co.jp|tarzanweb.jp|tn.com.ar|tvnet.lv|wsj.com
+@@||cxense.com/cx.cce.js$domain=bizjournals.com|businessinsider.de|cxpublic.com|diamond.jp|handelsblatt.com|hochi.news|inquirer.com|mainichi.jp|marketwatch.com|nikkansports.com|shueisha.co.jp|tarzanweb.jp|tn.com.ar|tvnet.lv|wsj.com
 ! ! cxense.com/cx.js
 @@||cxense.com/cx.js$domain=13.cl|bizjournals.com|businessinsider.de|businessinsider.jp|computerbild.de|cyclestyle.net|diamond.jp|gizmodo.jp|handelsblatt.com|hochi.news|inquirer.com|journaldequebec.com|ksml.fi|mainichi.jp|marketwatch.com|nikkansports.com|nippon.com|savonsanomat.fi|shueisha.co.jp|str.toyokeizai.net|tarzanweb.jp|tn.com.ar|tv-tokyo.co.jp|tvnet.lv|wsj.com
 ! ! collector.appconsent.io
@@ -56389,6 +56390,7 @@ aliexpress.com,aliexpress.ru,aliexpress.us##+js(set, navigator.bluetooth, undefi
 @@||l.ecn-ldr.de/loader/loader.js$domain=braun-hamburg.com
 @@||outbrainimg.com^$third-party,domain=computerbild.de|fitbook.de|metal-hammer.de|rollingstone.de|stylebook.de
 @@||pruefernavi.de/vendor/elasticsearch/elastic-apm-rum.umd.min.js$~third-party
+@@||regatta.com/gtg/gtm.js$~third-party
 @@||responder.wt-safetag.com/resp/api/get/$script,domain=myhermes.de
 @@||sams.11freunde.de/ee/*/interact?$xmlhttprequest,domain=11freunde.de
 @@||sams.spiegel.de/ee/irl1/v1/interact?$domain=spiegel.de
