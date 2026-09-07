@@ -1,9 +1,9 @@
 [Adblock Plus 1.1]
-! Version: 202609070943
+! Version: 202609071158
 ! Title: EasyPrivacy
-! Last modified: 07 Sep 2026 09:43 UTC
+! Last modified: 07 Sep 2026 11:58 UTC
 ! Expires: 4 days (update frequency)
-! Commit: 392326762d4541fed99c62fdb3e330827da951c1
+! Commit: c067c56a3e17ba298dfe270b2fc737a43acb6b7a
 ! *** easylist:template_header.txt ***
 ! 
 ! Please report any unblocked adverts or problems
@@ -9329,7 +9329,7 @@ omni.soundestlink.com$image
 ||perr.l-agent.me^
 ||perr.l-err.biz^
 ! Block ping
-$ping,third-party
+*$ping,third-party
 ! https://www.opensubtitles.org/
 $third-party,xmlhttprequest,domain=opensubtitles.org
 ! Oracle
@@ -55315,6 +55315,7 @@ aliexpress.com,aliexpress.ru,aliexpress.us##+js(set, navigator.bluetooth, undefi
 ||t.syosetu.org^
 ||tanweb.net/wordpress/?rest_route=/sng/v1/page-count
 ||tekoki-fuzoku-joho.com/js/ALinkPrepare_
+||tellows.jp/ping.php
 ||temp.twicomi.com^
 ||tower.jp/bundle/beacon
 ||track.buyma.com^
@@ -56321,11 +56322,11 @@ aliexpress.com,aliexpress.ru,aliexpress.us##+js(set, navigator.bluetooth, undefi
 ! ! cxense.com/persisted/execute
 @@||cxense.com/persisted/execute$domain=nippon.com
 ! ! cxense.com/public/widget/
-@@||cxense.com/public/widget/$domain=bizjournals.com|businessinsider.de|businessinsider.jp|computerbild.de|cxpublic.com|cyclestyle.net|diamond.jp|friday.gold|friday.kodansha.co.jp|handelsblatt.com|hochi.news|inquirer.com|j-cast.com|journaldequebec.com|ksml.fi|mainichi.jp|marketwatch.com|nikkansports.com|nippon.com|rikejo.jp|savonsanomat.fi|shueisha.co.jp|tn.com.ar|tvnet.lv|wsj.com
+@@||cxense.com/public/widget/$domain=bizjournals.com|businessinsider.de|businessinsider.jp|computerbild.de|cxpublic.com|cyclestyle.net|diamond.jp|friday.gold|friday.kodansha.co.jp|handelsblatt.com|harpersbazaar.com|hochi.news|inquirer.com|j-cast.com|journaldequebec.com|ksml.fi|mainichi.jp|marketwatch.com|nikkansports.com|nippon.com|rikejo.jp|savonsanomat.fi|shueisha.co.jp|tn.com.ar|tvnet.lv|wsj.com
 ! ! cxense.com/cx.cce.js
-@@||cxense.com/cx.cce.js$domain=bizjournals.com|businessinsider.de|cxpublic.com|diamond.jp|handelsblatt.com|hochi.news|inquirer.com|j-cast.com|mainichi.jp|marketwatch.com|nikkansports.com|shueisha.co.jp|tarzanweb.jp|tn.com.ar|tvnet.lv|wsj.com
+@@||cxense.com/cx.cce.js$domain=bizjournals.com|businessinsider.de|cxpublic.com|diamond.jp|handelsblatt.com|harpersbazaar.com|hochi.news|inquirer.com|j-cast.com|mainichi.jp|marketwatch.com|nikkansports.com|shueisha.co.jp|tarzanweb.jp|tn.com.ar|tvnet.lv|wsj.com
 ! ! cxense.com/cx.js
-@@||cxense.com/cx.js$domain=13.cl|bizjournals.com|businessinsider.de|businessinsider.jp|computerbild.de|cyclestyle.net|diamond.jp|gizmodo.jp|handelsblatt.com|hochi.news|inquirer.com|j-cast.com|journaldequebec.com|ksml.fi|mainichi.jp|marketwatch.com|nikkansports.com|nippon.com|savonsanomat.fi|shueisha.co.jp|str.toyokeizai.net|tarzanweb.jp|tn.com.ar|tv-tokyo.co.jp|tvnet.lv|wsj.com
+@@||cxense.com/cx.js$domain=13.cl|bizjournals.com|businessinsider.de|businessinsider.jp|computerbild.de|cyclestyle.net|diamond.jp|gizmodo.jp|handelsblatt.com|harpersbazaar.com|hochi.news|inquirer.com|j-cast.com|journaldequebec.com|ksml.fi|mainichi.jp|marketwatch.com|nikkansports.com|nippon.com|savonsanomat.fi|shueisha.co.jp|str.toyokeizai.net|tarzanweb.jp|tn.com.ar|tv-tokyo.co.jp|tvnet.lv|wsj.com
 ! ! collector.appconsent.io
 @@||collector.appconsent.io/hello$domain=lachainemeteo.com|lefigaro.fr
 ! ! imrworldwide.com/*ggc
