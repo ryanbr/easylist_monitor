@@ -1,9 +1,9 @@
 [Adblock Plus 1.1]
-! Version: 202609081759
+! Version: 202609081948
 ! Title: EasyPrivacy
-! Last modified: 08 Sep 2026 17:59 UTC
+! Last modified: 08 Sep 2026 19:48 UTC
 ! Expires: 4 days (update frequency)
-! Commit: 4163783dcfb647d9b3996bcae543344510bf3f86
+! Commit: 73840029563ddf77be0d6fa9c2de5b330cc60ef2
 ! *** easylist:template_header.txt ***
 ! 
 ! Please report any unblocked adverts or problems
@@ -8889,8 +8889,10 @@ omni.soundestlink.com$image
 ||tealjewel.com^
 ||teamstatus.net^
 ||tearfulglass.com^
+||techcatcher.com^
 ||techconverter.com^
 ||techdrivethru.com^
+||techmix.net^
 ||tediousbear.com^
 ||tedioustooth.com^
 ||teejubilee.com^
