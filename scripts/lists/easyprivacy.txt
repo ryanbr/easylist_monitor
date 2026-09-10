@@ -1,9 +1,9 @@
 [Adblock Plus 1.1]
-! Version: 202609092149
+! Version: 202609092358
 ! Title: EasyPrivacy
-! Last modified: 09 Sep 2026 21:49 UTC
+! Last modified: 09 Sep 2026 23:58 UTC
 ! Expires: 4 days (update frequency)
-! Commit: 28b9cea48cd66acf47b7b53f73b37bd22a4507cf
+! Commit: 9caf75607cfc7f8f4aec76e0bba122d51cb0a962
 ! *** easylist:template_header.txt ***
 ! 
 ! Please report any unblocked adverts or problems
@@ -9047,6 +9047,7 @@ omni.soundestlink.com$image
 ||upsidebeauty.com^
 ||upsidehair.com^
 ||urbanlaurel.com^
+||urbanopus.net^
 ||usabilitybook.com^
 ||uselesslumber.com^
 ||userballot.com^
@@ -15593,6 +15594,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||discover.hubpages.com/.bootscripts/analytics.min.js
 ||discover.hubpages.com/.bootscripts/hubPagesViewDurationTracker.min.js
 ||dls-account.di.atlas.samsung.com^
+||dmt.fidelity.com/prod/meas/
 ||dmtgvn.com/wrapper/js/common-engine.js$domain=rt.com
 ||docs.github.com/events
 ||dollartree.com/ccstoreui/*/analytics/
