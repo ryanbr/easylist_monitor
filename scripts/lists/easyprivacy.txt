@@ -1,9 +1,9 @@
 [Adblock Plus 1.1]
-! Version: 202609111339
+! Version: 202609111549
 ! Title: EasyPrivacy
-! Last modified: 11 Sep 2026 13:39 UTC
+! Last modified: 11 Sep 2026 15:49 UTC
 ! Expires: 4 days (update frequency)
-! Commit: 030beec5832b252880dad32fa90262157da03964
+! Commit: 2bca5926a80361916381b6229f22c94f52dd10db
 ! *** easylist:template_header.txt ***
 ! 
 ! Please report any unblocked adverts or problems
@@ -6917,6 +6917,7 @@ omni.soundestlink.com$image
 ||blitzcampaigns.com^
 ||blockdial.com^
 ||bloomsend.com^
+||bluebellbooks.com^
 ||bluecollarmuse.com^
 ||blueeyedblow.com^
 ||bluelionlabs.net^
@@ -55139,6 +55140,7 @@ aliexpress.com,aliexpress.ru,aliexpress.us##+js(set, navigator.bluetooth, undefi
 ||tuttocagliari.net/pixel
 ||tuttogratis.it/gopix.php?
 ||tuttomercatoweb.com/pixel
+||vannacci.gay/~flock.js
 ||video.mediaset.it/polymediashowanalytics/
 ||videogame.it/a/logview/
 ||vinted.it/relay/events
