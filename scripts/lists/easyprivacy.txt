@@ -1,9 +1,9 @@
 [Adblock Plus 1.1]
-! Version: 202609111747
+! Version: 202609111953
 ! Title: EasyPrivacy
-! Last modified: 11 Sep 2026 17:47 UTC
+! Last modified: 11 Sep 2026 19:53 UTC
 ! Expires: 4 days (update frequency)
-! Commit: b87b2fc9b103e234121233d4fc74244c4aa2b8d3
+! Commit: 56436aabfd1eae9ae4d955168f56f2eba41c5801
 ! *** easylist:template_header.txt ***
 ! 
 ! Please report any unblocked adverts or problems
@@ -10089,6 +10089,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ! Portuguese
 ||ad5track.com^$third-party
 ||afilio.com.br^$third-party
+||atendimen.to^$third-party
 ||bob-recs.com^$third-party
 ||btg360.com.br^$third-party
 ||clearsale.com.br^$third-party
@@ -14721,6 +14722,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||ndmais.com.br/tracking-parceiros-ndmais/
 ||netdeal.com.br/open/event/
 ||neurotrack.neurolake.io^
+||osuper.com.br/beta/bundles/analytics/analytics-$script
 ||pageviews.tray.com.br^
 ||pixel.leadlovers.app^
 ||sat.soluall.net^
