@@ -1,9 +1,9 @@
 [Adblock Plus 1.1]
-! Version: 202609122358
+! Version: 202609130154
 ! Title: EasyPrivacy
-! Last modified: 12 Sep 2026 23:58 UTC
+! Last modified: 13 Sep 2026 01:54 UTC
 ! Expires: 4 days (update frequency)
-! Commit: 481a20e4953d6e9727223bab345962159c330cab
+! Commit: 90737e8fcd5222116e8f3b955bad6b4f858f72ec
 ! *** easylist:template_header.txt ***
 ! 
 ! Please report any unblocked adverts or problems
@@ -14138,6 +14138,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||g.yccdn.com^
 ||gdt.qq.com^
 ||gias.jd.com/js/td.js
+||h5speed.m.jd.com/event/log
 ||hacx60.com^
 ||haostat.qihoo.com^
 ||hudong.com/flux.js
@@ -53778,6 +53779,7 @@ aliexpress.com,aliexpress.ru,aliexpress.us##+js(set, navigator.bluetooth, undefi
 ||cltr.willhaben.at^
 ||cmp2.channelpartner.de^
 ||cnt.wetteronline.de^
+||comdirect.de/cp/log/
 ||comparis.ch/comparis/Tracking/
 ||computerbase.de/analytics
 ||computerbase.de/api2/$ping,xmlhttprequest
@@ -54651,9 +54653,11 @@ aliexpress.com,aliexpress.ru,aliexpress.us##+js(set, navigator.bluetooth, undefi
 ||baidu.com/kan/api/ipLocation
 ||baidu.com^*/ps_default.gif?
 ||banana.le.com^
+||base.imdada.cn/rum/spa.js
 ||bc.qunar.com^
 ||beacon.cdn.qq.com^
 ||beacon.qq.com^
+||cactus.jd.com^
 ||channel-analysis-js.gmw.cn^
 ||cherry.le.com^
 ||clewm.net/public/cli_analytics.js$domain=cli.im
@@ -54678,6 +54682,7 @@ aliexpress.com,aliexpress.ru,aliexpress.us##+js(set, navigator.bluetooth, undefi
 ||err.ifengcloud.ifeng.com^
 ||event.csdn.net^
 ||fclog.baidu.com^
+||fe.imdada.cn/meridian/unify.min.js
 ||flog.pressplay.cc^
 ||forum.zuvio.com.tw/api/article/finish
 ||fp-upload.dun.163.com^
@@ -54686,9 +54691,11 @@ aliexpress.com,aliexpress.ru,aliexpress.us##+js(set, navigator.bluetooth, undefi
 ||ftwo-receiver.autohome.com.cn^
 ||gentian-frd.hjapi.com^
 ||gia.jd.com^
+||gias.jd.com/js/pc-tk.js
 ||gk.sina.cn^
 ||h5.analytics.126.net^
 ||h5log.zongheng.com^
+||hermes.jd.com^
 ||hisense.com/ta.js
 ||hktvmall.com/api/event
 ||hoyoverse.com/device-fp/
@@ -54710,6 +54717,7 @@ aliexpress.com,aliexpress.ru,aliexpress.us##+js(set, navigator.bluetooth, undefi
 ||kn007.net/snmp.php
 ||l.web.huya.com^
 ||le.com/op/
+||log-h5.imdada.cn^
 ||log-upload-os.hoyolab.com^
 ||log-upload-os.hoyoverse.com^
 ||log.bitauto.com^
@@ -54727,8 +54735,10 @@ aliexpress.com,aliexpress.ru,aliexpress.us##+js(set, navigator.bluetooth, undefi
 ||m.diyibanzhu.buzz/17mb/script/wap.js
 ||mail.qq.com/cgi-bin/getinvestigate?
 ||map.baidu.com/newmap_test/static/common/images/transparent.gif
+||mercury.jd.com^
 ||metric.huya.com^
 ||mi.com/stat/
+||mllog.jd.com^
 ||monitor.music.qq.com^
 ||mp.weixin.qq.com/mp/appmsgreport?
 ||mp.weixin.qq.com/mp/getappmsgad?
@@ -54846,6 +54856,7 @@ aliexpress.com,aliexpress.ru,aliexpress.us##+js(set, navigator.bluetooth, undefi
 ||trail.53kf.com^
 ||udblog.huya.com^
 ||uestat.video.qiyi.com^
+||uranus.jd.com^
 ||urbtix.hk/api/internet/log/add?
 ||utrack.hexun.com^
 ||uuu9.com/s.php?
@@ -54860,7 +54871,7 @@ aliexpress.com,aliexpress.ru,aliexpress.us##+js(set, navigator.bluetooth, undefi
 ||weiyun.com/proxy/domain/boss.qzone.qq.com/fcg-bin/fcg_rep_strategy?
 ||wenku.baidu.com/tongji/
 ||wkctj.baidu.com^
-||wl.jd.com^$third-party
+||wl.jd.com^
 ||work.3dmgame.com/js/statistics.js
 ||wumii.com/images/pixel.png
 ||xcar.com.cn/exp/
