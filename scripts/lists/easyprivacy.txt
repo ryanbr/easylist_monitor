@@ -1,9 +1,9 @@
 [Adblock Plus 1.1]
-! Version: 202609141358
+! Version: 202609141557
 ! Title: EasyPrivacy
-! Last modified: 14 Sep 2026 13:58 UTC
+! Last modified: 14 Sep 2026 15:57 UTC
 ! Expires: 4 days (update frequency)
-! Commit: 090180329facef8777ed13637a4421241f137c82
+! Commit: a0827cc30690b169c0215479eaf82865e4a41a0c
 ! *** easylist:template_header.txt ***
 ! 
 ! Please report any unblocked adverts or problems
@@ -7328,6 +7328,7 @@ omni.soundestlink.com$image
 ||drainpaste.com^
 ||dramaticdirection.com^
 ||dreamsdome.com^
+||driedwheat.com^
 ||driftingchef.com^
 ||driftpizza.com^
 ||droidwiz.com^
@@ -7460,6 +7461,7 @@ omni.soundestlink.com$image
 ||fatcoil.com^
 ||faucetfoot.com^
 ||faultycanvas.com^
+||faxardent.net^
 ||faxcoupons.com^
 ||fearfulfish.com^
 ||fearfulmint.com^
