@@ -1,9 +1,9 @@
 [Adblock Plus 1.1]
-! Version: 202609150932
+! Version: 202609151152
 ! Title: EasyPrivacy
-! Last modified: 15 Sep 2026 09:32 UTC
+! Last modified: 15 Sep 2026 11:52 UTC
 ! Expires: 4 days (update frequency)
-! Commit: 34c1764620755d96982c64954c6fc211263516f4
+! Commit: 7fe3b065a1b315a7ec0f2dbc66d52a6c387f9162
 ! *** easylist:template_header.txt ***
 ! 
 ! Please report any unblocked adverts or problems
@@ -8346,6 +8346,7 @@ omni.soundestlink.com$image
 ||queenskart.com^
 ||questionate.com^
 ||quicklyedit.com^
+||quicktattoo.com^
 ||quicktrick.net^
 ||quietknowledge.com^
 ||quillkick.com^
