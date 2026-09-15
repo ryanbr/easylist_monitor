@@ -1,9 +1,9 @@
 [Adblock Plus 1.1]
-! Version: 202609151547
+! Version: 202609151757
 ! Title: EasyPrivacy
-! Last modified: 15 Sep 2026 15:47 UTC
+! Last modified: 15 Sep 2026 17:57 UTC
 ! Expires: 4 days (update frequency)
-! Commit: af09bdc29e13763740e562b9d417d09e731d49e0
+! Commit: 28d92c0e7ec01c9e1408ce9883e2b9f2ef373c56
 ! *** easylist:template_header.txt ***
 ! 
 ! Please report any unblocked adverts or problems
@@ -7777,6 +7777,7 @@ omni.soundestlink.com$image
 ||infinityhedge.com^
 ||informalbook.com^
 ||infrafood.com^
+||inkcarts.net^
 ||inkcoupon.com^
 ||innocentlamp.com^
 ||inputicicle.com^
@@ -7870,6 +7871,7 @@ omni.soundestlink.com$image
 ||lasttaco.com^
 ||laughcloth.com^
 ||launchjack.com^
+||launchkite.com^
 ||lavaorganic.com^
 ||lazychord.com^
 ||lazyexplore.com^
