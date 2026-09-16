@@ -1,9 +1,9 @@
 [Adblock Plus 1.1]
-! Version: 202609160958
+! Version: 202609161153
 ! Title: EasyPrivacy
-! Last modified: 16 Sep 2026 09:58 UTC
+! Last modified: 16 Sep 2026 11:53 UTC
 ! Expires: 4 days (update frequency)
-! Commit: 2291ee380a521bf7380213956520256947276245
+! Commit: 314dbfd82fbf1ce703286e41648fd1d2fc3e8438
 ! *** easylist:template_header.txt ***
 ! 
 ! Please report any unblocked adverts or problems
@@ -2032,6 +2032,7 @@
 /retargeting-pixels.php
 /revinit.js
 /rgea.min.js
+/ria.analytics.js
 /risk_fp_log?
 /riveted.min.js
 /rivraddon.js
