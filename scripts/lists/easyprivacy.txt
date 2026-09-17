@@ -1,9 +1,9 @@
 [Adblock Plus 1.1]
-! Version: 202609162159
+! Version: 202609162358
 ! Title: EasyPrivacy
-! Last modified: 16 Sep 2026 21:59 UTC
+! Last modified: 16 Sep 2026 23:58 UTC
 ! Expires: 4 days (update frequency)
-! Commit: e9a6a477009edf5b356698aa6894e2b4c397a70a
+! Commit: 571a7e0b55a8ae196ba9cf9dd7904e76dfab13ce
 ! *** easylist:template_header.txt ***
 ! 
 ! Please report any unblocked adverts or problems
@@ -100,6 +100,7 @@
 /2x2.gif?$image
 /3.gif?
 /500b-bench.jpg?
+/?compression=*&ip=
 /?dm=*&blogid=$script
 /?essb_counter_
 /?livehit=
@@ -55926,6 +55927,7 @@ aliexpress.com,aliexpress.ru,aliexpress.us##+js(set, navigator.bluetooth, undefi
 @@||api.useinsider.com/api/web/$xmlhttprequest
 @@||api.vk.com/method/statEvents.$~third-party
 @@||api.zeeg.me/api/analytics/events/$~third-party
+@@||appdynamics.com/adrum/adrum-$script,domain=telecharge.com
 @@||asb.co.nz.ssl.d2.sc.omtrdc.net^$xmlhttprequest,domain=asb.co.nz
 @@||assets.fyers.in/Lib/analytics/Analytics.js$~third-party
 @@||assets.msn.com/staticsb/statics/latest/adboxes/$script,~third-party
