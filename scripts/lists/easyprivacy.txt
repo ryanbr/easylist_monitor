@@ -1,9 +1,9 @@
 [Adblock Plus 1.1]
-! Version: 202609192157
+! Version: 202609192358
 ! Title: EasyPrivacy
-! Last modified: 19 Sep 2026 21:57 UTC
+! Last modified: 19 Sep 2026 23:58 UTC
 ! Expires: 4 days (update frequency)
-! Commit: bc80fa02f5879b395e27a0ba7986210b3cc3f7a0
+! Commit: 448a9825d0365b6c906157e420379891b03371f9
 ! *** easylist:template_header.txt ***
 ! 
 ! Please report any unblocked adverts or problems
@@ -13470,6 +13470,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||x.babe.today^
 ||x.disq.us^
 ||x.weather.com^
+||xp.atlassian.com^
 ||xp2023-pix.s3.amazonaws.com^
 ||yahoo.co.jp/js/s_retargeting.js
 ||yahoo.com/sync/casale/
@@ -54772,6 +54773,8 @@ aliexpress.com,aliexpress.ru,aliexpress.us##+js(set, navigator.bluetooth, undefi
 ||kn007.net/snmp.php
 ||l.web.huya.com^
 ||le.com/op/
+||lego-tech.zhuanzhuan.com^
+||lego.zhuanzhuan.com^
 ||log-h5.imdada.cn^
 ||log-upload-os.hoyolab.com^
 ||log-upload-os.hoyoverse.com^
