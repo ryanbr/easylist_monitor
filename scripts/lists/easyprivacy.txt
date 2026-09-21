@@ -1,9 +1,9 @@
 [Adblock Plus 1.1]
-! Version: 202609202348
+! Version: 202609210154
 ! Title: EasyPrivacy
-! Last modified: 20 Sep 2026 23:48 UTC
+! Last modified: 21 Sep 2026 01:54 UTC
 ! Expires: 4 days (update frequency)
-! Commit: d7385c9e047eefbecf8c95799a2f73fd32f37b21
+! Commit: 8c2e0ddb67d996b6e35a3a19f7d256062451d7bd
 ! *** easylist:template_header.txt ***
 ! 
 ! Please report any unblocked adverts or problems
@@ -8098,6 +8098,7 @@ omni.soundestlink.com$image
 ||neighborhoodbiketours.com^
 ||neighborlywatch.com^
 ||neonsites.com^
+||nerdworldcon.com^
 ||nervoussummer.com^
 ||nestbuyers.com^
 ||netandbytes.com^
