@@ -1,9 +1,9 @@
 [Adblock Plus 1.1]
-! Version: 202609220158
+! Version: 202609220336
 ! Title: EasyPrivacy
-! Last modified: 22 Sep 2026 01:58 UTC
+! Last modified: 22 Sep 2026 03:36 UTC
 ! Expires: 4 days (update frequency)
-! Commit: be59e70751974967f7f9bfbb3be286aa3ee142e0
+! Commit: d16c3d6520163bd341b267c0ec6da6480f0330e1
 ! *** easylist:template_header.txt ***
 ! 
 ! Please report any unblocked adverts or problems
@@ -3582,6 +3582,7 @@ omni.soundestlink.com$image
 ||cr-relay.com^
 ||crossengage.io^
 ||crwdcntrl.net^
+||ctxcollect.com^
 ||cvlb.dev^
 ||cxense.com^
 ||cybba.solutions^
@@ -56817,6 +56818,7 @@ aliexpress.com,aliexpress.ru,aliexpress.us##+js(set, navigator.bluetooth, undefi
 ! 
 ! ---------- Norwegian ----------
 ! 
+@@/ga-tracking.min.js$script,domain=boots.no|checkout.platekompaniet.no
 @@||cat.telia.no/gtm.js$script,domain=telia.no
 @@||hvemder.no/js/hitcount.min.js$~third-party
 @@||komplett.no/gtm.js$script,~third-party
