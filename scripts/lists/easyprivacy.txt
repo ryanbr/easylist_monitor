@@ -1,9 +1,9 @@
 [Adblock Plus 1.1]
-! Version: 202609240948
+! Version: 202609241146
 ! Title: EasyPrivacy
-! Last modified: 24 Sep 2026 09:48 UTC
+! Last modified: 24 Sep 2026 11:46 UTC
 ! Expires: 4 days (update frequency)
-! Commit: 1230f14e2e6d69ffd657fa9961f270641802b26e
+! Commit: 4c538f02a1904665f7bb1ce622d56346a0c43f2e
 ! *** easylist:template_header.txt ***
 ! 
 ! Please report any unblocked adverts or problems
@@ -7950,6 +7950,7 @@ omni.soundestlink.com$image
 ||luckysportsgear.com^
 ||ludicrousarch.com^
 ||lumberamount.com^
+||lumengaming.com^
 ||luminousboulevard.com^
 ||luminouscatalyst.com^
 ||luminoussculptor.com^
@@ -9294,6 +9295,7 @@ omni.soundestlink.com$image
 ||dengarden.com/.api/admiral
 ||mensjournal.com/.api/admiral
 ||paradehomeandgarden.com/.api/admiral
+||paradepets.com/.api/admiral
 ||skateboarding.com/.api/admiral
 ||surfer.com/.api/admiral
 ! *** easylist:easyprivacy/easyprivacy_trackingservers_notifications.txt ***
@@ -15957,6 +15959,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||geoip.ifunny.co^
 ||geolocation.forbes.com^
 ||getadblock.com/js/log.js
+||getmail.tech/api/track
 ||gettapeads.com/stat/
 ||gettyimages.*/pulse$ping
 ||gg.asuracomic.net/api/views/collect
@@ -54772,7 +54775,6 @@ aliexpress.com,aliexpress.ru,aliexpress.us##+js(set, navigator.bluetooth, undefi
 ||count5.pconline.com.cn^
 ||counter.people.cn^
 ||countly.mail.163.com^
-||cstaticdun.126.net^
 ||cstm.baidu.com^
 ||ctrmi.cn/t/
 ||dap-cn.c.hihonor.com/dap/jssdk.js
