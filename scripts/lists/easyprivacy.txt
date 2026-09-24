@@ -1,9 +1,9 @@
 [Adblock Plus 1.1]
-! Version: 202609240336
+! Version: 202609240545
 ! Title: EasyPrivacy
-! Last modified: 24 Sep 2026 03:36 UTC
+! Last modified: 24 Sep 2026 05:45 UTC
 ! Expires: 4 days (update frequency)
-! Commit: 5f5741a690d99f3e6ed4394feb5897703dfdb074
+! Commit: d43ec8f400e84db802fb511b0745c1c0b10c8ca8
 ! *** easylist:template_header.txt ***
 ! 
 ! Please report any unblocked adverts or problems
@@ -7516,7 +7516,6 @@ omni.soundestlink.com$image
 ||firstscreenshot.com^
 ||fishersfinds.com^
 ||fishingrodsgalore.com^
-||fishingtoolsbox.com^
 ||fishspies.com^
 ||fitgreatest.com^
 ||fitnessmapper.com^
