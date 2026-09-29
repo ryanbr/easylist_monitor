@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Version: 202609282139
+! Version: 202609290000
 ! Title: EasyList
-! Last modified: 28 Sep 2026 21:39 UTC
+! Last modified: 29 Sep 2026 00:00 UTC
 ! Expires: 4 days (update frequency)
-! Commit: 254b01d7b35043803fe7357d26ca04a3de646543
+! Commit: 81fe1c6e0f45bed9db2656b5acd3f0c859614756
 ! *** easylist:template_header.txt ***
 ! 
 ! Please report any unblocked adverts or problems
@@ -14275,6 +14275,7 @@ _800x80_
 ##[id^="ad_sky"]
 ##[id^="ad_slider"]
 ##[id^="div-gpt-ad"]
+##[id^="google_ads_iframe_"]
 ##[id^="section-ad-banner"]
 ##[name^="google_ads_iframe"]
 ##a-ad
@@ -18637,6 +18638,7 @@ browsershots.org#@#.advert_area
 ||aqle3.com^
 ||aqlphayjxwevf.site^
 ||aqlwabon.in^
+||aqnmnirqrlzye.site^
 ||aqoifpujbbptd.space^
 ||aqoypamhofdah.site^
 ||aqpblccmofen.com^
@@ -18955,6 +18957,7 @@ browsershots.org#@#.advert_area
 ||athrillginnnevoy.qpon^
 ||athyimemediat.org^
 ||atilrzkvktzwx.online^
+||atiltgalerie.cfd^
 ||atiukstssfixi.space^
 ||atkoxjrndvsct.online^
 ||atkpwwdvmwmbx.online^
@@ -20888,6 +20891,7 @@ browsershots.org#@#.advert_area
 ||brashgrandchild.com^
 ||brasilmistime.shop^
 ||brassekhalat.cfd^
+||brassetstanedcritics.cyou^
 ||brassieringe.com^
 ||brassstacker.com^
 ||brationalfilarded.com^
@@ -23679,6 +23683,7 @@ browsershots.org#@#.advert_area
 ||curacoapips.com^
 ||curarasporrylieve.qpon^
 ||curatnestful.com^
+||curberefforddarkest.qpon^
 ||curberstownletwur.qpon^
 ||curbingspider.com^
 ||curerowland.com^
@@ -25889,6 +25894,7 @@ browsershots.org#@#.advert_area
 ||durylpatefyachage.cfd^
 ||duryltubbist.com^
 ||dusclebolloxfidgets.cyou^
+||duseqed.cfd^
 ||dusfolzrshwgf.online^
 ||duskilyboheas.com^
 ||dust-0001.delorazahnow.workers.dev^
@@ -26425,6 +26431,7 @@ browsershots.org#@#.advert_area
 ||ehpjcjbqoplgmm.com^
 ||ehpmezpgselsb.space^
 ||ehqufypefcfkx.site^
+||ehrxthskewjm.com^
 ||ehrydnmdoe.com^
 ||ehsaxkwmtzvlm.space^
 ||ehszycpcxrskg.website^
@@ -28359,6 +28366,7 @@ browsershots.org#@#.advert_area
 ||flyflapchoom.shop^
 ||flyingadvert.com^
 ||flyingsquirellsmooch.com^
+||flyksoel.com^
 ||flylikeaguy.com^
 ||flymenpranked.cfd^
 ||flymob.com^
@@ -35917,6 +35925,7 @@ browsershots.org#@#.advert_area
 ||lightningly.co^
 ||ligydaloca.com^
 ||liijacenkubom.site^
+||liikxhzzebfwd.space^
 ||likableskill.pro^
 ||likablevast.pro^
 ||likeableindispensableassault.com^
@@ -39080,6 +39089,7 @@ browsershots.org#@#.advert_area
 ||nifeshilluk.com^
 ||niffcancri.cyou^
 ||nificcravens.cfd^
+||nifqcwegjckank.com^
 ||nightbesties.com^
 ||nighter.club^
 ||nightmarepainful.com^
@@ -39472,6 +39482,7 @@ browsershots.org#@#.advert_area
 ||npugjzhcvhxiw.store^
 ||npunfxleurmlu.space^
 ||npvos.com^
+||npwyildqeanlo.online^
 ||npwzzebiufwws.site^
 ||npxlkaugtvywe.store^
 ||npzahkooxkyps.website^
@@ -42618,6 +42629,7 @@ browsershots.org#@#.advert_area
 ||pqfukliknam.com^
 ||pqitcohyrrnzv.online^
 ||pqixbnllqzmfp.space^
+||pqlhykngrykaa.site^
 ||pqlrfrtotmzpt.website^
 ||pqlvwnxkodluw.online^
 ||pqmv5xir9y5zb6h.rest^
@@ -43580,6 +43592,7 @@ browsershots.org#@#.advert_area
 ||qerkbeaarqkmw.top^
 ||qernnbahzjdjf.online^
 ||qeshpghxerbyb.site^
+||qetsjadxfjtzq.online^
 ||qeujnihdvzsnv.online^
 ||qeukqwbcbhgku.online^
 ||qeuvhpxmqzson.space^
@@ -46274,6 +46287,7 @@ browsershots.org#@#.advert_area
 ||sbiyegajkasmy.online^
 ||sbjfoagerucue.space^
 ||sbkgxdiiaxtgx.space^
+||sbkzujohszxzh.site^
 ||sblfdxsencirl.website^
 ||sblhp.com^
 ||sbmytranhoisr.online^
@@ -47207,6 +47221,7 @@ browsershots.org#@#.advert_area
 ||sirraswaenesslesion.cyou^
 ||sirreesscotchflob.qpon^
 ||sisseth.com^
+||sistentdiets.cfd^
 ||sistrenvaudism.cfd^
 ||sitaoabuser.com^
 ||sitaohiatusbullion.qpon^
@@ -47521,6 +47536,7 @@ browsershots.org#@#.advert_area
 ||smiteanimatedbeaker.com^
 ||smiterdacusalumite.cyou^
 ||smithburka.com^
+||smitnkfaripvm.site^
 ||smixldswntjcf.site^
 ||smkitluhhwvdo.space^
 ||smkofmxbwyvcf.space^
@@ -52534,6 +52550,7 @@ browsershots.org#@#.advert_area
 ||vhanxmtpkluuf.online^
 ||vhbbeareiglah.website^
 ||vhbbubfytrjht.space^
+||vhdbqelbulsyv.site^
 ||vhdoxakztfwdp.website^
 ||vhdypcfgjiisu.online^
 ||vhewpprxfnprc.space^
@@ -53741,6 +53758,7 @@ browsershots.org#@#.advert_area
 ||wghoubdaxpsik.site^
 ||wghvvdmdqgdzz.space^
 ||wgimhiakumdkf.site^
+||wgkalppicmkzm.site^
 ||wgkqglotkohpe.site^
 ||wgkwfkdvltuqy.online^
 ||wgnlbsihmxohr.space^
@@ -76819,6 +76837,7 @@ adultgamesworld.com##.rel:has(a[href^="https://access-the-website.com/"])
 kbjfree.com##.relative.w-full:has(> .video-card[target="_blank"])
 pornhub.com##.sectionWrapper:has(> #bottomVideos > .wrapVideoBlock)
 hentaicomics.pro##.single-portfolio:has(.xxx-banner)
+nochoice.app##.text-center:has(a[href^="https://www.lovense.com/"])
 xasiat.com##.top:has(> [data-zoneid])
 scrolller.com##.vertical-view__column > .vertical-view__item:has(> div[style$="overflow: hidden;"])
 povxl.com##.video-holder > div:has([id^="ts_ad_native_"])
