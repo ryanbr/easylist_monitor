@@ -1,9 +1,9 @@
 [Adblock Plus 1.1]
-! Version: 202610030148
+! Version: 202610030402
 ! Title: EasyPrivacy
-! Last modified: 03 Oct 2026 01:48 UTC
+! Last modified: 03 Oct 2026 04:02 UTC
 ! Expires: 4 days (update frequency)
-! Commit: 24378030f1e1dc4d8e47cfdc7ae3daa253a84cda
+! Commit: bd2a6ceeb123fc060d3e952887d59838fdf6f35e
 ! *** easylist:template_header.txt ***
 ! 
 ! Please report any unblocked adverts or problems
@@ -3512,6 +3512,7 @@ omni.soundestlink.com$image
 ||aisiteanalytics.com^
 ||allvideometrika.com^
 ||altopd.com^
+||amspbs.com^
 ||analys.live^
 ||analysis.fi^
 ||analyt.ir^
@@ -3558,6 +3559,7 @@ omni.soundestlink.com$image
 ||cafirebreather.com^
 ||cbdatatracker.com^
 ||cdjbf8trk.com^
+||cdn-vitals.com^
 ||cdn.sy-d.io^
 ||cdnhst.xyz^
 ||cdnlogs.org^
@@ -3644,6 +3646,7 @@ omni.soundestlink.com$image
 ||featuregates.org^
 ||ffbbbdc6d3c353211fe2ba39c9f744cd.com^
 ||ffe390afd658c19dcbf707e0597b846d.de^
+||floors.dev^
 ||fn-pz.com^
 ||fourtimessmelly.com^
 ||fpapi.io^
@@ -3654,6 +3657,7 @@ omni.soundestlink.com$image
 ||fptls3.com^
 ||fptls4.com^
 ||fran.pro^
+||fsrv.io^
 ||ftlaunchpad.ai^
 ||funnelserv.systems^
 ||fzlnk.com^
@@ -4970,6 +4974,7 @@ omni.soundestlink.com$image
 ||hadronid.net^$third-party
 ||halldata.com^$third-party
 ||haloscan.com^$third-party
+||happierleads.com^$third-party
 ||havasedge.com^$third-party
 ||haveamint.com^$third-party
 ||heapanalytics.com^$third-party
@@ -5585,6 +5590,7 @@ omni.soundestlink.com$image
 ||pa-oa.com^$third-party
 ||pabidding.io^$third-party
 ||pagefair.com^$third-party
+||pagemetry.com^$third-party
 ||pages05.net^$third-party
 ||pagesense.io^$third-party
 ||pageview.click^$third-party
