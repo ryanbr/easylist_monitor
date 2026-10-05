@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Version: 202610050959
+! Version: 202610051159
 ! Title: EasyList
-! Last modified: 05 Oct 2026 09:59 UTC
+! Last modified: 05 Oct 2026 11:59 UTC
 ! Expires: 4 days (update frequency)
-! Commit: ae9785dc943f58e0d397fa85bd4d3c482fb83276
+! Commit: 39705ccae4c1abd95245df0e9b2aec6d9607a3f8
 ! *** easylist:template_header.txt ***
 ! 
 ! Please report any unblocked adverts or problems
@@ -691,7 +691,6 @@
 /sponsors/ads/*$image
 /squaread.jpg$image
 /sr/*/SAFEFRAME.html?ule=$subdocument,third-party
-/sticky_ads.js$script
 /stickyad.js$script
 /storage/js/videojs.sda.js$script
 /style_ad.css$stylesheet
@@ -2814,7 +2813,6 @@ _800x80_
 ###ads_wrapper
 ###adsbot
 ###adsbottom
-###adsbox
 ###adsbox-left
 ###adsbox-right
 ###adscenter
@@ -18929,6 +18927,7 @@ browsershots.org#@#.advert_area
 ||ascertainowlbookkeeper.com^
 ||ascfdqggihvrg.space^
 ||ascohral.in^
+||asculaefanniesrooses.cfd^
 ||asdasdad.net^
 ||asdccxpbkxzme.space^
 ||asdnow.xyz^
@@ -20221,6 +20220,7 @@ browsershots.org#@#.advert_area
 ||betmenaff.com^
 ||betotodilea.com^
 ||betr-for-tod.com^
+||betrapgullah.cfd^
 ||betrapomen.shop^
 ||betrayalbadger.com^
 ||bettentacruela.com^
@@ -22360,6 +22360,7 @@ browsershots.org#@#.advert_area
 ||cgyurxmdccrbd.space^
 ||ch4xn7wj5pv83q.cfd^
 ||chabadokor.com^
+||chacmastreaks.com^
 ||chaerel.com^
 ||chaetaewasp.qpon^
 ||chaetalaerageekename.cyou^
@@ -24888,6 +24889,7 @@ browsershots.org#@#.advert_area
 ||depleteheadphoneshoe.com^
 ||depleterefutation.com^
 ||deployads.com^
+||deployfondly.com^
 ||depmestiza.com^
 ||deposalskidared.cfd^
 ||depresshaviour.cfd^
@@ -25467,6 +25469,7 @@ browsershots.org#@#.advert_area
 ||dlqbioenjjwsv.store^
 ||dlqetfcxdfzxr.online^
 ||dlrectdates.com^
+||dluzwbsoopgze.space^
 ||dlvakopvbuiwi.website^
 ||dlvtovzizpsie.online^
 ||dlwmkldaebzds.website^
@@ -29721,6 +29724,7 @@ browsershots.org#@#.advert_area
 ||gadslimz.com^
 ||gadspms.com^
 ||gadspmz.com^
+||gaeldomyore.qpon^
 ||gaelspharoswokas.qpon^
 ||gafefhednctfh.site^
 ||gafferranch.qpon^
@@ -32638,6 +32642,7 @@ browsershots.org#@#.advert_area
 ||hxmcaugiqijkz.store^
 ||hxmmqkdheftyt.space^
 ||hxmxjeufqunos.site^
+||hxnicvldneogf.online^
 ||hxoewq.com^
 ||hxtvpdjsjgvvk.site^
 ||hxuaodojgvxbt.website^
@@ -32968,6 +32973,7 @@ browsershots.org#@#.advert_area
 ||igthvafyjttys.online^
 ||igtjqemgdlibm.site^
 ||igvkixoxvsvih.space^
+||igvmnematsmrj.site^
 ||igvnfhtdjqkqx.website^
 ||igyswjdwkppmo.online^
 ||igzhfupdpsk.com^
@@ -33614,6 +33620,7 @@ browsershots.org#@#.advert_area
 ||intrustedzone.site^
 ||intuitionlastly.com^
 ||inturnceltism.cfd^
+||inturnsmanager.cfd^
 ||inulasebortsch.shop^
 ||inurneddoggish.com^
 ||invadedisheartentrail.com^
@@ -33741,6 +33748,7 @@ browsershots.org#@#.advert_area
 ||irfgithdpoadi.site^
 ||irftxyuzhsowq.site^
 ||irgdnasjxgdsp.site^
+||irhmvzvwdayab.online^
 ||irhngzxlaxjrs.space^
 ||irhqvzwgldygv.space^
 ||irhsymtcvduze.website^
@@ -34510,6 +34518,7 @@ browsershots.org#@#.advert_area
 ||jjkcvjpoyplou.website^
 ||jjlhwdgrrqjzo.space^
 ||jjlidyuaztsfj.online^
+||jjmsoscyrelxn.space^
 ||jjpqqbxodpnwc.website^
 ||jjrlhdmrpqt.com^
 ||jjrvkobnqaazx.space^
@@ -34584,6 +34593,7 @@ browsershots.org#@#.advert_area
 ||jmcoffbbhjvny.website^
 ||jmdreenduebqz.site^
 ||jmebwpbpvofcx.online^
+||jmgxdibqrwqvd.space^
 ||jmhkdmwemnkgq.website^
 ||jmhrmhgjkdgvd.store^
 ||jmhxjywrpeegd.site^
@@ -34975,6 +34985,7 @@ browsershots.org#@#.advert_area
 ||junkilleismdrie.cyou^
 ||junkraggedtoothache.com^
 ||juntosubj.cfd^
+||juokkbdsqxgak.site^
 ||jupefarsangsparge.qpon^
 ||jupfpdiuxepep.online^
 ||jupit.xyz^
@@ -37666,6 +37677,7 @@ browsershots.org#@#.advert_area
 ||lvubwrnhxktlo.online^
 ||lvvbqeakmrkjm.top^
 ||lvvjsnuqhalcx.space^
+||lvwetfey.com^
 ||lvwgfqppnbg.com^
 ||lvwytobyemady.online^
 ||lvxfnzsfyvdvo.site^
@@ -39864,6 +39876,7 @@ browsershots.org#@#.advert_area
 ||ncdwxedifhfki.site^
 ||nceaxfowkzjkv.website^
 ||nchkftnswbfll.space^
+||nchpswblpvvlc.site^
 ||ncieuiouesnbm.website^
 ||nckyebkwqugez.website^
 ||nclacrzisshzq.online^
@@ -43749,6 +43762,7 @@ browsershots.org#@#.advert_area
 ||poppastwangpaisan.qpon^
 ||poppersarsars.cyou^
 ||poppledwakonda.shop^
+||poppyrimpace.com^
 ||poppysol.com^
 ||poprtb.com^
 ||popsads.net^
@@ -47184,6 +47198,7 @@ browsershots.org#@#.advert_area
 ||rtty.in^
 ||rtudgresrsudg.online^
 ||rtutccflgcwyr.website^
+||rtvcuppnvtm.com^
 ||rtveukrjijjve.site^
 ||rtvhdwqstuwat.site^
 ||rtwgvkozpvicu.website^
@@ -47225,6 +47240,7 @@ browsershots.org#@#.advert_area
 ||rudolfmiscue.cyou^
 ||rudousgillied.com^
 ||ruecaeeedvyel.online^
+||ruefujqlinmem.online^
 ||ruelgxkvkxbra.site^
 ||rufcdstpjdcrd.site^
 ||rufdbymsjiwsg.website^
@@ -48316,6 +48332,7 @@ browsershots.org#@#.advert_area
 ||sfzeqzazjmowe.space^
 ||sgabozoerhnan.space^
 ||sgaijlnojrrok.site^
+||sgaukdlj.com^
 ||sgaymlmrfc.com^
 ||sgben.com^
 ||sgbrftxioksgf.online^
@@ -52698,6 +52715,7 @@ browsershots.org#@#.advert_area
 ||uclwrnnpjaomk.site^
 ||ucnwhhtaadaqp.site^
 ||ucpfezjbcrmwh.space^
+||ucpwpdeivtpjf.com^
 ||ucqphyuqskvqo.online^
 ||ucqvrreziifwz.website^
 ||ucsnddigmtwoe.space^
@@ -54725,6 +54743,7 @@ browsershots.org#@#.advert_area
 ||vqkusfxadcdll.website^
 ||vqkyzuhyyswzt.space^
 ||vqlpduejkboak.site^
+||vqnkmosjemdjyq.com^
 ||vqooisjexmusf.space^
 ||vqoqlebzyzbkz.top^
 ||vqoqlebzyzbyq.top^
@@ -55282,6 +55301,7 @@ browsershots.org#@#.advert_area
 ||wcumiqigmpkoc.site^
 ||wcuujkywusvpv.online^
 ||wcvevntrztrdi.site^
+||wcvrhurqdmx.com^
 ||wcwpnipkfluae.space^
 ||wcwxkbakmbtct.space^
 ||wcwysdfmiznik.online^
@@ -56139,6 +56159,7 @@ browsershots.org#@#.advert_area
 ||wormishnimrod.com^
 ||wormlaboratoryspeeding.com^
 ||wormmillard.cyou^
+||wormvengeaurin.qpon^
 ||worqzcrxiwuob.online^
 ||worried-advantage.com^
 ||worried-difference.pro^
@@ -58801,6 +58822,7 @@ browsershots.org#@#.advert_area
 ||zpv7v3olgl7el9b.rest^
 ||zpveapgfsqcty.online^
 ||zpvihbppfwgzo.website^
+||zpwomixmgczcy.space^
 ||zpygdezovpdju.space^
 ||zpyxbftwhanbj.space^
 ||zpzcahumfmsyi.website^
@@ -68383,6 +68405,7 @@ funkypotato.com###ads_header_games
 funkypotato.com###ads_header_home_970px
 mangaplus.shueisha.tv,shueisharaw.tv###ads_mobile
 2fa.live###ads_row
+bfunded.org.uk###adsbox
 lingojam.com###adsense-area-label
 194.233.68.230###adsimgxatass
 ip-address.org###adsleft
