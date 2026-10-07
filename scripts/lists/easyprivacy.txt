@@ -1,9 +1,9 @@
 [Adblock Plus 1.1]
-! Version: 202610071547
+! Version: 202610071738
 ! Title: EasyPrivacy
-! Last modified: 07 Oct 2026 15:47 UTC
+! Last modified: 07 Oct 2026 17:38 UTC
 ! Expires: 4 days (update frequency)
-! Commit: 6b65e09761de7f60fe9e10a6a1ac93aae42f3583
+! Commit: ac2d2c6fc170c0a91f29a172debe1e43f2503628
 ! *** easylist:template_header.txt ***
 ! 
 ! Please report any unblocked adverts or problems
@@ -7122,6 +7122,7 @@ omni.soundestlink.com$image
 ||cinemabonus.com^
 ||cinemafair.com^
 ||circlelevel.com^
+||citizensactive.com^
 ||citydeal.net^
 ||clammychicken.com^
 ||clarifyverse.com^
@@ -16333,6 +16334,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||lowes.com/gauge/
 ||lowes.com/pharos/api/webTelemetry?
 ||lucida.su/api/event
+||lycos.com/analytics.js
 ||lyft.com/api/track
 ||lyngsat.com/system/loadclick.js
 ||m.facebook.com/ajax/weblite_resources_timing_logging/
