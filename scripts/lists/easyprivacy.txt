@@ -1,9 +1,9 @@
 [Adblock Plus 1.1]
-! Version: 202610091354
+! Version: 202610091556
 ! Title: EasyPrivacy
-! Last modified: 09 Oct 2026 13:54 UTC
+! Last modified: 09 Oct 2026 15:56 UTC
 ! Expires: 4 days (update frequency)
-! Commit: c5a9d806cc12bd0bb4300cee07ba93daa73040bb
+! Commit: 003a6345441f0d33479b32946a2fc7feb3ed12a5
 ! *** easylist:template_header.txt ***
 ! 
 ! Please report any unblocked adverts or problems
@@ -7079,6 +7079,7 @@ omni.soundestlink.com$image
 ||catalogcake.com^
 ||catlanguage.net^
 ||catschickens.com^
+||catsthumb.com^
 ||cattlecommittee.com^
 ||cauldronfest.com^
 ||causecherry.com^
@@ -55390,6 +55391,7 @@ aliexpress.com,aliexpress.ru,aliexpress.us##+js(set, navigator.bluetooth, undefi
 ! Japanese
 ||abema-tv.com/v1/stats/
 ||ad-bls-tracking.lemino.docomo.ne.jp^
+||ad-manager.matsukiyococokara-online.com^
 ||ad-platform.jmty.jp^
 ||altema-log.com^
 ||amazonaws.com/ai-img/aia.js
