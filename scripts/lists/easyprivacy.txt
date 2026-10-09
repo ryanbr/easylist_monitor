@@ -1,9 +1,9 @@
 [Adblock Plus 1.1]
-! Version: 202610082152
+! Version: 202610082354
 ! Title: EasyPrivacy
-! Last modified: 08 Oct 2026 21:52 UTC
+! Last modified: 08 Oct 2026 23:54 UTC
 ! Expires: 4 days (update frequency)
-! Commit: c7fdd88097036efbdb9bd25aafe7f8aba6f46f12
+! Commit: 55e9f7ee0a1990828fb1e2d45978969f8472ba31
 ! *** easylist:template_header.txt ***
 ! 
 ! Please report any unblocked adverts or problems
@@ -17155,6 +17155,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||thehackernews.com/ga/c
 ||thehackernews.com/ga4/c
 ||thehealthsite.com/apstag.js
+||theinfatuation.com/api/logger
 ||theladders.com/api/user-tracking/
 ||thepoorswiss.com/tps/cfwa-collect
 ||thesun.co.uk/assets/client/analyticsListeners~
@@ -57034,6 +57035,7 @@ aliexpress.com,aliexpress.ru,aliexpress.us##+js(set, navigator.bluetooth, undefi
 ! 
 ! ---------- Turkish ----------
 ! 
+@@||canliradyodinle.fm/live/fm/gtag.min.js$~third-party
 @@||cdn.segmentify.com^$script,domain=gratis.com
 @@||merlincdn.net^*/common/images/spacer.gif$image,domain=turkcell.com.tr
 ! 
