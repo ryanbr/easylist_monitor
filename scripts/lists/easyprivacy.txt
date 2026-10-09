@@ -1,9 +1,9 @@
 [Adblock Plus 1.1]
-! Version: 202610090206
+! Version: 202610090400
 ! Title: EasyPrivacy
-! Last modified: 09 Oct 2026 02:06 UTC
+! Last modified: 09 Oct 2026 04:00 UTC
 ! Expires: 4 days (update frequency)
-! Commit: 83fc86e577bf7c3bba8c9a0ed51be226b35aac5f
+! Commit: 7aab91ef58f24469d92bb96ef8b5194521892ff7
 ! *** easylist:template_header.txt ***
 ! 
 ! Please report any unblocked adverts or problems
@@ -2894,6 +2894,7 @@
 /wxhawkeye.js
 /wysistat.js
 /x.gif?
+/x0k461/e6c1b/xc9
 /x_track.php?
 /xgemius.js
 /xinhua_webdig.js
@@ -3939,6 +3940,7 @@ omni.soundestlink.com$image
 ||tjk-njk.com^
 ||tkrconnector.com^
 ||tncid.app^
+||tp-em.cc^
 ||trackclicks.info^
 ||trackier.com^
 ||tracking24.net^
