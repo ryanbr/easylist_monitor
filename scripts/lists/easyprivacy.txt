@@ -1,9 +1,9 @@
 [Adblock Plus 1.1]
-! Version: 202610110752
+! Version: 202610110939
 ! Title: EasyPrivacy
-! Last modified: 11 Oct 2026 07:52 UTC
+! Last modified: 11 Oct 2026 09:39 UTC
 ! Expires: 4 days (update frequency)
-! Commit: e0edd7be9f25b5848259468b0cd85747e03be98c
+! Commit: 7303bce8f2041004d3d8ca22b8c16f4fa51a52f9
 ! *** easylist:template_header.txt ***
 ! 
 ! Please report any unblocked adverts or problems
@@ -7245,6 +7245,7 @@ omni.soundestlink.com$image
 ||critictruck.com^
 ||crochetdivas.com^
 ||crookedcreature.com^
+||crossseasent.com^
 ||crowdedmass.com^
 ||cruisetourist.com^
 ||crunchcontrol.com^
@@ -56635,6 +56636,7 @@ search.rakuten.co.jp##+js(aeld, mouseup, sendClickEvent)
 @@||curiositystream.com.first-party-js.datadome.co^$script,domain=curiositystream.com
 @@||datadome.garena.com.first-party-js.datadome.co^$script,xmlhttprequest,domain=auth.garena.com
 @@||dd.blackhawknetwork.com.first-party-js.datadome.co^$domain=redeem.rewardlink.com
+@@||dd.goflink.com.first-party-js.datadome.co^$domain=goflink.com
 @@||dd.jaycar.com.au.first-party-js.datadome.co^$script,third-party,domain=jaycar.com.au
 @@||dd.qa.moneygram.com.first-party-js.datadome.co^$script,xmlhttprequest,domain=moneygram.com
 @@||dd.qwant.com.first-party-js.datadome.co^$domain=qwant.com
