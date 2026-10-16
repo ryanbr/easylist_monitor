@@ -1,9 +1,9 @@
 [Adblock Plus 1.1]
-! Version: 202610161548
+! Version: 202610161755
 ! Title: EasyPrivacy
-! Last modified: 16 Oct 2026 15:48 UTC
+! Last modified: 16 Oct 2026 17:55 UTC
 ! Expires: 4 days (update frequency)
-! Commit: fdbe7bd3928f00e09ba8bc5da89eb5b3b9d2a7ee
+! Commit: b225847d34adafeb9731799481cf91c0c417561c
 ! *** easylist:template_header.txt ***
 ! 
 ! Please report any unblocked adverts or problems
@@ -5461,6 +5461,7 @@ omni.soundestlink.com$image
 ||mytrack.pro^$third-party
 ||myusersonline.com^$third-party
 ||myvisitorcounter.com^$third-party
+||myweb3id.io^$third-party
 ||mywebstats.com.au^$third-party
 ||mywebstats.org^$third-party
 ||n-analytics.io^$third-party
@@ -7570,6 +7571,7 @@ omni.soundestlink.com$image
 ||fishspies.com^
 ||fitgreatest.com^
 ||fitnessmapper.com^
+||fitnesssponsor.com^
 ||fitwithalpine.com^
 ||fivesidedsquare.com^
 ||fixedfold.com^
@@ -11702,6 +11704,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||fvalid.appsflyersdk.com^
 ||fw.tv/embed/impressions
 ||g.msn.com^
+||g.rtbrain.app^
 ||g2insights-cdn.azureedge.net^
 ||ga-beacon.appspot.com^
 ||ga.chickgoddess.com/gs_api/stats/
