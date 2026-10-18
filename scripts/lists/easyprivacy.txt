@@ -1,9 +1,9 @@
 [Adblock Plus 1.1]
-! Version: 202610181554
+! Version: 202610181741
 ! Title: EasyPrivacy
-! Last modified: 18 Oct 2026 15:54 UTC
+! Last modified: 18 Oct 2026 17:41 UTC
 ! Expires: 4 days (update frequency)
-! Commit: e0a360bc9b1604ba66e87ae0f6499ddbc067e22b
+! Commit: 70c7c411d439ee6d65e574df53ae4cd8da87488f
 ! *** easylist:template_header.txt ***
 ! 
 ! Please report any unblocked adverts or problems
@@ -7581,6 +7581,7 @@ omni.soundestlink.com$image
 ||flakyfeast.com^
 ||flameuncle.com^
 ||flashtexting.com^
+||flatpebble.com^
 ||fleathecat.com^
 ||flightark.com^
 ||flimsycircle.com^
@@ -7631,6 +7632,7 @@ omni.soundestlink.com$image
 ||franksfloral.com^
 ||franticroof.com^
 ||fraysystems.com^
+||freakywacko.com^
 ||freedomgrail.com^
 ||freezingbuilding.com^
 ||frequentflesh.com^
@@ -56566,6 +56568,7 @@ search.rakuten.co.jp##+js(aeld, mouseup, sendClickEvent)
 @@||youvisit.com/tour/$script,subdocument,domain=uaf.edu
 @@||zillow.com/rental-manager/proxy/rental-manager-api/api/v1/users/freemium/analytics/pageViews$~third-party
 @@||zoominfo.com/c/amplitude-js$script,~third-party
+@@||zs.com/scripts/analytics/pageview.js$~third-party
 ! ! monitor.azure.com
 @@||browser.events.data.microsoft.com/onecollector/$script,xmlhttprequest,domain=microsoft.com
 ! ! https://old.reddit.com/r/uBlockOrigin/comments/1czbcvg/foundit_is_blocking_searches_until_ublock_origin/
