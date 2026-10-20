@@ -1,9 +1,9 @@
 [Adblock Plus 1.1]
-! Version: 202610200353
+! Version: 202610200553
 ! Title: EasyPrivacy
-! Last modified: 20 Oct 2026 03:53 UTC
+! Last modified: 20 Oct 2026 05:53 UTC
 ! Expires: 4 days (update frequency)
-! Commit: dc4c6f5e94ae60231a92204be566d93f3c27fc53
+! Commit: 15b24d7358a264bd25cad313aabb0391d6a1569d
 ! *** easylist:template_header.txt ***
 ! 
 ! Please report any unblocked adverts or problems
@@ -12636,10 +12636,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||qq.com/stats?
 ||quadpay.com/analytics/
 ||qualifioapp.com/egw/events
-||qualtrics.com/jfe/$script,third-party
-||qualtrics.com/sie/$script,third-party
-||qualtrics.com/WRSiteInterceptEngine/$third-party
-||qualtrics.com^*/metrics
+||qualtrics.com/WRSiteInterceptEngine/?Q_Impress=
 ||quantcast.com/?log
 ||quantcast.mgr.consensu.org/?log
 ||qubitanalytics.appspot.com^
@@ -56762,7 +56759,6 @@ search.rakuten.co.jp##+js(aeld, mouseup, sendClickEvent)
 @@||script-at.iocnt.net/iam.js$domain=oe24.at
 @@||showheroes.com/publishertag.js$domain=rollingstone.de
 @@||showheroes.com/pubtag.js$domain=rollingstone.de
-@@||siteintercept.qualtrics.com/$domain=idealo.de
 @@||sophi.io/assets/demeter/$script,domain=faz.net
 @@||spezialklinik-neukirchen.de/matomo/$~third-party
 @@||spiegel.de/layout/js/http/netmind-$script
