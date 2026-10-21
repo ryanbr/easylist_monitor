@@ -1,9 +1,9 @@
 [Adblock Plus 1.1]
-! Version: 202610210750
+! Version: 202610210958
 ! Title: EasyPrivacy
-! Last modified: 21 Oct 2026 07:50 UTC
+! Last modified: 21 Oct 2026 09:58 UTC
 ! Expires: 4 days (update frequency)
-! Commit: 9e8f768bbe554009d2fc5a721b36a8a6cdf2d92e
+! Commit: 0fd9adfc235a567f5f59ab38f325d621077e1d82
 ! *** easylist:template_header.txt ***
 ! 
 ! Please report any unblocked adverts or problems
@@ -16605,6 +16605,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||nzpages.co.nz/modules/common/track.js
 ||observe.metarouter.io^
 ||ocular.hotukdeals.com^
+||ocular.pepperdeals.com^
 ||odysee.com/reports/
 ||ohm-dot-hackster-io.appspot.com^
 ||oklink.com/jsstat/
@@ -17716,6 +17717,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||log-185a61e7.bendigobank.com.au^
 ||log-2ffe60ee.westpac.com.au^
 ||mfasa.chase.com/auth/js/jpmc_bb_check.js
+||o-api.hotukdeals.com^
 ||olacontent.schwab.com^$script
 ||perplexity.ai/unifyintent.js
 ||qfp.intuit.com^
@@ -54137,6 +54139,8 @@ search.rakuten.co.jp##+js(aeld, mouseup, sendClickEvent)
 ||newsdeutschland.com/RPC.php
 ||nickles.de/ivw/
 ||nius.de/monitoring
+||ocular.mydealz.de^
+||ocular.preisjaeger.at^
 ||ostjob.ch/public/statistic/teaser/hit/
 ||otto.de/error-logging/
 ||otto.de/pass/scale-beacon-service/
@@ -55773,6 +55777,7 @@ search.rakuten.co.jp##+js(aeld, mouseup, sendClickEvent)
 ||mklik.gazeta.pl^
 ||mr.allegro.
 ||nasza-klasa.pl^*/pp_gemius
+||ocular.pepper.pl^
 ||p.gazeta.pl^
 ||pb.siepomaga.pl^
 ||pixel.wp.pl^
@@ -56044,6 +56049,7 @@ search.rakuten.co.jp##+js(aeld, mouseup, sendClickEvent)
 ||mega.promodescuentos.com^
 ||mercadolibre.com/tracks^
 ||mundodesconocido.com/tracker/
+||ocular.chollometro.com^
 ||ocular.promodescuentos.com^
 ||pccomponentes.*/api/users/tracking/
 ||pixel.europapress.net^
@@ -56082,6 +56088,7 @@ search.rakuten.co.jp##+js(aeld, mouseup, sendClickEvent)
 ||fotbollskanalen.se^$ping
 ||fusion.bonniertidskrifter.se^
 ||gx.idg.se^
+||ocular.pepperdeals.se^
 ||prisjakt.nu/js.php?p=trafikfonden
 ||stat.nyheter24.se^
 ! Thai
