@@ -1,9 +1,9 @@
 [Adblock Plus 1.1]
-! Version: 202610211357
+! Version: 202610211552
 ! Title: EasyPrivacy
-! Last modified: 21 Oct 2026 13:57 UTC
+! Last modified: 21 Oct 2026 15:52 UTC
 ! Expires: 4 days (update frequency)
-! Commit: df07626e9534f4cb04de7ca20f9971361ea3d65a
+! Commit: d7a7e628f05e8f0d8ae06011f0b12f30ce6223a8
 ! *** easylist:template_header.txt ***
 ! 
 ! Please report any unblocked adverts or problems
@@ -7957,6 +7957,7 @@ omni.soundestlink.com$image
 ||landsuites.com^
 ||landwestern.com^
 ||largebrass.com^
+||largetony.com^
 ||lastanonymous.com^
 ||lasttaco.com^
 ||laughcloth.com^
@@ -9181,11 +9182,13 @@ omni.soundestlink.com$image
 ||unarmedindustry.com^
 ||unbecominghall.com^
 ||unbecominglamp.com^
+||uncommonalias.com^
 ||uncoveredexpert.com^
 ||understoodocean.com^
 ||unequalbrake.com^
 ||unequaltrail.com^
 ||unicornprices.com^
+||unifybots.com^
 ||uninterestedquarter.com^
 ||unitedscans.com^
 ||unknowncrate.com^
