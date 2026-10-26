@@ -1,9 +1,9 @@
 [Adblock Plus 1.1]
-! Version: 202610261440
+! Version: 202610261657
 ! Title: EasyPrivacy
-! Last modified: 26 Oct 2026 14:40 UTC
+! Last modified: 26 Oct 2026 16:57 UTC
 ! Expires: 4 days (update frequency)
-! Commit: 8aa7e5a8e74170f47e18370f8d5b99a6647f3dff
+! Commit: 9f92462f44deb75b6facb33d028eaca4d2dd771f
 ! *** easylist:template_header.txt ***
 ! 
 ! Please report any unblocked adverts or problems
@@ -6949,6 +6949,7 @@ omni.soundestlink.com$image
 ||binarycrest.com^
 ||binarykite.com^
 ||binspiredtees.com^
+||biocatalysts.net^
 ||biologylog.com^
 ||biotechnologysciences.com^
 ||birthdaybelief.com^
@@ -8393,6 +8394,7 @@ omni.soundestlink.com$image
 ||polishedfolly.com^
 ||politeplanes.com^
 ||politicalporter.com^
+||polopremier.com^
 ||poolcushions.com^
 ||poolprochem.com^
 ||popliquids.com^
@@ -12151,7 +12153,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||log.dpa.com^
 ||log.go.com^
 ||log.mediacategory.com^
-||log.nordot.jp^
+||log.nordot.jp^$~script
 ||log.olark.com^
 ||log.outbrain.com^
 ||log.pinterest.com^
