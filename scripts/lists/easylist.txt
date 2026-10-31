@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Version: 202610311454
+! Version: 202610311645
 ! Title: EasyList
-! Last modified: 31 Oct 2026 14:54 UTC
+! Last modified: 31 Oct 2026 16:45 UTC
 ! Expires: 4 days (update frequency)
-! Commit: f4abd5b27a4c42b3c0a051ab3e39f8640db1f063
+! Commit: 395778843fd8f1ccfa1ea9c082602611a50f0959
 ! *** easylist:template_header.txt ***
 ! 
 ! Please report any unblocked adverts or problems
@@ -13936,6 +13936,7 @@ _800x80_
 ##.vf-conversation-starter__ad
 ##.vf-promo-gtag
 ##.vf-promo-wrapper
+##.vf-trending-articles__flex-wrapper
 ##.vf3-conversations-list__promo
 ##.vi-sticky-ad
 ##.video-ad-bottom
@@ -22441,6 +22442,7 @@ browsershots.org#@#.advert_area
 ||coinadster.com^
 ||coinagedraftee.com^
 ||coirsuncramphitches.cfd^
+||coisnsbesailecarcass.qpon^
 ||coiywmautzjj.com^
 ||cojwnjuptdxcgj.com^
 ||cokedalk.com^
@@ -28212,6 +28214,7 @@ browsershots.org#@#.advert_area
 ||fsaxmwpkbaxax.space^
 ||fsbbtdtxzswq.com^
 ||fsbyjvefmuibs.space^
+||fscbwajiflaue.online^
 ||fsdzafmzbdyan.store^
 ||fseoxnxjrtytt.site^
 ||fsgpxvemqbven.store^
@@ -29067,6 +29070,7 @@ browsershots.org#@#.advert_area
 ||gjlgiznfyricw.space^
 ||gjmfjknlclosi.online^
 ||gjnmizjrnubch.site^
+||gjnprnaqlysaq.site^
 ||gjovifjrvdwxb.space^
 ||gjoycucziewoy.site^
 ||gjqghspetwnkz.store^
@@ -29112,6 +29116,7 @@ browsershots.org#@#.advert_area
 ||gkykualpafxny.site^
 ||gkzbtvtyvvktr.online^
 ||gla63a4l.de^
+||glacepaiocke.cyou^
 ||glaceslawmakeoctarch.cyou^
 ||glade-static.online^
 ||gladlydotselfevident.com^
@@ -31297,6 +31302,7 @@ browsershots.org#@#.advert_area
 ||hyaccgrjkbsoz.online^
 ||hyaloidsatury.com^
 ||hyalyyeiegmak.online^
+||hybhownkuunju.website^
 ||hybridaazon.cyou^
 ||hycantyoubelik.com^
 ||hycpllawmosiu.online^
@@ -31690,6 +31696,7 @@ browsershots.org#@#.advert_area
 ||ijaicjeojzjpr.site^
 ||ijaptcmxlgoqp.space^
 ||ijdbmjqwzrcdw.website^
+||ijekarushbwzq.online^
 ||ijfilqxkgrchg.space^
 ||ijglqvtrggeec.online^
 ||ijhfmymiduq.com^
@@ -32684,6 +32691,7 @@ browsershots.org#@#.advert_area
 ||j76bzj49x3kiexb.cfd^
 ||j7b5e91q85i2kw7lcpjxxeoeio756.cfd^
 ||j98bl7jrcx5pz6rxv.cfd^
+||j9qz1ekpqtr9l59iq6iw6q.cfd^
 ||ja2n2u30a6rgyd.com^
 ||jaattafibqjst.website^
 ||jaavnacsdw.com^
@@ -32800,6 +32808,7 @@ browsershots.org#@#.advert_area
 ||jboztgcwxnvoc.website^
 ||jbpqyfefyppfff.com^
 ||jbpxftegijjxt.space^
+||jbpzhbeir3utfjk1l.rest^
 ||jbqmjdbxsxlyj.site^
 ||jbqtnmomoetzz.site^
 ||jbrieonvryioo.space^
@@ -32833,6 +32842,7 @@ browsershots.org#@#.advert_area
 ||jcphi.com^
 ||jcqamvybskmvq.online^
 ||jcqdmvoibw.com^
+||jcqqtilsyufmz.space^
 ||jcqwudfidmevr.online^
 ||jcrhpslysoaww.site^
 ||jcsrmgtdfygaz.space^
@@ -33390,6 +33400,7 @@ browsershots.org#@#.advert_area
 ||jrcmlyfezriii.online^
 ||jrghiftjhpkdv.website^
 ||jrhameobeihmv.space^
+||jrhgkpxacbimp.site^
 ||jrhyptikfbqls.site^
 ||jrjexx.com^
 ||jrjmgjfefawpy.site^
@@ -33927,6 +33938,7 @@ browsershots.org#@#.advert_area
 ||kennethcreaturesimpunity.com^
 ||kennethcries.com^
 ||kentleocyte.com^
+||keodqemqhvlbz.website^
 ||keoto.xyz^
 ||kepqkimmiqcjp.space^
 ||ker2clk.com^
@@ -35089,6 +35101,7 @@ browsershots.org#@#.advert_area
 ||legowirjzjpra.online^
 ||legsuicidal.com^
 ||lehmergambits.click^
+||lehvokexdzgro.online^
 ||leisurelyexploit.com^
 ||leithstaving.cfd^
 ||lekmdwuawyehh.site^
@@ -39437,6 +39450,7 @@ browsershots.org#@#.advert_area
 ||ogjybrolzwrhf.online^
 ||ogkntaow.in^
 ||ogkydwllwcyks.online^
+||oglyjoclekony.website^
 ||ogmslkksd.com^
 ||ognmrpmzscxrd.website^
 ||ognuhmzyfudyd.site^
@@ -42678,6 +42692,7 @@ browsershots.org#@#.advert_area
 ||pzejgakvltbxj.site^
 ||pzemzwvodejwz.website^
 ||pzgvinjka.com^
+||pzhfmrmebbewa.website^
 ||pzhrcssjaridu.website^
 ||pzjoonojxxtuf.online^
 ||pzjzhawiuvkzuj.com^
@@ -42917,6 +42932,7 @@ browsershots.org#@#.advert_area
 ||qhxrexamnxunp.site^
 ||qhyftzqknm.com^
 ||qiaiiaqbzortj.space^
+||qiarsuyfyzjus.website^
 ||qibjptkwyhudx.site^
 ||qicjybogkonik.site^
 ||qicngcehenxgg.space^
@@ -43344,6 +43360,7 @@ browsershots.org#@#.advert_area
 ||quintessentialcash.com^
 ||quinyiesmack.com^
 ||quioneroudle.com^
+||quiouhxxk.com^
 ||quiritetimotesargo.qpon^
 ||quirky-product.pro^
 ||quistrecastslexemic.qpon^
@@ -47120,6 +47137,7 @@ browsershots.org#@#.advert_area
 ||srtojuhusplto.space^
 ||srtrak.com^
 ||srtrupwxwmqax.space^
+||sruulinktsxdq.online^
 ||srv224.com^
 ||srvb1.com^
 ||srvpcn.com^
@@ -49565,6 +49583,7 @@ browsershots.org#@#.advert_area
 ||twftnvzbixaua.website^
 ||twgtgpovwbqdy.website^
 ||twhojkrvypvxv.online^
+||twifoilnewsboycandiot.qpon^
 ||twigcrucialpal.com^
 ||twiggedgipsy.cyou^
 ||twigwisp.com^
@@ -53155,6 +53174,7 @@ browsershots.org#@#.advert_area
 ||wrjrlxaihazpk.space^
 ||wrkztlfslriit.space^
 ||wrnqakeoomvlg.store^
+||wrongerstools.com^
 ||wroomnahn.in^
 ||wrothypappyri.qpon^
 ||wrouitslhznhn.online^
@@ -55975,6 +55995,7 @@ browsershots.org#@#.advert_area
 ||zyziynnnhcvni.site^
 ||zzbcje.com^
 ||zzbkcfkcglkhm.online^
+||zzcnenngkrxio.space^
 ||zzdvsgnxamcmq.website^
 ||zzfikyawmqtmw.website^
 ||zzivkui2th7li7iw7i8n9m93.rest^
@@ -68480,6 +68501,7 @@ memedroid.com##.empower-ad
 autostraddle.com##.end-of-article-ads
 robtex.com##.endl
 endtimeheadlines.org##.endti-widget
+mobilesyrup.com##.engagement-starter-inline
 floridianpress.com##.enhanced-text-widget
 cathstan.org##.enticement-link
 upfivedown.com##.entry > hr.wp-block-separator + .has-text-align-center
@@ -70172,7 +70194,9 @@ eitb.eus##.publicidad_cabecera
 eitb.eus##.publicidad_robapaginas
 justetf.com##.publift-ad-container
 rvtrader.com##.publift-ad-footer
+mobilesyrup.com##.publift-ad-slot
 weatherzone.com.au##.publift-ad-wrapper
+mobilesyrup.com##.publift-ad-zone
 online-stopwatch.com##.publift-div
 online-stopwatch.com##.publift-unfixed
 text-compare.com##.publiftDiv
@@ -71224,6 +71248,7 @@ vaughn.live##.vs_v9_LTabvsLower_beta
 vsbattles.com##.vsb_ad
 vsbattles.com##.vsb_sticky
 notateslaapp.com##.vtwjhpktrbfmw
+vaultwarden.com##.vw-inline-ad
 wral.com##.vw3Klj
 horoscopes.astro-seek.com##.vyska-sense
 yaledailynews.com##.w-\[160px\]

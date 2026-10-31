@@ -1,9 +1,9 @@
 [Adblock Plus 1.1]
-! Version: 202610311454
+! Version: 202610311645
 ! Title: EasyPrivacy
-! Last modified: 31 Oct 2026 14:54 UTC
+! Last modified: 31 Oct 2026 16:45 UTC
 ! Expires: 4 days (update frequency)
-! Commit: f4abd5b27a4c42b3c0a051ab3e39f8640db1f063
+! Commit: 395778843fd8f1ccfa1ea9c082602611a50f0959
 ! *** easylist:template_header.txt ***
 ! 
 ! Please report any unblocked adverts or problems
@@ -7148,6 +7148,7 @@ omni.soundestlink.com$image
 ||ciderfeast.com^
 ||cinemabonus.com^
 ||cinemafair.com^
+||circascope.com^
 ||circlelevel.com^
 ||citizensactive.com^
 ||citydeal.net^
@@ -7921,6 +7922,7 @@ omni.soundestlink.com$image
 ||j93557g.com^
 ||jailbulb.com^
 ||jamexport.com^
+||jazzpianofast.com^
 ||jellyfinstream.com^
 ||jetskiscovers.com^
 ||jewelryforest.com^
@@ -7958,6 +7960,7 @@ omni.soundestlink.com$image
 ||kartbarriersystem.com^
 ||keenquill.com^
 ||kernellife.com^
+||keymono.net^
 ||kidpowers.com^
 ||kidrobotgames.com^
 ||kindhush.com^
