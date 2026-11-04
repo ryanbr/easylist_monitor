@@ -1,9 +1,9 @@
 [Adblock Plus 1.1]
-! Version: 202611041351
+! Version: 202611041545
 ! Title: EasyPrivacy
-! Last modified: 04 Nov 2026 13:51 UTC
+! Last modified: 04 Nov 2026 15:45 UTC
 ! Expires: 4 days (update frequency)
-! Commit: c81f1f7b35cd05a46029fdd79dcc88e79cd6b56a
+! Commit: f85d5ad83ff59d81fb5e9bc50b5a04b335605bd7
 ! *** easylist:template_header.txt ***
 ! 
 ! Please report any unblocked adverts or problems
@@ -1036,6 +1036,7 @@
 /fsrscripts/triggerParams.js
 /funnel-builder/assets/live/js/tracks.min.js
 /fusion/lucid/data/*
+/g/collect?
 /g_track.php?
 /ga-audiences?
 /ga-events.js
@@ -7371,6 +7372,7 @@ omni.soundestlink.com$image
 ||dewdroplagoon.com^
 ||dharmabrats.com^
 ||dicecandies.com^
+||dicezing.com^
 ||difficultfog.com^
 ||digestiondrawer.com^
 ||digitalatticnewsletter.com^
@@ -15356,7 +15358,6 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||abysscdn.com/cdn-cgi/trace
 ||academia.edu/record_hit?
 ||acast.com/api/stats
-||accor.com/g/collect?
 ||accuterm.com/data/stat.js
 ||acjs.aliyun.com^
 ||acronymfinder.com/~/tr.ashx
@@ -16501,7 +16502,6 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||mangakoma.net/ajax/manga/view
 ||manomano.*/api/v1/sp-tracking/
 ||manscaped.com/rud-dataplane/
-||manua.ls/g/collect?
 ||manua.ls/gtag
 ||mapcarta.com/logs
 ||mapquest.com/logger
@@ -16761,7 +16761,6 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||phonearena.com/_track.php
 ||pi.ai/proxy/api/event
 ||pics-view.com/ad-track
-||pie.org/g/collect?
 ||pie.org/v1/experiments/view
 ||pikbest.com/?m=Stats&
 ||ping.anizm.net^
