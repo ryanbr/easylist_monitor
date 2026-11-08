@@ -1,9 +1,9 @@
 [Adblock Plus 1.1]
-! Version: 202611081333
+! Version: 202611081550
 ! Title: EasyPrivacy
-! Last modified: 08 Nov 2026 13:33 UTC
+! Last modified: 08 Nov 2026 15:50 UTC
 ! Expires: 4 days (update frequency)
-! Commit: b9722c7feb94188d29d468904f5ecf823e19cd33
+! Commit: 4e709a60c996bfbdc63133dd7473c011f96f3cc5
 ! *** easylist:template_header.txt ***
 ! 
 ! Please report any unblocked adverts or problems
@@ -7778,6 +7778,7 @@ omni.soundestlink.com$image
 ||grocerycrew.com^
 ||grocerydog.com^
 ||groglog.com^
+||grooveguides.com^
 ||groovespacing.com^
 ||groovyornament.com^
 ||grouchybrothers.com^
@@ -8582,6 +8583,7 @@ omni.soundestlink.com$image
 ||receptivereaction.com^
 ||recessrain.com^
 ||recipearena.com^
+||recipediner.com^
 ||recipepile.net^
 ||recipepin.com^
 ||reconditeprison.com^
