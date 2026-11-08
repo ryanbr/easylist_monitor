@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Version: 202611081757
+! Version: 202611081956
 ! Title: EasyList
-! Last modified: 08 Nov 2026 17:57 UTC
+! Last modified: 08 Nov 2026 19:56 UTC
 ! Expires: 4 days (update frequency)
-! Commit: e0fc102ebe095d592252014446b3dd63cfc3c552
+! Commit: 2331cb816129ab40f7ed57c480902fd0f82b7eb1
 ! *** easylist:template_header.txt ***
 ! 
 ! Please report any unblocked adverts or problems
@@ -16133,6 +16133,7 @@ browsershots.org#@#.advert_area
 ||4lbk4yuhj5upn7vvkl.cfd^
 ||4lu114x7k9ef6qr82.cfd^
 ||4oeb3zpr8ko4wn2w8v9cr.rest^
+||4oiv13glf8cfb73qpwp8tb7l.cfd^
 ||4p74i5b6.de^
 ||4pxbxqzp98wmte.cfd^
 ||4rabettraff.com^
@@ -16233,6 +16234,7 @@ browsershots.org#@#.advert_area
 ||5h3oyhv838.com^
 ||5icim50.de^
 ||5ivy3ikkt.com^
+||5k52x9oeno4wuchg36l9c.rest^
 ||5kj3hr1gkif6v2bi5ju5bkylvhx.cfd^
 ||5kov1f2o.xyz^
 ||5leosgto.xyz^
@@ -20973,6 +20975,7 @@ browsershots.org#@#.advert_area
 ||bronchiserai.com^
 ||broodbelongminiature.com^
 ||broodoppressiveuptodate.com^
+||brookedmacaca.com^
 ||brookrivet.com^
 ||broolamphore.com^
 ||broomyitys.qpon^
@@ -22109,6 +22112,7 @@ browsershots.org#@#.advert_area
 ||charlottemice.com^
 ||charmedwater.com^
 ||charmingpoliteinjunction.com^
+||charmingtiger.me^
 ||chartaejaper.cyou^
 ||charysicer.com^
 ||chaseherbalpasty.com^
@@ -25937,6 +25941,7 @@ browsershots.org#@#.advert_area
 ||dxuxmguvqpcua.online^
 ||dxwawocqoeofo.online^
 ||dxxfhszhmacqm.online^
+||dxynbmrkwrvbj.space^
 ||dyascrypta.qpon^
 ||dyblpgaiomtdv.online^
 ||dybutryvnbsxc.website^
@@ -27756,6 +27761,7 @@ browsershots.org#@#.advert_area
 ||fbetlixgee.eu^
 ||fbfayqppergcx.site^
 ||fbfejxqozbxrc.site^
+||fbfvlqsjqclep.website^
 ||fbgebomymidwe.space^
 ||fbihxasvsvcln.site^
 ||fbnayfsagcchw.space^
@@ -27962,6 +27968,7 @@ browsershots.org#@#.advert_area
 ||ff12e2369d.com^
 ||ff2528e9d8.com^
 ||ff31fdce72.com^
+||ffbqwmedfryqu.online^
 ||ffcnjt9y5bin1k.rest^
 ||ffdagjkfnjmil.site^
 ||ffdlzdsluvwjn.online^
@@ -31509,6 +31516,7 @@ browsershots.org#@#.advert_area
 ||hlobzlwykghmf.website^
 ||hlomxkssdybcx.website^
 ||hlonte.xyz^
+||hlooytbdgfmvl.site^
 ||hlovkowbucypm.site^
 ||hlpjzdkddzyxb.space^
 ||hlqhszlaieohl.online^
@@ -31613,6 +31621,7 @@ browsershots.org#@#.advert_area
 ||hoggiewagtail.cyou^
 ||hoggincourge.cyou^
 ||hogginsplateau.com^
+||hoghidejacusatine.cyou^
 ||hogimid.cfd^
 ||hogkueuehuoly.space^
 ||hoglikesummula.com^
@@ -35741,6 +35750,7 @@ browsershots.org#@#.advert_area
 ||kwyiknngshfhg.site^
 ||kxaazgvdumsle.site^
 ||kxapewakwxtyy.site^
+||kxbhakvhkhmgy.website^
 ||kxbqaaxjeqjqk.website^
 ||kxbrtoqentjgd.site^
 ||kxcpsknpsodie.space^
@@ -38190,6 +38200,7 @@ browsershots.org#@#.advert_area
 ||missileaffich.cyou^
 ||missilerelist.com^
 ||missiondues.com^
+||missiqcalqmu.in^
 ||misslk.com^
 ||missoper.com^
 ||missungcurtest.qpon^
@@ -44515,6 +44526,7 @@ browsershots.org#@#.advert_area
 ||qhxowrdcynzrm.space^
 ||qhxrexamnxunp.site^
 ||qhyftzqknm.com^
+||qhypfpwzbaayj.website^
 ||qiaiiaqbzortj.space^
 ||qiarsuyfyzjus.website^
 ||qibjptkwyhudx.site^
@@ -48167,6 +48179,7 @@ browsershots.org#@#.advert_area
 ||skyadsmart.com^
 ||skyahimpwbjbn.space^
 ||skybaggycollecting.com^
+||skydoveiodizershoved.cfd^
 ||skylindo.com^
 ||skymobi.agency^
 ||skypipehookahs.com^
@@ -48884,6 +48897,7 @@ browsershots.org#@#.advert_area
 ||sqdcjxnettpgz.space^
 ||sqisdiyvaghxd.site^
 ||sqiyzusatgykt.online^
+||sqjmykhwzoyod.site^
 ||sqkbgwxsytvzs.online^
 ||sqkgrjwmrzyau.site^
 ||sqkrdgjphwfoc.space^
@@ -51539,6 +51553,7 @@ browsershots.org#@#.advert_area
 ||twmgghomevcxv.website^
 ||two49iri9wlruy.rest^
 ||twpasol.com^
+||twpvnbyjstnwm.online^
 ||twrmnd.com^
 ||twsojsbhalcbn.online^
 ||twspfzmzxlcyp.website^
@@ -52952,6 +52967,7 @@ browsershots.org#@#.advert_area
 ||vacantazon.com^
 ||vacatedfiants.cyou^
 ||vacationmonday.com^
+||vaccarycalvous.cfd^
 ||vaccineverifyweaker.com^
 ||vacnslzaefklq.website^
 ||vacruwsug.com^
@@ -54957,6 +54973,7 @@ browsershots.org#@#.advert_area
 ||wkwdmllrmscgp.space^
 ||wkwggnhgriwkr.space^
 ||wkxvopwtaykla.website^
+||wkxwoawiqphxb.website^
 ||wkxypxkzntijg.site^
 ||wkzmfbrbxstzq.space^
 ||wlafx4trk.com^
@@ -55458,6 +55475,7 @@ browsershots.org#@#.advert_area
 ||wvyjicdtzesrd.website^
 ||wvyrjaskgtuxx.online^
 ||wvyzrjkcwqfut.site^
+||wvzoezmzjgixc.space^
 ||ww2.imgadult.com^
 ||ww2.imgtaxi.com^
 ||ww2.imgwallet.com^
@@ -56448,6 +56466,7 @@ browsershots.org#@#.advert_area
 ||xz0wefju.fun^
 ||xzbyhyxkzfbpa.space^
 ||xzcjkomnnjseu.space^
+||xzesmujr.in^
 ||xzgkarpqxpybo.site^
 ||xzgmenaqcdmbn.site^
 ||xzhgiwsvvwuza.space^
