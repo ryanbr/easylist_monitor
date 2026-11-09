@@ -1,9 +1,9 @@
 [Adblock Plus 1.1]
-! Version: 202611090954
+! Version: 202611091151
 ! Title: EasyPrivacy
-! Last modified: 09 Nov 2026 09:54 UTC
+! Last modified: 09 Nov 2026 11:51 UTC
 ! Expires: 4 days (update frequency)
-! Commit: d28e685c1fb8f6cc81a376b4fae1badec6c89c9a
+! Commit: b6bf685fa8920152e88e1dc7cb049896f09ee65f
 ! *** easylist:template_header.txt ***
 ! 
 ! Please report any unblocked adverts or problems
@@ -56352,6 +56352,7 @@ search.rakuten.co.jp##+js(aeld, mouseup, sendClickEvent)
 ||log.ttbc-hcm.gov.vn^
 ||logsbin.dantri.com.vn^
 ||pixel.coccoc.com^
+||rivo.vin/api/*/view
 ||rivo.vin/rivo-stealer/
 ||tka.tiki.vn/pixel/
 ||track-srv.vietnamnet.vn^
