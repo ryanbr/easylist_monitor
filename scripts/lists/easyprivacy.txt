@@ -1,9 +1,9 @@
 [Adblock Plus 1.1]
-! Version: 202611091758
+! Version: 202611091956
 ! Title: EasyPrivacy
-! Last modified: 09 Nov 2026 17:58 UTC
+! Last modified: 09 Nov 2026 19:56 UTC
 ! Expires: 4 days (update frequency)
-! Commit: a74657446e10974d7a7538639f0aeb3f8c4d21ac
+! Commit: cc4bdc2eb304f1eb1406b96633dcbd9e2a93b2cf
 ! *** easylist:template_header.txt ***
 ! 
 ! Please report any unblocked adverts or problems
@@ -7960,6 +7960,7 @@ omni.soundestlink.com$image
 ||insectmacros.com^
 ||insideinspire.com^
 ||insidepsych.net^
+||insidercorp.net^
 ||inspirebees.com^
 ||insulatech.com^
 ||intelligentscissors.com^
@@ -55621,6 +55622,7 @@ search.rakuten.co.jp##+js(aeld, mouseup, sendClickEvent)
 ||ma.register.it^
 ||mediaset.it/cgi-bin/getcod.cgi?
 ||mtv.it/flux/trackingcodes/
+||naxos.lastampausa.com^
 ||paginebianche.it/cgi-bin/jbimpres.cgi?
 ||paginebianche.it/ip?dv=
 ||paginegialle.it/cgi-bin/getcod.cgi?
