@@ -1,9 +1,9 @@
 [Adblock Plus 1.1]
-! Version: 202611090354
+! Version: 202611090553
 ! Title: EasyPrivacy
-! Last modified: 09 Nov 2026 03:54 UTC
+! Last modified: 09 Nov 2026 05:53 UTC
 ! Expires: 4 days (update frequency)
-! Commit: a6590f664ccc4e6f40d7f13f4f03cdc7fa5acbcb
+! Commit: f005f4bf2ff6543018cdb1dc786e62310e947b49
 ! *** easylist:template_header.txt ***
 ! 
 ! Please report any unblocked adverts or problems
@@ -2732,6 +2732,7 @@
 /uutils.fcg?
 /v.gif?
 /v1/adn/visit|
+/v1/care/engagement/ux/bundle.js?
 /v1/events/publish|
 /v1/external/visitor|
 /v1/log/web-vitals$xmlhttprequest
@@ -2988,6 +2989,7 @@
 ://elqtrk.
 ://fallback.*/collector
 ://fathom.$domain=~fathom.care|~fathom.co.za|~fathom.fm|~fathom.info|~fathom.io|~fathom.lib.uchicago.edu|~fathom.news|~fathom.org|~fathom.services|~fathom.video|~fathom.world|~fathomdelivers.com|~fathomseo.com|~usesfathom.com
+://gtm-server.
 ://gtm-tagging.
 ://gtm.prd.
 ://gtm.prod.
@@ -8603,6 +8605,7 @@ omni.soundestlink.com$image
 ||rangecake.com^
 ||rangeplayground.com^
 ||rangergustav.com^
+||rankaddict.com^
 ||rarelyfans.com^
 ||raresummer.com^
 ||razzweb.com^
@@ -15246,6 +15249,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||stat.rum.cdnvideo.ru^
 ||stat.sputnik.ru^
 ||stat.tvigle.ru^
+||statad.ru/tracker.js
 ||statistics.fppressa.ru^
 ||stats-*.p2pnow.ru^
 ||stats.tazeros.com^
@@ -55751,6 +55755,7 @@ search.rakuten.co.jp##+js(aeld, mouseup, sendClickEvent)
 ||j1.ax.xrea.com^
 ||k-crm.jp/tracking.js
 ||kabu-sokuhou.com/js/cpv/
+||knshow.com/ab?
 ||kojima.net/excludes/KPC/js/kjm_gtm.js
 ||korewaeroi.com/fukugan_$subdocument
 ||link.tv-asahi.co.jp/tver/cookiesync?
