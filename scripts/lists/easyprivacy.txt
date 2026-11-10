@@ -1,9 +1,9 @@
 [Adblock Plus 1.1]
-! Version: 202611101750
+! Version: 202611101958
 ! Title: EasyPrivacy
-! Last modified: 10 Nov 2026 17:50 UTC
+! Last modified: 10 Nov 2026 19:58 UTC
 ! Expires: 4 days (update frequency)
-! Commit: 8beade245bf6c1954f591dde65e8f01ba66b2ea4
+! Commit: 2d61b095f2a495dc3a8d6a66324026f82b918515
 ! *** easylist:template_header.txt ***
 ! 
 ! Please report any unblocked adverts or problems
@@ -4477,7 +4477,6 @@ omni.soundestlink.com$image
 ||cbtrk.net^$third-party
 ||cccpmo.com^$third-party
 ||ccgateway.net^$third-party
-||ccmbg.com^$third-party
 ||ccscserver.com^$third-party
 ||cdn-net.com^$third-party
 ||cdnlibjs.com^$third-party
@@ -8079,6 +8078,7 @@ omni.soundestlink.com$image
 ||lilydreamer.com^
 ||limecodesign.com^
 ||limepeal.com^
+||limitowl.com^
 ||linksoutside.com^
 ||linkstable.com^
 ||littlegeese.com^
@@ -11052,6 +11052,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||assets.trendii.com/pixel/main.js
 ||assets.yumpu.com/release/*/tracking.js
 ||assistant.watson.appdomain.cloud/analytics/
+||astatic.ccmbg.com/hz.js
 ||asterpix.com/tagcloudview/
 ||async-px-eu.dynamicyield.com^
 ||async-px.dynamicyield.com^
