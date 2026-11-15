@@ -1,9 +1,9 @@
 [Adblock Plus 1.1]
-! Version: 202611151749
+! Version: 202611151956
 ! Title: EasyPrivacy
-! Last modified: 15 Nov 2026 17:49 UTC
+! Last modified: 15 Nov 2026 19:56 UTC
 ! Expires: 4 days (update frequency)
-! Commit: 80f39fc1f8e82a9cfbb186a234eb4cbaabba8a47
+! Commit: 6c137e22fda77c4a03c40be9ef04c4aeae7cf11a
 ! *** easylist:template_header.txt ***
 ! 
 ! Please report any unblocked adverts or problems
@@ -8985,6 +8985,7 @@ omni.soundestlink.com$image
 ||soresidewalk.com^
 ||soretrain.com^
 ||soulclicking.com^
+||soulfreedom.net^
 ||soundmachine.net^
 ||soundmuseums.com^
 ||soundstocking.com^
