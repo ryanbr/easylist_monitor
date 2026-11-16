@@ -1,9 +1,9 @@
 [Adblock Plus 1.1]
-! Version: 202611160759
+! Version: 202611160955
 ! Title: EasyPrivacy
-! Last modified: 16 Nov 2026 07:59 UTC
+! Last modified: 16 Nov 2026 09:55 UTC
 ! Expires: 4 days (update frequency)
-! Commit: 5c1d8a06348782858442fc7011a80f11e784ed28
+! Commit: 26c8012302d3229bbca074d43d85058c4137b55e
 ! *** easylist:template_header.txt ***
 ! 
 ! Please report any unblocked adverts or problems
@@ -424,6 +424,7 @@
 /AppMeasurement2.js
 /AppMeasurement_Module_ActivityMap.min.js
 /AppMeasurementCustom.min.js
+/apps/awin/*
 /apps/ba-rev/app_metrics
 /aptrk.js
 /ard.png?
@@ -1868,6 +1869,7 @@
 /pixel/view?
 /pixel/visit?
 /pixel2.gif?
+/pixel?clientId=
 /pixel?tag=
 /pixel_identifier.js
 /pixel_iframe.php
@@ -2211,6 +2213,7 @@
 /shopify-boomerang-
 /shopify-datalayer-minified.js
 /shopify-event.gif?
+/shopify/fec/produce|
 /shopify/track.js
 /shopify_stats.js
 /shopifycloud/shopify/assets/shop_events_listener-$script
@@ -10718,6 +10721,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||ads-tracking.beop.io^
 ||ads-tracking.collectiveaudience.co^
 ||ads-trk.vidible.tv^
+||adsagentclientafd-b7hqhjdrf3fpeqh2.b01.azurefd.net^
 ||adsmoloco.com^$third-party
 ||adsolutions.com^$third-party
 ||adv-analytics-collector.videograph.ai^
@@ -11209,6 +11213,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||blink.net/e/
 ||blip.bizrate.com^$script
 ||blogblog.com/tracker/
+||bloomreach.com/js/brweb.min.js
 ||bmrg.reflected.net^
 ||bobparsons.com/image.aspx?
 ||boei.help/pageview/
@@ -11596,6 +11601,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||dash.getsitecontrol.com^
 ||dash.kryon.one^
 ||dashboard.nowdialogue.com/api/events/
+||data.cdnbasket.net^
 ||data.circulate.com^
 ||data.debugbear.com^$third-party
 ||data.digitalks.az^
@@ -12194,6 +12200,9 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||jill.fc.yahoo.com^
 ||jly24aw29n5m-a.akamaihd.net^
 ||jobvite.com/analytics.js
+||jolect.com/gohangout/log-proxy
+||jolect.com/shopify-buyer-center/buyer/event/
+||jolect.com/shopify-buyer-center/buyer/sg_event/
 ||jotform.io/getReferrer/$third-party
 ||js.cdn.applicationinsights.io/scripts/b/ai.3.gbl.min.js
 ||js.ciphera.net/script.js
@@ -12646,6 +12655,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||pac.talksport.com/track
 ||paddle.com^*/analytics.js
 ||page-events-ustats.udemy.com^
+||page.cdnbasket.net^
 ||pagecloud.com/event
 ||pagefly.io/pagefly/core/analytics.js
 ||pages-stats.rbl.ms^
@@ -12708,6 +12718,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||pings.vidpulse.com^
 ||pipe-collect.ebu.io^
 ||pipedream.wistia.com^
+||piratewires.substack.com/api/v1/firehose/islands/batch
 ||pix.hyj.mobi^
 ||pix.revjet.com^
 ||pix.speedbit.com^$third-party
@@ -13724,6 +13735,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||vidible.tv/trk/
 ||vidstream.pro/log/
 ||vidstream.pro/ping/
+||view.cdnbasket.net^
 ||viglink.com/api/ping$third-party
 ||vimeocdn.com/add/player-stats?
 ||vimeocdn.com/ga/
@@ -13844,6 +13856,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||wspisp.net/logger.php
 ||wstats.ageverif.com^
 ||wstats.slashed.cloud^
+||wt.omnisendlink.com^
 ||wt.viagogo.net^
 ||wtb-tag.swaven.com^
 ||wtbevents.pricespider.com^
@@ -15412,6 +15425,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||tracking.univtec.com^
 ||trsbf.com/static/fbs.min.js
 ||unpkg.com/@topsort/analytics.js
+||view.publitas.com^
 ||webpixel.smartmeapp.com^
 ! Swedish
 ||aftonbladet.se/blogportal/view/statistics?$third-party
