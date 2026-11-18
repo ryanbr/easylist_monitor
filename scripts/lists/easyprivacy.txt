@@ -1,9 +1,9 @@
 [Adblock Plus 1.1]
-! Version: 202611180952
+! Version: 202611181151
 ! Title: EasyPrivacy
-! Last modified: 18 Nov 2026 09:52 UTC
+! Last modified: 18 Nov 2026 11:51 UTC
 ! Expires: 4 days (update frequency)
-! Commit: 5e41bbebe9842f6a8c7c9339ea560b776961e6ca
+! Commit: 127a16593a526bc7e2e1b36b906840763b5daf6b
 ! *** easylist:template_header.txt ***
 ! 
 ! Please report any unblocked adverts or problems
@@ -11936,6 +11936,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||frog.editorx.com^
 ||frontend-logger.flippback.com/api/logging
 ||fs-client-logger.herokuapp.com^
+||fscdn.eppo.cloud/api/flag-config/v1/config?
 ||fst-ec.perimeterx.net^
 ||ftimg.net/js/log.js?
 ||ftm.fluencyinc.co^
@@ -12577,6 +12578,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||nile.works/TargetingWebAPP/
 ||ninja.onap.io^
 ||nitrous-analytics.s3.amazonaws.com^
+||nlog.instajob.ai^
 ||noa.yahoo.com^
 ||noflake-aggregator-http.narvar.com^
 ||nojscontainer.pepperjam.com^$third-party
@@ -12871,6 +12873,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||pussy.org^*.cgi?pid=
 ||pussy.org^*/track.php
 ||pv-track.pxtrkapp.com^
+||pv-track.venatus.com^
 ||px-cdn.net/b/
 ||px-cdn.net^*/collector
 ||px-cloud.net/b/c/beacon
@@ -56628,6 +56631,7 @@ search.rakuten.co.jp##+js(aeld, mouseup, sendClickEvent)
 @@||cults3d.com/packs/js/quantcast-$~third-party
 @@||curos.ca/res/*/resources/scripts/lib/fingerprint.js$~third-party
 @@||cvs.com/shop-assets/js/VisitorAPI.js$~third-party
+@@||d2gt2ux04o03l1.cloudfront.net^$third-party,domain=avery.com
 @@||d2ma0sm7bfpafd.cloudfront.net/wcsstore/waitrosedirectstorefrontassetstore/custom/js/analyticseventtracking/$script,domain=waitrosecellar.com
 @@||d2r1yp2w7bby2u.cloudfront.net/js/clevertap.min.js$domain=tatacliq.com
 @@||d2wy8f7a9ursnm.cloudfront.net/v8/bugsnag.min.js$script,domain=forecastapp.com
