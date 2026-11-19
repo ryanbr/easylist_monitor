@@ -1,9 +1,9 @@
 [Adblock Plus 1.1]
-! Version: 202611182352
+! Version: 202611190152
 ! Title: EasyPrivacy
-! Last modified: 18 Nov 2026 23:52 UTC
+! Last modified: 19 Nov 2026 01:52 UTC
 ! Expires: 4 days (update frequency)
-! Commit: 3a29462b9d3468d914a0fc16cf90d309207e50bf
+! Commit: 42b54407213b7307dde376c1694d3e58f0d505da
 ! *** easylist:template_header.txt ***
 ! 
 ! Please report any unblocked adverts or problems
@@ -8417,6 +8417,7 @@ omni.soundestlink.com$image
 ||outdoorthingy.com^
 ||outerwords.com^
 ||outletpeople.com^
+||outpro.net^
 ||outsidevibe.com^
 ||overconfidentfood.com^
 ||overkick.com^
@@ -16945,6 +16946,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||p.ost2.fyi/event^
 ||p.sfx.ms/is/invis.gif
 ||p.spotidownloader.com^
+||p.teamily.ai^
 ||pac.thescottishsun.co.uk^
 ||pac.thesun.co.uk^
 ||pac.thetimes.com^
