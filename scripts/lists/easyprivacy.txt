@@ -1,9 +1,9 @@
 [Adblock Plus 1.1]
-! Version: 202611212148
+! Version: 202611212353
 ! Title: EasyPrivacy
-! Last modified: 21 Nov 2026 21:48 UTC
+! Last modified: 21 Nov 2026 23:53 UTC
 ! Expires: 4 days (update frequency)
-! Commit: 64bf52140543c80d785602ed7141f6e6d734ab61
+! Commit: 566384334284605a6850e46dc90748c47fb6db8a
 ! *** easylist:template_header.txt ***
 ! 
 ! Please report any unblocked adverts or problems
@@ -8697,6 +8697,7 @@ omni.soundestlink.com$image
 ||redbasketball.com^
 ||redbricksoap.com^
 ||redexecs.com^
+||redmaceta.com^
 ||redmillgroup.com^
 ||reelboat.com^
 ||reelcombat.com^
@@ -17269,6 +17270,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||sexu.com/api/ttrack
 ||sexybabepics.net/re/?ping
 ||sf-syn.com/conversion_outbound_tracker$subdocument,domain=sourceforge.net
+||sfchronicle.com/api/client-logs
 ||sfgate.com/api/client-logs
 ||share.9cdn.net/share/short_cache/js/tracking/$domain=nine.com.au
 ||sharechat.com/event-tracking-service/
@@ -57295,6 +57297,10 @@ search.rakuten.co.jp##+js(aeld, mouseup, sendClickEvent)
 ! 
 ! ---------- Icelandic ----------
 ! 
+! 
+! ---------- Indian ----------
+! 
+@@||scorecardresearch.com/plugins/streaming-jwplayer/$script,domain=newstak.in
 ! 
 ! ---------- Italian ----------
 ! 
