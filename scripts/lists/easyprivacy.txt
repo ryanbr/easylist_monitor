@@ -1,9 +1,9 @@
 [Adblock Plus 1.1]
-! Version: 202611222357
+! Version: 202611230157
 ! Title: EasyPrivacy
-! Last modified: 22 Nov 2026 23:57 UTC
+! Last modified: 23 Nov 2026 01:57 UTC
 ! Expires: 4 days (update frequency)
-! Commit: 974f863b7dbbab96fc6c7670df937ec7cddc3c10
+! Commit: 3a0275bd8eb47596de9401dc4eb173129963553e
 ! *** easylist:template_header.txt ***
 ! 
 ! Please report any unblocked adverts or problems
@@ -375,6 +375,7 @@
 /api/datafast/*
 /api/drpStats
 /api/event-rfkj/*
+/api/event/collect|
 /api/front/v2/observability$ping
 /api/internal/pixel?
 /api/log-visit
@@ -3628,6 +3629,7 @@ omni.soundestlink.com$image
 ||bx-cloud.com^
 ||bxtag.com^
 ||bydst.com^
+||bytes.media^
 ||c-stat.eu^
 ||cadsuta.net^
 ||cafirebreather.com^
@@ -9116,6 +9118,7 @@ omni.soundestlink.com$image
 ||stakingsmile.com^
 ||staleshow.com^
 ||stalesummer.com^
+||staradmiral.com^
 ||starfurniture.net^
 ||starrynets.com^
 ||starsmarter.com^
@@ -9335,6 +9338,7 @@ omni.soundestlink.com$image
 ||tiresomethunder.com^
 ||titangods.com^
 ||toasttutor.com^
+||toffeetribe.com^
 ||tofusquirrel.com^
 ||tomatobarrel.com^
 ||toolaward.com^
@@ -11959,6 +11963,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||filament-stats.herokuapp.com^
 ||files.envoke.com^*_nvk_tracking.js
 ||filesonic.com/referral/$third-party
+||fingerprint.blockifyapp.com^
 ||fingerprinter-production.herokuapp.com^
 ||firebaselogging-pa.googleapis.com^
 ||firecrux.com/track/$xmlhttprequest
@@ -13226,6 +13231,8 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||squarecdn.com/square-marketplace-js/chunk-analytics-vendors.js
 ||squarecdn.com/square-marketplace-js/chunk-analytics.js
 ||squarespace.com/universal/scripts-compressed/performance-$script,third-party
+||sr-cdn.shiprocket.in/sr-promise/static/iframe.html
+||sr-cdn.shiprocket.in/sr-promise/static/uc.js
 ||src.freshmarketer.in^
 ||src.fwusercontent.com^
 ||srvmath.com^*/analytics.js
@@ -17137,6 +17144,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||pulse.genki.world^
 ||pulsepoint.ideal.house^
 ||pumpkin.abine.com^
+||pureinfotech.com/media/api/send
 ||pushsquare.com/blank.gif
 ||px.srvcs.tumblr.com^
 ||pxl.indeed.com^
@@ -17617,6 +17625,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||thetimes.co.uk/track?
 ||thetruth.com/pd.js
 ||thetruthaboutcars.com/api/slots
+||theverge.com/SendEventData
 ||thewindowsclub.com/wp-content/themes/genesis/lib/js/skip-links.min.js
 ||think.ing.com/ajax/ajax_cookie_consent$~third-party,xmlhttprequest
 ||thisiswhyimbroke.com/api/user/gift-guide-thumbnail-homepage/tracking
