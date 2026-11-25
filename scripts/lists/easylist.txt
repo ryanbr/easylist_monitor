@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Version: 202611250755
+! Version: 202611250941
 ! Title: EasyList
-! Last modified: 25 Nov 2026 07:55 UTC
+! Last modified: 25 Nov 2026 09:41 UTC
 ! Expires: 4 days (update frequency)
-! Commit: adacc1687cba7289889e3f30ca7ad20799fe3cb6
+! Commit: cb6e344a1434da82d993700213f36c234367f968
 ! *** easylist:template_header.txt ***
 ! 
 ! Please report any unblocked adverts or problems
@@ -786,7 +786,7 @@
 ://ad-api-
 ://ad1.
 ://adn.*/zone/$subdocument
-://ads.$~image,~xmlhttprequest,domain=~abendblatt.de|~ads.8designers.com|~ads.ac.uk|~ads.adstream.com.ro|~ads.allegro.pl|~ads.am|~ads.amazon|~ads.apple.com|~ads.atmosphere.copernicus.eu|~ads.axon.ai|~ads.band|~ads.bestprints.biz|~ads.bikepump.com|~ads.brave.com|~ads.buscaempresas.co|~ads.business.bell.ca|~ads.cafebazaar.ir|~ads.chewy.com|~ads.colombiaonline.com|~ads.comeon.com|~ads.coupang.com|~ads.cs.washington.edu|~ads.cvut.cz|~ads.doordash.com|~ads.dosocial.ge|~ads.dosocial.me|~ads.elevateplatform.co.uk|~ads.ferrarichat.com|~ads.finance|~ads.flytant.com|~ads.fund|~ads.google.cn|~ads.google.com|~ads.gree.net|~ads.gurkerl.at|~ads.harvard.edu|~ads.instacart.com|~ads.jiosaavn.com|~ads.kaipoke.biz|~ads.kifli.hu|~ads.knuspr.de|~ads.listonic.com|~ads.luarmor.net|~ads.magalu.com|~ads.mark8iq.io|~ads.mercadolibre.com.ar|~ads.mercadolibre.com.cl|~ads.mercadolibre.com.co|~ads.mercadolibre.com.ec|~ads.mercadolibre.com.mx|~ads.mercadolibre.com.pe|~ads.mercadolibre.com.ve|~ads.mercadolivre.com.br|~ads.mgid.com|~ads.microsoft.com|~ads.midwayusa.com|~ads.misskey.io|~ads.mobilebet.com|~ads.mojagazetka.com|~ads.msstate.edu|~ads.mst.dk|~ads.mt|~ads.mts.ru|~ads.naver.com|~ads.nc|~ads.nipr.ac.jp|~ads.olx.pl|~ads.openai.com|~ads.palmettostatearmory.com|~ads.pandauth.com|~ads.pinterest.com|~ads.privacy.qq.com|~ads.realizeperformance.com|~ads.remix.es|~ads.rohlik.cz|~ads.rohlik.group|~ads.route.cc|~ads.safi-gmbh.ch|~ads.scotiabank.com|~ads.selfip.com|~ads.shopee.cn|~ads.shopee.co.th|~ads.shopee.com.br|~ads.shopee.com.mx|~ads.shopee.com.my|~ads.shopee.kr|~ads.shopee.ph|~ads.shopee.pl|~ads.shopee.sg|~ads.shopee.tw|~ads.shopee.vn|~ads.siriusxmmedia.com|~ads.smartnews.com|~ads.snapchat.com|~ads.socialtheater.com|~ads.sociogram.com|~ads.spotify.com|~ads.studyplus.co.jp|~ads.taboola.com|~ads.tiktok.com|~ads.tuver.ru|~ads.twitter.com|~ads.typepad.jp|~ads.uap.company|~ads.umd.edu|~ads.us.tiktok.com|~ads.viksaffiliates.com|~ads.vk.com|~ads.vk.ru|~ads.watson.ch|~ads.wildberries.ru|~ads.woori.team|~ads.x.com|~ads.yandex|~cremonaoggi.it|~nextdoor.co.uk|~nextdoor.com|~nextdoor.de|~nextdoor.nl|~reempresa.org
+://ads.$~image,~xmlhttprequest,domain=~abendblatt.de|~ads.8designers.com|~ads.ac.uk|~ads.adstream.com.ro|~ads.allegro.pl|~ads.am|~ads.amazon|~ads.apple.com|~ads.atmosphere.copernicus.eu|~ads.axon.ai|~ads.band|~ads.bestprints.biz|~ads.bikepump.com|~ads.brave.com|~ads.buscaempresas.co|~ads.business.bell.ca|~ads.cafebazaar.ir|~ads.chewy.com|~ads.colombiaonline.com|~ads.comeon.com|~ads.coupang.com|~ads.cs.washington.edu|~ads.cvut.cz|~ads.dcinside.com|~ads.doordash.com|~ads.dosocial.ge|~ads.dosocial.me|~ads.elevateplatform.co.uk|~ads.ferrarichat.com|~ads.finance|~ads.flytant.com|~ads.fund|~ads.google.cn|~ads.google.com|~ads.gree.net|~ads.gurkerl.at|~ads.harvard.edu|~ads.instacart.com|~ads.jiosaavn.com|~ads.kaipoke.biz|~ads.kifli.hu|~ads.knuspr.de|~ads.listonic.com|~ads.luarmor.net|~ads.magalu.com|~ads.mark8iq.io|~ads.mercadolibre.com.ar|~ads.mercadolibre.com.cl|~ads.mercadolibre.com.co|~ads.mercadolibre.com.ec|~ads.mercadolibre.com.mx|~ads.mercadolibre.com.pe|~ads.mercadolibre.com.ve|~ads.mercadolivre.com.br|~ads.mgid.com|~ads.microsoft.com|~ads.midwayusa.com|~ads.misskey.io|~ads.mobilebet.com|~ads.mojagazetka.com|~ads.msstate.edu|~ads.mst.dk|~ads.mt|~ads.mts.ru|~ads.naver.com|~ads.nc|~ads.nipr.ac.jp|~ads.olx.pl|~ads.openai.com|~ads.palmettostatearmory.com|~ads.pandauth.com|~ads.pinterest.com|~ads.privacy.qq.com|~ads.realizeperformance.com|~ads.remix.es|~ads.rohlik.cz|~ads.rohlik.group|~ads.route.cc|~ads.safi-gmbh.ch|~ads.scotiabank.com|~ads.selfip.com|~ads.shopee.cn|~ads.shopee.co.th|~ads.shopee.com.br|~ads.shopee.com.mx|~ads.shopee.com.my|~ads.shopee.kr|~ads.shopee.ph|~ads.shopee.pl|~ads.shopee.sg|~ads.shopee.tw|~ads.shopee.vn|~ads.siriusxmmedia.com|~ads.smartnews.com|~ads.snapchat.com|~ads.socialtheater.com|~ads.sociogram.com|~ads.spotify.com|~ads.studyplus.co.jp|~ads.taboola.com|~ads.tiktok.com|~ads.tuver.ru|~ads.twitter.com|~ads.typepad.jp|~ads.uap.company|~ads.umd.edu|~ads.us.tiktok.com|~ads.viksaffiliates.com|~ads.vk.com|~ads.vk.ru|~ads.watson.ch|~ads.wildberries.ru|~ads.woori.team|~ads.x.com|~ads.yandex|~cremonaoggi.it|~nextdoor.co.uk|~nextdoor.com|~nextdoor.de|~nextdoor.nl|~reempresa.org
 ://ads2.
 ://adsbb.
 ://adserving.
@@ -16385,6 +16385,7 @@ browsershots.org#@#.advert_area
 ||7nt9p4d4.de^
 ||7ojze6gy31eprr42y.cfd^
 ||7on11fz9uiljn3v.rest^
+||7soyhrnb.xyz^
 ||7sz0wdk7.xyz^
 ||7tnqeentnq56j4jfrq.cfd^
 ||7whiocvyyikrw7i3fv5.cfd^
@@ -16949,6 +16950,7 @@ browsershots.org#@#.advert_area
 ||aculeipicacho.qpon^
 ||acvddzqjjsofe.online^
 ||acvjtepqk.com^
+||acwgaqeygbqay.website^
 ||acwnloafdyqsw.site^
 ||acwpzzpptupkf.online^
 ||acwyersovfsaj.site^
@@ -17484,6 +17486,7 @@ browsershots.org#@#.advert_area
 ||af6ca65844.com^
 ||af9bb5da67.com^
 ||afanglffjywuu.site^
+||afccfbdquawic.site^
 ||afcontent.net^
 ||afcwphzvleh.com^
 ||afcyhf.com^
@@ -18684,6 +18687,7 @@ browsershots.org#@#.advert_area
 ||arxbuoyage.cyou^
 ||arxgestalt.cyou^
 ||arxoplagziavr.site^
+||aryalbqeyzflq.site^
 ||arzanfilmish.rest^
 ||arztgkaxj.com^
 ||as5000.com^
@@ -20266,6 +20270,7 @@ browsershots.org#@#.advert_area
 ||blamelessopposite.com^
 ||blamingnuclearplasma.com^
 ||blamsdaribah.com^
+||bland-outcome.pro^
 ||blandinvestment.pro^
 ||blandlyfurze.com^
 ||blarcamxooysi.store^
@@ -21600,6 +21605,7 @@ browsershots.org#@#.advert_area
 ||caringdonut.com^
 ||caringfinch.com^
 ||caringmink.com^
+||caringshake.com^
 ||caringyarn.pro^
 ||cariousphiale.com^
 ||caririlawmen.com^
@@ -23098,6 +23104,7 @@ browsershots.org#@#.advert_area
 ||couliertarotspariti.cfd^
 ||coulievotable.qpon^
 ||coulterferae.cfd^
+||coumarafluey.click^
 ||counciladvertising.net^
 ||countabledawdlerunaudited.com^
 ||counterfeitlearnedpacify.com^
@@ -23877,6 +23884,7 @@ browsershots.org#@#.advert_area
 ||daadpefptsdqv.online^
 ||daailynews.com^
 ||dabapa4653a.dev^
+||dabitismica.click^
 ||daccroi.com^
 ||daccuegfendgo.site^
 ||dacfhprtw.com^
@@ -24257,6 +24265,7 @@ browsershots.org#@#.advert_area
 ||deepz.cyou^
 ||deerbreeze.com^
 ||deerpreheat.com^
+||deerstorm.com^
 ||deertulip.com^
 ||defactoloupedbathing.cyou^
 ||defeature.xyz^
@@ -25599,6 +25608,7 @@ browsershots.org#@#.advert_area
 ||dsspbw.com^
 ||dssqpn.com^
 ||dssrbe.com^
+||dssryd.com^
 ||dsswdz.com^
 ||dssxfu.com^
 ||dssyoq.com^
@@ -25663,6 +25673,7 @@ browsershots.org#@#.advert_area
 ||dswppe.com^
 ||dswqea.com^
 ||dswrqh.com^
+||dswrur.com^
 ||dswvzs.com^
 ||dswyio.com^
 ||dsxcbx.com^
@@ -30288,6 +30299,7 @@ browsershots.org#@#.advert_area
 ||gropedstright.cyou^
 ||gross-ladder.pro^
 ||grosserlotions.qpon^
+||grosslydicastsgoodish.cyou^
 ||grotespace.com^
 ||grotesquephilosophy.com^
 ||grottosrecover.cyou^
@@ -31750,6 +31762,7 @@ browsershots.org#@#.advert_area
 ||hqbaanqvcscwl.space^
 ||hqdacihnnldfv.online^
 ||hqdhdyehelnks.online^
+||hqfkfckg5ur8fhctl.rest^
 ||hqheegsrbny.com^
 ||hqiozkugrprzc.site^
 ||hqitrefgxtwvb.space^
@@ -32093,6 +32106,7 @@ browsershots.org#@#.advert_area
 ||hynycrgzzevgb.space^
 ||hyostotqriagm.site^
 ||hyoswaxrtfvq.com^
+||hypbgxfmlelgi.website^
 ||hypehuddle.com^
 ||hypemakers.net^
 ||hyperanodizereer.com^
@@ -32276,7 +32290,7 @@ browsershots.org#@#.advert_area
 ||icyporno.com^
 ||icyscokzsxbmd.site^
 ||id5-sync.com^
-||id5-tech.io^^
+||id5-tech.io^
 ||idatievineovering.qpon^
 ||idbrfpiznfdrv.online^
 ||idclbvpablytl.site^
@@ -34135,6 +34149,7 @@ browsershots.org#@#.advert_area
 ||jorcnuuk.com^
 ||josephajewbushlauwine.cfd^
 ||josephclassics.com^
+||joshedlieder.com^
 ||jotanngycjvxw.online^
 ||jothupdftjxhv.site^
 ||jotmlpvassasq.site^
@@ -36742,6 +36757,7 @@ browsershots.org#@#.advert_area
 ||lonelyerror.com^
 ||longbowhusker.qpon^
 ||longerhighjack.com^
+||longerspollex.cyou^
 ||longvolume.com^
 ||longwear.pro^
 ||lonyfoj.com^
@@ -38229,6 +38245,7 @@ browsershots.org#@#.advert_area
 ||mmsvnwwhayokq.space^
 ||mmtgythuozksx.online^
 ||mmvideocdn.com^
+||mmvwv8ti2bo8pbv1r.cfd^
 ||mmwakrrbigmgq.site^
 ||mmxlysastclao.website^
 ||mmycvjkoxnemn.online^
@@ -40512,6 +40529,7 @@ browsershots.org#@#.advert_area
 ||odrbykkefvfxi.space^
 ||odrubhzmqkghv.site^
 ||odsauluxryqyw.online^
+||odspuoswaemvn.site^
 ||oduauledfalmc.online^
 ||odulfytvuuibr.space^
 ||odxxkeomesoiv.space^
@@ -41720,6 +41738,7 @@ browsershots.org#@#.advert_area
 ||pacayanevoidwrester.cfd^
 ||pacdhywzuo.in^
 ||pacekami.com^
+||pacerazotes.com^
 ||pacerpropper.com^
 ||pacestrengthentribute.com^
 ||pacevice.com^
@@ -42123,6 +42142,7 @@ browsershots.org#@#.advert_area
 ||peacefulmanta.com^
 ||peacefulmeadowwalk.com^
 ||peacefulspecialist.pro^
+||peachedoccurs.click^
 ||peacockresistpeppermint.com^
 ||peacockvowel.com^
 ||peacyx.com^
@@ -42652,6 +42672,7 @@ browsershots.org#@#.advert_area
 ||pizzmikimc.in^
 ||pjauhyjfuubqd.site^
 ||pjdakfbstctpnb.com^
+||pjdfhfwnhkqhc.space^
 ||pjdjlrmelqxzh.site^
 ||pjdpsycbcmdns.website^
 ||pjfddwmshnaee.online^
@@ -44076,6 +44097,7 @@ browsershots.org#@#.advert_area
 ||qbojgffkgzlbr.space^
 ||qbpkyvtnxslrk.website^
 ||qbqrecnzpejoz.site^
+||qbssajzubnngf.space^
 ||qbstirlmttced.online^
 ||qbulqouctdzso.online^
 ||qbupzairypjtf.online^
@@ -45161,6 +45183,7 @@ browsershots.org#@#.advert_area
 ||rdwfbrzboplva.website^
 ||rdwmct.com^
 ||rdwxfqohmdnsi.site^
+||rdxtmyspdawcv.site^
 ||re3r.com^
 ||reaayjjljjgaw.space^
 ||reacheffecti.work^
@@ -46234,6 +46257,7 @@ browsershots.org#@#.advert_area
 ||rpmgxvqlivica.site^
 ||rpnuhrsxgnhup.online^
 ||rppwvulnvdjxw.site^
+||rpqegepwbwdtx.space^
 ||rprdrouhlrnys.site^
 ||rprpphnyczvva.site^
 ||rpselrrnaeqyo.site^
@@ -46329,6 +46353,7 @@ browsershots.org#@#.advert_area
 ||rssvpojmnzvge.online^
 ||rstrix.com^
 ||rsumgiros.com^
+||rsurhdqxbtrod.site^
 ||rswskwlupom.com^
 ||rsxetdsqpkuck.site^
 ||rsxkamyyjynij.online^
@@ -50746,6 +50771,7 @@ browsershots.org#@#.advert_area
 ||trampcontaining.com^
 ||trampdreamalluded.com^
 ||trampsalmonsentiments.com^
+||tramwaybungles.rest^
 ||tranblubberaglance.cfd^
 ||trandgid.com^
 ||transactionproducer.com^
@@ -53777,6 +53803,7 @@ browsershots.org#@#.advert_area
 ||wangheebehav.com^
 ||wangunsreplate.com^
 ||wangunszeguha.qpon^
+||wanletuboid.cfd^
 ||wanlyavower.com^
 ||wannaknowmysecret.com^
 ||wansigneur.cyou^
@@ -53971,6 +53998,7 @@ browsershots.org#@#.advert_area
 ||wdgqhgmczfdrb.website^
 ||wdhmuogajihlw.site^
 ||wdhymnxhxpgsn.space^
+||wdiylvapyzygy.website^
 ||wdjpyrldiqgwe.online^
 ||wdjtyigmvcgtx.space^
 ||wdlkmflaisegx.site^
@@ -54972,6 +55000,7 @@ browsershots.org#@#.advert_area
 ||wuytb.com^
 ||wuytl.com^
 ||wuzbhjpvsf.com^
+||wvcviqmcihlcx.online^
 ||wvdkbuoimnxyu.site^
 ||wvdme.com^
 ||wvebuflbbjgae.website^
@@ -55749,6 +55778,7 @@ browsershots.org#@#.advert_area
 ||xtaknwuxgemld.site^
 ||xtanjeydeyprs.space^
 ||xtaztxiibmcgwv.com^
+||xtbkruhjlnwmx.online^
 ||xtboocdzwp.com^
 ||xtehklaqrbpgy.space^
 ||xtewwhvhyrazi.site^
@@ -56053,6 +56083,7 @@ browsershots.org#@#.advert_area
 ||yawnersreplays.cyou^
 ||yawnexactplum.com^
 ||yawningparkas.com^
+||yawpedluket.rest^
 ||yawuyibzriuzn.space^
 ||yaxbsamkhdycw.online^
 ||yaxcheionised.cyou^
@@ -56867,6 +56898,7 @@ browsershots.org#@#.advert_area
 ||zafossbwimwu.in^
 ||zafsayaexptas.online^
 ||zagkozkvrqojx.online^
+||zaguanhagropelabial.cfd^
 ||zagvee.com^
 ||zahlcbkhmkful.online^
 ||zahvrkdkeulsy.site^
@@ -71017,7 +71049,6 @@ stackoverflow.com##.js-sidebar-zone
 theguardian.com##.js-top-banner
 extratv.com##.js-track-link
 chewy.com##.js-tracked-ad-product
-stackexchange.com##.js-zone-container
 khaleejtimes.com##.js_ad_st
 iobroker.net##.jss125
 paycalculator.com.au##.jss336
