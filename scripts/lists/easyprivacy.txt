@@ -1,9 +1,9 @@
 [Adblock Plus 1.1]
-! Version: 202611271552
+! Version: 202611271743
 ! Title: EasyPrivacy
-! Last modified: 27 Nov 2026 15:52 UTC
+! Last modified: 27 Nov 2026 17:43 UTC
 ! Expires: 4 days (update frequency)
-! Commit: 54e619341bc040e34b7996073d418c042fcf8009
+! Commit: 7179576d9fc2c97d371a684b20c0463cce8d413c
 ! *** easylist:template_header.txt ***
 ! 
 ! Please report any unblocked adverts or problems
@@ -8237,6 +8237,7 @@ omni.soundestlink.com$image
 ||materialisticmoon.com^
 ||materialmilk.com^
 ||materialparcel.com^
+||mathrevolt.com^
 ||maxcruisers.com^
 ||maybetony.com^
 ||meadowlullaby.com^
@@ -8252,6 +8253,7 @@ omni.soundestlink.com$image
 ||melodiousharmony.com^
 ||melodioussymphony.com^
 ||melodyglobe.com^
+||melodyivory.com^
 ||meltmilk.com^
 ||membernook.com^
 ||memeorigin.com^
@@ -8270,6 +8272,7 @@ omni.soundestlink.com$image
 ||mesaviewlodge.com^
 ||messagelists.com^
 ||messmonster.com^
+||messrod.com^
 ||messyoranges.com^
 ||metajaws.com^
 ||metalsfactory.com^
@@ -8532,6 +8535,7 @@ omni.soundestlink.com$image
 ||piquantprice.com^
 ||piquantvortex.com^
 ||pitmanmusic.com^
+||pivotfresh.com^
 ||pixeledhub.com^
 ||pixelmoonstudio.com^
 ||pixeltrouble.com^
